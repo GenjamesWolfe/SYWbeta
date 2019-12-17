@@ -1,0 +1,331 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Units group confirm bank
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d mindist 16 priority 170 fadein 0 fadeout 0
+DEFAULT: minpitch .8 maxpitch 1.1 volume -15 probability 1
+DEFAULT: distancepriority -1 randomdelay .5  effect_level .6 rndvolume -15 
+
+BANK: unit_confirm
+
+culture carthaginian, egyptian, eastern, greek, barbarian
+		class female_1
+		 event lod 5 minpitch .9 maxpitch .9
+		folder data/sounds/voice/human/generic
+ 			 woman_Group_Confirm_Med_01
+ 			 woman_Group_Confirm_Med_02
+ 			 woman_Group_Confirm_Med_03
+ 			end
+ 			
+ 			event lod 10 minpitch .9 maxpitch .9
+ 			  folder data/sounds/voice/human/generic
+ 			  woman_Group_Confirm_Large_01
+			  woman_Group_Confirm_Large_02
+			  woman_Group_Confirm_Large_03
+ 			end
+			
+			event lod 30 minpitch .9 maxpitch .9 
+			  folder data/sounds/voice/human/generic
+			  woman_Group_Confirm_Large_01
+			  woman_Group_Confirm_Large_02
+			  woman_Group_Confirm_Large_03
+			end
+
+	
+			
+					
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;  ROMAN   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	culture roman
+		class General_1, Heavy_1
+ 			event lod 5 minpitch .8 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  Roman_Group_Confirm_Small_01
+ 			  Roman_Group_Confirm_Small_02
+ 			  Roman_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .8 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  Roman_Group_Confirm_Med_01
+ 			  Roman_Group_Confirm_Med_02
+ 			  Roman_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .8 maxpitch 1.0 
+			  folder data/sounds/voice/human/generic
+			  Roman_Group_Confirm_Large_01
+			  Roman_Group_Confirm_Large_02
+			  Roman_Group_Confirm_Large_03
+			end
+
+
+		
+	
+		class  Medium_1
+ 			event lod 5 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  Roman_Group_Confirm_Small_01
+ 			  Roman_Group_Confirm_Small_02
+ 			  Roman_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  Roman_Group_Confirm_Med_01
+ 			  Roman_Group_Confirm_Med_02
+ 			  Roman_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .9 maxpitch 1.0
+			  folder data/sounds/voice/human/generic
+			  Roman_Group_Confirm_Large_01
+			  Roman_Group_Confirm_Large_02
+			  Roman_Group_Confirm_Large_03
+			end
+			
+		
+		
+		class Light_1
+ 			event lod 5 minpitch .9 maxpitch 1.05
+ 			  folder data/sounds/voice/human/generic
+ 			  Roman_Group_Confirm_Small_01
+ 			  Roman_Group_Confirm_Small_02
+ 			  Roman_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .9 maxpitch 1.05
+ 			  folder data/sounds/voice/human/generic
+ 			  Roman_Group_Confirm_Med_01
+ 			  Roman_Group_Confirm_Med_02
+ 			  Roman_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .9 maxpitch 1.05
+			  folder data/sounds/voice/human/generic
+			  Roman_Group_Confirm_Large_01
+			  Roman_Group_Confirm_Large_02
+			  Roman_Group_Confirm_Large_03
+			end
+			
+			
+			
+			
+					
+			
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;   ARABS  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+			
+				
+	culture carthaginian, egyptian, eastern
+		  class General_1, Heavy_1
+		    event lod 5 minpitch .8 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  arab_Group_Confirm_Small_01
+ 			  arab_Group_Confirm_Small_02
+ 			  arab_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .8 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  arab_Group_Confirm_Med_01
+ 			  arab_Group_Confirm_Med_02
+ 			  arab_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .8 maxpitch 1.0
+			  folder data/sounds/voice/human/generic
+			  arab_Group_Confirm_Large_01
+			  arab_Group_Confirm_Large_02
+			  arab_Group_Confirm_Large_03
+			end
+			
+	
+			
+  class  Medium_1
+		    event lod 5 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  arab_Group_Confirm_Small_01
+ 			  arab_Group_Confirm_Small_02
+ 			  arab_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  arab_Group_Confirm_Med_01
+ 			  arab_Group_Confirm_Med_02
+ 			  arab_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .9 maxpitch 1.0
+			  folder data/sounds/voice/human/generic
+			  arab_Group_Confirm_Large_01
+			  arab_Group_Confirm_Large_02
+			  arab_Group_Confirm_Large_03
+			end			
+			
+			
+			
+					
+			
+	class  Light_1
+		    event lod 5 minpitch .95 maxpitch 1.05
+ 			  folder data/sounds/voice/human/generic
+ 			  arab_Group_Confirm_Small_01
+ 			  arab_Group_Confirm_Small_02
+ 			  arab_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .95 maxpitch 1.05
+ 			  folder data/sounds/voice/human/generic
+ 			  arab_Group_Confirm_Med_01
+ 			  arab_Group_Confirm_Med_02
+ 			  arab_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .95 maxpitch 1.05
+			  folder data/sounds/voice/human/generic
+			  arab_Group_Confirm_Large_01
+			  arab_Group_Confirm_Large_02
+			  arab_Group_Confirm_Large_03
+			end
+			
+	
+			
+			
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;   GREEKS   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+					
+			
+	culture greek
+		  class General_1, Heavy_1
+		    event lod 5 minpitch .8 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  greek_Group_Confirm_Small_01
+ 			  greek_Group_Confirm_Small_02
+ 			  greek_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .8 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  greek_Group_Confirm_Med_01
+ 			  greek_Group_Confirm_Med_02
+ 			  greek_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .8 maxpitch 1.0
+			  folder data/sounds/voice/human/generic
+			  greek_Group_Confirm_Large_01
+			  greek_Group_Confirm_Large_02
+			  greek_Group_Confirm_Large_03
+			end
+			
+	
+			
+  class  Medium_1
+		    event lod 5 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  greek_Group_Confirm_Small_01
+ 			  greek_Group_Confirm_Small_02
+ 			  greek_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  greek_Group_Confirm_Med_01
+ 			  greek_Group_Confirm_Med_02
+ 			  greek_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .9 maxpitch 1.0
+			  folder data/sounds/voice/human/generic
+			  greek_Group_Confirm_Large_01
+			  greek_Group_Confirm_Large_02
+			  greek_Group_Confirm_Large_03
+			end			
+			
+			
+			
+					
+			
+	class  Light_1
+		    event lod 5 minpitch .95 maxpitch 1.05
+ 			  folder data/sounds/voice/human/generic
+ 			  greek_Group_Confirm_Small_01
+ 			  greek_Group_Confirm_Small_02
+ 			  greek_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .95 maxpitch 1.05
+ 			  folder data/sounds/voice/human/generic
+ 			  greek_Group_Confirm_Med_01
+ 			  greek_Group_Confirm_Med_02
+ 			  greek_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .95 maxpitch 1.05
+			  folder data/sounds/voice/human/generic
+			  greek_Group_Confirm_Large_01
+			  greek_Group_Confirm_Large_02
+			  greek_Group_Confirm_Large_03
+			end			
+		
+			
+				
+			
+;;;;;;;;;;;;;;;   BARBARIAN   ;;;;;;;;;;;;;;;;;;;;		
+			
+		
+					
+	culture barbarian
+	 class General_1, Heavy_1, Medium_1
+		    event lod 5 minpitch .8 maxpitch 1
+ 			  folder data/sounds/voice/human/generic
+ 			  barb_Group_Confirm_Small_01
+ 			  barb_Group_Confirm_Small_02
+ 			  barb_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .8 maxpitch 1
+ 			  folder data/sounds/voice/human/generic
+ 			  barb_Group_Confirm_Med_01
+ 			  barb_Group_Confirm_Med_02
+ 			  barb_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .8 maxpitch 1
+			  folder data/sounds/voice/human/generic
+			  barb_Group_Confirm_Large_01
+			  barb_Group_Confirm_Large_02
+			  barb_Group_Confirm_Large_03
+			end
+			
+			
+		
+		class  Light_1
+		    event lod 5 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  barb_Group_Confirm_Small_01
+ 			  barb_Group_Confirm_Small_02
+ 			  barb_Group_Confirm_Small_03
+ 			end
+ 			
+ 			event lod 10 minpitch .9 maxpitch 1.0
+ 			  folder data/sounds/voice/human/generic
+ 			  barb_Group_Confirm_Med_01
+ 			  barb_Group_Confirm_Med_02
+ 			  barb_Group_Confirm_Med_03
+ 			end
+			
+			event lod 30 minpitch .9 maxpitch 1.0
+			  folder data/sounds/voice/human/generic
+			  barb_Group_Confirm_Large_01
+			  barb_Group_Confirm_Large_02
+			  barb_Group_Confirm_Large_03
+			end
+		
+		
+		

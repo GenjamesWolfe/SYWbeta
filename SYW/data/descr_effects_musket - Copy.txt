@@ -1,0 +1,156 @@
+;;;;;;;;;;;musket shot;;;;;;;;;;;;;;;;;;;;
+;light from the shot
+effect musket_flash
+{
+	type light
+	{
+		fade_out_time    0.0
+        fade_in_time    0.08     
+		keyframe_colour
+		offset		0.0, 0.0, 0.0
+		keyframe_colour
+		{
+				0.04, 	240, 100, 0
+				0.08, 	240, 130, 0
+		}
+			
+		keyframe_radius
+		{
+				0.05, 	6.0
+				0.1, 	6.1
+				0.15, 	6.05				
+		}
+	}
+}
+
+;the flash flame
+effect musket_flame
+{ 
+	type explosion 
+	{ 
+		; dust explode 
+		model			models_effects/cannon_muzzle_flash.CAS
+		anim_time		0.08
+		max_scale		2.2
+		max_particle_scale	2.7
+		scale_time_bias		0.7
+		alpha_time_bias		0.4
+
+		; debris 
+		debris_model		models_effects/muzzle_flash_dust.CAS
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        20              ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    20, 30
+        debris_scale_range       1, 2
+	} 
+} 
+
+    effect musket_quicks2 
+    { 
+        type explosion 
+        { 
+            ; dust explode 
+            model            models_effects/muzzle_flash_dust.CAS
+		    anim_time		0.18
+			max_scale		1.5
+			max_particle_scale	2
+			scale_time_bias		0.7
+			alpha_time_bias		0.3
+
+			; debris 
+			debris_model		models_effects/fire_debri_01.CAS
+			debris_num_particles     0
+			debris_lifetime_range    2.9, 5.9
+			debris_emit_angle        180              ; degrees
+			debris_time_bias         0.9
+			debris_velocity_range    6.5, 8.5
+			debris_scale_range       1.5, 3
+        } 
+    } 
+
+
+;    effect musket_fire
+;    {
+;           type explosion
+;           {
+;           ; dust explode
+;                   model                           models_effects/explosion.cas
+;                   anim_time                       0.047
+;                   max_scale                       1
+;                   max_particle_scale              2
+;                   scale_time_bias                 0.5
+;                   alpha_time_bias                 0.3
+;
+;                   ; debris
+;           debris_model                                     models_effects/fire_debri_01.CAS
+;           debris_num_particles     0
+;           debris_lifetime_range    0, 0
+;          debris_emit_angle        50               ; degrees
+;           debris_time_bias         0
+;           debris_velocity_range    0, 0
+;           debris_scale_range       0, 0
+;           }
+;    }
+
+
+    ; *** This effect will give some medium speed smoke.
+    effect musket_1
+    {
+        type particle
+         {
+            texture            battlefield/fire/smoke0.tga
+
+            size_range          1.0, 2.0
+            age_range           1.0, 10.0
+                grow_range        2.0, 3.8
+            velocity           3.0, 4.0
+            colour             181, 181, 181
+            alpha_max           70            ; maximum alpha value
+            emitter distance
+            {
+                ; How many particels per meter. The inverse must not be higher then the maximum range
+                density        0.008
+            }
+            
+            fade_time        18.0        
+        }
+    }
+
+    ; *** This effect will surround the musketeers with lingering smoke.
+    effect musket_2
+    {
+        type particle
+         {
+            texture            battlefield/fire/smoke0.tga
+
+            size_range          2.0, 4.0
+            age_range           5.0, 60.0
+                grow_range        2.5, 5.0
+            velocity           1.0, 2.0
+            colour             181, 181, 181
+            alpha_max           40            ; maximum alpha value
+            emitter distance
+            {
+                ; How many particels per meter. The inverse must not be higher then the maximum range
+                density        0.008
+            }
+            
+            fade_time        62.0        
+        }
+    }
+
+
+    effect_set musket 
+    { 
+        lod 500 
+        { 
+            musket_flash
+			musket_flame
+            musket_quicks2
+           ; musket_fire
+			musket_1
+            musket_2
+        } 
+    }

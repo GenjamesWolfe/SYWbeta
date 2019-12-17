@@ -1,0 +1,898 @@
+DEFAULT: 3D mindist 3 minPitch .9 maxPitch 1.1 volume 0  fadein 0 fadeout 0
+DEFAULT: priority 0 distancepriority -2 randomdelay 0  effect_level .25
+DEFAULT: probability .5 probradius 7
+
+
+event ANIM_KILL_MOUNT mindist 1 volume -20 probability 1 priority 90
+folder SYW/data/sounds/SFX/Individual/Melee/Death_Hits
+Death_Hit_05
+Death_Hit_09
+Death_Hit_02
+end
+
+
+event DRUID_CHANT mindist 1 volume -15 minPitch .8 maxPitch 1.05 randomdelay .1 rndvolume -15 priority 100 probability .1 probradius 0
+folder data/sounds/Voice/Human/Generic
+Chant_Individual_01
+Chant_Individual_02
+Chant_Individual_03
+Chant_Individual_04
+Chant_Individual_05
+Chant_Individual_06
+Chant_Individual_07
+Chant_Individual_08
+Chant_Individual_09
+Chant_Individual_10
+Chant_Individual_11
+Chant_Individual_12
+Chant_Individual_13
+Chant_Individual_14
+Chant_Individual_15
+Chant_Individual_16
+Chant_Individual_17
+Chant_Individual_18
+Chant_Individual_19
+Chant_Individual_20
+Chant_Individual_21
+end
+
+
+event ANIM_SCREECHERS mindist 2 volume -20 minPitch .95 maxPitch 1.05 randomdelay .3 rndvolume -20 priority 100 probability .05 probradius 0
+folder data/sounds/Voice/Human/Generic
+Women_Screech_01
+Women_Screech_02
+Women_Screech_03
+Women_Screech_04
+Women_Screech_05
+Women_Screech_06
+Women_Screech_07
+Women_Screech_08
+Women_Screech_09
+Women_Screech_10
+Women_Screech_11
+Women_Screech_12
+Women_Screech_13
+Women_Screech_14
+Women_Screech_15
+Women_Screech_16
+Women_Screech_17
+Women_Screech_18
+Women_Screech_19
+end
+
+
+event ANIM_SWOOSH mindist 1 volume 0 priority 80
+folder data/sounds/SFX/Individual/Melee/Swooshes/Swoosh_Low_Long
+Swoosh_Low_Long_01
+Swoosh_Low_Long_02
+Swoosh_Low_Long_03
+Swoosh_Low_Long_04
+folder data/sounds/SFX/Individual/Melee/Swooshes/Swoosh_Medium_Long
+Swoosh_Med_Long_01
+Swoosh_Med_Long_02
+folder data/sounds/SFX/Individual/Melee/Swooshes/Swoosh_Medium_Short
+Swoosh_Medium_Short_01
+Swoosh_Medium_Short_02
+Swoosh_Medium_Short_03
+Swoosh_Medium_Short_04
+Swoosh_Medium_Short_05
+Swoosh_Medium_Short_06
+Swoosh_Medium_Short_07
+Swoosh_Medium_Short_08
+Swoosh_Medium_Short_09
+Swoosh_Medium_Short_10
+Swoosh_Medium_Short_11
+end
+
+event ANIM_SCRAPE mindist 1 priority 80 volume -25
+folder data/sounds/SFX/Individual/Melee/Scrapes
+
+Sword_Scrape_Wood_Shield_02
+sword_slide_01
+Axe_Hit_Axe01
+Axe_Hit_Axe02
+Axe_Scrape_Sword01
+Axe_Scrape_Sword02
+Axe_Scrape_Wooden_Shield_01
+Sword_Hit_Spear_03
+Sword_Hit_Sword_02
+Sword_Hit_Sword_18
+Sword_Hit_Sword_20
+Sword_Hit_Sword_27
+sword_scrape_02
+sword_scrape_05
+sword_scrape_13
+Sword_Scrape_Axe_01
+Sword_Scrape_Axe_02
+Sword_Scrape_Axe_03
+Sword_Scrape_Breastplate_01
+Sword_Scrape_Dagger_02
+Sword_Scrape_Dagger_04
+Sword_Scrape_Dagger_09
+Sword_Scrape_Dagger_11
+Sword_Scrape_Dagger_12
+Sword_Scrape_Elephant_Tusk_01
+Sword_Scrape_Flesh_01
+Sword_Scrape_Leather_01
+Sword_Scrape_Mace_02
+Sword_Scrape_Mace_03
+Sword_Scrape_Mace_04
+Sword_Scrape_Met_Shield_01
+Sword_Scrape_Wood_Shield_01
+Scrape_03
+
+end
+
+
+event ANIM_ARCHER_LOAD priority 40 mindist 1 rndvolume -10 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/Archers/Archer_Load
+Archer_Load_01
+Archer_Load_02
+Archer_Load_03
+Archer_Load_04
+Archer_Load_05
+Archer_Load_06
+end
+
+event ANIM_ARCHER_AIM priority 40 mindist 1 rndvolume -10 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/Archers/Archer_Aim
+Archer_Aim_01
+Archer_Aim_02
+Archer_Aim_03
+Archer_Aim_04
+Archer_Aim_05
+Archer_Aim_06
+Archer_Aim_07
+Archer_Aim_08
+Archer_Aim_09
+Archer_Aim_10
+Archer_Aim_11
+end
+
+event ANIM_ARCHER_FIRE priority 110 mindist 2 minPitch .7 maxPitch 1.0 volume -30 rndvolume -20 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/Archers/Archer_Fire
+Archer_Fire_01b
+Archer_Fire_02b
+Archer_Fire_04b
+Archer_Fire_05b
+Archer_Fire_06b
+Archer_Fire_07b
+Archer_Fire_08b
+Archer_Fire_09b
+end
+
+event ANIM_MUSKET_READY priority 40 mindist 1 rndvolume -10 randomdelay .05
+folder data/sounds/SFX/Individual/Missiles/musket/Musket_Aim
+cock_musket_01b
+end
+
+event ANIM_MUSKET_AIM priority 40 mindist 1 rndvolume -10 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/musket/Musket_Aim
+musket_aim_01b
+end
+
+event ANIM_MUSKET_FIRE priority 110 mindist 2 maxdist 600 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 probradius  600 randomdelay .00
+folder data/sounds/SFX/Individual/Missiles/musket/Musket_Fire
+musket_fire_01b
+musket_fire_02b
+musket_fire_03b
+musket_fire_04b
+musket_fire_05b
+musket_Fire_06b
+musket_Fire_07b
+musket_Fire_08b
+musket_Fire_09b
+musket_Fire_10b
+end
+
+event ANIM_MUSKET_LOAD priority 40 mindist 1 volume 100 rndvolume 75 randomdelay .00
+folder data/sounds/SFX/Individual/Missiles/musket/Musket_Load
+musket_load_prussia_01b
+end
+
+event ANIM_SLINGER_HIGHWHIRL priority 40 mindist 2 volume -5 rndvolume -10 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/Slingers/Slinger_Whirl/High_Whirl
+Slinger_Whirl_01
+Slinger_Whirl_02
+Slinger_Whirl_07
+Slinger_Whirl_08
+Slinger_Whirl_09
+Slinger_Whirl_11
+Slinger_Whirl_13
+Slinger_Whirl_14
+Slinger_Whirl_17
+Slinger_Whirl_20
+Slinger_Whirl_23
+end
+
+event ANIM_SLINGER_LOWWHIRL priority 40 mindist 2 volume -5 rndvolume -10 randomdelay .25 
+folder data/sounds/SFX/Individual/Missiles/Slingers/Slinger_Whirl/High_Whirl
+Slinger_Whirl_01
+Slinger_Whirl_02
+Slinger_Whirl_07
+Slinger_Whirl_08
+Slinger_Whirl_09
+Slinger_Whirl_11
+Slinger_Whirl_13
+Slinger_Whirl_14
+Slinger_Whirl_17
+Slinger_Whirl_20
+Slinger_Whirl_23
+end
+
+event ANIM_SLINGER_FIRE priority 110 volume -10 mindist 1 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/Slingers/Slinger_Fire
+Slinger_Fire_01
+Slinger_Fire_02
+Slinger_Fire_03
+Slinger_Fire_04
+Slinger_Fire_05
+Slinger_Fire_06
+Slinger_Fire_07
+end
+
+event ANIM_SPEAR_FIRE priority 110 minPitch .8 maxPitch 1.1 volume -20 mindist 1 rndvolume -10 randomdelay .25
+folder data/sounds/SFX/Individual/Missiles/Spearmen
+Spear_Throw_01
+Spear_Throw_02
+Spear_Throw_03
+Spear_Throw_04
+Spear_Throw_05
+Spear_Throw_06
+Spear_Throw_07
+Spear_Throw_08
+Spear_Throw_09
+Spear_Throw_10
+Spear_Throw_11
+Spear_Throw_12
+Spear_Throw_12
+
+end
+
+event ANIM_FALL_SQUASH priority 140 mindist 4 volume -20
+folder data/sounds/SFX/Individual/Misc
+Fall_squash_01
+Fall_squash_02
+Fall_squash_03
+Fall_squash_04
+Fall_squash_05
+Fall_squash_06
+Fall_squash_07
+end
+
+event ANIM_SQUASH mindist 3 priority 130 volume -25
+folder data/sounds/SFX/Individual/Misc
+body_squash_01
+body_squash_02
+body_squash_03
+end
+
+event ANIM_IDLE_CLOTH volume -40 mindist 1 priority 50
+folder data/sounds/SFX/Individual/Movement
+	Cloth_Move_01
+    Cloth_Move_02
+	Cloth_Move_03
+	Cloth_Move_04
+	Cloth_Move_05
+	Cloth_Move_06
+    Cloth_Move_07
+	Cloth_Move_08
+	Cloth_Move_09
+	Cloth_Move_10
+	Cloth_Move_11
+    Cloth_Move_12
+	Cloth_Move_13
+	Cloth_Move_14
+	Cloth_Move_15
+	end
+
+
+event ANIM_TESTUDO mindist 2 priority 150
+folder data/sounds/SFX/Individual/Movement
+Testudo_Indiv_01
+Testudo_Indiv_02
+Testudo_Indiv_03
+Testudo_Indiv_04
+Testudo_Indiv_05
+Testudo_Indiv_06
+Testudo_Indiv_07
+Testudo_Indiv_08
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;   HORSE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;; used on horse charge ;;;;
+event ANIM_HORSE_ATTACK volume -20 priority 130 probability .05
+folder data/sounds/Voice/Animal/Horse
+horse_nay_02
+horse_nay_03
+horse_nay_04
+horse_nay_05
+horse_nay_08
+horse_nay_13
+horse_nay_14
+horse_nay_16
+horse_nay_17
+horse_nay_18
+end
+
+event ANIM_HORSE_DEATH volume -15 priority 130 probability 1
+folder data/sounds/Voice/Animal/Horse
+horse_death_01
+horse_death_03
+horse_death_05
+horse_death_06
+horse_death_07
+horse_death_08
+horse_death_09
+horse_death_10
+horse_death_11
+horse_death_12
+end
+
+;;; this is used for horse mid attack - when general rears up ;;;
+;;; this is used for horse jump too ;;;;
+;;; this is used for horse refuse as well ;;;;
+event ANIM_HORSE_REGROUP volume -15 priority 120 probradius 8 probability .2
+folder data/sounds/Voice/Animal/Horse
+horse_nay_05 
+horse_nay_13 
+horse_nay_17 
+horse_nay_08 
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;    CAMEL
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event ANIM_CAMEL_ATTACK priority 130 ;; probability .25
+folder data/sounds/Voice/Animal/Camel
+Camel_Roar_01
+Camel_Roar_02
+Camel_Roar_03
+Camel_Roar_04
+Camel_Roar_05
+Camel_Roar_06
+Camel_Roar_07
+Camel_Roar_08
+Camel_Roar_09
+end
+
+event ANIM_CAMEL_DEATH priority 130 volume -5 probability 1
+folder data/sounds/Voice/Animal/Camel
+Camel_Death_01
+Camel_Death_02
+Camel_Death_03
+Camel_Death_04
+Camel_Death_05
+Camel_Death_06
+Camel_Death_07
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;   ELEPHANT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event ANIM_ELE_ATTACK  priority 130 mindist 10 volume -30 distancepriority 0
+folder data/sounds/Voice/Animal/Elephant
+Elephant_Attack_02
+Elephant_Attack_04
+Elephant_Attack_05
+Elephant_Attack_06
+Elephant_Attack_07
+Elephant_Attack_08
+Elephant_Attack_09
+Elephant_Attack_10
+Elephant_Attack_11
+Elephant_Attack_12
+end
+
+event ANIM_ELE_DEATH priority 130 mindist 10 distancepriority 0 probability 1
+folder data/sounds/Voice/Animal/Elephant
+Elephant_Death_01
+Elephant_Death_02
+Elephant_Death_03
+Elephant_Death_04
+Elephant_Death_05
+Elephant_Death_06
+Elephant_Death_07
+Elephant_Death_08
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;  WARDOGS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_WARDOG_BARK volume -30 priority 130 probability .8
+folder data/sounds/Voice/Animal/Wardog
+Wardog_Bark_05
+Wardog_Bark_06
+Wardog_Bark_07
+Wardog_Bark_08
+Wardog_Bark_09
+end
+
+
+event ANIM_WARDOG_ATTACK volume -20 priority 130 probability .3
+folder data/sounds/Voice/Animal/Wardog
+Wardog_Attack_05
+Wardog_Attack_06
+Wardog_Attack_07
+Wardog_Attack_08
+end
+
+event ANIM_WARDOG_DEATH  priority 130 minPitch .6 maxPitch .8 probability 1
+folder data/sounds/Voice/Animal/Wardog
+Wardog_Death_01
+Wardog_Death_02
+Wardog_Death_03
+Wardog_Death_04
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; 	PIGS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event ANIM_PIG_ATTACK volume -10 priority 130 probability .1
+folder data/sounds/Voice/Animal/Pig
+pig_Attack_02
+pig_Attack_03
+pig_Attack_04
+pig_Attack_06
+pig_Attack_07
+pig_attack_09
+end
+
+event ANIM_PIG_DEATH volume -20 priority 130 probability 1
+folder data/sounds/Voice/Animal/Pig
+pig_death_01
+pig_Death_02
+pig_Death_03
+pig_Death_04
+pig_Death_05
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;	SIEGE ENGINES
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: mindist 10 priority 210 minpitch .9 maxpitch 1.1 distancepriority -2 volume 0 probability 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_BALLISTAE_RELOAD volume -20 mindist 5
+	folder SYW/data/sounds/SFX/Individual/Siege_Engines/Ballista
+	Siege_Engine_Ballista_Load_02
+end
+
+event ANIM_BALLISTAE_IDLECRANK volume -20 mindist 5
+	folder SYW/data/sounds/SFX/Individual/Siege_Engines/Ballista
+	Siege_Engine_Ballista_IdleCrank
+end
+
+event ANIM_BALLISTAE_FIRE volume 200 mindist 5
+	folder SYW/data/sounds/SFX/Individual/Siege_Engines/Ballista
+	Siege_Engine_Ballista_Fire
+	Siege_Engine_Ballista_Fire_2
+	Siege_Engine_Ballista_Fire_3
+	Siege_Engine_Ballista_Fire_4
+end
+
+event ANIM_BALLISTAE_RECOVER volume -15 mindist 5
+folder SYW/data/sounds/SFX/Individual/Siege_Engines/Ballista
+	Siege_Engine_Ballista_Recover
+end
+
+event ANIM_BALLISTAE_DESTROYED
+	folder SYW/data/sounds/SFX/Individual/Siege_Engines/Ballista
+	Siege_Engine_Ballista_Destroyed
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_ONAGER_RELOAD volume 0 mindist 5 minPitch .85 maxPitch 1.15
+	folder data/sounds/SFX/Individual/Siege_Engines/Onager
+	Siege_Engine_Onager_Load_05
+end
+
+event ANIM_ONAGER_IDLECRANK volume -5 mindist 5 minPitch .85 maxPitch 1.15
+	folder data/sounds/SFX/Individual/Siege_Engines/Onager
+	Siege_Engine_Onager_IdleCrank
+end
+
+event ANIM_ONAGER_FIRE mindist 12 minPitch .85 maxPitch 1.15
+	folder data/sounds/SFX/Individual/Siege_Engines/Onager
+	Siege_Engine_Onager_Fire_05
+end
+event ANIM_ONAGER_DESTROYED mindist 12
+	folder data/sounds/SFX/Individual/Siege_Engines/Onager
+	Siege_Engine_Onager_Destroyed
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_SCORPION_RELOAD volume -60 mindist 5 minpitch .85 maxpitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/Scorpion
+	Siege_Engine_Scorpion_Crank
+end
+
+event ANIM_SCORPION_IDLECRANK volume -60 mindist 5 minpitch .85 maxpitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/Scorpion
+	Siege_Engine_Scorpion_IdleCrank
+end
+
+event ANIM_SCORPION_CRANKATTACK volume -60 mindist 5 minpitch .85 maxpitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/Scorpion
+	Siege_Engine_Scorpion_CrankAttack
+end
+
+event ANIM_SCORPION_FIRE volume 200 mindist 15
+	folder data/sounds/SFX/Individual/Siege_Engines/Scorpion
+	mortar_fire_4
+	mortar_fire_3
+	mortar_fire_2
+	mortar_fire_1
+end
+
+event ANIM_SCORPION_DESTROYED
+	folder data/sounds/SFX/Individual/Siege_Engines/Scorpion
+	Siege_Engine_Scorpion_Destroyed
+end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_EASTRAM_HIT mindist 25 minPitch .9 maxPitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/EastRam
+	Siege_Engine_EastRam_Hit_Stone
+end
+
+event ANIM_EASTRAM_PREPARE mindist 20 minpitch 0.7 maxpitch 1 volume -5
+	folder data/sounds/SFX/Individual/Siege_Engines/EastRam
+	Siege_Engine_EastRam_Prepare
+end
+
+
+event ANIM_OPENFRAME_HIT mindist 25 minPitch .9 maxPitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/Open_Frame
+	Siege_OpenFrame_Hit_Wood
+end
+event ANIM_OPENFRAME_PREPARE mindist 20 minpitch 0.7 maxpitch 1 volume -5
+	folder data/sounds/SFX/Individual/Siege_Engines/Open_Frame
+	Siege_OpenFrame_Prepare
+end
+
+
+event ANIM_TORTRAM_HIT mindist 25 minPitch .9 maxPitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/TortRam
+	Siege_Engine_TortRam_Hit_Wood
+end
+event ANIM_TORTRAM_PREPARE mindist 20 minpitch 0.7 maxpitch 1 volume -5
+	folder data/sounds/SFX/Individual/Siege_Engines/TortRam
+	Siege_Engine_TortRam_Prepare
+end
+
+
+event ANIM_EASTRAM_DESTROYED mindist 25
+	folder data/sounds/SFX/Individual/Siege_Engines/EastRam
+	Siege_Engine_EastRam_Destroyed
+end
+
+event ANIM_OPENFRAME_DESTROYED mindist 25
+	folder data/sounds/SFX/Individual/Siege_Engines/Open_Frame
+	Siege_OpenFrame_Destroyed
+end
+
+event ANIM_TORTRAM_DESTROYED mindist 25
+	folder data/sounds/SFX/Individual/Siege_Engines/TortRam
+	Siege_Engine_TortRam_Destroyed
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event ANIM_HELIPOLIS_DESTROYED mindist 25
+	folder data/sounds/SFX/Individual/Siege_Engines/Heliopolis
+	Siege_Heliopolis_Destroyed
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+event ANIM_SAP_DESTROYED
+	folder data/sounds/SFX/Individual/Siege_Engines/Mining_Tunnel
+	Siege_Mining_Tunnel_Destroyed
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_LADDER_RAISED  minpitch .8 maxpitch 1.2
+	folder data/sounds/SFX/Individual/Siege_Engines/Ladder
+	Siege_Ladder_Raised
+end
+event ANIM_LADDER_DESTROYED
+	folder data/sounds/SFX/Individual/Siege_Engines/Ladder
+	Siege_Ladder_Destroyed
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event ANIM_STOW_OPEN
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Siege_Tower_Door_Open
+end
+event ANIM_STOW_CLOSE
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Siege_Tower_Door_Close
+end
+
+event ANIM_STOW_SQ_OPEN
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Rope_03
+end
+event ANIM_STOW_SQ1_OPEN
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Squeak_Open04
+end
+
+event ANIM_STOW_SQ_CLOSE
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Squeak_03
+end
+event ANIM_STOW_SQ2_CLOSE
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Squeak_01
+end
+
+
+event ANIM_STOW_DESTROYED mindist 25
+	folder data/sounds/SFX/Individual/Siege_Engines/Siege_Tower
+	Siege_Tower_Destroyed
+end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;    CHARIOT DESTROYED ;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event ANIM_CHARIOT_DESTROY mindist 4
+	folder data/sounds/SFX/Individual/Melee/Chariot
+	Chariot_Destroyed_01
+	Chariot_Destroyed_02
+	Chariot_Destroyed_03
+
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;   FALLS  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+DEFAULT: 3D mindist 2 minPitch .9 maxPitch 1.1 volume 0 probability 1 fadein 0 fadeout 0 priority 0 distancepriority -2
+DEFAULT: probradius 7
+
+BANK: fall
+	season spring, summer, autumn, winter
+	terrain grass_short,grass_long,sand,rock,forest_dense,scrub_dense,stone_road,ice,wood,dirt, swamp,mud,mud_road, dirt
+		event priority 140 volume -30 mindist 2
+			folder data/sounds/SFX/Individual/Falls/Infantry
+			Fall_Infantry_Grass_03
+			Fall_Infantry_Grass_04
+			Fall_Infantry_Grass_05
+			Fall_Infantry_Grass_06
+			Fall_Infantry_Grass_07
+
+			end
+
+	season spring, summer, autumn
+	terrain water
+		event priority 140 volume -15 mindist 2
+			folder data/sounds/SFX/Individual/Falls/Infantry
+			Fall_Infantry_Water_02
+			Fall_Infantry_Water_03
+			Fall_Infantry_Water_10
+			end
+
+
+
+season winter
+	climates temperate_grassland_fertile, temperate_grassland_infertile, temperate_forest_open, temperate_forest_deep, highland, alpine, sub_arctic
+	terrain snow, grass_short,grass_long,sand,rock,forest_dense,scrub_dense,stone_road,ice,wood,dirt
+		event priority 140 volume -45 mindist 2
+			folder data/sounds/SFX/Individual/Falls/Infantry
+			Fall_Infantry_Snow_01
+			Fall_Infantry_Snow_02
+			Fall_Infantry_Snow_03
+
+		end
+		
+		
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
+		
+BANK: animal_fall
+
+	animal wardogs
+	terrain grass_short,grass_long,sand,rock,forest_dense,scrub_dense,swamp,mud,mud_road,stone_road, ice,snow,wood,dirt
+		event volume -10 priority 120
+			folder data/sounds/SFX/Individual/Falls/Wardog
+			Fall_Wardog_Grass_01
+			Fall_Wardog_Grass_02
+		end
+
+		terrain water
+		event volume -20 priority 120
+			folder data/sounds/SFX/Individual/Falls/Infantry
+			Fall_Infantry_Water_02
+			Fall_Infantry_Water_03
+			Fall_Infantry_Water_10
+		end
+		
+		
+;;;;;;;;;;;;		
+		
+		
+		
+ 	animal pigs
+ 	terrain grass_short,grass_long,sand,rock,forest_dense,scrub_dense,swamp,mud,mud_road,stone_road, ice,snow,wood,dirt
+ 		event minPitch .8 maxPitch 1.1  volume -15 priority 120
+ 			folder data/sounds/SFX/Individual/Falls/Wardog
+			Fall_Wardog_Grass_01
+			Fall_Wardog_Grass_02
+ 		end
+
+ 		terrain water
+		event volume -20 priority 120
+			folder data/sounds/SFX/Individual/Falls/Infantry
+			Fall_Infantry_Water_02
+			Fall_Infantry_Water_03
+			Fall_Infantry_Water_10
+		end
+ 		
+ 		
+ 		
+;;;;;;;;;;;;		
+ 		
+ 		
+	mount camel, camel cataphract
+	terrain grass_short,grass_long,sand,rock,forest_dense,scrub_dense,swamp,mud,mud_road,stone_road,ice,snow,wood,dirt
+		event mindist 4 priority 200 distancepriority 0 volume -15
+			folder data/sounds/SFX/Individual/Falls/Camel
+			Fall_camel_grass_01
+			Fall_camel_grass_02
+			Fall_camel_grass_03
+			folder data/sounds/SFX/Individual/Falls/Horse
+			Fall_horse_grass_01
+			Fall_horse_grass_02
+			Fall_horse_grass_05
+			end
+
+		
+	mount camel, camel cataphract
+	terrain water
+		event mindist 4 priority 200 distancepriority 0 volume -10
+			folder data/sounds/SFX/Individual/Falls/Camel
+			Fall_camel_water_01
+			Fall_camel_water_02
+			Fall_camel_water_03
+			end
+			
+			
+			
+;;;;;;;;;;;;			
+			
+			
+	mount horse cataphract, light horse, medium horse, heavy horse, generals horse
+	terrain grass_short,grass_long,sand,rock,forest_dense,scrub_dense,swamp,mud,mud_road,stone_road,ice,snow,wood,dirt
+		event mindist 4 priority 200 distancepriority 0 volume -15
+			folder data/sounds/SFX/Individual/Falls/Horse
+			Fall_horse_grass_01
+			Fall_horse_grass_02
+			Fall_horse_grass_05
+			folder data/sounds/SFX/Individual/Falls/Camel
+			Fall_camel_grass_01
+			Fall_camel_grass_02
+			Fall_camel_grass_03
+			
+			
+		end
+
+	mount horse cataphract, light horse, medium horse, heavy horse, generals horse
+	terrain water
+		event mindist 4 priority 200 distancepriority 0 volume -10	
+		folder data/sounds/SFX/Individual/Falls/Camel
+			Fall_camel_water_01
+			Fall_camel_water_02
+			Fall_camel_water_03
+		end
+	
+		
+;;;;;;;;;;;;;;		
+			
+	mount elephant forest, elephant african, elephant african cataphract, elephant indian
+	terrain grass_short,grass_long,sand,rock,forest_dense,scrub_dense,swamp,mud,mud_road,stone_road,ice,snow,wood,dirt
+		event mindist 12 priority 200 distancepriority 0 volume 0
+		folder data/sounds/SFX/Individual/Falls/Elephant
+			Fall_elephant_grass_01a
+			Fall_elephant_grass_02a
+			Fall_elephant_grass_03a
+			Fall_elephant_grass_04a
+			end
+
+	mount elephant forest, elephant african, elephant african cataphract, elephant indian
+	terrain water
+		event mindist 12 priority 200 distancepriority 0 volume 0
+			folder data/sounds/SFX/Individual/Falls/Elephant
+			Fall_elephant_water_01
+			Fall_elephant_water_02
+			Fall_elephant_water_03
+			Fall_elephant_water_04
+			end
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEFAULT: mindist 25 priority 200 volume 0 probability 1  minPitch .95 maxPitch 1.05 probability 1 distancepriority 0
+
+BANK: war_horn
+	culture roman
+		event 
+			folder data/sounds/SFX/Individual/War_Horns
+			War_Horn_Roman_Advance
+		end
+	culture barbarian
+		event 
+			folder data/sounds/SFX/Individual/War_Horns
+			War_Horn_Barbarian_Advance
+		end
+	culture carthaginian
+		event 
+			folder data/sounds/SFX/Individual/War_Horns
+			War_Horn_Roman_Advance
+		end
+	culture greek
+		event 
+			folder data/sounds/SFX/Individual/War_Horns
+			War_Horn_Roman_Advance
+		end
+	culture egyptian
+		event 
+			folder data/sounds/SFX/Individual/War_Horns
+			War_Horn_Arab_Advance
+		end
+	culture eastern
+		event 
+			folder data/sounds/SFX/Individual/War_Horns
+			War_Horn_Arab_Advance
+		end

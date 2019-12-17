@@ -1,0 +1,203 @@
+;;;;;;;;;;;musket shot;;;;;;;;;;;;;;;;;;;;
+
+
+;light from the shot
+effect musket_flash
+{
+	type light
+	{
+		fade_out_time	0.3   
+		keyframe_colour
+		offset		0, 0.8, -3.0
+		keyframe_colour
+		{
+				0.0, 	240, 130, 0
+				0.08, 	240, 70, 0
+		}
+			
+		keyframe_radius
+		{
+				0.1, 	3
+				0.2, 	2
+				0.3, 	1				
+		}
+	}
+}
+
+
+;touchhole
+effect musket_hammerfall
+{ 
+    type particle
+    {
+            texture            battlefield/fire/smoke0.tga
+
+            sprite_origin		0.0, 0.0	;relative position to the projectile on spawning
+			sprite_size			0.2, 0.3	;size when effect spawns
+			size_range      	2.0, 3.0	;size at greatest extent
+            age_range           0.0, 0.08	;moment when we reach size_range and max_alpha
+            grow_range        0.3, 0.4		;this is multiplied by the size range for final size.
+            vel_range			0.3, 0.5		;vertical velocity range
+			die_size				1, 2	;size when the effect fades
+            colour             210, 210, 243	;only works for grayscale textures.
+            alpha_max           255            ; maximum alpha value
+			acceleration			0, 0, -0.01 ;this is added to the velocity, as needed.
+			offset				0, 0.1, -0.02 (lateral, vertical, and horizontal displacement)
+			max_particles		1 ;name says it all, though don't expect the engine to put them in the exact spot
+			max_distance		1 ; that essentially acts (poorly) as a spoiler, to spacce the particles apart (after density is factored in)
+            emitter distance
+            {
+                ; How many particels per meter. The inverse must not be higher then the maximum range
+                density        1
+				
+				emitter_falloff_dist	30		; distance in meters to reduce emission over
+				emitter_falloff_bias	0.01			; best I can tell, a bias of ~1 spreads the effect out more.
+            }
+            
+			fade_time		30
+			spin_rate		0, 0.05
+	} 
+} 
+
+
+
+;the flash flame
+effect musket_flame
+{ 
+    type particle
+    {
+            texture            battlefield/fire/smoke0.tga
+
+            sprite_origin		0.0, 0.0	;relative position to the projectile on spawning
+			sprite_size			0.3, 0.4	;size when effect spawns
+			size_range      	0.4, 0.5	;size at greatest extent
+            age_range           0.1, 0.15	;moment when we reach size_range and max_alpha
+            grow_range        0.1, 0.3		;this is multiplied by the size range for final size.
+            vel_range			0, 0		;vertical velocity range
+			die_size				0.05, 0.2	;size when the effect fades
+            colour             185, 15, 2	;only works for grayscale textures.
+            alpha_max           128            ; maximum alpha value
+			acceleration			0, 0, 0 ;this is added to the velocity, as needed.
+			offset				0, 0.1, -3.0 (lateral, vertical, and horizontal displacement)
+			max_particles		20 ;name says it all, though don't expect the engine to put them in the exact spot
+			max_distance		1 ; that essentially acts (poorly) as a spoiler, to spacce the particles apart (after density is factored in)
+			blend_type		additive
+            emitter distance
+            {
+                ; How many particels per meter. The inverse must not be higher then the maximum range
+                density        10
+				
+				emitter_falloff_dist	15		; distance in meters to reduce emission over
+				emitter_falloff_bias	0.01			; best I can tell, a bias of ~1 spreads the effect out more.
+            }
+            
+			fade_time		0.3
+			spin_rate		0, 0.05
+	} 
+} 
+
+; *** This is the gunsmoke itself
+effect musket_fog
+{
+    type particle
+    {
+            texture            battlefield/fire/smoke0.tga
+
+            sprite_origin		0.0, 0.0	;relative position to the projectile on spawning
+			sprite_size			0.2, 0.3	;size when effect spawns
+			size_range      	2.0, 3.0	;size at greatest extent
+            age_range           0.2, 0.3	;moment when we reach size_range and max_alpha
+            grow_range        1.0, 1.1		;this is multiplied by the size range for final size.
+            vel_range			0, 0		;vertical velocity range
+			die_size				8, 10	;size when the effect fades
+            colour             210, 210, 243	;only works for grayscale textures.
+            alpha_max           130            ; maximum alpha value
+			acceleration			0, 0, -0.01 ;this is added to the velocity, as needed.
+			offset				0, -1.2, -3.0 (lateral, vertical, and horizontal displacement)
+			max_particles		8 ;name says it all, though don't expect the engine to put them in the exact spot
+			max_distance		1 ; that essentially acts (poorly) as a spoiler, to spacce the particles apart (after density is factored in)
+            emitter distance
+            {
+                ; How many particels per meter. The inverse must not be higher then the maximum range
+                density        1.7
+				
+				emitter_falloff_dist	30		; distance in meters to reduce emission over
+				emitter_falloff_bias	0.01			; best I can tell, a bias of ~1 spreads the effect out more.
+            }
+            
+			fade_time		180
+			spin_rate		0, 0.05
+    }
+}
+		
+
+; *** This effect will surround the musketeers with lingering smoke.
+effect lingering_smoke
+{
+    type particle
+        {
+            texture            battlefield/fire/smoke0.tga
+
+            size_range          2.0, 6.0
+            age_range          5.0, 7.0
+                grow_range        4, 6
+            velocity           0, 0
+            colour             210, 210, 243
+            alpha_max           80            ; maximum alpha value
+			acceleration			0, 0, -0.01
+            emitter distance
+            {
+                ; How many particels per meter. The inverse must not be higher then the maximum range
+                density        0.008
+            }
+            
+            fade_time        48.0        
+        }
+}
+
+
+    effect_set musket 
+    { 
+        lod 500 
+        { 
+			musket_hammerfall
+			musket_flash
+			musket_flame
+			musket_fog
+        } 
+    }
+	
+;;;;;;;;;;;;;;;;;;;when the ball hits the ground	
+	
+effect musket_impact_dirt
+{
+	type explosion            
+	{
+	model           ../SYW/data/models_effects/bullet_impact_ground.CAS
+	anim_time				1.7
+	max_scale   			1
+	max_particle_scale		3
+	scale_time_bias			0.9
+	alpha_time_bias			0.9
+	
+			; debris 
+		; debris
+    debris_model                             models_effects/debri01.cas
+    debris_num_particles     0
+    debris_lifetime_range    2.2, 20
+    debris_emit_angle        60              ; degrees
+    debris_time_bias         2
+    debris_velocity_range    3.4, 7.4
+    debris_scale_range       0.1, 0.2
+	
+	}
+}
+
+effect_set musket_end_effect
+{ 
+    play_time 100
+	lod 1000 
+    { 
+		musket_impact_dirt
+    } 	
+}

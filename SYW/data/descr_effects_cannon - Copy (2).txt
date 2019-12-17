@@ -1,0 +1,391 @@
+; ************************************************
+; *** NOTES ON EFFECTS
+; *** Start effects are also used during impacts. As a result they have been reduced in size as it would
+; *** otherwise result in large smoke clouds whenever a projectile hits a soldier or ground.
+; *** Use the trailing_smoke effect for the start effect to see the trajectory of projectiles.
+; ************************************************
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+effect ground_dirt_explosion_grand_bombard
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/dirt_explode_01.CAS
+		sort_for_speed
+		anim_time				1.7
+		max_scale   			8
+		max_particle_scale 		2.4
+		scale_time_bias			.9
+		alpha_time_bias			0.9		
+		;clr_adjust_by_ambient_intensity 
+		
+
+		; debris
+        debris_model                             models_effects/debri01.cas
+        debris_num_particles     10
+        debris_lifetime_range    4, 20
+        debris_emit_angle        140              ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    8, 14
+        debris_scale_range       0.1, 0.6
+	}
+}
+
+effect ground_dust_wave_grand_bombard
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/dirt_explosion_ground_wave.CAS
+		sort_for_speed
+		anim_time				10
+		max_scale   			14
+		max_particle_scale 		4.0
+		scale_time_bias			.95
+		alpha_time_bias			0.95	
+		sort_bias               1	
+		;clr_adjust_by_ambient_intensity 
+
+		; debris
+        debris_model                             models_effects/debri02.cas
+        debris_num_particles     20
+        debris_lifetime_range    7.4, 11
+        debris_emit_angle       120             ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    4.0, 12.5
+        debris_scale_range       0.6, 0.14
+	}
+}
+effect ground_explosion_rising_grand_bombard
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/dirt_explosion_ground_rising.CAS
+		sort_for_speed
+		anim_time				10
+		max_scale   			5
+		max_particle_scale 		6
+		scale_time_bias			0.9
+		alpha_time_bias			0.9		
+		;clr_adjust_by_ambient_intensity 
+
+		; debris
+        debris_model                             models_effects/debri03.cas
+        debris_num_particles     30
+        debris_lifetime_range    11, 14
+        debris_emit_angle        120             ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    7.5, 13.0
+        debris_scale_range       0.1, 0.8
+	}
+}
+
+effect_set cannon_end_effect
+{
+	play_time 3
+	lod 1000
+	{
+		ground_dirt_explosion_grand_bombard
+		ground_dust_wave_grand_bombard
+		ground_explosion_rising_grand_bombard
+	}
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+; *** TRAILING EFFECT FOR TESTING THE TRAJECTORY OF SHELLS
+effect trailing_smoke
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      	2.0, 2.5
+		age_range       	0.5, 1.5
+	    	grow_range		1.5, 1.8
+		velocity   		0.0, 0.2
+		colour     		200, 200, 200
+		alpha_max	   	90			 ; maximum alpha value
+		emitter distance
+		{
+			density			2 	     ; how many particels per meter
+		}
+		
+		fade_time		0.1		
+
+		clr_adjust_by_ambient_intensity		
+	}
+}
+
+; *** EFFECT WHEN CANNONBALL IMPACTS
+effect boulder_explosion_01
+{
+	type explosion
+	{
+		; main explosion
+		model 				../SYW/data/models_effects/pm_explosion_dirt1.cas
+		anim_time			1
+		max_scale   			8
+		max_particle_scale 		4
+		scale_time_bias			.4
+		alpha_time_bias			0.9
+		
+
+		; debris
+        debris_model                             models_effects/debri02.cas
+        debris_num_particles     0
+        debris_lifetime_range    2.2, 20
+        debris_emit_angle        30              ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    5.5, 30.5
+        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect boulder_explosion_02
+{
+	type explosion
+	{
+		; main explosion
+		model 				../SYW/data/models_effects/pm_explosion_dirt1.cas
+		anim_time			1
+		max_scale   			6
+		max_particle_scale 		7
+		scale_time_bias			.4
+		alpha_time_bias			0.7	
+
+		; debris
+        debris_model                             models_effects/debri02.cas
+        debris_num_particles     0
+        debris_lifetime_range    2.2, 20
+        debris_emit_angle        70              ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    5.5, 30.5
+        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect boulder_dust_explosion
+{
+	type explosion
+	{
+	; dust explode
+		model 				../SYW/data/models_effects/pm_explosion_dust.cas
+		anim_time			3
+		max_scale   			15
+		max_particle_scale 		4
+		scale_time_bias			.7
+		alpha_time_bias			0.6
+
+		; debris
+	        debris_model                             models_effects/debri02.CAS
+        	debris_num_particles     0
+	        debris_lifetime_range    2.2, 20
+        	debris_emit_angle        70              ; degrees
+	        debris_time_bias         0.9
+        	debris_velocity_range    5.5, 30.5
+	        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect boulder_dust_explosion2
+{
+	type explosion
+	{
+	; dust explode
+		model 				../SYW/data/models_effects/pm_explosion_dust3.cas
+		anim_time			3
+		max_scale   			7
+		max_particle_scale 		4
+		scale_time_bias			.5
+		alpha_time_bias			0.8
+
+		; debris
+	        debris_model                             models_effects/debri02.CAS
+        	debris_num_particles     0
+	        debris_lifetime_range    2.2, 20
+        	debris_emit_angle        70              ; degrees
+	        debris_time_bias         0.9
+        	debris_velocity_range    5.5, 30.5
+	        debris_scale_range       0.4, 1.5
+	}
+}
+
+
+
+; *** EFFECT WHEN CANNISTER IMPACTS
+effect cannister_impact
+{
+	type explosion
+	{
+		; DIRT EXPLOSION
+		model 				../SYW/data/models_effects/cannisterexplosion.cas
+		anim_time			1
+		max_scale   			10.0
+		max_particle_scale 		50
+		scale_time_bias			0.999
+		alpha_time_bias			0.3
+		
+
+        debris_model                             models_effects/ntw_cannon_fire.cas
+        debris_num_particles     5
+        debris_lifetime_range    2, 3
+        debris_emit_angle        180              ; degrees
+        debris_time_bias         0.99
+        debris_velocity_range    4, 5
+        debris_scale_range       20, 0.9
+	}
+}
+
+
+; *** EFFECT FOR FIRING CANNONS
+; *** This effect should give a gunfire flash
+; it should appear NEAR the unit firing only, but does not yet
+effect fire_cannon_1
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      	5, 10
+		age_range       	0.3, 2.0
+	    	grow_range		1.1, 1.2
+		velocity   		0.0, 0.2
+		colour     		190, 190, 190
+		alpha_max	   	85			; maximum alpha value
+		emitter distance
+		{
+			; How many particels per meter. The inverse must not be higher then the maximum range
+			density		0.25
+			;emitter_falloff_dist	20			; distance in meters to reduce emission over
+			;emitter_falloff_bias	0.5
+		}
+		
+		fade_time		2.0		
+	}
+}
+effect fire_cannon_2
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      	7.5, 15
+		age_range       	0.7, 2.2
+	    	grow_range		1.5, 1.6
+		velocity   		0.0, 0.2
+		colour     		190, 190, 190
+		alpha_max	   	60			; maximum alpha value
+		emitter distance
+		{
+			; How many particels per meter. The inverse must not be higher then the maximum range
+
+			density		0.1
+			;emitter_falloff_dist	20			; distance in meters to reduce emission over
+			;emitter_falloff_bias	0.5
+		}
+		
+		fade_time		4.0		
+	}
+}
+
+effect fire_cannon_3
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      	10, 20
+		age_range       	35.0, 40.0
+	    	grow_range		1.5, 1.6
+		velocity   		0.0, 0.2
+		colour     		190, 190, 190
+		alpha_max	   	60			; maximum alpha value
+		emitter distance
+		{
+			; How many particels per meter. The inverse must not be higher then the maximum range
+
+			density		0.1
+			;emitter_falloff_dist	5			; distance in meters to reduce emission over
+			;emitter_falloff_bias	0.5
+		}
+		
+		fade_time		50.0		
+	}
+}
+
+
+; *** EFFECT FOR EXPLODING SHELL
+effect exploding_shell
+{
+	type explosion
+	{
+		; fireball
+		model 				../SYW/data/models_effects/ntw_shell_explosion.cas
+		anim_time			1
+		max_scale   			1.0
+		max_particle_scale 		50
+		scale_time_bias			0.999
+		alpha_time_bias			0.3
+		
+
+		; debris
+        debris_model                             models_effects/debri02.cas
+        debris_num_particles     20
+        debris_lifetime_range    2.2, 20
+        debris_emit_angle        70              ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    5.5, 30.5
+        debris_scale_range       0.01, 0.1
+	}
+}
+
+; *** EFFECT SETS
+effect_set shell_effect
+{ 
+	lod 1000 
+	{ 
+		fire_cannon_1
+		fire_cannon_2
+		fire_cannon_3
+		;trailing_smoke		; * ENABLE FOR TESTING TRAJECTORIES
+	} 
+} 
+
+effect_set shell_end_effect
+{ 
+	lod 1000 
+	{ 
+		exploding_shell
+	} 
+}
+effect_set canister_effect
+{ 
+	lod 1000 
+	{ 
+		fire_cannon_1
+		fire_cannon_2
+		fire_cannon_3
+		;trailing_smoke		; * ENABLE FOR TESTING TRAJECTORIES
+	} 
+} 
+
+effect_set canister_end_effect
+{ 
+	lod 1000 
+	{ 
+		cannister_impact
+	} 
+} 
+ 
+effect_set cannon_effect
+{ 
+	lod 1000 
+	{ 
+		fire_cannon_1
+		fire_cannon_2
+		fire_cannon_3
+
+	} 
+} 

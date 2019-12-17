@@ -1,0 +1,345 @@
+-The Seven Years War mod
+
+_Research
+
+project SYW: www.kronoskaf.com, and all its contributors.
+Maj. John Dagworthy: for politely preserving his officer's uniform for posterity. that uniform helped me find the project in the first place.
+
+_Sky modding 
+
+Megas Antiviros
+
+_The campaign map
+Miguel_80
+Ibrahim
+Archeopterix
+
+_initial animations
+
+Ogniem i Mizcem team
+Gen. James Wolfe (no, not the real general)
+Vercingetorix (for creating the needed tools)
+
+_Unit models
+
+Gen. James Wolfe
+Archaeopteryx
+Ogniem i Miezcem team (initial turkish and polish models)
+Thibaud (textures)
+
+_buildings
+Archaeopteryx
+
+
+-Animations
+Gen.jamesWolfe
+johnwhile (for making artillery modding possible).
+
+_2D screen textures
+Millner
+Gen.jamesWolfe
+Sylon
+
+_ballistics and gunfire effects
+Gen.jamesWolfe
+Paedric
+30 years War mod team
+
+_ dedicated in part to the 900,000-1,400,000 dead, and countless affected, of the war, reminding us that this was a horrible, and senseless war.
+
+
+******************************************************************
+******************************************************************
+
+_THE CREATIVE ASSEMBLY
+
+_Project Director
+
+Mike Simpson
+
+_Production
+
+Ross Manton
+Luci Black
+
+_Production (CA Oz)
+
+George Fidler
+
+_Design
+
+R. T. Smith
+Mike Brunton|Jamie Ferguson
+Chris Gambold|James Russell
+
+_Programming
+
+Jerome Grasdyke
+Robbie Austrums|Alan Blair
+Ric Broadhurst|Lee Cowen
+J. Guy Davidson|Charlie Dell
+Chris Gascoyne|Tom Miles
+Scott Pitkethly|Jon Raftery
+
+_Programming (CA Oz)
+
+Ken Turner
+Daniel Glastonbury|Artem Kulakov
+Scott Lowther|Martin Slater
+Martin Valigursky
+
+_Art
+
+Kevin McDowell
+Joss Adley|Paul Abbott
+Greg Alston|Andrew Bedford
+Peter Brophy|Ranulf Busby
+John Carline|Jason Dalton
+Zaq Foster|Will Hallsworth
+John Harmon|Denzil O'Neill
+Simon Pennington|Ben Potts
+Brendan Rogers|Irina Rohvarger
+Nick Tresadern|Mathieu Walsh
+
+_Music & Audio Direction
+
+Jeff van Dyck
+
+_Sound Effects & Post Production
+
+Richard Vaughan
+
+_PR & Marketing
+
+Ian Roxburgh
+Richie Skinner
+
+_Testing
+
+Graham Axford
+Simon Allan|Dion Lay
+Gian Piras|Jeff Woods
+James Whitston
+
+_Supporting Roles
+
+Tim Ansell
+Alex Chapman|Martin De Sutton
+Gareth Hailes|Kevin Hoque
+Melvyn Quek|Scott Ryan 
+
+_Additional Art
+
+Jude Bond|Tunde Glover
+Alistair Hope|Howard Rayner
+Ester Reeve|Nick Smith
+Chris Waller|
+
+_Vocals
+
+Angela van Dyck
+
+_Mandolin & Guitar
+
+Saki Kaskas
+
+_Voices
+
+Kubler Auckland Management 
+Jonathan Atherton|George Baladinos
+Andrew Buchanan|Adam Cooper
+Karen Crone|Haskel Daniel
+Michael Futcher|Damien Garvey
+Terry Hansen|George Kapiniaris
+Caroline Kennison|Todd Levi
+Bruno Lucia|Anthony Mir
+Errol O'Neill|Yalin Ozucelik
+Simon Palomares|Jimmy Poulos
+Akmal Saleh|Martin Slater
+Leo Taylor|Matt Zeremes
+
+_Thanks
+
+Musiclab (Brisbane)|Roger Beames
+Alkis Alkiviades|David Hamilton-Williams
+Mark Milton|Steve O’Hagan
+Phil Morris|Kerry Shale
+
+A big thanks to the Org, all the 
+moderators on the official forums, 
+and all the fans that have helped 
+make the online community 
+as great as it is!
+
+And a huge thanks to our families and friends
+for their understanding and support.
+
+
+_SEGA EUROPE LIMITED 
+
+_CEO
+
+Naoya Tsurumi
+
+_President/COO
+
+Mike Hayes
+
+_Development Director
+
+Gary Dunn
+
+_Creative Director
+
+Matthew Woodley
+
+_Director of European Marketing
+
+Gary Knight 
+
+_Head of Development, Europe
+
+Brandon Smith
+
+_Senior Producer
+
+Carl Jones
+
+_Head of Brand Marketing
+
+Helen Nicholas
+
+_European PR Manager
+
+Lynn Daniel
+
+_Brand Manager 
+
+Darren Williams
+
+_International Brand Manager
+
+Ben Stevens
+
+_Creative Services
+
+Tom Bingle
+Keith Hodgetts|Akane Hiraoka
+
+_Localisation Team
+
+Exequo 
+
+_QA Manager
+
+Mark Le Breton 
+
+_QA Supervisors
+
+Marlon Grant
+Darius Sadeghian
+
+_Mastering Technicians
+
+Trevor Barnes
+John Hegarty
+
+_Lead Tester
+
+Alex Cox
+
+_Test Team
+
+Aaron Wright
+Andrzej Lubas|Ara Avakian
+Chris Jones|Christian Rodricks
+Daniel Vaz|David Spence
+David Tyler|Dominic Taggart
+Ned Waterhouse|Elliott Ritchie
+George Blacklock|Guy Freestone
+Hany Gohary|James Caudwell
+Jide Alabi|Marlon Andall
+Michael Beirne|Michael Furneaux
+Nicky Kotze|Nik Gupta
+Oliver Bennett|Paul Rogers
+Phongthep Boonpeng|Renee Teloka
+Richard Williams|Sebastian Benton
+Shiva Allari|Titus Samkubam
+Tony Langan|Winson Ting
+
+_Localisation Team Co-Ordinator
+
+Jean-Baptiste Bagot
+
+_Localisation Test Team
+
+Carole Kunzelmann
+Giacomo Rizzi
+Hugo Sieiro
+Sven Wittmack
+Tiziano Damario
+
+_SOE Thanks
+
+Jay Atkins
+Roy Boateng
+
+And thanks to our families and friends
+for their understanding and support.
+
+_SEGA OF AMERICA
+
+_CEO
+
+Naoya Tsurumi
+
+_President / COO
+
+Simon Jeffery
+
+_Vice President, Marketing
+
+Scott Steinberg
+
+_Product Manager
+
+Mark Polcyn
+
+_Associate Product Manager
+
+Teri Higgins
+
+_Public Relations
+
+Bret Blount
+Erica Rogers
+Ethan Einhorn
+Jennie Sue
+
+_Creative Services
+
+Chris Mowry
+
+_Senior Vice President, Product Development
+
+Bill Petro
+
+_Director, QA and Localization
+
+Osamu Shibamiya
+
+_Associate Localization Producer
+
+Martin Hunter Caplan
+
+_Build Engineer
+
+Rick "Maverick" Ribble
+
+_QA Project Lead
+
+David Wood
+
+_QA Test Lead
+
+J. Kevin Connolly

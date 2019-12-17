@@ -1,0 +1,112 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d mindist 16 minPitch .9 maxPitch 1.1 fadein 2 fadeout 2 volume 0 probability 1 priority 220 distancepriority 0 randomdelay 0  effect_level .25
+
+BANK: unit_fighting
+	
+
+type barb screeching women german,barb head hunting maidens scythian,barb scythian noblewomen scythian,rebel amazon chariots
+
+	event lod 3 volume -40
+				folder data/sounds/SFX/Group/Melee
+				;Melee_Roman_Fight_Small_c
+				
+			end
+			event lod 40 volume -40
+				folder data/sounds/SFX/Group/Melee
+				;Melee_Roman_Fight_Med_c
+				
+			end
+			event lod 80 volume -40
+				folder data/sounds/SFX/Group/Melee
+				;Melee_Roman_Fight_Large_c
+			end
+
+
+type barb wardogs briton, barb wardogs dacian, barb wardogs gaul, barb wardogs german, barb wardogs scythian, carthaginian warhounds, roman wardogs, greek incendiary pigs, roman pigs			
+
+event lod 3 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Small_c
+				
+			end
+			event lod 40 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Med_c
+				
+			end
+			event lod 80 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Large_c
+				
+			end
+
+
+unit infantry light, heavy, spearmen, skirmish, missile
+			event lod 3 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Small_c
+				
+			end
+			event lod 40 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Med_c
+				
+			end
+			event lod 80 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Large_c
+				
+			end
+
+unit siege missile, heavy, light		
+	event lod 3 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Small_c
+				
+			end
+			event lod 40 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Med_c
+				
+			end
+			event lod 80 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Large_c
+				
+			end		
+			
+
+unit infantry light, heavy, spearmen, skirmish, missile
+			event lod 3 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Small_c
+				
+			end
+			event lod 40 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Med_c
+				
+			end
+			event lod 80 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Large_c
+			end
+
+unit cavalry light, heavy, spearmen, skirmish, missile
+			event lod 3 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Small_c
+				
+			end
+			event lod 40 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Med_c
+				
+			end
+			event lod 80 volume -40
+				folder data/sounds/SFX/Group/Melee
+				Melee_Roman_Fight_Large_c
+				
+			end
+
