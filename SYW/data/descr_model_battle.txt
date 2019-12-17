@@ -1288,7 +1288,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 type				horse_hanovarian_dragoon
 skeleton			fs_medium_horse
-scale				0.825
+scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/horse_hanoverian_dragoon.tga
 model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 15
@@ -1314,7 +1314,7 @@ model_tri			700, 0.3f, 0.3f, 0.3f
 
 type				british_horse_1
 skeleton			SYW_warhorse
-scale				0.825
+scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/horse_british_horse.tga
 texture				merc, SYW/data/models_unit/textures/horse_british_horseguard.tga
@@ -1344,7 +1344,7 @@ model_tri			700, 0.3f, 0.3f, 0.3f
 
 type				british_horse_2
 skeleton			SYW_warhorse
-scale				0.82
+scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/horse_british_dragoon.tga
 texture				merc, SYW/data/models_unit/textures/horse_british_horseguard.tga
@@ -1359,8 +1359,8 @@ model_tri			700, 0.3f, 0.3f, 0.3f
 
 
 type				british_horse_3
-skeleton			NTW_heavy_cavalry_horse
-scale				0.83
+skeleton			SYW_warhorse
+scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/horse_british_lifeguard.tga
 model_flexi			SYW/data/models_unit/horse_british_horse.cas, 15
@@ -1605,7 +1605,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           british_life_guard
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           britons, SYW/data/models_unit/textures/britain/british_life_guard.tga
 model_flexi             SYW/data/models_unit/british_life_guard.cas, 8

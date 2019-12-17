@@ -425,10 +425,10 @@ x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
 mass				3.2
 banner_height		0
-bouyancy_offset		1.6
+bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
-root_node_height	1.6
-rider_offset		0.0, 0.2, 0.15
+root_node_height	1.4
+rider_offset		0.0, 0.2, 0.1
 
 
 type				british horse 2
@@ -439,10 +439,10 @@ x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
 mass				3.2
 banner_height		0
-bouyancy_offset		1.6
+bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
-root_node_height	1.6
-rider_offset		0.0, 0.2, 0.15
+root_node_height	1.4
+rider_offset		0.0, 0.2, 0.1
 
 type				horse dragoon
 class				horse
@@ -465,10 +465,10 @@ x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
 mass				3.2
 banner_height		0
-bouyancy_offset		1.6
+bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
-root_node_height	1.6
-rider_offset		0.0, 0.2, 0.15
+root_node_height	1.4
+rider_offset		0.0, 0.2, 0.1
 
 
 type				british horse 4
@@ -482,7 +482,7 @@ banner_height		0
 bouyancy_offset		1.6
 water_trail_effect	horse_water_trail
 root_node_height	1.6
-rider_offset		0.0, 0.2, 0.01
+rider_offset		0.0, 0.2, 0.1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sweden;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
 
