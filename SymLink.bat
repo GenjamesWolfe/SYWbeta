@@ -1,0 +1,1 @@
+mklink /j "G:\SteamLibrary\steamapps\common\Rome Total War Gold\SYW" "L:\Projects\SYWbeta\SYW"
