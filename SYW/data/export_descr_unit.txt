@@ -3410,7 +3410,7 @@ voice_type       General_1
 soldier          british_grenadier, 16, 0, 0.78, 0.20, 1.4
 officer          british_officer
 officer          british_drummer
-attributes       sea_faring, hide_forest, frighten_foot, can_sap
+attributes       sea_faring, hide_forest, frighten_foot, hardy, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
 stat_pri         23, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
