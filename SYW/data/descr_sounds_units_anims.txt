@@ -173,16 +173,10 @@ end
 
 event ANIM_MUSKET_FIRE priority 110 mindist 2 maxdist 600 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 probradius  600 randomdelay .00
 folder data/sounds/SFX/Individual/Missiles/musket/Musket_Fire
-musket_fire_01b
-musket_fire_02b
-musket_fire_03b
-musket_fire_04b
-musket_fire_05b
-musket_Fire_06b
-musket_Fire_07b
-musket_Fire_08b
-musket_Fire_09b
-musket_Fire_10b
+brown_bess_1
+brown_bess_2
+brown_bess_3
+brown_bess_4
 end
 
 event ANIM_MUSKET_LOAD priority 40 mindist 1 volume 100 rndvolume 75 randomdelay .00

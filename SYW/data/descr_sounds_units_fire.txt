@@ -27,7 +27,7 @@ end
 BANK: unit_missile_attack
 
 
-;;;;;;;;;;;   RELOAD: 19 seconds   ;;;;;;;;;;;;;;;
+;;;;;;;;;;;   RELOAD: 24 seconds   ;;;;;;;;;;;;;;;
 
 	weapon none
 		stage ready
@@ -45,9 +45,12 @@ BANK: unit_missile_attack
 			end
 
 		stage fire
-			event lod 6 priority 110 mindist 30 volume 100 rndvolume 75
-;				folder SYW/data/sounds/weapons/muskets
-;				musket_volley_1
+			event lod 1 priority 190 mindist 50 volume 100 rndvolume 75
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_volley
+				brown_bess_1
+				brown_bess_2
+				brown_bess_3
+				brown_bess_4
 			end
 			
 

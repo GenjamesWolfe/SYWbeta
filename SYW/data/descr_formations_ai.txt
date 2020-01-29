@@ -1,9 +1,15 @@
-begin_formation ai_defend_line
+;*********************************************************************************************
+; European Military Formations
+;*********************************************************************************************
+
+begin_formation ai_defend_line_euro
 
    ;;; purpose flags
    defend
    
-      ai_priority       0.5
+      ai_priority       2.5
+	  
+	  supported_factions		gauls, romans_scipii, romans_julii, romans_brutii, romans_senate, germans, britons, scythia, armenia, macedon, parthia, pontus, egypt, greek_cities, dacia, thrace, spain, seleucid, carthage, slave
 
       ;; line infantry center
       begin_block 0
@@ -24,6 +30,7 @@ begin_formation ai_defend_line
       begin_block 1
 		 not_general
          unit_type         siege       1.0
+		 unit_type         heavy infantry 0.1
          default_melee_state     fire_at_will
          unit_density         close
          block_formation         line
@@ -36,6 +43,7 @@ begin_formation ai_defend_line
       begin_block 2
 		 not_general
          unit_type         siege       1.0
+		 unit_type         missile infantry 0.1
          default_melee_state     fire_at_will
          unit_density         close
          block_formation         line
@@ -46,11 +54,11 @@ begin_formation ai_defend_line
 	  
       ;; line infantry front right
       begin_block 3
-	     max_units 2
+	     max_units 1
 		 not_general
          unit_type         spearmen infantry 1.0
 		 unit_type         heavy infantry 1.0
-		 unit_type         missile infantry 1.0
+		 unit_type         missile infantry 0.5
          default_melee_state     skirmish
          unit_density         close
          block_formation         line
@@ -82,7 +90,7 @@ begin_formation ai_defend_line
          default_melee_state     hold_fire_and_defend
          unit_density         close
          block_formation         line
-         block_relative_pos      0 0.0 -150.0
+         block_relative_pos      0 0.0 -90.0
          inter_unit_spacing     6
          priority       0.5
       end_block
@@ -95,7 +103,7 @@ begin_formation ai_defend_line
          default_melee_state     hold_fire_and_defend
          unit_density         close
          block_formation         line
-         block_relative_pos      0 25.0 -300.0
+         block_relative_pos      5 25.0 -90.0
          inter_unit_spacing     6
          priority       0.1
       end_block
@@ -104,6 +112,7 @@ begin_formation ai_defend_line
       begin_block 7
 		 not_general
          unit_type         light infantry 1.0
+		 unit_type         skirmish infantry 1.0
          default_melee_state     skirmish
          unit_density         loose
          block_formation         line
@@ -116,6 +125,7 @@ begin_formation ai_defend_line
       begin_block 8
 		 not_general
          unit_type         light infantry 1.0
+		 unit_type         skirmish infantry 1.0
          default_melee_state     skirmish
          unit_density         loose
          block_formation         line
@@ -194,7 +204,7 @@ begin_formation ai_defend_line
 		 not_general
          unit_type         artillery      1.0
 		 unit_type         handler        1.0
-		 unit_type         any         0.1
+		 unit_type         any         0.5
          default_melee_state     defend
          unit_density         close
          block_formation         line
@@ -206,13 +216,15 @@ begin_formation ai_defend_line
 end_formation
 
 ;;;;;;;;;;;;;;;;;;;;;aggressive stance;;;;;;;;;;;;;;;;;;;;;;;;;;;
-begin_formation ai_attack_line
+begin_formation ai_attack_line_euro
 
    ;;; purpose flags
    attack
    defend
    
-      ai_priority       0.8
+      ai_priority       2.4
+	  
+	  supported_factions		gauls, romans_scipii, romans_julii, romans_brutii, romans_senate, germans, britons, scythia, armenia, macedon, parthia, pontus, egypt, greek_cities, dacia, thrace, spain, seleucid, carthage, slave
 
       ;; line infantry center
       begin_block 0
@@ -463,6 +475,8 @@ begin_formation ai_march_column
    pursue
    
       ai_priority       0.8
+	  
+	  supported_factions		gauls, romans_scipii, romans_julii, romans_brutii, romans_senate, germans, britons, scythia, armenia, macedon, parthia, pontus, egypt, greek_cities, dacia, thrace, spain, seleucid, carthage, numidia, slave
 
       ;; line infantry front
       begin_block 0
@@ -537,7 +551,7 @@ begin_formation ai_march_column
 		 not_general
          unit_type         spearmen infantry 1.0
 		 unit_type         artillery 1.0
-		 unit_type         handlers 1.0
+		 unit_type         handler 1.0
 		 unit_type         missile infantry 1.0
          default_melee_state     hold_fire 
          unit_density         close
@@ -683,4 +697,153 @@ begin_formation ai_march_column
       end_block
 
 	  
+end_formation
+
+;*********************************************************************************************
+; Mughul Military formations
+;*********************************************************************************************
+
+begin_formation ai_five_division_plassey
+
+   ;;; purpose flags
+   attack
+   defend
+   
+      ai_priority       2.5
+	  
+	  supported_factions		numidia
+
+      ;; line infantry center
+      begin_block 0
+	     min_units 1
+		 max_units 8
+		 not_general
+         unit_type         skirmish infantry 1.0
+		 unit_type         light infantry 1.0
+		 unit_type         missile infantry 1.0
+		 unit_type         spearmen infantry 1.0
+		 unit_type         heavy infantry 1.0
+		 unit_type         artillery 1.0
+		 unit_type         any 0.5
+         default_melee_state	fire_at_will_and_defend
+         unit_density         close
+         block_formation         line
+         block_relative_pos      0 0.0 0.0
+         inter_unit_spacing     10
+         priority       0.5
+      end_block
+	  
+	   ;; line infantry center_right
+	   begin_block 1
+	     min_units 1
+		 max_units 4
+		 not_general
+         unit_type         skirmish infantry 1.0
+		 unit_type         light infantry 1.0
+		 unit_type         missile infantry 1.0
+		 unit_type         spearmen infantry 1.0
+		 unit_type         heavy infantry 1.0
+		 unit_type         heavy cavalry 0.5
+		 unit_type         light cavalry 0.5
+		 unit_type         missile cavalry 0.5
+		 unit_type         artillery 0.75
+		 unit_type         any 0.5
+         default_melee_state	fire_at_will_and_defend
+         unit_density         close
+         block_formation         line
+         block_relative_pos      0 10.0 0.0
+         inter_unit_spacing     10
+         priority       0.5
+      end_block
+	  
+	  
+	   ;; line infantry center_left
+	   begin_block 2
+	     min_units 1
+		 max_units 4
+		 not_general
+         unit_type         skirmish infantry 1.0
+		 unit_type         light infantry 1.0
+		 unit_type         missile infantry 1.0
+		 unit_type         spearmen infantry 1.0
+		 unit_type         heavy infantry 1.0
+		 unit_type         heavy cavalry 0.5
+		 unit_type         light cavalry 0.5
+		 unit_type         missile cavalry 0.5
+		 unit_type         artillery 0.75
+		 unit_type         any 0.5
+         default_melee_state	fire_at_will_and_defend
+         unit_density         close
+         block_formation         line
+         block_relative_pos      0 -10.0 0.0
+         inter_unit_spacing     10
+         priority       0.5
+      end_block
+	  
+	  ;; line infantry right_flank
+	   begin_block 3
+	     min_units 1
+		 max_units 4
+		 not_general
+         unit_type         skirmish infantry 0.5
+		 unit_type         light infantry 1.0
+		 unit_type         missile infantry 1.0
+		 unit_type         spearmen infantry 0.5
+		 unit_type         heavy infantry 0.5
+		 unit_type         heavy cavalry 1.0
+		 unit_type         light cavalry 1.0
+		 unit_type         skirmish cavalry 1.0
+		 unit_type         missile cavalry 1.0
+		 unit_type         artillery 0.3
+         default_melee_state	fire_at_will_and_defend
+         unit_density         close
+         block_formation         line
+         block_relative_pos      1 10.0 0.0
+         inter_unit_spacing     10
+         priority       0.5
+      end_block
+	  
+	  
+	  ;; line infantry left_flank
+	   begin_block 4
+	     min_units 1
+		 max_units 4
+		 not_general
+         unit_type         skirmish infantry 0.5
+		 unit_type         light infantry 1.0
+		 unit_type         missile infantry 1.0
+		 unit_type         spearmen infantry 0.5
+		 unit_type         heavy infantry 0.5
+		 unit_type         heavy cavalry 1.0
+		 unit_type         light cavalry 1.0
+		 unit_type         skirmish cavalry 1.0
+		 unit_type         missile cavalry 1.0
+		 unit_type         siege       1.0
+         default_melee_state	fire_at_will_and_defend
+         unit_density         close
+         block_formation         line
+         block_relative_pos      2 -10.0 0.0
+         inter_unit_spacing     10
+         priority       0.5
+      end_block
+	  
+	  	  ;; Command
+	   begin_block 5
+	     min_units 1
+		 max_units 2
+		 unit_type         general_unit 1.0
+		 unit_type         light infantry 0.5
+		 unit_type         heavy infantry 0.75
+		 unit_type         heavy cavalry 1.0
+		 unit_type         light cavalry 0.25
+		 unit_type         missile cavalry 0.1
+		 unit_type         handler 1.0
+         default_melee_state	fire_at_will_and_defend
+         unit_density         close
+         block_formation         line
+         block_relative_pos      0 0.0 -100.0
+         inter_unit_spacing     10
+         priority       0.5
+      end_block
+
 end_formation

@@ -749,7 +749,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -776,7 +776,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -795,7 +795,7 @@ ownership        germans
 type             prussian freijaeger
 dictionary       prussian_freijaeger
 category         infantry
-class            light
+class            skirmish
 voice_type       Heavy_1
 soldier          freijaeger, 6, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_long_grass
@@ -820,7 +820,7 @@ ownership        germans
 type             prussian feldjaeger
 dictionary       prussian_feldjaeger
 category         infantry
-class            light
+class            skirmish
 voice_type       Heavy_1
 soldier          feldjaeger, 6, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_long_grass
@@ -879,7 +879,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         10, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -906,7 +906,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 0.11
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 0.11
 stat_pri_attr    bp
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -933,7 +933,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -959,7 +959,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         13, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -986,7 +986,7 @@ officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         13, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -1271,7 +1271,7 @@ soldier          prussian_line, 30, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -1296,7 +1296,7 @@ soldier          prussian_grenadier, 28, 0, 0.78, 0.20, 1.4
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -1321,7 +1321,7 @@ soldier          darmstadt_leibgrenadiergarde, 6, 0, 0.78, 0.20, 1.4
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.13
 stat_sec_attr    no
@@ -1395,7 +1395,7 @@ ownership        slave
 type             brunswick jaeger
 dictionary       brunswick_jaeger
 category         infantry
-class            light
+class            skirmish
 voice_type       Heavy_1
 soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_long_grass
@@ -1603,7 +1603,7 @@ ownership        dacia
 type             wurttemberg jaeger
 dictionary       wurttemberg_jaeger
 category         infantry
-class            light
+class            skirmish
 voice_type       Heavy_1
 soldier          feldjaeger, 6, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_long_grass
@@ -1784,7 +1784,7 @@ ownership        scythia
 type             kassel jaeger
 dictionary       hessen_kassel_jaeger
 category         infantry
-class            light
+class            skirmish
 voice_type       Heavy_1
 soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_long_grass
@@ -1815,7 +1815,7 @@ soldier          prussian_militia, 30, 0, 0.68, 0.20, 1.4
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -1840,7 +1840,7 @@ soldier          prussian_line, 30, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -1865,7 +1865,7 @@ soldier          hessian_leib, 31, 0, 0.78, 0.20, 1.4
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         15, 30, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -3190,13 +3190,13 @@ ownership        britons
 type             british lights
 dictionary       british_lights
 category         infantry
-class            light
+class            skirmish
 voice_type       General_1
 soldier          british_light, 10, 0, 0.68, 0.20, 1.4
-attributes       sea_faring, hide_forest, hardy, can_sap
+attributes       sea_faring, hide_improved_forest, hide_anywhere, very_hardy, can_sap
 formation        0.6, 0.63, 1.8, 0.63, 2, square
 stat_health      1, 0
-stat_pri         19, 0, aimed_musket, 200, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         19, 0, aimed_musket, 300, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
 stat_sec_attr    no
@@ -3243,10 +3243,10 @@ ownership        britons
 type             rangers
 dictionary       rangers
 category         infantry
-class            light
+class            skirmish
 voice_type       General_1
 soldier          british_ranger, 6, 0, 0.68, 0.20, 1.4
-attributes       sea_faring, hide_forest, hardy, can_sap
+attributes       sea_faring, hide_improved_forest, hide_long_grass, hardy, can_sap
 formation        0.6, 0.63, 1.8, 1.26, 2, square
 stat_health      1, 0
 stat_pri         19, 0, jaeger_rifle, 200, 24, siege_missile, other, piercing, none, 25, 1.0
@@ -3587,6 +3587,32 @@ stat_cost        12, 10000, 550, 20, 30, 10000
 ownership        britons
 
 
+type             british staff
+dictionary       british_staff
+category         cavalry
+class            missile
+voice_type       General_1
+soldier          british_adc, 6, 0, 1
+mount            british horse 3
+attributes       sea_faring, hide_forest, can_sap, general_unit
+formation        1.0, 4.5, 1.0, 4.5, 3, square
+stat_health      2, 0
+stat_pri         10, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_sec_attr    no
+stat_pri_armour  2, 3, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -1, 0, -4, -2
+stat_mental      4, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 8000, 500, 20, 30, 8000
+ownership        britons
+
+
 type             british 6pounder
 dictionary       british_6pounder
 category         siege
@@ -3695,7 +3721,7 @@ ownership        britons
 type             hanovarian jaegers
 dictionary       hanovarian_jaegers
 category         infantry
-class            light
+class            skirmish
 voice_type       Heavy_1
 soldier          hanovarian_jaeger, 12, 0, 0.68, 0.2, 1.4
 attributes       hide_long_grass
@@ -5917,7 +5943,7 @@ stat_pri         2, 1, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  2, 4, 2, flesh
+stat_pri_armour  1, 4, 2, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5985,7 +6011,7 @@ dictionary       Moghul_archers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          mughul_archer, 25, 0, 0.6, 0.2, 1.4
+soldier          mughul_archer, 13, 0, 0.6, 0.2, 1.4
 attributes       sea_faring, hide_forest, can_sap
 formation        1.7, 1.7, 1.7, 1.7, 5, square
 stat_health      1, 0
@@ -6008,11 +6034,11 @@ ownership        numidia
 type             Moghul musketeers
 dictionary       Moghul_musketeers
 category         infantry
-class            light
+class            missile
 voice_type       Light_1
-soldier          regular_bunduqchi, 13, 0, 0.6, 0.2, 1.4
+soldier          regular_bunduqchi, 25, 0, 0.6, 0.2, 1.4
 attributes       sea_faring, hide_forest, can_sap
-formation        1.7, 1.7, 1.7, 1.7, 3, square
+formation        0.9, 0.9, 0.9, 0.9, 4, square
 stat_health      1, 0
 stat_pri         12, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    bp
@@ -6022,7 +6048,7 @@ stat_pri_armour  2, 3, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      1, low, untrained
+stat_mental      1, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -6033,9 +6059,9 @@ ownership        numidia
 type             afghan musketeers
 dictionary       afghan_musketeers
 category         infantry
-class            light
+class            missile
 voice_type       Light_1
-soldier          afghan_musketeer, 13, 0, 0.6, 0.2, 1.4
+soldier          afghan_musketeer, 25, 0, 0.6, 0.2, 1.4
 attributes       sea_faring, hide_forest, can_sap
 formation        1.7, 1.7, 1.7, 1.7, 3, square
 stat_health      1, 0
@@ -6058,7 +6084,7 @@ ownership        numidia, slave
 type             Omani
 dictionary       Omani
 category         infantry
-class            light
+class            missile
 voice_type       Light_1
 soldier          omani, 13, 0, 0.68, 0.2, 1.4
 attributes       sea_faring, hide_forest, can_sap
@@ -6068,11 +6094,11 @@ stat_pri         12, 0, aimed_musket, 120, 12, siege_missile, other, piercing, n
 stat_pri_attr    bp
 stat_sec         6, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.13
 stat_sec_attr    no
-stat_pri_armour  2, 5, 0, flesh
+stat_pri_armour  1, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      3, normal, untrained
+stat_mental      3, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -6093,7 +6119,7 @@ stat_pri         12, 0, aimed_musket, 120, 12, siege_missile, other, piercing, n
 stat_pri_attr    bp
 stat_sec         7, 4, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
 stat_sec_attr    no
-stat_pri_armour  3, 5, 0, flesh
+stat_pri_armour  1, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6110,7 +6136,7 @@ dictionary       mughal_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          mughal_cavalry, 13, 0, 1
+soldier          mughal_cavalry, 25, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
@@ -6171,7 +6197,7 @@ stat_pri         3, 0, sahm, 90, 50, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         5, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_sec_attr    no
-stat_pri_armour  3, 8, 2, metal
+stat_pri_armour  1, 8, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6188,7 +6214,7 @@ dictionary       afghan_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          afghan_heavy_cavalry, 13, 0, 1
+soldier          afghan_heavy_cavalry, 37, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
@@ -6197,7 +6223,7 @@ stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
 stat_sec         5, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_sec_attr    no
-stat_pri_armour  6, 9, 2, metal
+stat_pri_armour  1, 9, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6214,7 +6240,7 @@ dictionary       afghan_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          afghan_cavalry, 13, 0, 1
+soldier          afghan_cavalry, 25, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
@@ -6223,7 +6249,7 @@ stat_pri         5, 7, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  3, 8, 2, metal
+stat_pri_armour  10, 8, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6249,7 +6275,7 @@ stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
 stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_sec_attr    no
-stat_pri_armour  7, 9, 2, metal
+stat_pri_armour  12, 9, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6275,7 +6301,7 @@ stat_pri         4, 0, sahm, 70, 10, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         8, 15, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_sec_attr    no
-stat_pri_armour  8, 9, 2, metal
+stat_pri_armour  12, 9, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6301,7 +6327,7 @@ stat_pri         5, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         63, 0, french_12pdr, 1000, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
-stat_pri_armour  2, 3, 0, leather
+stat_pri_armour  1, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0

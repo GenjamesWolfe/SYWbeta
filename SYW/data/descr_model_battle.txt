@@ -1192,6 +1192,18 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 ;******************************United Kingdom and Hannover***********************************
 
 
+type           british_adc
+skeleton             fs_hc_pistoleer, fs_hc_swordsman
+indiv_range       40
+texture           britons, SYW/data/models_unit/textures/britain/british_ADC.tga
+model_flexi       SYW/data/models_unit/british_adc.cas, 15
+model_flexi       SYW/data/models_unit/british_adc.cas, 30
+model_flexi       SYW/data/models_unit/british_adc.cas, 40
+model_flexi       SYW/data/models_unit/british_adc.cas, max
+model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5
+
+
 type           british_general
 skeleton       fs_swordsman
 skeleton_horse       fs_hc_swordsman
@@ -1333,10 +1345,10 @@ skeleton			SYW_warhorse
 scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/test_horse.tga
-model_flexi			SYW/data/models_unit/horse_british_dragoon.cas, 15
-model_flexi			SYW/data/models_unit/horse_british_dragoon.cas, 30
-model_flexi			SYW/data/models_unit/horse_british_dragoon.cas, 60
-model_flexi			SYW/data/models_unit/horse_british_dragoon.cas, max
+model_flexi			SYW/data/models_unit/test_horse.cas, 15
+model_flexi			SYW/data/models_unit/test_horse.cas, 30
+model_flexi			SYW/data/models_unit/test_horse.cas, 60
+model_flexi			SYW/data/models_unit/test_horse.cas, max
 model_sprite		britons, 100.0, data/sprites/greek_cities_horse_heavy_sprite.spr
 model_tri			700, 0.3f, 0.3f, 0.3f
 
@@ -1411,7 +1423,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           british_light
-skeleton             SYW_british_highland_musketeer, prussian_bayonet
+skeleton             SYW_light_inf, prussian_bayonet
 indiv_range       40
 texture           britons, SYW/data/models_unit/textures/britain/british_light_infantry.tga
 model_flexi             SYW/data/models_unit/british_light_infantry.cas, 8
