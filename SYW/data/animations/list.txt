@@ -79,3 +79,4 @@ fs_hc_steppearcher
 cav_sabre
 fast_horse
 SYW_pallasch
+SYW_light_inf
