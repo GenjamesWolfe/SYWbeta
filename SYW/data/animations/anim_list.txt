@@ -1933,3 +1933,85 @@ data/animations/horse_cavalry_pallash/general_signal_charge.cas
 data/animations/horse_cavalry_pallash/general_signal_move.cas
 data/animations/horse_cavalry_pallash/general_signal_reform.cas
 data/animations/horse_cavalry_pallash/general_signal_halt.cas
+data/animations/SYW_light_inf/LID_01_Standing idle new actor.cas
+data/animations/SYW_light_inf/LID_08_Stand 2 90 right.cas
+data/animations/SYW_light_inf/LID_09_Stand 2 90 left.cas
+data/animations/SYW_light_inf/LID_34 stand 2 March.cas
+data/animations/SYW_light_inf/LID_03 March loop.cas
+data/animations/SYW_light_inf/LID_36 March 2 stand.cas
+data/animations/SYW_light_inf/LID_35 Stand 2 Run.cas
+data/animations/SYW_light_inf/LID_04 Run Loop.cas
+data/animations/SYW_light_inf/LID_39 Run 2 Stand.cas
+data/animations/SYW_light_inf/LID_40 Run 2 march.cas
+data/animations/SYW_light_inf/LID_38 March 2 Run.cas
+data/animations/SYW_light_inf/LID_48_Standing ready 2 STAND.cas
+data/animations/SYW_light_inf/LID_02_Standing Ready.cas
+data/animations/SYW_light_inf/LIS 10 stand ready turn 90 right.cas
+data/animations/SYW_light_inf/LIS 11 stand ready turn 90 left.cas
+data/animations/SYW_light_inf/LID_33_STAND 2 Standing ready.cas
+data/animations/SYW_light_inf/LID_50_Stand Ready 2 Adance.cas
+data/animations/SYW_light_inf/LID_07_Adance.cas
+data/animations/SYW_light_inf/LID_45_Advance 2 Stand Ready.cas
+data/animations/SYW_light_inf/LID_49 Stand ready 2 Retreat.cas
+data/animations/SYW_light_inf/LID_06_Retreat.cas
+data/animations/SYW_light_inf/LID_44_Retreat 2 Stand Ready.cas
+data/animations/SYW_light_inf/LID_25_Shuffle forward.cas
+data/animations/SYW_light_inf/LID_26_Shuffle back.cas
+data/animations/SYW_light_inf/LID_27_Shuffle left.cas
+data/animations/SYW_light_inf/LID_28_Shuffle Right.cas
+data/animations/SYW_light_inf/LID_61 Archer stand ready to aim FASTER.cas
+data/animations/SYW_light_inf/LID_62 Archer aim and hold looping.cas
+data/animations/SYW_light_inf/LID_63 release arrow return to stand ready.cas
+data/animations/SYW_light_inf/DIE 02_03 stabbed dying forwards.cas
+data/animations/SYW_light_inf/DIE Forwards.cas
+data/animations/SYW_light_inf/DIE 02_01 dying backwards.cas
+data/animations/SYW_light_inf/DIE 01 dying Backwards2.cas
+data/animations/SYW_light_inf/DIE 01 dying to his right.cas
+data/animations/SYW_light_inf/DIE Back right.cas
+data/animations/SYW_light_inf/Flailing Cycle.cas
+data/animations/SYW_light_inf/Flailing Cycle to land.cas
+data/animations/SYW_light_inf/man_trampled_down_roll_from_front.CAS
+data/animations/SYW_light_inf/DIE 02_01 dying backwards.cas
+data/animations/SYW_light_inf/LID_41 Run 2 charge.cas
+data/animations/SYW_light_inf/LIS 99 stand to hide.cas
+data/animations/SYW_light_inf/LIS 100 hide.cas
+data/animations/SYW_light_inf/LIS 101 hide to stand.cas
+data/animations/SYW_light_inf/LID_32 Stand ready back impact.cas
+data/animations/SYW_light_inf/LID_32M Stand ready back impact.cas
+data/animations/SYW_light_inf/LID_32 Stand ready back right impact.cas
+data/animations/SYW_light_inf/LID_32M Stand ready back right impact.cas
+data/animations/SYW_light_inf/LID_32 Stand ready front impact.cas
+data/animations/SYW_light_inf/LID_32M Stand ready front impact.cas
+data/animations/SYW_light_inf/LID_32 Stand ready front left impact.cas
+data/animations/SYW_light_inf/LID_32M Stand ready front left impact.cas
+data/animations/SYW_light_inf/Ladder_02 Climb down.cas
+data/animations/SYW_light_inf/Ladder_03 Idle still.cas
+data/animations/SYW_light_inf/Ladder_01 Climb up.cas
+data/animations/SYW_light_inf/LID_53 Stand idle  to climb ladder.cas
+data/animations/SYW_light_inf/LIS_102 Battlement 2 climb ladder leftside.cas
+data/animations/SYW_light_inf/LID_54 Climb off ladder onto left bat left 2 standready.cas
+data/animations/SYW_light_inf/LID_56_Climb down ladder 2 Stand ready.cas
+data/animations/SYW_light_inf/carry_and_artillery/Art_17 Stand 2 Push heavy object.cas
+data/animations/SYW_light_inf/carry_and_artillery/Art_18 Push heavy object loop.cas
+data/animations/SYW_light_inf/carry_and_artillery/Art_19 Push heavy object 2 STAND.cas
+data/animations/SYW_light_inf/LIS 01 Front step.cas
+data/animations/SYW_light_inf/LIS 01 Back step.cas
+data/animations/SYW_light_inf/LIS 01 Left step.cas
+data/animations/SYW_light_inf/LIS 01 Right step.cas
+data/animations/SYW_light_inf/LIS_113_knockdown_launch.CAS
+data/animations/SYW_light_inf/LIS_116_knockdown.CAS
+data/animations/SYW_light_inf/LIS_114_knockdown_idle.CAS
+data/animations/SYW_light_inf/LIS_115_knockdown_idle_2_Stand_ready.CAS
+data/animations/SYW_light_inf/LID_57_06 Taunt 1.cas
+data/animations/SYW_light_inf/LID_57_04 Taunt 2.cas
+data/animations/SYW_light_inf/LID_57_07 Taunt 3.cas
+data/animations/SYW_light_inf/LIS 74_06 celeb2.cas
+data/animations/SYW_light_inf/LID_swim_STAND2SWIM.CAS
+data/animations/SYW_light_inf/LID_swim_SWIM2STAND.CAS
+data/animations/SYW_light_inf/LIS_swim_treadwater.CAS
+data/animations/SYW_light_inf/LIS_swim.cas
+data/animations/SYW_light_inf/LIS_swim_shuffle_forward.CAS
+data/animations/SYW_light_inf/LIS_swim_shuffle_backward.CAS
+data/animations/SYW_light_inf/LIS_swim_shuffle_left.CAS
+data/animations/SYW_light_inf/LIS_swim_shuffle_right.CAS
+data/animations/SYW_light_inf/LIS_swim_attack.CAS
