@@ -36,11 +36,11 @@ effect musket_hammerfall
 			sprite_size			0.3, 0.6	;size when effect spawns
 			size_range      	1.0, 1.2	;size at greatest extent
             age_range           0.0, 0.09	;moment when we reach size_range and max_alpha
-            grow_range        1, 1.1		;this is multiplied by the size range for final size.
+            grow_range        0.7, 0.75		;this is multiplied by the size range for final size.
             vel_range			0.1, 0.2	;vertical velocity range
 			die_size				1, 2	;size when the effect fades
             colour             210, 210, 243	;only works for grayscale textures.
-            alpha_max           110            ; maximum alpha value
+            alpha_max           130            ; maximum alpha value
 			acceleration			0, -0.01, -0.01 ;this is added to the velocity, as needed.
 			offset				0, 0.3, -0.02 (lateral, vertical, and horizontal displacement)
 			max_particles		3 ;name says it all, though don't expect the engine to put them in the exact spot
@@ -48,13 +48,13 @@ effect musket_hammerfall
             emitter distance
             {
                 ; How many particels per meter. The inverse must not be higher then the maximum range
-                density        3
+                density        5
 				
 				emitter_falloff_dist	30		; distance in meters to reduce emission over
 				emitter_falloff_bias	0.01			; best I can tell, a bias of ~1 spreads the effect out more.
             }
             
-			fade_time		50
+			fade_time		45
 			spin_rate		0, 0.05
 	} 
 } 
@@ -111,7 +111,7 @@ effect musket_fog
             vel_range			0, 0		;vertical velocity range
 			die_size				8, 10	;size when the effect fades
             colour             210, 210, 243	;only works for grayscale textures.
-            alpha_max           150            ; maximum alpha value
+            alpha_max           130            ; maximum alpha value
 			acceleration			0, 0, -0.01 ;this is added to the velocity, as needed.
 			offset				0, -1.2, -3.0 (lateral, vertical, and horizontal displacement)
 			max_particles		8 ;name says it all, though don't expect the engine to put them in the exact spot
