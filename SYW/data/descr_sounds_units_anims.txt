@@ -373,6 +373,47 @@ Camel_Death_06
 Camel_Death_07
 end
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;	DRUM
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+event DRUM_ADVANCE priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+forward
+end
+
+event DRUM_HALT priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+halt
+end
+
+event DRUM_RFACE priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+right_face
+end
+
+event DRUM_LFACE priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+left_face
+end
+
+event DRUM_HIDE priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+lay_down
+end
+
+event DRUM_RISE priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+rise_up
+end
+
+event DRUM_RALLY priority 110 mindist 1 rndvolume 50 randomdelay .25
+folder data/sounds/SFX/individual/drums
+rally
+end
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

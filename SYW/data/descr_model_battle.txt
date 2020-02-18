@@ -1592,7 +1592,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           hanovarian_dragoon
-skeleton             fs_hc_swordsman
+skeleton             fs_hc_pistoleer, SYW_pallasch
 indiv_range       40
 texture           britons, SYW/data/models_unit/textures/hanover/hanovarian_dragoon.tga
 model_flexi             SYW/data/models_unit/hanovarian_dragoon.cas, 8
@@ -1629,7 +1629,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           hanovarian_garde
-skeleton             fs_hc_swordsman
+skeleton             fs_hc_pistoleer, SYW_pallasch
 indiv_range       40
 texture           britons, SYW/data/models_unit/textures/hanover/hanovarian_garde_du_corps.tga
 model_flexi             SYW/data/models_unit/hanovarian_garde.cas, 8
@@ -1641,7 +1641,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           hanovarian_horse
-skeleton             fs_hc_swordsman
+skeleton             fs_hc_pistoleer, SYW_pallasch
 indiv_range       40
 texture           britons, SYW/data/models_unit/textures/hanover/hanovarian_horse.tga
 model_flexi             SYW/data/models_unit/hanovarian_horse.cas, 8

@@ -63,7 +63,8 @@ data/animations/SYW_drummer/SG~09~~stand~idle~Turn~Left~90.cas                  
  2  0  0  0 10  0 14  0 unit_march                0  1  0 
  2  0  0  0 20  0 24  0 unit_march                0  1  0    0 
 data/animations/SYW_drummer/SG~36~stand~2~march.cas                                          0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  2   
+  3
+ 2  0  0  0  1  0  2  0 drum_advance 			  0  1  0  
  2  0  0  0 16  0 20  0 unit_march                0  1  0 
  2  0  0  0 26  0 30  0 unit_march                0  1  0    
 data/animations/SYW_drummer/SG~03~march.cas                                             0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
@@ -71,7 +72,8 @@ data/animations/SYW_drummer/SG~03~march.cas                                     
  2  0  0  0  6  0 10  0 unit_march                0  1  0 
  2  0  0  0 16  0 20  0 unit_march                0  1  0    
 data/animations/SYW_drummer/SG~38~march~2~stand.cas                                          0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  2   
+  3
+ 2  0  0  0  1  0  2  0 drum_halt	 			  0  1  0  
  2  0  0  0  6  0  8  0 unit_march                0  1  0 
  2  0  0  0 12  0 14  0 unit_march                0  1  0    0 0 0 
 data/animations/LID_35~Stand~2~Run.cas                                            0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
@@ -84,14 +86,16 @@ data/animations/LID_04~Run~Loop.cas                                             
  2  0  0  0  5  0  6  0 unit_run                  0  1  0 
  2  0  0  0 10  0 11  0 unit_run                  0  1  0    
 data/animations/LID_39~Run~2~Stand.cas                                            0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  5   
+  6
+ 2  0  0  0  1  0  2  0 drum_halt	 			  0  1  0  
  2  0  0  0  6  0  8  0 unit_run                  0  1  0 
  2  0  0  0 14  0 16  0 unit_run                  0  1  0 
  2  0  0  0 22  0 24  0 unit_run                  0  1  0 
  2  0  0  0 28  0 32  0 unit_march                0  1  0 
  2  0  0  0 34  0 38  0 unit_march                0  1  0    
 data/animations/LID_40~Run~2~march.cas                                            0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  3   
+  4
+ 2  0  0  0  1  0  2  0 drum_advance 			  0  1  0   
  2  0  0  0  6  0  8  0 unit_run                  0  1  0 
  2  0  0  0 14  0 16  0 unit_run                  0  1  0 
  2  0  0  0 24  0 28  0 unit_march                0  1  0    
@@ -106,11 +110,13 @@ data/animations/SYW_drummer/SG~51~stand~ready~2~stand~idle.cas                  
 data/animations/SYW_drummer/SG~02~stand~ready.cas                                        0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
   0   0 0 0 0 0 0 0 0 0 0 0 0    
 data/animations/SYW_drummer/SG~10~Standing~raedy~turn~right~90.cas                              0  16384        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  2   
+  3
+ 2  0  0  0  1  0  2  0 drum_rface	 			  0  1  0   
  2  0  0  0  6  0  7  0 unit_march                0  1  0 
  2  0  0  0  8  0  9  0 unit_march                0  1  0    
 data/animations/SYW_drummer/SG~11~Standing~raedy~turn~Left~90.cas                               0  49152        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  2   
+  3 
+ 2  0  0  0  1  0  2  0 drum_lface	 			  0  1  0     
  2  0  0  0  6  0  7  0 unit_march                0  1  0 
  2  0  0  0  8  0  9  0 unit_march                0  1  0    
 data/animations/SYW_drummer/SG~35~stand~2~stand~ready.cas                                 0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
@@ -271,11 +277,13 @@ data/animations/LID_21_Charge~Jump~attack.cas                                   
  2  0  0  0 20  0 20  0 unit_run                  0  0  0 
  2  0  0  0 21  0 21  0 unit_run                  0  0  0    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 data/animations/LID~82~stand~to~hide.cas                                          0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  0      
+  1  
+ 2  0  0  0  1  0  2  0 drum_hide	 			  0  1  0    
 data/animations/LID~83~hide.cas                                                   0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
   0      
 data/animations/LID~84~hide~to~stand.cas                                          0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  0      
+  1  
+ 2  0  0  0  1  0  2  0 drum_rise	 			  0  1  0      
 data/animations/LID_32~Stand~ready~back~impact.cas                                0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
   2   
  4  0  0  0  2  0  2  0 INDIVIDUAL_GRUNT          0  0  0 
@@ -455,7 +463,8 @@ data/animations/LID_94_signal1.CAS                                              
 data/animations/LID_97_signal4.CAS                                                0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
   0      
 data/animations/LID_95_signal2.CAS                                                0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
-  0      
+  1  
+ 2  0  0  0  1  0  2  0 drum_rally	 			  0  1  0      
 data/animations/LID_96_signal3.CAS                                                0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
   0   0 0 0 0    
 data/animations/carry_and_artillery/ballista_crew_left_fire_idle.CAS              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 

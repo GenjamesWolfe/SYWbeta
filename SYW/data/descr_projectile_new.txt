@@ -1,7 +1,7 @@
 ;
 ;	projectile descriptions text file
 ;   _old accuracies (standards): 0.4, 0.213
-;***********************regular rounds***************************
+;***********************generic rounds***************************
 
 projectile poor_musket					
 
@@ -17,6 +17,25 @@ affected_by_rain
 min_angle		-60 
 max_angle		45 
 velocity		350
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+
+projectile pistol				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.18
+accuracy_vs_units	0.08
+affected_by_rain
+min_angle		-60 
+max_angle		80 
+velocity		320
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only
