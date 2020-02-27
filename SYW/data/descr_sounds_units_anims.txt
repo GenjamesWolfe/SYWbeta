@@ -164,6 +164,7 @@ end
 event ANIM_MUSKET_READY priority 40 mindist 1 rndvolume -10 randomdelay .05
 folder data/sounds/SFX/Individual/Missiles/musket/Musket_Aim
 cock_musket_01b
+cock_musket_02b
 end
 
 event ANIM_MUSKET_AIM priority 40 mindist 1 rndvolume -10 randomdelay .25
