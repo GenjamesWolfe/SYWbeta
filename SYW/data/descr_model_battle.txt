@@ -1299,7 +1299,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type				horse_hanovarian_dragoon
-skeleton			fs_medium_horse
+skeleton			SYW_warhorse
 scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/horse_hanoverian_dragoon.tga
@@ -1312,10 +1312,23 @@ model_tri			700, 0.3f, 0.3f, 0.3f
 
 
 type				horse_hanovarian_horse
-skeleton			NTW_heavy_cavalry_horse
-scale				0.825
+skeleton			SYW_warhorse
+scale				1
 indiv_range			80
 texture				britons, SYW/data/models_unit/textures/horse_hanoverian_horse.tga
+model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 15
+model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 30
+model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 60
+model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, max
+model_sprite		britons, 100.0, data/sprites/greek_cities_horse_heavy_sprite.spr
+model_tri			700, 0.3f, 0.3f, 0.3f
+
+
+type				horse_hanovarian_garde
+skeleton			SYW_warhorse
+scale				1
+indiv_range			80
+texture				britons, SYW/data/models_unit/textures/horse_hanoverian_garde.tga
 model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 15
 model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 30
 model_flexi			SYW/data/models_unit/horse_hanovarian_horse.cas, 60
