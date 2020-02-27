@@ -3166,7 +3166,7 @@ dictionary       british_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_militia, 37, 0, 0.68, 0.20, 1.4
+soldier          british_militia, 11, 0, 0.68, 0.20, 1.4
 officer          british_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
@@ -3270,7 +3270,7 @@ dictionary       british_line
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line, 37, 0, 0.68, 0.20, 1.4
+soldier          british_line, 34, 0, 0.68, 0.20, 1.4
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3298,7 +3298,7 @@ dictionary       british_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_fusilier, 37, 0, 0.68, 0.20, 1.4
+soldier          british_fusilier, 34, 0, 0.68, 0.20, 1.4
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3326,7 +3326,7 @@ dictionary       british_marines
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line_2, 37, 0, 0.68, 0.20, 1.4
+soldier          british_line_2, 11, 0, 0.68, 0.20, 1.4
 officer          british_officer
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
@@ -3381,7 +3381,7 @@ dictionary       british_highlander
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_highlander, 37, 0, 0.78, 0.20, 1.4
+soldier          british_highlander, 34, 0, 0.78, 0.20, 1.4
 officer          british_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, power_charge
 formation        0.63, 0.75, 0.63, 0.75, 3, square
@@ -3901,7 +3901,7 @@ category         cavalry
 class            heavy
 voice_type       Heavy_1
 soldier          hanovarian_garde, 6, 0, 1
-mount            heavy horse
+mount            horse hanovarian garde
 attributes       hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      3, 0
