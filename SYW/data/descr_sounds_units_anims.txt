@@ -383,37 +383,37 @@ end
 
 event DRUM_ADVANCE priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-forward
+drum_forward_01
 end
 
 event DRUM_HALT priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-halt
+drum_halt_01
 end
 
 event DRUM_RFACE priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-right_face
+right_face_01
 end
 
 event DRUM_LFACE priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-left_face
+left_face_01
 end
 
 event DRUM_HIDE priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-lay_down
+drum_lay_down_01
 end
 
 event DRUM_RISE priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-rise_up
+drum_rise_up_01
 end
 
 event DRUM_RALLY priority 110 mindist 1 rndvolume 50 randomdelay .25
 folder data/sounds/SFX/individual/drums
-rally
+drum_rally_01
 end
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
