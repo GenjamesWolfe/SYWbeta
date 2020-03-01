@@ -1664,6 +1664,30 @@ model_flexi             SYW/data/models_unit/hanovarian_horse.cas, max
 model_sprite         britons, 60.0, SYW/data/sprites/britons_hanovarian_horse_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
+
+type           hanoverian_art_crew
+skeleton             fs_dagger
+indiv_range       40
+texture           britons, SYW/data/models_unit/textures/hanover/hanovarian_artillery.tga
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, 8
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, 15
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, 30
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, max
+model_sprite         britons, 60.0, SYW/data/sprites/britons_british_art_crew_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
+type           hanoverian_6p_crew
+skeleton             ntw_6pounder
+indiv_range       40
+texture           britons, SYW/data/models_unit/textures/hanover/hanovarian_artillery.tga
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, 8
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, 15
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, 30
+model_flexi             SYW/data/models_unit/hanoverian_artillery.cas, max
+model_sprite         britons, 60.0, SYW/data/sprites/britons_british_art_crew_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
 ;**********************************Russia********************************************
 
 type           russian_general
