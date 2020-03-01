@@ -3921,6 +3921,32 @@ stat_cost        6, 7700, 550, 20, 30, 7700
 ownership        britons
 
 
+type             hanoverian 3pounder
+dictionary       hanoverian_3pounder
+category         siege
+class            missile
+voice_type       General_1
+soldier          hanoverian_6p_crew, 10, 2, 0.68
+engine           british_6pounder
+attributes       sea_faring
+formation        1.5, 1.5, 3, 3, 2, square
+stat_health      1, 0
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri_attr    no
+stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
+stat_sec_attr    ap, bp
+stat_pri_armour  2, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      2, normal, untrained
+stat_charge_dist 20
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        0, 830, 120, 500, 500, 650
+ownership        britons
+
+
 ;***************************************Russland***************************************
 
 type             Russian pandurs
