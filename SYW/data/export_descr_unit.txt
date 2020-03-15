@@ -358,7 +358,7 @@ class            missile
 voice_type       General_1
 soldier          austrian_line, 30, 0, 0.68, 0.20, 1.4
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
 stat_pri         23, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
 stat_pri_attr    no

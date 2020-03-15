@@ -11,7 +11,7 @@ effect_offset	-1.7
 damage			0
 damage_to_troops 	2
 radius			0.009 
-mass		    0.18
+mass		    0.15
 accuracy_vs_units	0.3
 affected_by_rain
 min_angle		-60 
@@ -30,7 +30,7 @@ effect_offset	-1.7
 damage			0
 damage_to_troops 	1
 radius			0.009 
-mass		    0.18
+mass		    0.15
 accuracy_vs_units	0.08
 affected_by_rain
 min_angle		-60 
@@ -227,7 +227,7 @@ effect_offset	-1.7
 damage			0
 damage_to_troops 	2
 radius			0.009 
-mass		    0.18
+mass		    0.15
 accuracy_vs_units	0.18
 affected_by_rain
 min_angle		-60 
@@ -246,7 +246,7 @@ effect_offset	-1.7
 damage			0
 damage_to_troops 	2
 radius			0.009 
-mass		    0.18 ; 0.14
+mass		    0.15 ; 0.14
 accuracy_vs_units	0.13; 0.37
 affected_by_rain
 min_angle		-60 
@@ -265,7 +265,7 @@ effect_offset	-1.7
 damage			0
 damage_to_troops 	2
 radius			0.009 
-mass		    0.18
+mass		    0.15
 accuracy_vs_units	0.1; 0.16
 affected_by_rain
 min_angle		-60 

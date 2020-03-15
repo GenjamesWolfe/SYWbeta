@@ -2015,3 +2015,76 @@ data/animations/SYW_light_inf/LIS_swim_shuffle_backward.CAS
 data/animations/SYW_light_inf/LIS_swim_shuffle_left.CAS
 data/animations/SYW_light_inf/LIS_swim_shuffle_right.CAS
 data/animations/SYW_light_inf/LIS_swim_attack.CAS
+data/animations/SYW_musketeer/LID_01_Standing idle new actor.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 01.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 02.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 03.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 04.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 05.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 06.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 07.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 08.cas
+data/animations/SYW_musketeer/LID_01_Incidental_idle 09.cas
+data/animations/SYW_musketeer/LID_08_Stand 2 90 right.cas
+data/animations/SYW_musketeer/LID_09_Stand 2 90 left.cas
+data/animations/SYW_musketeer/LID_34 stand 2 March 60.cas
+data/animations/SYW_musketeer/LID_03 March loop 60.cas
+data/animations/SYW_musketeer/LID_36 March 2 stand 60.cas
+data/animations/SYW_musketeer/LID_35 Stand 2 Run.cas
+data/animations/SYW_musketeer/LID_04 Run Loop.cas
+data/animations/SYW_musketeer/LID_39 Run 2 Stand.cas
+data/animations/SYW_musketeer/LID_40 Run 2 march.cas
+data/animations/SYW_musketeer/LID_38 March 2 Run.cas
+data/animations/SYW_musketeer/LID_48_Standing ready 2 STAND.cas
+data/animations/SYW_musketeer/LID_02_Standing Ready.cas
+data/animations/SYW_musketeer/LIS 10 stand ready turn 90 right.cas
+data/animations/SYW_musketeer/LIS 11 stand ready turn 90 left.cas
+data/animations/SYW_musketeer/LID_33_STAND 2 Standing ready.cas
+data/animations/SYW_musketeer/LID_50_Stand Ready 2 Adance.cas
+data/animations/SYW_musketeer/LID_07_Adance.cas
+data/animations/SYW_musketeer/LID_45_Advance 2 Stand Ready.cas
+data/animations/SYW_musketeer/LID_49 Stand ready 2 Retreat.cas
+data/animations/SYW_musketeer/LID_06_Retreat.cas
+data/animations/SYW_musketeer/LID_44_Retreat 2 Stand Ready.cas
+data/animations/SYW_musketeer/LID_25_Shuffle forward.cas
+data/animations/SYW_musketeer/LID_26_Shuffle back.cas
+data/animations/SYW_musketeer/LID_27_Shuffle left.cas
+data/animations/SYW_musketeer/LID_28_Shuffle Right.cas
+data/animations/SYW_musketeer/LID_61 Archer stand ready to aim FASTER Austria.cas
+data/animations/SYW_musketeer/LID_62 Archer aim and hold looping Austria.cas
+data/animations/SYW_musketeer/LID_63 release arrow return to stand ready Austria.cas
+data/animations/SYW_musketeer/Flailing Cycle.cas
+data/animations/SYW_musketeer/Flailing Cycle to land.cas
+data/animations/SYW_musketeer/man_trampled_down_roll_from_front.CAS
+data/animations/SYW_musketeer/LID_41 Run 2 charge.cas
+data/animations/SYW_musketeer/LIS 99 stand to hide.cas
+data/animations/SYW_musketeer/LIS 100 hide.cas
+data/animations/SYW_musketeer/LIS 101 hide to stand.cas
+data/animations/SYW_musketeer/Ladder_02 Climb down.cas
+data/animations/SYW_musketeer/Ladder_03 Idle still.cas
+data/animations/SYW_musketeer/Ladder_01 Climb up.cas
+data/animations/SYW_musketeer/LID_53 Stand idle  to climb ladder.cas
+data/animations/SYW_musketeer/LIS_102 Battlement 2 climb ladder leftside.cas
+data/animations/SYW_musketeer/LID_54 Climb off ladder onto left bat left 2 standready.cas
+data/animations/SYW_musketeer/LID_56_Climb down ladder 2 Stand ready.cas
+data/animations/SYW_musketeer/carry_and_artillery/Art_17 Stand 2 Push heavy object.cas
+data/animations/SYW_musketeer/carry_and_artillery/Art_18 Push heavy object loop.cas
+data/animations/SYW_musketeer/carry_and_artillery/Art_19 Push heavy object 2 STAND.cas
+data/animations/SYW_musketeer/LIS 01 Front step.cas
+data/animations/SYW_musketeer/LIS 01 Back step.cas
+data/animations/SYW_musketeer/LIS 01 Left step.cas
+data/animations/SYW_musketeer/LIS 01 Right step.cas
+data/animations/SYW_musketeer/LIS_113_knockdown_launch.CAS
+data/animations/SYW_musketeer/LIS_116_knockdown.CAS
+data/animations/SYW_musketeer/LIS_114_knockdown_idle.CAS
+data/animations/SYW_musketeer/LIS_115_knockdown_idle_2_Stand_ready.CAS
+data/animations/SYW_musketeer/LIS 74_06 celeb2.cas
+data/animations/SYW_musketeer/LID_swim_STAND2SWIM.CAS
+data/animations/SYW_musketeer/LID_swim_SWIM2STAND.CAS
+data/animations/SYW_musketeer/LIS_swim_treadwater.CAS
+data/animations/SYW_musketeer/LIS_swim.cas
+data/animations/SYW_musketeer/LIS_swim_shuffle_forward.CAS
+data/animations/SYW_musketeer/LIS_swim_shuffle_backward.CAS
+data/animations/SYW_musketeer/LIS_swim_shuffle_left.CAS
+data/animations/SYW_musketeer/LIS_swim_shuffle_right.CAS
+data/animations/SYW_musketeer/LIS_swim_attack.CAS
