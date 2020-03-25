@@ -70,7 +70,7 @@ effect musket_flame
 
             sprite_origin		0.0, 0.0	;relative position to the projectile on spawning
 			sprite_size			0.3, 0.4	;size when effect spawns
-			size_range      	0.4, 0.5	;size at greatest extent
+			size_range      	0.2, 0.3	;size at greatest extent
             age_range           0.1, 0.15	;moment when we reach size_range and max_alpha
             grow_range        0.1, 0.3		;this is multiplied by the size range for final size.
             vel_range			0, 0		;vertical velocity range
@@ -112,7 +112,7 @@ effect musket_fog
 			die_size				8, 10	;size when the effect fades
             colour             210, 210, 243	;only works for grayscale textures.
             alpha_max           130            ; maximum alpha value
-			acceleration			0, 0, -0.01 ;this is added to the velocity, as needed.
+			acceleration			0, 0, -0.04 ;this is added to the velocity, as needed.
 			offset				0, -1.2, -3.0 (lateral, vertical, and horizontal displacement)
 			max_particles		8 ;name says it all, though don't expect the engine to put them in the exact spot
 			max_distance		1 ; that essentially acts (poorly) as a spoiler, to spacce the particles apart (after density is factored in)
@@ -125,10 +125,12 @@ effect musket_fog
 				emitter_falloff_bias	0.01			; best I can tell, a bias of ~1 spreads the effect out more.
             }
             
-			fade_time		60
+			fade_time		30, 80
 			spin_rate		0, 0.05
+			clr_adjust_by_ambient_intensity
     }
 }
+			
 		
 
 ; *** This effect will surround the musketeers with lingering smoke.
