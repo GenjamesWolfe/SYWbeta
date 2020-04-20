@@ -80,3 +80,4 @@ cav_sabre
 fast_horse
 SYW_pallasch
 SYW_light_inf
+SYW_bayonet

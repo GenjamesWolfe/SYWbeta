@@ -575,7 +575,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           austrian_line
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet ;SYW_austrian_musketeer
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_fusilier.tga
 texture           merc, SYW/data/models_unit/textures/austria_hungary/Austrian_wurzburg_circle_fusilier.tga
@@ -589,15 +589,14 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           wurzburg_line
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_wurzburg_circle_fusilier.tga
-model_flexi             SYW/data/models_unit/austrian_wurzburg_fusilier.cas, 8
-model_flexi             SYW/data/models_unit/austrian_wurzburg_fusilier.cas, 15
-model_flexi             SYW/data/models_unit/austrian_wurzburg_fusilier.cas, 30
-model_flexi             SYW/data/models_unit/austrian_wurzburg_fusilier.cas, max
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, 8
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, 15
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, 30
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, max
 model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_line_sprite.spr
-model_sprite         merc, 60.0, SYW/data/sprites/austrian_line_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
 
@@ -850,7 +849,7 @@ skeleton             SYW_prussian_musketeer, prussian_bayonet
 indiv_range       40
 texture           germans, SYW/data/models_unit/textures/prussia/prussian_foot.tga
 texture           slave, SYW/data/models_unit/textures/darmstadt/darmstadt_line.tga
-texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_munster_reichsarmee_line.tga
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/darmstadt_line.tga
 texture           merc, SYW/data/models_unit/textures/prussia/saxon_incorporated_regiment.tga
 texture           gauls, SYW/data/models_unit/textures/kassel/Hesse_kassel_foot.tga
 model_flexi             SYW/data/models_unit/test_dummy.cas, 8
@@ -886,6 +885,7 @@ skeleton             SYW_prussian_musketeer, prussian_bayonet
 indiv_range       40
 texture           germans, SYW/data/models_unit/textures/prussia/prussian_grenadiers.tga
 texture           slave, SYW/data/models_unit/textures/darmstadt/darmstadt_grenadier.tga
+texture           romans_senate, SYW/data/models_unit/textures/darmstadt/darmstadt_grenadier.tga
 model_flexi             SYW/data/models_unit/prussian_grenadier.cas, 8
 model_flexi             SYW/data/models_unit/prussian_grenadier.cas, 15
 model_flexi             SYW/data/models_unit/prussian_grenadier.cas, 30

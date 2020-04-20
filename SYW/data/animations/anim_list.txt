@@ -2088,3 +2088,37 @@ data/animations/SYW_musketeer/LIS_swim_shuffle_backward.CAS
 data/animations/SYW_musketeer/LIS_swim_shuffle_left.CAS
 data/animations/SYW_musketeer/LIS_swim_shuffle_right.CAS
 data/animations/SYW_musketeer/LIS_swim_attack.CAS
+data/animations/SYW_bayonet/BJNT lowheight 1.cas
+data/animations/SYW_bayonet/BJNT midcenter 1.cas
+data/animations/SYW_bayonet/BJNT midcenter 2.cas
+data/animations/SYW_bayonet/BJNT midhigh 1.cas
+data/animations/SYW_bayonet/BJNT midhigh 2.cas
+data/animations/SYW_bayonet/SG 32 shuffle backward.cas
+data/animations/SYW_bayonet/SG 31 shuffle forward.cas
+data/animations/SYW_bayonet/SG 01 stand idle.cas
+data/animations/SYW_bayonet/SG 02 stand ready.cas
+data/animations/SYW_bayonet/SG 35 stand 2 stand ready.cas
+data/animations/SYW_bayonet/SG 51 stand ready 2 stand idle.cas
+data/animations/SYW_bayonet/SPM_100_guard_high.cas
+data/animations/SYW_bayonet/SPM_101_guard_low.cas
+data/animations/SYW_bayonet/SPM_102_dodge_high.cas
+data/animations/SYW_bayonet/SPM_104_feint_high.cas
+data/animations/SYW_bayonet/SPM_105_feint_low.cas
+data/animations/SYW_bayonet/LIS 01 Front step.cas
+data/animations/SYW_bayonet/LIS 01 Back step.cas
+data/animations/SYW_bayonet/SG 33 shuffle left.cas
+data/animations/SYW_bayonet/SG 34 shuffle right.cas
+data/animations/SYW_bayonet/SG 03 march.cas
+data/animations/SYW_bayonet/SG 36 stand 2 march.cas
+data/animations/SYW_bayonet/SG 38 march 2 stand.cas
+data/animations/SYW_bayonet/SG 37 stand 2 run.cas
+data/animations/SYW_bayonet/SG 04 run.cas
+data/animations/SYW_bayonet/SG 42 run 2 stand.cas
+data/animations/SYW_bayonet/SG 41 march 2 run.cas
+data/animations/SYW_bayonet/SG 43 run 2 march.cas
+data/animations/SYW_bayonet/SG 11 Standing raedy turn Left 90.cas
+data/animations/SYW_bayonet/SG 10 Standing raedy turn right 90.cas
+data/animations/SYW_bayonet/SG 44 run 2 charge.cas
+data/animations/SYW_bayonet/SG 05 charge.cas
+data/animations/SYW_bayonet/SG 54 stand ready 2 charge.cas
+data/animations/SYW_bayonet/SG 31 shuffle forward.cas
