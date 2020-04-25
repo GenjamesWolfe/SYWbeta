@@ -547,7 +547,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           austrian_grenadier
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_german_grenadier.tga
 texture           romans_julii, SYW/data/models_unit/textures/bavaria/Bavarian_grenadier.tga
@@ -575,7 +575,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           austrian_line
-skeleton             SYW_austrian_musketeer, SYW_bayonet ;SYW_austrian_musketeer
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_fusilier.tga
 texture           merc, SYW/data/models_unit/textures/austria_hungary/Austrian_wurzburg_circle_fusilier.tga
