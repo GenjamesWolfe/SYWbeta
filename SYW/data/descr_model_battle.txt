@@ -587,6 +587,18 @@ model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austria
 model_sprite         merc, 60.0, SYW/data/sprites/austrian_line_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
+type           netherlands_line
+skeleton             SYW_austrian_musketeer, SYW_bayonet
+indiv_range       40
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/netherlands_fusilier.tga
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, 8
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, 15
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, 30
+model_flexi             SYW/data/models_unit/Austrian_fusilier.cas, max
+model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_line_sprite.spr
+model_sprite         merc, 60.0, SYW/data/sprites/austrian_line_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
 
 type           wurzburg_line
 skeleton             SYW_austrian_musketeer, SYW_bayonet
@@ -3362,7 +3374,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 ;*******************************************Bavaria**************************************************
 
 type           bavarian_fusilier
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_julii, SYW/data/models_unit/textures/bavaria/Bavarian_fusilier.tga
 texture           romans_senate, SYW/data/models_unit/textures/bavaria/Bavarian_fusilier_reichsarmee.tga
@@ -3374,8 +3386,20 @@ model_sprite         parthia, 60.0, SYW/data/sprites/parthia_portuguese_line_spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
 
+type           bavarian_grenadier
+skeleton             SYW_austrian_musketeer, SYW_bayonet
+indiv_range       40
+texture           romans_julii, SYW/data/models_unit/textures/bavaria/Bavarian_grenadier.tga
+model_flexi             SYW/data/models_unit/bavarian_grenadier.cas, 8
+model_flexi             SYW/data/models_unit/bavarian_grenadier.cas, 15
+model_flexi             SYW/data/models_unit/bavarian_grenadier.cas, 30
+model_flexi             SYW/data/models_unit/bavarian_grenadier.cas, max
+model_sprite         parthia, 60.0, SYW/data/sprites/parthia_portuguese_line_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
 type           bavarian_leib
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_julii, SYW/data/models_unit/textures/bavaria/Bavarian_leib_regiment.tga
 model_flexi             SYW/data/models_unit/bavarian_fusilier.cas, 8

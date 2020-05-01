@@ -376,6 +376,31 @@ stat_cost        6, 4000, 360, 20, 30, 4000
 ownership        romans_senate
 
 
+type             netherlander fusiliers
+dictionary       netherlander_fusiliers
+category         infantry
+class            missile
+voice_type       General_1
+soldier          netherlands_line, 30, 0, 0.68, 0.20, 1.7
+attributes       sea_faring, hide_forest, can_sap
+formation        0.63, 1.8, 0.63, 0.75, 4, square
+stat_health      1, 0
+stat_pri         23, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
+stat_pri_attr    no
+stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec_attr    no
+stat_pri_armour  2, 7, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      2, 0, 0, 0
+stat_mental      2, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 4000, 360, 20, 30, 4000
+ownership        romans_senate
+
+
 type             Hungarian fusiliers
 dictionary       Hungarian_fusiliers
 category         infantry
@@ -510,7 +535,7 @@ soldier          austrian_dragoon, 16, 0, 1
 mount            austrian dragoon horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.11
 stat_pri_attr    no
 stat_sec         no
@@ -536,7 +561,7 @@ soldier          hungarian_hussar, 27, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -562,7 +587,7 @@ soldier          austrian_cuirassier, 16, 0, 1
 mount            austrian horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.11
 stat_pri_attr    no
 stat_sec         no
@@ -588,7 +613,7 @@ soldier          austrian_carabinier, 7, 0, 1
 mount            austrian horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1011,7 +1036,7 @@ soldier          prussian_hussar, 28, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 3.0, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -1037,7 +1062,7 @@ soldier          prussian_dragoon, 25, 0, 1
 mount            prussian horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1063,7 +1088,7 @@ soldier          prussian_cuirassier, 25, 0, 1
 mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1089,7 +1114,7 @@ soldier          prussian_cuirassier, 10, 0, 1
 mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         11, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1115,7 +1140,7 @@ soldier          prussian_ADC, 6, 0, 1
 mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
@@ -1346,7 +1371,7 @@ soldier          austrian_dragoon, 6, 0, 1
 mount            medium horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1372,7 +1397,7 @@ soldier          darmstadt_leibgarde_zu_pferd, 6, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1501,7 +1526,7 @@ soldier          brunswick_hussar, 9, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, hardy, frighten_mounted
 formation        1.0, 3.0, 1.2, 3.0, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -1527,7 +1552,7 @@ soldier          prussian_dragoon, 6, 0, 1
 mount            brunswick horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1553,7 +1578,7 @@ soldier          prussian_cuirassier, 6, 0, 1
 mount            brunswick horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1579,7 +1604,7 @@ soldier          brunswick_horse, 6, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1684,7 +1709,7 @@ soldier          wurttemberg_dragoon, 23, 0, 1
 mount            british horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1710,7 +1735,7 @@ soldier          wurttemberg_cuirassier, 16, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1736,7 +1761,7 @@ soldier          wurttemberg_hussar, 8, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, very_hardy, frighten_mounted
 formation        1.0, 3.0, 1.2, 3.0, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -1890,7 +1915,7 @@ soldier          hungarian_hussar, 6, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, very_hardy, frighten_mounted
 formation        1.0, 3.0, 1.2, 3.0, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -1916,7 +1941,7 @@ soldier          prussian_dragoon, 23, 0, 1
 mount            british horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -1942,7 +1967,7 @@ soldier          hessian_cuirassier, 23, 0, 1
 mount            british horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 3.0, 1.0, 3.0, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -2421,7 +2446,7 @@ soldier          french_hussar, 23, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, very_hardy, frighten_mounted
 formation        0.9, 4.5, 1.8, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -2447,7 +2472,7 @@ soldier          french_dragoon, 24, 0, 1
 mount            french dragoon horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -2473,7 +2498,7 @@ soldier          french_cuirassier, 24, 0, 1
 mount            french cuirassier horse
 attributes       sea_faring, hide_forest, frighten_foot
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -2499,7 +2524,7 @@ soldier          gendarme, 17, 0, 1
 mount            french gendarme horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -2525,7 +2550,7 @@ soldier          garde, 17, 0, 1
 mount            french garde horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted, can_run_amok
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -2551,7 +2576,7 @@ soldier          french_courier, 6, 0, 1
 mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         10, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
@@ -2934,7 +2959,7 @@ soldier          spanish_dragoon, 20, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -2960,7 +2985,7 @@ soldier          spanish_cavalry, 20, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -2986,7 +3011,7 @@ soldier          spanish_carabinero, 10, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3012,7 +3037,7 @@ soldier          spanish_household_cav, 10, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3277,7 +3302,7 @@ officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         10, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 0.15
 stat_pri_attr    no
 stat_sec         10, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
 stat_sec_attr    no
@@ -3466,7 +3491,7 @@ soldier          british_light_dragoon, 24, 0, 1
 mount            british horse 4
 attributes       sea_faring, hide_forest, frighten_mounted, hardy
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3492,7 +3517,7 @@ soldier          british_dragoon, 24, 0, 1
 mount            horse dragoon
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3518,7 +3543,7 @@ soldier          british_horse, 24, 0, 1
 mount            british horse 1
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3544,7 +3569,7 @@ soldier          british_horse, 10, 0, 1
 mount            british horse 2
 attributes       sea_faring, hide_forest, frighten_foot, mercenary_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         11, 12, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3570,7 +3595,7 @@ soldier          british_life_guard, 6, 0, 1
 mount            british horse 3
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         11, 12, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -3596,7 +3621,7 @@ soldier          british_adc, 6, 0, 1
 mount            british horse 3
 attributes       sea_faring, hide_forest, can_sap, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
@@ -3826,7 +3851,7 @@ soldier          hanovarian_hussar, 13, 0, 1
 mount            hussar horse
 attributes       hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -3852,7 +3877,7 @@ soldier          hanovarian_dragoon, 23, 0, 1
 mount            horse hanovarian dragoon
 attributes       hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    prec
 stat_sec         8, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
@@ -3878,7 +3903,7 @@ soldier          hanovarian_horse, 20, 0, 1
 mount            horse hanovarian horse
 attributes       hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    prec
 stat_sec         8, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
@@ -3904,7 +3929,7 @@ soldier          hanovarian_garde, 6, 0, 1
 mount            horse hanovarian garde
 attributes       hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    prec
 stat_sec         11, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
@@ -4058,7 +4083,7 @@ soldier          cossack, 27, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        0.9, 3.7, 1.8, 3.7, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 2, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_pri_attr    no
 stat_sec         5, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -4084,7 +4109,7 @@ soldier          russian_hussar, 25, 0, 1
 mount            hussar horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4110,7 +4135,7 @@ soldier          russian_dragoon, 27, 0, 1
 mount            russian horse 2
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4136,7 +4161,7 @@ soldier          russian_horse_grenadier, 23, 0, 1
 mount            russian horse 3
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4162,7 +4187,7 @@ soldier          russian_cuirassier, 22, 0, 1
 mount            russian horse 1
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4188,7 +4213,7 @@ soldier          russian_cuirassier, 22, 0, 1
 mount            russian horse 1
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4366,7 +4391,7 @@ soldier          tatar, 15, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, can_sap, frighten_mounted, cantabrian_circle
 formation        1.0, 3.0, 3.7, 3.0, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 0, sahm, 90, 100, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         6, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
@@ -4467,7 +4492,7 @@ soldier          deli, 25, 0, 1
 mount            medium horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_mounted
 formation        0.9, 3.7, 1.8, 3.7, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
 stat_pri_attr    no
 stat_sec         6, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -4494,7 +4519,7 @@ soldier          sipahi, 13, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
 stat_pri_attr    no
 stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -4520,7 +4545,7 @@ soldier          mamluk, 13, 0, 1
 mount            medium horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
 stat_pri_attr    no
 stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -4546,7 +4571,7 @@ soldier          kapikulu, 13, 0, 1
 mount            medium horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
 stat_pri_attr    no
 stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -4725,7 +4750,7 @@ soldier          swedish_hussar, 20, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -4751,7 +4776,7 @@ soldier          swedish_dragoon, 23, 0, 1
 mount            swedish horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4777,7 +4802,7 @@ soldier          swedish_cuirassier, 23, 0, 1
 mount            swedish horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4803,7 +4828,7 @@ soldier          swedish_cuirassier, 13, 0, 1
 mount            swedish horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -4957,7 +4982,7 @@ soldier          danish_hussar, 15, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -4984,7 +5009,7 @@ soldier          danish_dragoon, 30, 0, 1
 mount            danish dragoon horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
 stat_pri_attr    no
 stat_sec         no
@@ -5010,7 +5035,7 @@ soldier          danish_cuirassier, 23, 0, 1
 mount            danish horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
 stat_pri_attr    no
 stat_sec         no
@@ -5036,7 +5061,7 @@ soldier          danish_cuirassier, 6, 0, 1
 mount            danish horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
 stat_pri_attr    no
 stat_sec         no
@@ -5165,7 +5190,7 @@ soldier          austrian_dragoon, 16, 0, 1
 mount            austrian dragoon horse
 attributes       sea_faring, hide_forest, can_sap, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5191,7 +5216,7 @@ soldier          portuguese_horse, 24, 0, 1
 mount            french cuirassier horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5318,7 +5343,7 @@ soldier          polish_ulan, 25, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 19, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_pri_attr    no
 stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -5344,7 +5369,7 @@ soldier          polish_hussar, 10, 0, 1
 mount            polish hussar horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, can_formed_charge, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         13, 28, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_pri_attr    no
 stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -5497,7 +5522,7 @@ soldier          dutch_dragoon, 30, 0, 1
 mount            british horse 2
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5523,7 +5548,7 @@ soldier          dutch_horse, 30, 0, 1
 mount            british horse 1
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5549,7 +5574,7 @@ soldier          dutch_horseguard, 30, 0, 1
 mount            british horse 1
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5703,7 +5728,7 @@ soldier          saxon_uhlan, 25, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 19, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_pri_attr    no
 stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -5729,7 +5754,7 @@ soldier          saxon_dragoon, 19, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5755,7 +5780,7 @@ soldier          saxon_cuirassier, 15, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5781,7 +5806,7 @@ soldier          saxon_carabinier, 8, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -5807,7 +5832,7 @@ soldier          saxon_cuirassier, 8, 0, 1
 mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
 stat_pri_attr    no
 stat_sec         no
@@ -5856,7 +5881,7 @@ dictionary       bavarian_grenadiers
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          austrian_grenadier, 10, 0, 0.78, 0.2, 1.7
+soldier          bavarian_grenadier, 10, 0, 0.78, 0.2, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -5910,7 +5935,7 @@ soldier          bavarian_dragoon, 18, 0, 1
 mount            bavarian dhorse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -5936,7 +5961,7 @@ soldier          bavarian_cuirassier, 18, 0, 1
 mount            bavarian horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_pri_attr    no
 stat_sec         no
@@ -6166,7 +6191,7 @@ soldier          mughal_cavalry, 25, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 0, sahm, 50, 10, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    prec
 stat_sec         5, 15, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -6192,7 +6217,7 @@ soldier          jav_cavalry, 25, 0, 1
 mount            CA horse
 attributes       sea_faring, hide_forest, cantabrian_circle, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         7, 0, javelin, 50, 4, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         5, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -6218,7 +6243,7 @@ soldier          mughal_light_cavalry, 25, 0, 1
 mount            CA horse
 attributes       sea_faring, hide_forest, cantabrian_circle, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         3, 0, sahm, 90, 50, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         5, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -6244,7 +6269,7 @@ soldier          afghan_heavy_cavalry, 37, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
 stat_sec         5, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -6270,7 +6295,7 @@ soldier          afghan_cavalry, 25, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         5, 7, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
@@ -6296,7 +6321,7 @@ soldier          mughal_heavy_cavalry, 13, 0, 1
 mount            mughul sphorse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
 stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
@@ -6322,7 +6347,7 @@ soldier          ahadi, 6, 0, 1
 mount            mughul sphorse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
-stat_health      3, 0
+stat_health      1, 0
 stat_pri         4, 0, sahm, 70, 10, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         8, 15, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
