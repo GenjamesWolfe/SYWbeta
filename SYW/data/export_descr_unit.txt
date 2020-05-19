@@ -331,12 +331,12 @@ dictionary       Austrian_grenzers
 category         infantry
 class            light
 voice_type       General_1
-soldier          austrian_grenzer, 16, 0, 0.68, 0.20, 1.7
+soldier          austrian_grenzer, 16, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.6, 0.75, 2.5, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -356,12 +356,12 @@ dictionary       Austrian_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          austrian_line, 30, 0, 0.68, 0.20, 1.7
+soldier          austrian_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         23, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
-stat_pri_attr    no
+stat_pri         3, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -381,12 +381,12 @@ dictionary       netherlander_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          netherlands_line, 30, 0, 0.68, 0.20, 1.7
+soldier          netherlands_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         23, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
-stat_pri_attr    no
+stat_pri         3, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -406,12 +406,12 @@ dictionary       Hungarian_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hungarian_line, 30, 0, 0.68, 0.20, 1.7
+soldier          hungarian_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         23, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -431,12 +431,12 @@ dictionary       Austrian_grenadiers
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          austrian_grenadier, 36, 0, 0.78, 0.20, 1.7
+soldier          austrian_grenadier, 36, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  3, 9, 0, leather
@@ -456,12 +456,12 @@ dictionary       Hungarian_grenadiers
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          hungarian_grenadier, 36, 0, 0.78, 0.20, 1.7
+soldier          hungarian_grenadier, 36, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  3, 9, 0, leather
@@ -481,12 +481,12 @@ dictionary       Swabian_circle_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          paderborn_line, 30, 0, 0.68, 0.20, 1.7
+soldier          paderborn_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         19, 0, M1745, 190, 48, siege_missile, other, blunt, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1745, 190, 48, siege_missile, other, blunt, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -506,12 +506,12 @@ dictionary       Wurzburg_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          wurzburg_line, 23, 0, 0.68, 0.20, 1.7
+soldier          wurzburg_line, 23, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, flesh
@@ -768,14 +768,14 @@ dictionary       prussian_landregiment
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 15, 0, 0.68, 0.20, 1.7
+soldier          prussian_militia, 15, 0, 0.68, 0.30, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
@@ -795,14 +795,14 @@ dictionary       prussian_garrison
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 20, 0, 0.68, 0.20, 1.7
+soldier          prussian_militia, 20, 0, 0.68, 0.30, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -822,12 +822,12 @@ dictionary       prussian_freijaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          freijaeger, 6, 0, 0.68, 0.20, 1.7
+soldier          freijaeger, 6, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         12, 0, rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         2, 0, rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, sword, 1, 0.13
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
@@ -847,12 +847,12 @@ dictionary       prussian_feldjaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          feldjaeger, 6, 0, 0.68, 0.20, 1.7
+soldier          feldjaeger, 6, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         12, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         2, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         4, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.13
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
@@ -872,14 +872,14 @@ dictionary       prussian_saxon_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 31, 0, 0.68, 0.20, 1.7
+soldier          prussian_line, 31, 0, 0.68, 0.30, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -899,13 +899,13 @@ dictionary       prussian_freikorps_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          paderborn_line, 31, 0, 0.68, 0.20, 1.7
+soldier          paderborn_line, 31, 0, 0.68, 0.30, 1.7
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -925,14 +925,14 @@ dictionary       prussian_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 31, 0, 0.68, 0.20, 1.7
+soldier          prussian_line, 31, 0, 0.68, 0.30, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 0.11
-stat_pri_attr    no
+stat_pri         3, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -952,14 +952,14 @@ dictionary       prussian_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_fusilier, 31, 0, 0.68, 0.20, 1.7
+soldier          prussian_fusilier, 31, 0, 0.68, 0.30, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -979,7 +979,7 @@ dictionary       prussian_grenadiers
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          prussian_grenadier, 28, 0, 0.78, 0.20, 1.7
+soldier          prussian_grenadier, 28, 0, 0.78, 0.30, 1.7
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
@@ -1005,14 +1005,14 @@ dictionary       prussian_leib
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          prussian_leib, 33, 0, 0.78, 0.20, 1.7
+soldier          prussian_leib, 33, 0, 0.78, 0.30, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
@@ -1267,12 +1267,12 @@ dictionary       darmstadt_militia
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 30, 0, 0.68, 0.20, 1.7
+soldier          prussian_militia, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
@@ -1292,12 +1292,12 @@ dictionary       darmstadt_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 30, 0, 0.68, 0.20, 1.7
+soldier          prussian_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -1317,12 +1317,12 @@ dictionary       darmstadt_grenadiers
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          prussian_grenadier, 28, 0, 0.78, 0.20, 1.7
+soldier          prussian_grenadier, 28, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
@@ -1342,12 +1342,12 @@ dictionary       darmstadt_leibgrenadiergarde
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          darmstadt_leibgrenadiergarde, 6, 0, 0.78, 0.20, 1.7
+soldier          darmstadt_leibgrenadiergarde, 6, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.13
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
@@ -1422,12 +1422,12 @@ dictionary       brunswick_jaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.20, 1.7
+soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         10, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         2, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         3, 2, no, 0, 0, melee, simple, piercing, sword, 1, 0.13
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
@@ -1447,12 +1447,12 @@ dictionary       brunswick_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          brunswick_line, 41, 0, 0.68, 0.20, 1.7
+soldier          brunswick_line, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         9, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -1472,12 +1472,12 @@ dictionary       brunswick_grenadiers
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          brunswick_grenadier, 22, 0, 0.78, 0.20, 1.7
+soldier          brunswick_grenadier, 22, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         9, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
@@ -1497,12 +1497,12 @@ dictionary       brunswick_footguard
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          brunswick_line, 20, 0, 0.68, 0.20, 1.7
+soldier          brunswick_line, 20, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         9, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri         3, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
 stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
@@ -1630,7 +1630,7 @@ dictionary       wurttemberg_jaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          feldjaeger, 6, 0, 0.68, 0.20, 1.7
+soldier          feldjaeger, 6, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
@@ -1655,7 +1655,7 @@ dictionary       wurttemberg_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          wurttemberger_line, 30, 0, 0.68, 0.20, 1.7
+soldier          wurttemberger_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -1680,7 +1680,7 @@ dictionary       wurttemberg_garde_zu_fuss
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_leib, 17, 0, 0.78, 0.20, 1.7
+soldier          prussian_leib, 17, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -1811,7 +1811,7 @@ dictionary       hessen_kassel_jaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.20, 1.7
+soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
@@ -1836,7 +1836,7 @@ dictionary       hessen_kassel_militia
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 30, 0, 0.68, 0.20, 1.7
+soldier          prussian_militia, 30, 0, 0.68, 0.30, 1.7
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -1861,7 +1861,7 @@ dictionary       hessen_kassel_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 30, 0, 0.68, 0.20, 1.7
+soldier          prussian_line, 30, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -1886,7 +1886,7 @@ dictionary       hessen_kassel_garde
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hessian_leib, 31, 0, 0.78, 0.20, 1.7
+soldier          hessian_leib, 31, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2017,7 +2017,7 @@ dictionary       french_chasseurs
 category         infantry
 class            light
 voice_type       General_1
-soldier          french_chasseur, 16, 0, 0.68, 0.20, 1.7
+soldier          french_chasseur, 16, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest
 formation        0.63, 0.75, 1.8, 1.5, 3, square
 stat_health      1, 0
@@ -2042,7 +2042,7 @@ dictionary       french_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_militia, 13, 0, 0.68, 0.20, 1.7
+soldier          french_militia, 13, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2067,7 +2067,7 @@ dictionary       canadian_militia
 category         infantry
 class            light
 voice_type       General_1
-soldier          french_canadian, 15, 0, 0.6, 0.20, 1.7
+soldier          french_canadian, 15, 0, 0.6, 0.30, 1.7
 attributes       sea_faring, hide_forest, hardy
 formation        0.63, 0.75, 1.8, 1.5, 3, square
 stat_health      1, 0
@@ -2092,7 +2092,7 @@ dictionary       compagnie_franche_de_la_marine
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_marine, 15, 0, 0.68, 0.20, 1.7
+soldier          french_marine, 15, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 1.8, 1.5, 3, square
 stat_health      1, 0
@@ -2117,7 +2117,7 @@ dictionary       french_CdI_european
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_3, 19, 0, 0.68, 0.20, 1.7
+soldier          french_merc_3, 19, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2142,7 +2142,7 @@ dictionary       french_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_fusilier, 41, 0, 0.68, 0.20, 1.7
+soldier          french_fusilier, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2167,7 +2167,7 @@ dictionary       french_scottish_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_1, 41, 0, 0.68, 0.20, 1.7
+soldier          french_merc_1, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2192,7 +2192,7 @@ dictionary       french_irish_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_1, 41, 0, 0.68, 0.20, 1.7
+soldier          french_merc_1, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2217,7 +2217,7 @@ dictionary       french_liegois
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_2, 41, 0, 0.68, 0.20, 1.7
+soldier          french_merc_2, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2242,7 +2242,7 @@ dictionary       french_german_fusiliers
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          french_merc_2, 41, 0, 0.68, 0.20, 1.7
+soldier          french_merc_2, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2267,7 +2267,7 @@ dictionary       french_italian_fusilier
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_3, 41, 0, 0.68, 0.20, 1.7
+soldier          french_merc_3, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2292,7 +2292,7 @@ dictionary       french_swiss_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_fusilier, 41, 0, 0.68, 0.20, 1.7
+soldier          french_fusilier, 41, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, mercenary_unit, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2317,7 +2317,7 @@ dictionary       grenadiers_royaux
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          french_grenadierR, 35, 0, 0.78, 0.20, 1.7
+soldier          french_grenadierR, 35, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, frighten_foot, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2342,7 +2342,7 @@ dictionary       french_grenadiers
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          french_grenadier, 29, 0, 0.78, 0.20, 1.7
+soldier          french_grenadier, 29, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2367,7 +2367,7 @@ dictionary       grenadiers_du_france
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          grenadier_dfrance, 26, 0, 0.78, 0.20, 1.7
+soldier          grenadier_dfrance, 26, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2392,7 +2392,7 @@ dictionary       garde_suisses
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_guard, 26, 0, 0.78, 0.20, 1.7
+soldier          french_guard, 26, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, hardy, mercenary_unit, frighten_foot, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2417,7 +2417,7 @@ dictionary       garde_francais
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_guard, 27, 0, 0.68, 0.20, 1.7
+soldier          french_guard, 27, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2730,7 +2730,7 @@ dictionary       spanish_migueletes
 category         infantry
 class            light
 voice_type       Heavy_1
-soldier          spanish_migueletes, 10, 0, 0.68, 0.20, 1.7
+soldier          spanish_migueletes, 10, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.65, 0.65, 1.8, 0.65, 3, square
 stat_health      1, 0
@@ -2755,7 +2755,7 @@ dictionary       spanish_militia
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_militia, 43, 0, 0.68, 0.20, 1.7
+soldier          spanish_militia, 43, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2780,7 +2780,7 @@ dictionary       spanish_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_fusilier, 43, 0, 0.68, 0.20, 1.7
+soldier          spanish_fusilier, 43, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2805,7 +2805,7 @@ dictionary       spanish_italian_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_merc_1, 43, 0, 0.68, 0.20, 1.7
+soldier          spanish_merc_1, 43, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2830,7 +2830,7 @@ dictionary       spanish_valonas_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_merc_1, 43, 0, 0.68, 0.20, 1.7
+soldier          spanish_merc_1, 43, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2855,7 +2855,7 @@ dictionary       spanish_irish_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_merc_2, 43, 0, 0.68, 0.20, 1.7
+soldier          spanish_merc_2, 43, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2880,7 +2880,7 @@ dictionary       spanish_swiss_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_fusilier, 43, 0, 0.68, 0.20, 1.7
+soldier          spanish_fusilier, 43, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_forest, mercenary_unit, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -2905,7 +2905,7 @@ dictionary       spanish_grenadiers
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          spanish_grenadier, 27, 0, 0.78, 0.20, 1.7
+soldier          spanish_grenadier, 27, 0, 0.78, 0.30, 1.7
 attributes       sea_faring, hide_forest, hardy, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -3191,7 +3191,7 @@ dictionary       british_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_militia, 11, 0, 0.68, 0.20, 1.7
+soldier          british_militia, 11, 0, 0.68, 0.30, 1.7
 officer          british_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
@@ -3217,7 +3217,7 @@ dictionary       british_lights
 category         infantry
 class            skirmish
 voice_type       General_1
-soldier          british_light, 10, 0, 0.68, 0.20, 1.7
+soldier          british_light, 10, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_improved_forest, hide_anywhere, very_hardy, can_sap
 formation        0.6, 0.63, 1.8, 0.63, 2, square
 stat_health      1, 0
@@ -3242,7 +3242,7 @@ dictionary       provincial_line
 category         infantry
 class            missile
 voice_type       General_1
-soldier          jersey_blues, 37, 0, 0.68, 0.20, 1.7
+soldier          jersey_blues, 37, 0, 0.68, 0.30, 1.7
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3270,7 +3270,7 @@ dictionary       rangers
 category         infantry
 class            skirmish
 voice_type       General_1
-soldier          british_ranger, 6, 0, 0.68, 0.20, 1.7
+soldier          british_ranger, 6, 0, 0.68, 0.30, 1.7
 attributes       sea_faring, hide_improved_forest, hide_long_grass, hardy, can_sap
 formation        0.6, 0.63, 1.8, 1.26, 2, square
 stat_health      1, 0
@@ -3295,7 +3295,7 @@ dictionary       british_line
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line, 34, 0, 0.68, 0.20, 1.7
+soldier          british_line, 34, 0, 0.68, 0.30, 1.7
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3323,7 +3323,7 @@ dictionary       british_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_fusilier, 34, 0, 0.68, 0.20, 1.7
+soldier          british_fusilier, 34, 0, 0.68, 0.30, 1.7
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3351,7 +3351,7 @@ dictionary       british_marines
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line_2, 11, 0, 0.68, 0.20, 1.7
+soldier          british_line_2, 11, 0, 0.68, 0.30, 1.7
 officer          british_officer
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
@@ -3378,7 +3378,7 @@ dictionary       eic_foot
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line_2, 37, 0, 0.68, 0.20, 1.7
+soldier          british_line_2, 37, 0, 0.68, 0.30, 1.7
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3406,7 +3406,7 @@ dictionary       british_highlander
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_highlander, 34, 0, 0.78, 0.20, 1.7
+soldier          british_highlander, 34, 0, 0.78, 0.30, 1.7
 officer          british_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, power_charge
 formation        0.63, 0.75, 0.63, 0.75, 3, square
@@ -3432,7 +3432,7 @@ dictionary       british_grenadiers
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          british_grenadier, 16, 0, 0.78, 0.20, 1.7
+soldier          british_grenadier, 16, 0, 0.78, 0.30, 1.7
 officer          british_officer
 officer          british_drummer
 attributes       sea_faring, hide_forest, frighten_foot, hardy, can_sap
@@ -3459,7 +3459,7 @@ dictionary       british_footguard
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          british_line, 20, 0, 0.78, 0.20, 1.7
+soldier          british_line, 20, 0, 0.78, 0.30, 1.7
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
@@ -3723,7 +3723,7 @@ dictionary       hanoverian_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          hanoverian_militia, 6, 0, 0.68, 0.20, 1.7
+soldier          hanoverian_militia, 6, 0, 0.68, 0.30, 1.7
 officer          british_officer
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
@@ -6396,7 +6396,7 @@ dictionary       savoyard_fusilier
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          savoyard_fusilier, 30, 0, 1, 0.20, 1.7
+soldier          savoyard_fusilier, 30, 0, 1, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -6421,7 +6421,7 @@ dictionary       savoyard_grenadier
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          savoyard_grenadier, 23, 0, 1, 0.20, 1.7
+soldier          savoyard_grenadier, 23, 0, 1, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -6446,7 +6446,7 @@ dictionary       savoyard_footguard
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          savoyard_fusilier, 23, 0, 1, 0.20, 1.7
+soldier          savoyard_fusilier, 23, 0, 1, 0.30, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
