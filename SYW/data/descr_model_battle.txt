@@ -639,7 +639,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           austrian_cuirassier
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_cuirassier.tga
 model_flexi             SYW/data/models_unit/austrian_cuirassier.cas, 8
