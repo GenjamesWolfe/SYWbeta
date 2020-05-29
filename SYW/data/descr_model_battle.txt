@@ -687,6 +687,30 @@ model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austria
 model_tri         400, 0.5f, 0.5f, 0.5f
 
 
+type           austrian_officer
+skeleton       SYW_spontoon_officer
+indiv_range       40
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_officer.tga
+model_flexi       SYW/data/models_unit/austrian_officer.cas, 15
+model_flexi       SYW/data/models_unit/austrian_officer.cas, 30
+model_flexi       SYW/data/models_unit/austrian_officer.cas, 40
+model_flexi       SYW/data/models_unit/austrian_officer.cas, max
+model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5
+
+
+type           austrian_ensign
+skeleton       SYW_ensign
+indiv_range       40
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_ensign.tga
+model_flexi       SYW/data/models_unit/austrian_ensign.cas, 15
+model_flexi       SYW/data/models_unit/austrian_ensign.cas, 30
+model_flexi       SYW/data/models_unit/austrian_ensign.cas, 40
+model_flexi       SYW/data/models_unit/austrian_ensign.cas, max
+model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5
+
+
 type				austrian_horse
 skeleton			NTW_heavy_cavalry_horse
 scale				0.825
