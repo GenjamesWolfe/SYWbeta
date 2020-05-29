@@ -357,6 +357,8 @@ category         infantry
 class            missile
 voice_type       General_1
 soldier          austrian_line, 30, 0, 0.68, 0.30, 1.7
+officer          austrian_officer
+officer          austrian_ensign
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -382,6 +384,8 @@ category         infantry
 class            missile
 voice_type       General_1
 soldier          netherlands_line, 30, 0, 0.68, 0.30, 1.7
+officer          austrian_officer
+officer          austrian_ensign
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -407,6 +411,8 @@ category         infantry
 class            missile
 voice_type       Heavy_1
 soldier          hungarian_line, 30, 0, 0.68, 0.30, 1.7
+officer          austrian_officer
+officer          austrian_ensign
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -432,6 +438,7 @@ category         infantry
 class            heavy
 voice_type       General_1
 soldier          austrian_grenadier, 36, 0, 0.78, 0.30, 1.7
+officer          austrian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
@@ -457,6 +464,7 @@ category         infantry
 class            heavy
 voice_type       Heavy_1
 soldier          hungarian_grenadier, 36, 0, 0.78, 0.30, 1.7
+officer          austrian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
