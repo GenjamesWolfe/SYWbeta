@@ -592,10 +592,10 @@ skeleton       SYW_drummer
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_drummer.tga
 texture           merc, SYW/data/models_unit/textures/austria_hungary/austrian_drummer.tga
-model_flexi       SYW/data/models_unit/british_drummer.cas, 15
-model_flexi       SYW/data/models_unit/british_drummer.cas, 30
-model_flexi       SYW/data/models_unit/british_drummer.cas, 40
-model_flexi       SYW/data/models_unit/british_drummer.cas, max
+model_flexi       SYW/data/models_unit/austrian_drummer.cas, 15
+model_flexi       SYW/data/models_unit/austrian_drummer.cas, 30
+model_flexi       SYW/data/models_unit/austrian_drummer.cas, 40
+model_flexi       SYW/data/models_unit/austrian_drummer.cas, max
 model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5
 
