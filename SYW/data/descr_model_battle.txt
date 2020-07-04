@@ -563,7 +563,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           hungarian_grenadier
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/hungarian_grenadier.tga
 model_flexi             SYW/data/models_unit/hungarian_grenadier.cas, 8
@@ -587,6 +587,19 @@ model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austria
 model_sprite         merc, 60.0, SYW/data/sprites/austrian_line_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
+
+type           hungarian_line
+skeleton             SYW_austrian_musketeer, SYW_bayonet
+indiv_range       40
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/hungarian_fusilier.tga
+model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, 8
+model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, 15
+model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, 30
+model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, max
+model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_hungarian_line_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
 type           austrian_drummer
 skeleton       SYW_drummer
 indiv_range       40
@@ -598,6 +611,7 @@ model_flexi       SYW/data/models_unit/austrian_drummer.cas, 40
 model_flexi       SYW/data/models_unit/austrian_drummer.cas, max
 model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5
+
 
 type           netherlands_line
 skeleton             SYW_austrian_musketeer, SYW_bayonet
@@ -671,18 +685,6 @@ model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, 15
 model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, 30
 model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, max
 model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_cuirassier_sprite.spr
-model_tri         400, 0.5f, 0.5f, 0.5f
-
-
-type           hungarian_line
-skeleton             SYW_austrian_musketeer, prussian_bayonet
-indiv_range       40
-texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/hungarian_fusilier.tga
-model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, 8
-model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, 15
-model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, 30
-model_flexi             SYW/data/models_unit/hungarian_fusilier.cas, max
-model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_hungarian_line_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
 
