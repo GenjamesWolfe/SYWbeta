@@ -679,7 +679,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 type           austrian_carabinier
 skeleton             fs_hc_swordsman
 indiv_range       40
-texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_cuirassier.tga
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_carabinier.tga
 model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, 8
 model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, 15
 model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, 30
