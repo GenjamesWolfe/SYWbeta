@@ -522,7 +522,7 @@ model_tri         400, 0.5f, 0.5f, 0.5
 
 
 type           austrian_grenzer
-skeleton             SYW_austrian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_grenzer.tga
 model_flexi             SYW/data/models_unit/austrian_grenzer.cas, 8
@@ -651,7 +651,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           austrian_dragoon
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_dragoon.tga
 texture           slave, SYW/data/models_unit/textures/darmstadt/darmstadt_garde_des_dragons.tga
@@ -677,7 +677,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           austrian_carabinier
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/Austrian_carabinier.tga
 model_flexi             SYW/data/models_unit/Austrian_carabinier.cas, 8
