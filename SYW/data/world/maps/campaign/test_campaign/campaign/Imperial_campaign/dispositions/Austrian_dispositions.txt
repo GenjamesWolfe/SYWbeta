@@ -1,0 +1,69 @@
+cuirassier regiments by province (1 unit = 2 regiments):
+
+Austria: I (0.5)
+Hungary: IIIII (2.5) (2)
+Eastern Hungary: II (1)
+Banat: II (1)
+Belgium: I (0.5)
+Bohemia: II (1)
+Slovakia: IIIII (2.5) (2)
+
+Total: 9
+
+Dragoons/Chevaulegers (1 unit = 1.5 regiments):
+Behomia: II (1.33) (1)
+Slovakia: I (0.67) (1)
+Hungary: IIII (3) (3)
+Lombardy: I (0.67) (1)
+Belgium: I (0.67) (1)
+Siebenburgen: I (0.67) (1)
+Banat: I (0.67) (1)
+Croatia: I (0.67) (1)
+
+
+German fusiliers (1 unit = 2 regiments w/o holding battalions (i.e. 6 battalions per unit)):
+Bohemia: IIIIIIIIIIIIIIIIIII (12.67) (12)
+Belgium: III (2)
+Hungary: I (0.67) (1)
+Moravia: II (1.33) (1)
+Styria: I (0.67) (1)
+unknown: I (0.67) (1)
+Lombardy: IIII (2.67) (2)
+Slovenia: I (0.67) (1)
+Siebenburgen: III (2) 
+Innsbruck: I (0.67) (1)
+Klagenfuhrt: I (0.67) (1)
+Austria: II (1.33) (1)
+
+Total: 26
+
+Hungarians (as with German fusiliers):
+Moravia: II (1.33) (1)
+Lombardy: IIII (2.67) (3)
+Bohemia: II (1.33) (1)
+Slovenia: I (1)
+Croatia: I (1)
+
+total: 7
+
+Dutch (as above):
+Belgium: III (2)
+Luxembourg: I  (1)
+
+total: 3
+
+
+Italian:
+Banat: I (1)
+
+Hussars: 
+Hungary: IIIIII (3)
+Siebenburgen: II (1)
+Lombardy: I (1)
+Moravia: I  (1)
+Slovakia: I  (1)
+Banat: I (1)
+Croatia: II (1)
+
+
+Coats are organized by Battalions.
