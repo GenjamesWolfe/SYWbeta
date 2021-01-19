@@ -9,7 +9,7 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
 mass		    0.15
 accuracy_vs_units	0.3
@@ -30,7 +30,7 @@ effect_offset	-1.7
 damage			0
 damage_to_troops 	1
 radius			0.009 
-mass		    0.15
+mass		    0.038
 accuracy_vs_units	0.08
 affected_by_rain
 min_angle		-60 
@@ -50,13 +50,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
-accuracy_vs_units	0.1 ;0.17
+mass		    0.13
+accuracy_vs_units	0.15
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		330 ;182
+velocity		300
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only  
@@ -64,17 +65,18 @@ model			SYW/data/models_missile/bullet.cas,  max
 
 projectile M1742G				
 
-destroy_after_max_range_percent_and_variation   30   90 
+destroy_after_max_range_percent_and_variation   30   90  
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
-radius			0.009 
+damage_to_troops 	1
+radius			0.009
+mass		    0.13
 accuracy_vs_units	0.07
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		330 ;182
+velocity		300
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only  
@@ -89,13 +91,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
-radius			0.009 
+damage_to_troops 	1
+radius			0.009
+mass		    0.11 
 accuracy_vs_units	0.12
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		320; 78
+velocity		295
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -107,13 +110,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
+mass		    0.11
 accuracy_vs_units	0.08
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		320; 78
+velocity		295
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -128,8 +132,9 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
+mass		    0.11
 accuracy_vs_units	0.23
 affected_by_rain
 min_angle		-60 
@@ -148,8 +153,9 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
+mass		    0.11
 accuracy_vs_units	0.2
 affected_by_rain
 min_angle		-60 
@@ -168,13 +174,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
-accuracy_vs_units	0.11
+mass		    0.1
+accuracy_vs_units	0.20
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		320 ;75
+velocity		285
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -186,13 +193,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
-radius			0.009 
+damage_to_troops 	1
+radius			0.009
+mass		    0.1 
 accuracy_vs_units	0.08
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		320 ;75
+velocity		285
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -207,13 +215,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
-accuracy_vs_units	0.22
+mass		    0.116
+accuracy_vs_units	0.3
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		350
+velocity		310
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -225,14 +234,14 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
 mass		    0.15
 accuracy_vs_units	0.18
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		350; 80
+velocity		310
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -244,7 +253,7 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	2
+damage_to_troops 	1
 radius			0.009 
 mass		    0.15 ; 0.14
 accuracy_vs_units	0.13; 0.37
@@ -255,6 +264,50 @@ velocity		85
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
+
+
+;;;;;;;;;;;;;;;;;;Russian muskets;;;;;;;;;;;;;;;
+
+
+projectile M1737				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009
+mass		    0.15 
+accuracy_vs_units	0.2
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		330
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+projectile M1737_b				
+
+destroy_after_max_range_percent_and_variation   30   90 
+flaming         M1737
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.25
+mass		    0.22 
+accuracy_vs_units	0.25
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		300
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+;;;;;;;;;;;;;;;;;;;light_infantry rounds;;;;;;;;;;;;;;;;;;;;
 
 
 projectile aimed_musket					
@@ -405,10 +458,10 @@ effect_offset	-1.5
 damage			0
 radius		0.007
 mass		0.043
-accuracy_vs_units	0.05
+accuracy_vs_units	0.1
 min_angle	-50
 max_angle	45
-velocity	56
+velocity	55
 display			aimed
 model			SYW/data/models_missile/arrow.cas,  max
 ;effect_only 

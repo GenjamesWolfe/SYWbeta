@@ -507,16 +507,16 @@ skeleton_elephant    fs_forest_elephant_rider
 skeleton_chariot     fs_chariot_sword
 skeleton_camel       fs_hc_swordsman
 indiv_range       40
-texture           romans_senate, SYW/data/models_unit/textures/NTW_officer_AUSTRIAN_GENERAL.TGA
-texture           pontus, SYW/data/models_unit/textures/NTW_officer_AUSTRIAN_GENERAL.TGA
-texture           macedon, SYW/data/models_unit/textures/NTW_officer_AUSTRIAN_GENERAL.TGA
-texture           romans_julii, SYW/data/models_unit/textures/NTW_officer_AUSTRIAN_GENERAL.TGA
-texture           romans_scipii, SYW/data/models_unit/textures/NTW_officer_AUSTRIAN_GENERAL.TGA
-texture           egypt, SYW/data/models_unit/textures/NTW_officer_AUSTRIAN_GENERAL.TGA
-model_flexi       SYW/data/models_unit/NTW_officer_austrian_general.cas, 15
-model_flexi       SYW/data/models_unit/NTW_officer_austrian_general.cas, 30
-model_flexi       SYW/data/models_unit/NTW_officer_austrian_general.cas, 40
-model_flexi       SYW/data/models_unit/NTW_officer_austrian_general.cas, max
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_fieldmarshal.tga
+texture           pontus, SYW/data/models_unit/textures/austria_hungary/austrian_fieldmarshal.tga
+texture           macedon, SYW/data/models_unit/textures/austria_hungary/austrian_fieldmarshal.tga
+texture           romans_julii, SYW/data/models_unit/textures/austria_hungary/austrian_fieldmarshal.tga
+texture           romans_scipii, SYW/data/models_unit/textures/austria_hungary/austrian_fieldmarshal.tga
+texture           egypt, SYW/data/models_unit/textures/austria_hungary/austrian_fieldmarshal.tga
+model_flexi       SYW/data/models_unit/austrian_fieldmarshal.cas, 15
+model_flexi       SYW/data/models_unit/austrian_fieldmarshal.cas, 30
+model_flexi       SYW/data/models_unit/austrian_fieldmarshal.cas, 40
+model_flexi       SYW/data/models_unit/austrian_fieldmarshal.cas, max
 model_sprite         pontus, 60.0, data/sprites/celt_general_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5
 
@@ -530,6 +530,19 @@ model_flexi             SYW/data/models_unit/austrian_grenzer.cas, 15
 model_flexi             SYW/data/models_unit/austrian_grenzer.cas, 30
 model_flexi             SYW/data/models_unit/austrian_grenzer.cas, max
 model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_grenadier_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
+type           austrian_jaeger
+skeleton             SYW_jaeger, fs_dagger
+indiv_range       40
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_jaeger.tga
+model_flexi             SYW/data/models_unit/austrian_jaeger.cas, 8
+model_flexi             SYW/data/models_unit/austrian_jaeger.cas, 15
+model_flexi             SYW/data/models_unit/austrian_jaeger.cas, 30
+model_flexi             SYW/data/models_unit/austrian_jaeger.cas, max
+model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_line_sprite.spr
+model_sprite         merc, 60.0, SYW/data/sprites/austrian_line_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
 
@@ -646,6 +659,18 @@ model_flexi             SYW/data/models_unit/ebeastern_cavalry_arachosian_skirmi
 model_flexi             SYW/data/models_unit/ebeastern_cavalry_arachosian_skirmisher_dahae_spw_high.CAS, 15
 model_flexi             SYW/data/models_unit/ebeastern_cavalry_arachosian_skirmisher_dahae_spw_high.CAS, 30
 model_flexi             SYW/data/models_unit/ebeastern_cavalry_arachosian_skirmisher_dahae_spw_high.CAS, max
+model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_dragoon_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
+type           stabsdragoner
+skeleton              fs_hc_pistoleer, SYW_pallasch
+indiv_range       40
+texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/austrian_stabsdragoner.tga
+model_flexi             SYW/data/models_unit/austrian_stabsdragoner.cas, 8
+model_flexi             SYW/data/models_unit/austrian_stabsdragoner.cas, 15
+model_flexi             SYW/data/models_unit/austrian_stabsdragoner.cas, 30
+model_flexi             SYW/data/models_unit/austrian_stabsdragoner.cas, max
 model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_austrian_dragoon_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
@@ -837,6 +862,18 @@ model_sprite         germans, 60.0, data/sprites/celt_general_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5
 
 
+type           russian_ensign
+skeleton       SYW_ensign
+indiv_range       40
+texture           armenia, SYW/data/models_unit/textures/russia/russian_ensign.tga
+model_flexi       SYW/data/models_unit/russian_ensign.cas, 15
+model_flexi       SYW/data/models_unit/russian_ensign.cas, 30
+model_flexi       SYW/data/models_unit/russian_ensign.cas, 40
+model_flexi       SYW/data/models_unit/russian_ensign.cas, max
+model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5
+
+
 type           prussian_flag
 skeleton       SYW_ensign_pr
 indiv_range       40
@@ -902,14 +939,10 @@ texture           slave, SYW/data/models_unit/textures/darmstadt/darmstadt_line.
 texture           romans_senate, SYW/data/models_unit/textures/austria_hungary/darmstadt_line.tga
 texture           merc, SYW/data/models_unit/textures/prussia/saxon_incorporated_regiment.tga
 texture           gauls, SYW/data/models_unit/textures/kassel/Hesse_kassel_foot.tga
-model_flexi             SYW/data/models_unit/test_dummy.cas, 8
-model_flexi             SYW/data/models_unit/test_dummy.cas, 15
-model_flexi             SYW/data/models_unit/test_dummy.cas, 30
-model_flexi             SYW/data/models_unit/test_dummy.cas, max
-;model_flexi             SYW/data/models_unit/prussian_foot.cas, 8
-;model_flexi             SYW/data/models_unit/prussian_foot.cas, 15
-;model_flexi             SYW/data/models_unit/prussian_foot.cas, 30
-;model_flexi             SYW/data/models_unit/prussian_foot.cas, max
+model_flexi             SYW/data/models_unit/prussian_foot.cas, 8
+model_flexi             SYW/data/models_unit/prussian_foot.cas, 15
+model_flexi             SYW/data/models_unit/prussian_foot.cas, 30
+model_flexi             SYW/data/models_unit/prussian_foot.cas, max
 model_sprite         germans, 60.0, SYW/data/sprites/germans_prussian_line_sprite.spr
 model_sprite         slave, 60.0, SYW/data/sprites/spain_prussian_line_sprite.spr
 model_sprite         romans_senate, 60.0, SYW/data/sprites/romans_senate_prussian_line_sprite.spr
@@ -1605,6 +1638,17 @@ model_flexi             SYW/data/models_unit/british_marine.cas, max
 model_sprite         britons, 60.0, SYW/data/sprites/britons_british_footguard_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
+type           british_sepoy
+skeleton             SYW_british_musketeer, prussian_bayonet
+indiv_range       40
+texture           britons, SYW/data/models_unit/textures/britain/british_sepoy.tga
+model_flexi             SYW/data/models_unit/british_sepoy.cas, 8
+model_flexi             SYW/data/models_unit/british_sepoy.cas, 15
+model_flexi             SYW/data/models_unit/british_sepoy.cas, 30
+model_flexi             SYW/data/models_unit/british_sepoy.cas, max
+model_sprite         britons, 60.0, SYW/data/sprites/britons_british_footguard_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
 
 type           british_art_crew
 skeleton             fs_dagger
@@ -1796,7 +1840,7 @@ model_tri			700, 0.3f, 0.3f, 0.3f
 
 
 type           russian_pandur
-skeleton             SYW_prussian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           armenia, SYW/data/models_unit/textures/russia/russian_pandur.tga
 model_flexi       	SYW/data/models_unit/russian_pandur.cas, 8
@@ -1808,11 +1852,10 @@ model_sprite         merc, 60.0, SYW/data/sprites/russian_fusilier_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 
 
-type           russian_fusilier
-skeleton             SYW_prussian_musketeer, prussian_bayonet
+type           ukr_militia
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
-texture           armenia, SYW/data/models_unit/textures/russia/russian_fusilier.tga
-texture           merc, SYW/data/models_unit/textures/russia/russian_fusilier.tga
+texture           armenia, SYW/data/models_unit/textures/russia/ukranian_militia.tga
 model_flexi       	SYW/data/models_unit/russian_fusilier.cas, 8
 model_flexi       	SYW/data/models_unit/russian_fusilier.cas, 15
 model_flexi       	SYW/data/models_unit/russian_fusilier.cas, 30
@@ -1820,6 +1863,55 @@ model_flexi       	SYW/data/models_unit/russian_fusilier.cas, max
 model_sprite         armenia, 60.0, SYW/data/sprites/armenia_russian_fusilier_sprite.spr
 model_sprite         merc, 60.0, SYW/data/sprites/russian_fusilier_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
+
+
+type           russian_fusilier
+skeleton             SYW_austrian_musketeer, SYW_bayonet
+indiv_range       40
+texture           armenia, SYW/data/models_unit/textures/russia/russian_fusilier.tga
+model_flexi       	SYW/data/models_unit/russian_fusilier.cas, 8
+model_flexi       	SYW/data/models_unit/russian_fusilier.cas, 15
+model_flexi       	SYW/data/models_unit/russian_fusilier.cas, 30
+model_flexi       	SYW/data/models_unit/russian_fusilier.cas, max
+model_sprite         armenia, 60.0, SYW/data/sprites/armenia_russian_fusilier_sprite.spr
+model_sprite         merc, 60.0, SYW/data/sprites/russian_fusilier_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
+type           russian_footguard
+skeleton             SYW_austrian_musketeer, SYW_bayonet
+indiv_range       40
+texture           armenia, SYW/data/models_unit/textures/russia/russian_footguard.tga
+model_flexi       	SYW/data/models_unit/russian_guard.cas, 8
+model_flexi       	SYW/data/models_unit/russian_guard.cas, 15
+model_flexi       	SYW/data/models_unit/russian_guard.cas, 30
+model_flexi       	SYW/data/models_unit/russian_guard.cas, max
+model_sprite         armenia, 60.0, SYW/data/sprites/armenia_russian_fusilier_sprite.spr
+model_sprite         merc, 60.0, SYW/data/sprites/russian_fusilier_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
+
+type           russian_officer
+skeleton       SYW_spontoon_officer
+indiv_range       40
+texture          armenia, SYW/data/models_unit/textures/russia/russian_officer.tga
+model_flexi       SYW/data/models_unit/russian_officer.cas, 15
+model_flexi       SYW/data/models_unit/russian_officer.cas, 30
+model_flexi       SYW/data/models_unit/russian_officer.cas, 40
+model_flexi       SYW/data/models_unit/russian_officer.cas, max
+model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5
+
+type           russian_drummer
+skeleton       SYW_drummer
+indiv_range       40
+texture           armenia, SYW/data/models_unit/textures/russia/russian_drummer.tga
+model_flexi       SYW/data/models_unit/russian_drummer.cas, 15
+model_flexi       SYW/data/models_unit/russian_drummer.cas, 30
+model_flexi       SYW/data/models_unit/russian_drummer.cas, 40
+model_flexi       SYW/data/models_unit/russian_drummer.cas, max
+model_sprite         britons, 60.0, data/sprites/celt_general_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5
 
 
 type           russian_art_crew
@@ -1847,7 +1939,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           russian_grenadier
-skeleton             SYW_prussian_musketeer, prussian_bayonet
+skeleton             SYW_austrian_musketeer, SYW_bayonet
 indiv_range       40
 texture           armenia, SYW/data/models_unit/textures/russia/russian_grenadier.tga
 model_flexi       	SYW/data/models_unit/russian_grenadier.cas, 8
@@ -1859,7 +1951,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           russian_cuirassier
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           armenia, SYW/data/models_unit/textures/russia/russian_cuirassier.tga
 model_flexi             SYW/data/models_unit/russian_cuirassier.cas, 8
@@ -1871,7 +1963,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           russian_dragoon
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           armenia, SYW/data/models_unit/textures/russia/russian_dragoon.tga
 model_flexi             SYW/data/models_unit/russian_dragoon.cas, 8
@@ -1883,7 +1975,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           russian_horse_grenadier
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           armenia, SYW/data/models_unit/textures/russia/russian_horse_grenadier.tga
 model_flexi             SYW/data/models_unit/russian_horse_grenadier.cas, 8
