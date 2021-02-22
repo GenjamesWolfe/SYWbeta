@@ -1791,13 +1791,27 @@ skeleton_elephant    fs_forest_elephant_rider
 skeleton_chariot     fs_chariot_sword
 skeleton_camel       fs_hc_swordsman
 indiv_range       40
-texture           armenia, SYW/data/models_unit/textures/NTW_officer_russian_general.TGA
-model_flexi       SYW/data/models_unit/NTW_officer_russian_general.cas, 15
-model_flexi       SYW/data/models_unit/NTW_officer_russian_general.cas, 30
-model_flexi       SYW/data/models_unit/NTW_officer_russian_general.cas, 40
-model_flexi       SYW/data/models_unit/NTW_officer_russian_general.cas, max
+texture          armenia, SYW/data/models_unit/textures/russia/russian_general.tga
+model_flexi       SYW/data/models_unit/russian_general.cas, 15
+model_flexi       SYW/data/models_unit/russian_general.cas, 30
+model_flexi       SYW/data/models_unit/russian_general.cas, 40
+model_flexi       SYW/data/models_unit/russian_general.cas, max
 model_sprite         armenia, 60.0, data/sprites/celt_general_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5
+
+
+type           russian_adc
+skeleton             fs_hc_pistoleer, fs_hc_swordsman
+indiv_range       40
+texture           armenia, SYW/data/models_unit/textures/russia/russian_adc.tga
+model_flexi             SYW/data/models_unit/russian_adc.cas, 8
+model_flexi             SYW/data/models_unit/russian_adc.cas, 15
+model_flexi             SYW/data/models_unit/russian_adc.cas, 30
+model_flexi             SYW/data/models_unit/russian_adc.cas, max
+model_sprite         germans, 60.0, SYW/data/sprites/germans_prussian_cuirassier_sprite.spr
+model_sprite         merc, 60.0, SYW/data/sprites/prussian_cuirassier_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
 
 type				russian_horse_1
 skeleton			NTW_heavy_cavalry_horse
@@ -3371,11 +3385,11 @@ type           cossack
 skeleton             fs_hc_spearman, fs_hc_swordsman
 indiv_range       40
 texture           armenia, SYW/data/models_unit/textures/russia/russian_cossack.tga
-texture           egypt, SYW/data/models_unit/textures/poland/polish_cossack.tga
-model_flexi             SYW/data/models_unit/cossack.cas, 8
-model_flexi             SYW/data/models_unit/cossack.cas, 15
-model_flexi             SYW/data/models_unit/cossack.cas, 30
-model_flexi             SYW/data/models_unit/cossack.cas, max
+texture           armenia, SYW/data/models_unit/textures/russia/russian_cossack.tga
+model_flexi             SYW/data/models_unit/russian_cossack.cas, 8
+model_flexi             SYW/data/models_unit/russian_cossack.cas, 15
+model_flexi             SYW/data/models_unit/russian_cossack.cas, 30
+model_flexi             SYW/data/models_unit/russian_cossack.cas, max
 model_sprite         egypt, 60.0, SYW/data/sprites/egypt_ottoman_light_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5f
 

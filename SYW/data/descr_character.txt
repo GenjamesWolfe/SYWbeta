@@ -277,7 +277,7 @@ faction			armenia
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_eastern_lesser_general
-battle_model	roman_lesser_general
+battle_model	russian_general
 battle_equip	gladius
 
 faction			dacia
