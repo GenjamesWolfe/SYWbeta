@@ -41,7 +41,7 @@
 ;
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-starting_action_points	80
+starting_action_points	130
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 type			named character
@@ -52,7 +52,7 @@ wage_base		200
 faction			romans_julii
 dictionary		15
 strat_model		sm_roman_lesser_general
-battle_model	roman_lesser_general
+battle_model	bavarian_general
 battle_equip	gladius
 
 faction			romans_brutii
@@ -106,7 +106,7 @@ battle_equip	gladius
 faction			pontus
 dictionary		2
 strat_model		sm_eastern_general
-battle_model	austrian_general
+battle_model	danish_general
 battle_equip	gladius
 
 faction			gauls
@@ -166,13 +166,13 @@ battle_equip	gladius
 faction			thrace
 dictionary		2
 strat_model		sm_greek_general
-battle_model	roman_lesser_general
+battle_model	austrian_general
 battle_equip	gladius
 
 faction			slave
 dictionary		2
 strat_model		sm_rebel_general
-battle_model	roman_lesser_general
+battle_model	austrian_general
 battle_equip	gladius
 
 
@@ -186,7 +186,7 @@ faction			romans_julii
 dictionary		15
 strat_card		data/ui/roman/portraits/captain_card_julii.tga
 strat_model		sm_roman_lesser_general
-battle_model	roman_lesser_general
+battle_model	bavarian_general
 battle_equip	gladius
 
 faction			romans_brutii
@@ -249,7 +249,7 @@ faction			pontus
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_eastern_lesser_general
-battle_model	austrian_general
+battle_model	danish_general
 battle_equip	gladius
 
 faction			gauls
@@ -319,7 +319,7 @@ faction			thrace
 dictionary		2
 strat_card		data/ui/barbarian/agents/card_general_celt.tga
 strat_model		sm_greek_lesser_general
-battle_model	roman_lesser_general
+battle_model	austrian_general
 battle_equip	gladius
 
 faction			slave

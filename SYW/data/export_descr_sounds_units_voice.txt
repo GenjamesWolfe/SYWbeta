@@ -4645,7 +4645,7 @@ BANK: unit_voice
 			vocal Unit_Missile_Ready
 				event mindist 2
 					folder SYW/data/sounds/voices/orders/russian
-					Load01.wav
+					Makeready01
 				end
 			vocal Unit_Move confirm
 				event volume -10

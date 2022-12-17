@@ -2027,6 +2027,9 @@ data/animations/SYW_musketeer/LID_01_Incidental_idle 08.cas
 data/animations/SYW_musketeer/LID_01_Incidental_idle 09.cas
 data/animations/SYW_musketeer/LID_08_Stand 2 90 right.cas
 data/animations/SYW_musketeer/LID_09_Stand 2 90 left.cas
+data/animations/SYW_musketeer/LID_34 stand 2 March.cas
+data/animations/SYW_musketeer/LID_03 March loop.cas
+data/animations/SYW_musketeer/LID_36 March 2 stand.cas
 data/animations/SYW_musketeer/LID_34 stand 2 March 60.cas
 data/animations/SYW_musketeer/LID_03 March loop 60.cas
 data/animations/SYW_musketeer/LID_36 March 2 stand 60.cas
@@ -2053,6 +2056,17 @@ data/animations/SYW_musketeer/LID_28_Shuffle Right.cas
 data/animations/SYW_musketeer/LID_61 Archer stand ready to aim FASTER Austria.cas
 data/animations/SYW_musketeer/LID_62 Archer aim and hold looping Austria.cas
 data/animations/SYW_musketeer/LID_63 release arrow return to stand ready Austria.cas
+data/animations/SYW_musketeer/LID_61 Archer stand ready to aim FASTER Britain.cas
+data/animations/SYW_musketeer/LID_62 Archer aim and hold looping Britain.cas
+data/animations/SYW_musketeer/LID_63 release arrow return to stand ready Britain.cas
+data/animations/SYW_musketeer/LID_63 release arrow return to stand ready Highland.cas
+data/animations/SYW_musketeer/LID_61 Archer stand ready to aim FASTER France.cas
+data/animations/SYW_musketeer/LID_62 Archer aim and hold looping France.cas
+data/animations/SYW_musketeer/LID_63 release arrow return to stand ready France.cas
+data/animations/SYW_musketeer/LID_61 Archer stand ready to aim FASTER Prussia.cas
+data/animations/SYW_musketeer/LID_62 Archer aim and hold looping Prussia.cas
+data/animations/SYW_musketeer/LID_63 release arrow return to stand ready Prussia30.cas
+data/animations/SYW_musketeer/LID_63 release arrow return to stand ready Prussia25.cas
 data/animations/SYW_musketeer/Flailing Cycle.cas
 data/animations/SYW_musketeer/Flailing Cycle to land.cas
 data/animations/SYW_musketeer/man_trampled_down_roll_from_front.CAS
@@ -2122,3 +2136,11 @@ data/animations/SYW_bayonet/SG 44 run 2 charge.cas
 data/animations/SYW_bayonet/SG 05 charge.cas
 data/animations/SYW_bayonet/SG 54 stand ready 2 charge.cas
 data/animations/SYW_bayonet/SG 31 shuffle forward.cas
+data/animations/SYW_artillery/Geschwind_load_left.cas
+data/animations/SYW_artillery/Geschwind_load_to_fire.cas
+data/animations/SYW_artillery/Geschwind_recover_left.cas
+data/animations/SYW_artillery/LID_01_Standing idle new actor.cas
+data/animations/SYW_artillery/Geschwind_left_fire_idle.cas
+data/animations/SYW_artillery/Geschwind_crew_left_stand2crank.cas
+data/animations/SYW_artillery/Geschwind_left_fire_commence.cas
+data/animations/SYW_artillery/Geschwind_recover_left.cas

@@ -257,3 +257,40 @@ anim		attack_prepare								   	data/animations/engine/ballista/ballista_crank.C
 anim		attack_idle									  	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
 anim		attack_commence								  	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:SYW/data/animations/engine/rocket.evt
 anim		attack_recover								   	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test_gun_skeleton
+
+type		serpentine																										
+																															
+anim		idle											SYW/data/animations/engine/serpentine/siege_serpentine_idle.CAS						-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/serpentine/siege_serpentine_idle2moving.CAS			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/serpentine/siege_serpentine_idle.CAS			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/serpentine/siege_serpentine_moving2idle.CAS		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/serpentine/siege_serpentine_crank1.CAS			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/serpentine/siege_serpentine_crank2.CAS					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/serpentine/siege_serpentine_crank3.CAS				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/serpentine/siege_serpentine_attack_idle.CAS						-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/serpentine/siege_serpentine_attack_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/serpentine/siege_serpentine_idle.CAS		 	-fr, -evt:SYW/data/animations/engine/cannon_shot.evt
+anim		attack_recover								   	SYW/data/animations/engine/serpentine/siege_serpentine_attack_commence.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+;anim		attack_recover								   	SYW/data/animations/engine/serpentine/siege_serpentine_attack_recover.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+
+
+type		dropcannon																										
+																															
+anim		idle											SYW/data/animations/engine/alasassone/geschwind_idle.cas						-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/alasassone/geschwind_limber.cas			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/alasassone/geschwind_move.cas			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/alasassone/geschwind_unlimber.cas		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/alasassone/geschwind_idle_to_crank.cas			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/alasassone/geschwind_crank.cas					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/alasassone/geschwind_crank_to_idle.cas				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/alasassone/geschwind_idle.cas						-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/alasassone/geschwind_idle.cas				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/alasassone/geschwind_attack_commence.cas		 	-fr, -evt:SYW/data/animations/engine/cannon_shot.evt
+anim		attack_recover								   	SYW/data/animations/engine/alasassone/geschwind_attack_recover.cas				-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+;anim		attack_recover								   	SYW/data/animations/engine/alasassone/siege_serpentine_attack_recover.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt

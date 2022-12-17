@@ -48,16 +48,16 @@ projectile M1742
 
 destroy_after_max_range_percent_and_variation   30   90 
 effect			musket
-effect_offset	-1.7
+effect_offset	-1.55
 damage			0
-damage_to_troops 	1
+damage_to_troops 	2
 radius			0.009 
 mass		    0.13
-accuracy_vs_units	0.125
+accuracy_vs_units	0.06 ;0.13
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		300
+velocity		250
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only  
@@ -67,17 +67,17 @@ projectile M1742G
 
 destroy_after_max_range_percent_and_variation   30   90  
 effect			musket
-effect_offset	-1.7
+effect_offset	-1.55
 damage			0
-damage_to_troops 	1
+damage_to_troops 	2
 radius			0.009
 mass		    0.13
-accuracy_vs_units	0.07
+accuracy_vs_units	0.04
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		300
-display			
+velocity		250
+display			aimed
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only  
 
@@ -91,10 +91,10 @@ destroy_after_max_range_percent_and_variation   30   90
 effect			musket
 effect_offset	-1.7
 damage			0
-damage_to_troops 	1
+damage_to_troops 	2
 radius			0.009
 mass		    0.11 
-accuracy_vs_units	0.12
+accuracy_vs_units	0.17
 affected_by_rain
 min_angle		-60 
 max_angle		45 
@@ -177,7 +177,7 @@ damage			0
 damage_to_troops 	1
 radius			0.009 
 mass		    0.1
-accuracy_vs_units	0.11
+accuracy_vs_units	0.15
 affected_by_rain
 min_angle		-60 
 max_angle		45 
@@ -218,11 +218,11 @@ damage			0
 damage_to_troops 	1
 radius			0.009 
 mass		    0.116
-accuracy_vs_units	0.2
+accuracy_vs_units	0.36
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		310
+velocity		250
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -237,11 +237,11 @@ damage			0
 damage_to_troops 	1
 radius			0.009 
 mass		    0.116
-accuracy_vs_units	0.1
+accuracy_vs_units	0.2
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		310
+velocity		250
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -260,7 +260,7 @@ accuracy_vs_units	0.2
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		310
+velocity		250
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -279,7 +279,7 @@ accuracy_vs_units	0.1
 affected_by_rain
 min_angle		-60 
 max_angle		45 
-velocity		85
+velocity		250
 display			
 model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
@@ -406,7 +406,7 @@ model			SYW/data/models_missile/bullet.cas,  max
 ;effect_only 
 
 
-projectile jaeger_rifle					
+projectile jaeger_rifle		 ; for a mix of rifles and muskets			
 
 destroy_after_max_range_percent_and_variation   30   90 
 effect			musket
@@ -435,14 +435,15 @@ destroy_after_max_range_percent_and_variation   120   20
 effect 			cannon_effect
 end_effect		cannon_end_effect
 damage			7
-damage_to_troops 	67
+;damage_to_troops 	5
 radius			0.036
-mass			0.73
+mass			0.014
+area			1.8
 accuracy_vs_units   	0.013
 accuracy_vs_buildings   0.013
 min_angle		-6.5
-max_angle		27
-velocity		109		
+max_angle		4
+velocity		250	
 ;bounce			0.001 1.0 1.0 0.5
 bounce			0.001 1.0 1.0 0.1
 display		    aimed
@@ -462,8 +463,8 @@ radius			0.9 ; 0.9
 area			1.8 ; 1.8
 accuracy_vs_units    	0.013
 min_angle		-11.5
-max_angle		23
-velocity		62
+max_angle		4
+velocity		220
 display			
 effect_only
 
@@ -595,7 +596,7 @@ end_effect		canister_end_effect
 damage			0
 damage_to_troops   9600; 56
 radius			1.3 ; 1.3
-area			1.8 ; 1.8
+area			0 ; 0
 accuracy_vs_units    	0.0048
 min_angle		-11.5
 max_angle		23
@@ -1025,7 +1026,7 @@ fiery
 min_angle		0
 max_angle		80
 velocity		150
-display			aimed
+display			aimed, particle_trail
 effect_only
 
 
@@ -1062,7 +1063,7 @@ min_angle		-4.5
 max_angle		30.5
 velocity		121
 ground_shatter
-display			aimed
+display			aimed particle_trail
 model			SYW/data/models_missile/12fr_cannonball.cas,  max
 
 
@@ -1101,7 +1102,7 @@ min_angle		-4.5
 max_angle		30.5
 velocity		121
 ground_shatter
-display			aimed
+display			aimed particle_trail
 model			SYW/data/models_missile/12fr_cannonball.cas,  max
 ;;;;;;;;;;;;;;;;;;;;;;;;mortars;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

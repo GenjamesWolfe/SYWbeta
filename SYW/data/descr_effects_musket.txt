@@ -111,21 +111,21 @@ effect musket_fog
             vel_range			0, 0		;vertical velocity range
 			die_size				8, 10	;size when the effect fades
             colour             210, 210, 243	;only works for grayscale textures.
-            alpha_max           130            ; maximum alpha value
-			acceleration			0, 0, -0.04 ;this is added to the velocity, as needed.
+            alpha_max           200            ; maximum alpha value
+			acceleration			0, 0, -0.01 ;this is added to the velocity, as needed.
 			offset				0, -1.2, -3.0 (lateral, vertical, and horizontal displacement)
 			max_particles		8 ;name says it all, though don't expect the engine to put them in the exact spot
 			max_distance		1 ; that essentially acts (poorly) as a spoiler, to spacce the particles apart (after density is factored in)
             emitter distance
             {
                 ; How many particels per meter. The inverse must not be higher then the maximum range
-                density        1.7
+                density        2
 				
 				emitter_falloff_dist	30		; distance in meters to reduce emission over
 				emitter_falloff_bias	0.01			; best I can tell, a bias of ~1 spreads the effect out more.
             }
             
-			fade_time		30, 80
+			fade_time		80, 300
 			spin_rate		0, 0.05
 			clr_adjust_by_ambient_intensity
     }
@@ -145,7 +145,7 @@ effect lingering_smoke
                 grow_range        3, 4
             velocity           0, 0
             colour             210, 210, 243
-            alpha_max           80            ; maximum alpha value
+            alpha_max           130            ; maximum alpha value
 			acceleration			0, 0, 0
 			offset				0, -1.2, -3.0 (lateral, vertical, and horizontal displacement)
 			max_particles		8 ;name says it all, though don't expect the engine to put them in the exact spot
@@ -171,7 +171,7 @@ effect lingering_smoke
 			musket_flash
 			musket_flame
 			musket_fog
-			lingering_smoke
+			;lingering_smoke
         } 
     }
 	

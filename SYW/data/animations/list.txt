@@ -61,6 +61,8 @@ SYW_british_musketeer
 SYW_british_highland_musketeer
 SYW_austrian_musketeer
 SYW_prussian_musketeer
+SYW_prussian_musketeer_72_30
+SYW_prussian_musketeer_72_25
 SYW_prussian_musketeer_sixty
 SYW_prussian_musketeer_slow
 SYW_ankshari_musketeer
@@ -74,10 +76,10 @@ SYW_drummer
 SYW_drummer_pr
 SYW_warhorse
 Hhorse
-straight_bolt
 fs_hc_steppearcher
 cav_sabre
 fast_horse
 SYW_pallasch
 SYW_light_inf
 SYW_bayonet
+SYW_geschwind

@@ -1,7 +1,7 @@
 ******************************************************************
 ******************************************************************
 
--The Seven Years War mod
+_The Seven Years War mod
 
 _Research
 
@@ -14,9 +14,8 @@ Megas Antiviros
 
 _initial animations
 
-
-Ogniem i Mizcem team
 Gen. James Wolfe (no, not the real general)
+Ogniem i Mizcem team
 Vercingetorix (for creating the needed tools)
 
 _Unit models
@@ -32,8 +31,6 @@ Gen.jamesWolfe
 _ballistics and gunfire effects
 
 Gigantus
-
-_ dedicated in part to the 900,000-1,400,000 dead, and countless affected, of the war, reminding us that this was a horrible, and senseless war.
 
 _Music
 

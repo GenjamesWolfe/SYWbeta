@@ -1,7 +1,7 @@
 dimensions
 {
-	width  400
-	height  310
+	width  499
+	height  411
 }
 heights
 {

@@ -59,6 +59,7 @@
 ;               Damage type = piercing, blunt, slashing or fire. (I don't think this is used anymore)
 ;               Sound type when weapon hits = none, knife, mace, axe, sword, or spear
 ;               Min delay between attacks (in 1/10th of a second)
+;				lethality
 ; stat_pri_attr
 ;               primary weapon attributes any or all of
 ;                   ap = armour piercing. Only counts half of target's armour
@@ -331,15 +332,15 @@ dictionary       Austrian_grenzers
 category         infantry
 class            skirmish
 voice_type       General_1
-soldier          austrian_grenzer, 16, 0, 0.68, 0.30, 1.7
+soldier          austrian_grenzer, 16, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.6, 0.75, 2.5, 0.75, 3, square
 stat_health      1, 0
-stat_pri         11, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -356,13 +357,13 @@ dictionary       austrian_jaegers
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          austrian_jaeger, 12, 0, 0.68, 0.3, 1.7
+soldier          austrian_jaeger, 12, 0, 0.8, 0.25, 1.7
 attributes       hide_long_grass
 formation        0.9, 0.63, 4, 0.63, 2, square
 stat_health      1, 0
 stat_pri         10, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.27
+stat_sec         1, 1, no, 0, 0, melee, simple, piercing, spear, 1, 0.09
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -381,18 +382,18 @@ dictionary       Austrian_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          austrian_line, 30, 0, 0.68, 0.30, 1.7
+soldier          austrian_line, 30, 0, 0.8, 0.25, 1.7
 officer          austrian_officer
 officer          austrian_ensign
 officer          austrian_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
+stat_pri         8, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -409,18 +410,18 @@ dictionary       netherlander_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          netherlands_line, 30, 0, 0.68, 0.30, 1.7
+soldier          netherlands_line, 30, 0, 0.8, 0.25, 1.7
 officer          austrian_officer
 officer          austrian_ensign
 officer          austrian_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
+stat_pri         8, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -437,18 +438,18 @@ dictionary       Hungarian_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hungarian_line, 30, 0, 0.68, 0.30, 1.7
+soldier          hungarian_line, 30, 0, 0.8, 0.25, 1.7
 officer          austrian_officer
 officer          austrian_ensign
 officer          austrian_drummer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 4, square
+formation        0.63, 1.8, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
+stat_pri         8, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 0.4
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 5, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -465,17 +466,17 @@ dictionary       Austrian_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          austrian_grenadier, 36, 0, 0.78, 0.30, 1.7
+soldier          austrian_grenadier, 36, 0, 0.78, 0.25, 1.7
 officer          austrian_officer
 officer          austrian_drummer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 1.8, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         11, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -492,18 +493,18 @@ dictionary       Hungarian_grenadiers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hungarian_grenadier, 36, 0, 0.78, 0.30, 1.7
+soldier          hungarian_grenadier, 36, 0, 0.78, 0.25, 1.7
 officer          austrian_officer
 officer          austrian_drummer
 officer          austrian_drummer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 1.8, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         11, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1754, 190, 48, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -520,15 +521,15 @@ dictionary       Swabian_circle_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          paderborn_line, 30, 0, 0.68, 0.30, 1.7
+soldier          paderborn_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1745, 190, 48, siege_missile, other, blunt, none, 25, 1.0
+stat_pri         8, 0, M1745, 190, 48, siege_missile, other, blunt, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -545,15 +546,15 @@ dictionary       Wurzburg_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          wurzburg_line, 23, 0, 0.68, 0.30, 1.7
+soldier          wurzburg_line, 23, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         11, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1745, 190, 48, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, flesh
+stat_pri_armour  2, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -575,11 +576,11 @@ mount            austrian dragoon horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.11
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, flesh
+stat_pri_armour  3, 3, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -601,11 +602,11 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 8, 0, flesh
+stat_pri_armour  3, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -627,11 +628,11 @@ mount            austrian horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.11
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  8, 9, 0, metal
+stat_pri_armour  8, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -653,11 +654,11 @@ mount            austrian horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  8, 9, 0, metal
+stat_pri_armour  8, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -681,9 +682,9 @@ formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         5, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.11
+stat_sec         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, flesh
+stat_pri_armour  3, 3, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -705,9 +706,9 @@ engine           austrian_3pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
-stat_sec         10, 0, austrian_3pdr, 400, 180, siege_missile, blade, blunt, none, 25, 1
+stat_sec         45, 0, austrian_3pdr, 400, 180, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -731,7 +732,7 @@ engine           austrian_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         20, 0, austrian_6pdr, 470, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
@@ -758,7 +759,7 @@ engine           austrian_12pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         40, 0, austrian_12pdr, 650, 114, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
@@ -784,7 +785,7 @@ engine           austrian_24pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         60, 0, austrian_24pdr, 700, 90, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
@@ -810,7 +811,7 @@ engine           austrian_howitzer
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         3, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         40, 0, Aus_howitzer_shell, 1100, 100, siege_missile, siege, blunt, none, 25, 1
 stat_sec_attr    area
@@ -833,21 +834,21 @@ dictionary       prussian_landregiment
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 15, 0, 0.68, 0.30, 1.7
+soldier          prussian_militia, 15, 0, 0.8, 0.25, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      1, low, trained
+stat_mental      1, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -860,15 +861,15 @@ dictionary       prussian_garrison
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 20, 0, 0.68, 0.30, 1.7
+soldier          prussian_militia, 20, 0, 0.9, 0.25, 1.75
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -887,11 +888,11 @@ dictionary       prussian_freijaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          freijaeger, 6, 0, 0.68, 0.30, 1.7
+soldier          freijaeger, 6, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         11, 0, rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         10, 0, rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         5, 3, no, 0, 0, melee, simple, piercing, sword, 1, 0.13
 stat_sec_attr    no
@@ -912,11 +913,11 @@ dictionary       prussian_feldjaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          feldjaeger, 6, 0, 0.68, 0.30, 1.7
+soldier          feldjaeger, 6, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         11, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         10, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         4, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.13
 stat_sec_attr    no
@@ -937,21 +938,21 @@ dictionary       prussian_saxon_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 31, 0, 0.68, 0.30, 1.7
+soldier          prussian_line, 31, 0, 0.8, 0.25, 1.7
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      1, low, highly_trained
+stat_mental      1, low, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -964,16 +965,16 @@ dictionary       prussian_freikorps_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          paderborn_line, 31, 0, 0.68, 0.30, 1.7
+soldier          paderborn_line, 31, 0, 0.8, 0.25, 1.7
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -990,21 +991,21 @@ dictionary       prussian_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 31, 0, 0.68, 0.30, 1.7
+soldier          prussian_line, 31, 0, 0.9, 0.25, 1.75
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      2, normal, highly_trained
+stat_mental      2, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -1017,21 +1018,21 @@ dictionary       prussian_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_fusilier, 31, 0, 0.68, 0.30, 1.7
+soldier          prussian_fusilier, 31, 0, 0.9, 0.25, 1.75
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      2, normal, highly_trained
+stat_mental      2, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -1044,16 +1045,16 @@ dictionary       prussian_grenadiers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_grenadier, 28, 0, 0.78, 0.30, 1.7
+soldier          prussian_grenadier, 28, 0, 0.95, 0.25, 1.8
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1068,19 +1069,19 @@ ownership        germans
 type             prussian leib
 dictionary       prussian_leib
 category         infantry
-class            heavy
+class            missile
 voice_type       Heavy_1
-soldier          prussian_leib, 33, 0, 0.78, 0.30, 1.7
+soldier          prussian_leib, 33, 0, 0.92, 0.25, 1.77
 officer          prussian_flag
 officer          prussian_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 5, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1102,11 +1103,11 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 3.0, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, flesh
+stat_pri_armour  2, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1128,11 +1129,11 @@ mount            prussian horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         3, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 8, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1154,11 +1155,11 @@ mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         3, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  10, 9, 0, metal
+stat_pri_armour  10, 4, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1180,11 +1181,11 @@ mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         11, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         3, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  10, 9, 0, metal
+stat_pri_armour  10, 8, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1207,8 +1208,8 @@ attributes       sea_faring, hide_forest, can_sap, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         3, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
-stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri_attr    ap
+stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, metal
 stat_sec_armour  0, 0, flesh
@@ -1232,7 +1233,7 @@ engine           prussian_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         18, 0, prussian_6pounder, 600, 45, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
@@ -1258,7 +1259,7 @@ engine           prussian_12pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         36, 0, prussian_12pounder, 900, 45, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
@@ -1284,7 +1285,7 @@ engine           prussian_24pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, prussian_24pounder, 1200, 45, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp, area
@@ -1310,7 +1311,7 @@ engine           prussian_howitzer
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         40, 0, Aus_howitzer_shell, 900, 100, siege_missile, blade, slashing, none, 25, 1
 stat_sec_attr    ap, area
@@ -1332,19 +1333,19 @@ dictionary       darmstadt_militia
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 30, 0, 0.68, 0.30, 1.7
+soldier          prussian_militia, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      1, low, highly_trained
+stat_mental      1, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -1357,15 +1358,15 @@ dictionary       darmstadt_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 30, 0, 0.68, 0.30, 1.7
+soldier          prussian_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1382,15 +1383,15 @@ dictionary       darmstadt_grenadiers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_grenadier, 28, 0, 0.78, 0.30, 1.7
+soldier          prussian_grenadier, 28, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1407,15 +1408,15 @@ dictionary       darmstadt_leibgrenadiergarde
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          darmstadt_leibgrenadiergarde, 6, 0, 0.78, 0.30, 1.7
+soldier          darmstadt_leibgrenadiergarde, 6, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.13
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1437,11 +1438,11 @@ mount            medium horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1463,11 +1464,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1487,11 +1488,11 @@ dictionary       brunswick_jaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.30, 1.7
+soldier          hessen_kassel_jaeger, 6, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         11, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         10, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         3, 2, no, 0, 0, melee, simple, piercing, sword, 1, 0.13
 stat_sec_attr    no
@@ -1512,15 +1513,15 @@ dictionary       brunswick_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          brunswick_line, 41, 0, 0.68, 0.30, 1.7
+soldier          brunswick_line, 41, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1537,15 +1538,15 @@ dictionary       brunswick_grenadiers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          brunswick_grenadier, 22, 0, 0.78, 0.30, 1.7
+soldier          brunswick_grenadier, 22, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1562,15 +1563,15 @@ dictionary       brunswick_footguard
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          brunswick_line, 20, 0, 0.68, 0.30, 1.7
+soldier          brunswick_line, 20, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1592,7 +1593,7 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, hardy, frighten_mounted
 formation        1.0, 3.0, 1.2, 3.0, 2, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
@@ -1618,7 +1619,7 @@ mount            brunswick horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
@@ -1644,7 +1645,7 @@ mount            brunswick horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         3, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
@@ -1670,7 +1671,7 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         3, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
@@ -1695,11 +1696,11 @@ dictionary       wurttemberg_jaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          feldjaeger, 6, 0, 0.68, 0.30, 1.7
+soldier          feldjaeger, 6, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
-stat_pri         11, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         10, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         3, 2, no, 0, 0, melee, simple, piercing, sword, 1, 0.13
 stat_sec_attr    no
@@ -1720,15 +1721,15 @@ dictionary       wurttemberg_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          wurttemberger_line, 30, 0, 0.68, 0.30, 1.7
+soldier          wurttemberger_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1745,15 +1746,15 @@ dictionary       wurttemberg_garde_zu_fuss
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_leib, 17, 0, 0.78, 0.30, 1.7
+soldier          prussian_leib, 17, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, good_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, good_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1775,11 +1776,11 @@ mount            british horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1801,11 +1802,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  8, 9, 0, metal
+stat_pri_armour  8, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1827,11 +1828,11 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, very_hardy, frighten_mounted
 formation        1.0, 3.0, 1.2, 3.0, 2, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 8, 0, flesh
+stat_pri_armour  3, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -1876,7 +1877,7 @@ dictionary       hessen_kassel_jaeger
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          hessen_kassel_jaeger, 6, 0, 0.68, 0.30, 1.7
+soldier          hessen_kassel_jaeger, 6, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_long_grass
 formation        0.9, 1.5, 4, 1.5, 2, square
 stat_health      1, 0
@@ -1901,13 +1902,13 @@ dictionary       hessen_kassel_militia
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_militia, 30, 0, 0.68, 0.30, 1.7
+soldier          prussian_militia, 30, 0, 0.8, 0.25, 1.7
 attributes       hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         11, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -1926,19 +1927,19 @@ dictionary       hessen_kassel_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          prussian_line, 30, 0, 0.68, 0.30, 1.7
+soldier          prussian_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      2, normal, highly_trained
+stat_mental      2, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -1951,15 +1952,15 @@ dictionary       hessen_kassel_garde
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hessian_leib, 31, 0, 0.78, 0.30, 1.7
+soldier          hessian_leib, 31, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.63, 0.68, 0.63, 0.68, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1740, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         15, 30, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -1981,11 +1982,11 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, very_hardy, frighten_mounted
 formation        1.0, 3.0, 1.2, 3.0, 2, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, flesh
+stat_pri_armour  4, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -2007,11 +2008,11 @@ mount            british horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -2033,11 +2034,11 @@ mount            british horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 3.0, 1.0, 3.0, 2, square
 stat_health      1, 0
-stat_pri         8, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -2059,7 +2060,7 @@ engine           prussian_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, prussian_6pounder, 600, 45, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -2082,13 +2083,13 @@ dictionary       french_chasseurs
 category         infantry
 class            light
 voice_type       General_1
-soldier          french_chasseur, 16, 0, 0.68, 0.30, 1.7
+soldier          french_chasseur, 16, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest
 formation        0.63, 0.75, 1.8, 1.5, 3, square
 stat_health      1, 0
-stat_pri         10, 0, aimed_musket, 300, 19, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 300, 19, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2107,13 +2108,15 @@ dictionary       french_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_militia, 13, 0, 0.68, 0.30, 1.7
+soldier          french_militia, 13, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2132,15 +2135,15 @@ dictionary       canadian_militia
 category         infantry
 class            light
 voice_type       General_1
-soldier          french_canadian, 15, 0, 0.6, 0.30, 1.7
+soldier          french_canadian, 15, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_forest, hardy
 formation        0.63, 0.75, 1.8, 1.5, 3, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 300, 19, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 300, 19, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         3, 2, no, 0, 0, melee, simple, piercing, axe, 0.8, 0.15
+stat_sec         2, 2, no, 0, 0, melee, simple, piercing, axe, 0.8, 0.05
 stat_sec_attr    ap
-stat_pri_armour  2, 3, 0, leather
+stat_pri_armour  2, 2, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2157,15 +2160,17 @@ dictionary       compagnie_franche_de_la_marine
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_marine, 15, 0, 0.68, 0.30, 1.7
+soldier          french_marine, 15, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 1.8, 1.5, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1728G, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728G, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2182,15 +2187,17 @@ dictionary       french_CdI_european
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_3, 19, 0, 0.68, 0.30, 1.7
+soldier          french_merc_3, 19, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2207,15 +2214,18 @@ dictionary       french_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_fusilier, 44, 0, 0.68, 0.30, 1.7
+soldier          french_fusilier, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 6, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2232,13 +2242,16 @@ dictionary       french_scottish_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_1, 44, 0, 0.68, 0.30, 1.7
+soldier          french_merc_1, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2257,15 +2270,18 @@ dictionary       french_irish_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_1, 44, 0, 0.68, 0.30, 1.7
+soldier          french_merc_1, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2282,13 +2298,16 @@ dictionary       french_liegois
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_2, 44, 0, 0.68, 0.30, 1.7
+soldier          french_merc_2, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2307,15 +2326,18 @@ dictionary       french_german_fusiliers
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          french_merc_2, 44, 0, 0.68, 0.30, 1.7
+soldier          french_merc_2, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2332,15 +2354,18 @@ dictionary       french_italian_fusilier
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_merc_3, 44, 0, 0.68, 0.30, 1.7
+soldier          french_merc_3, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2357,13 +2382,16 @@ dictionary       french_swiss_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_fusilier, 44, 0, 0.68, 0.30, 1.7
+soldier          french_fusilier, 44, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, mercenary_unit, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         14, 26, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2382,15 +2410,18 @@ dictionary       grenadiers_royaux
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_grenadierR, 35, 0, 0.78, 0.30, 1.7
+soldier          french_grenadierR, 35, 0, 0.78, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, frighten_foot, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2407,15 +2438,17 @@ dictionary       french_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_grenadier, 29, 0, 0.78, 0.30, 1.7
+soldier          french_grenadier, 29, 0, 0.78, 0.25, 1.7
+officer			 french_officer
+officer			 french_drummer
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2432,15 +2465,18 @@ dictionary       grenadiers_du_france
 category         infantry
 class            missile
 voice_type       General_1
-soldier          grenadier_dfrance, 26, 0, 0.78, 0.30, 1.7
+soldier          grenadier_dfrance, 26, 0, 0.78, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728G, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728G, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2457,15 +2493,18 @@ dictionary       garde_suisses
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_guard, 26, 0, 0.78, 0.30, 1.7
+soldier          french_guard, 26, 0, 0.78, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, hardy, mercenary_unit, frighten_foot, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2482,15 +2521,18 @@ dictionary       garde_francais
 category         infantry
 class            missile
 voice_type       General_1
-soldier          french_guard, 27, 0, 0.68, 0.30, 1.7
+soldier          french_guard, 27, 0, 0.8, 0.25, 1.7
+officer			 french_officer
+officer			 french_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2512,15 +2554,15 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, very_hardy, frighten_mounted
 formation        0.9, 4.5, 1.8, 4.5, 2, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 8, 0, flesh
+stat_pri_armour  3, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      2, low, trained
+stat_mental      2, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -2538,15 +2580,15 @@ mount            french dragoon horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      3, low, highly_trained
+stat_mental      3, impetuous, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -2564,15 +2606,15 @@ mount            french cuirassier horse
 attributes       sea_faring, hide_forest, frighten_foot
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  6, 9, 0, metal
+stat_pri_armour  6, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      3, normal, highly_trained
+stat_mental      3, impetuous, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -2590,11 +2632,11 @@ mount            french gendarme horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, metal
+stat_pri_armour  9, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -2616,11 +2658,11 @@ mount            french garde horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted, can_run_amok
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  6, 9, 0, metal
+stat_pri_armour  6, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -2642,9 +2684,9 @@ mount            prussian horse 1
 attributes       sea_faring, hide_forest, can_sap, general_unit
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         10, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
-stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         3, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
+stat_sec         1, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.3
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, metal
 stat_sec_armour  0, 0, flesh
@@ -2668,7 +2710,7 @@ engine           french_4pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.5
 stat_pri_attr    no
 stat_sec         63, 0, french_4pdr, 600, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -2694,7 +2736,7 @@ engine           french_8pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.5
 stat_pri_attr    no
 stat_sec         63, 0, french_8pdr, 900, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -2720,7 +2762,7 @@ engine           french_12pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.5
 stat_pri_attr    no
 stat_sec         63, 0, french_12pdr, 1000, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -2746,7 +2788,7 @@ engine           french_24pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.5
 stat_pri_attr    no
 stat_sec         63, 0, french_24pdr, 1200, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -2772,7 +2814,7 @@ engine           french_howitzer
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.5
 stat_pri_attr    no
 stat_sec         15, 0, fr_howitzer_shell, 1200, 100, siege_missile, blade, slashing, none, 25, 1
 stat_sec_attr    ap, area
@@ -2795,13 +2837,13 @@ dictionary       spanish_migueletes
 category         infantry
 class            light
 voice_type       Heavy_1
-soldier          spanish_migueletes, 10, 0, 0.68, 0.30, 1.7
+soldier          spanish_migueletes, 10, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.65, 0.65, 1.8, 0.65, 3, square
 stat_health      1, 0
-stat_pri         27, 0, aimed_musket, 300, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 300, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2820,13 +2862,15 @@ dictionary       spanish_militia
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_militia, 43, 0, 0.68, 0.30, 1.7
+soldier          spanish_militia, 43, 0, 0.8, 0.25, 1.7
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2845,15 +2889,17 @@ dictionary       spanish_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_fusilier, 43, 0, 0.68, 0.30, 1.7
+soldier          spanish_fusilier, 43, 0, 0.8, 0.25, 1.7
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2870,15 +2916,17 @@ dictionary       spanish_italian_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_merc_1, 43, 0, 0.68, 0.30, 1.7
+soldier          spanish_merc_1, 43, 0, 0.8, 0.25, 1.7
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -2895,13 +2943,15 @@ dictionary       spanish_valonas_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_merc_1, 43, 0, 0.68, 0.30, 1.7
+soldier          spanish_merc_1, 43, 0, 0.8, 0.25, 1.7
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2920,13 +2970,15 @@ dictionary       spanish_irish_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_merc_2, 43, 0, 0.68, 0.30, 1.7
+soldier          spanish_merc_2, 43, 0, 0.8, 0.25, 1.7
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         23, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2945,13 +2997,15 @@ dictionary       spanish_swiss_fusiliers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_fusilier, 43, 0, 0.68, 0.30, 1.7
+soldier          spanish_fusilier, 43, 0, 0.8, 0.25, 1.7
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, mercenary_unit, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         27, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -2970,19 +3024,20 @@ dictionary       spanish_grenadiers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          spanish_grenadier, 27, 0, 0.78, 0.30, 1.7
+soldier          spanish_grenadier, 27, 0, 0.78, 0.25, 1.7
+officer			 french_drummer
 attributes       sea_faring, hide_forest, hardy, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         27, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
-stat_mental      3, low, highly_trained
+stat_mental      3, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -2995,15 +3050,17 @@ dictionary       guardias
 category         infantry
 class            heavy
 voice_type       Heavy_1
-soldier          spanish_footguard, 24, 0, 0.68, 0.3, 1.3
+soldier          spanish_footguard, 48, 0, 0.68, 0.3, 1.3
+officer			 spanish_ensign
+officer			 french_drummer
 attributes       sea_faring, hide_forest, hardy, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         27, 0, M1728G, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1728G, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3025,11 +3082,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, metal
+stat_pri_armour  4, 4, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3051,11 +3108,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  7, 9, 0, metal
+stat_pri_armour  7, 4, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3077,11 +3134,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  7, 9, 0, metal
+stat_pri_armour  7, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3103,11 +3160,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        0.9, 4.5, 0.9, 4.5, 2, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  7, 9, 0, metal
+stat_pri_armour  7, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3116,6 +3173,32 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        6, 9500, 550, 20, 30, 9500
+ownership        seleucid
+
+
+type             spanish staff
+dictionary       spanish_staff
+category         cavalry
+class            missile
+voice_type       Heavy_1
+soldier          french_courier, 6, 0, 1
+mount            prussian horse 1
+attributes       sea_faring, hide_forest, can_sap, general_unit
+formation        1.0, 4.5, 1.0, 4.5, 3, square
+stat_health      1, 0
+stat_pri         3, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    ap
+stat_sec         1, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
+stat_sec_attr    no
+stat_pri_armour  2, 3, 0, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -1, 0, -4, -2
+stat_mental      4, disciplined, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 8000, 500, 20, 30, 8000
 ownership        seleucid
 
 
@@ -3129,7 +3212,7 @@ engine           french_4pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, french_4pdr, 600, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3155,7 +3238,7 @@ engine           french_8pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, french_8pdr, 900, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3181,7 +3264,7 @@ engine           french_12pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, french_12pdr, 1000, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3207,7 +3290,7 @@ engine           french_24pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, french_24pdr, 1200, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3233,7 +3316,7 @@ engine           french_howitzer
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         15, 0, fr_howitzer_shell, 1200, 100, siege_missile, blade, slashing, none, 25, 1
 stat_sec_attr    ap, area
@@ -3250,22 +3333,26 @@ ownership        seleucid
 
 
 ;**********************************************Gross-Britanien******************************
+;average British soldier height 165 cm; average mass 63Kg+equipment
+;Militia soldiers are 170 cm; average mass 67Kg+equipment
+;grenadiers are 1 SD above.
 
+;represent regular people; mean height 167 cm
 type             british militia
 dictionary       british_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_militia, 11, 0, 0.68, 0.30, 1.7
+soldier          british_militia, 11, 0, 0.77, 0.25, 1.7
 officer          british_officer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 2, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 6, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3282,19 +3369,19 @@ dictionary       british_lights
 category         infantry
 class            skirmish
 voice_type       General_1
-soldier          british_light, 10, 0, 0.68, 0.30, 1.7
+soldier          british_light, 10, 0, 0.77, 0.25, 1.65
 attributes       sea_faring, hide_improved_forest, hide_anywhere, very_hardy, can_sap
-formation        0.6, 0.63, 1.8, 0.63, 2, square
+formation        0.51, 0.63, 1.8, 11, 2, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 7, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
-stat_mental      3, disciplined, highly_trained
+stat_mental      3, disciplined, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -3307,18 +3394,18 @@ dictionary       provincial_line
 category         infantry
 class            missile
 voice_type       General_1
-soldier          jersey_blues, 37, 0, 0.68, 0.30, 1.7
+soldier          jersey_blues, 37, 0, 0.85, 0.25, 1.7
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 1, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 3, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3335,13 +3422,13 @@ dictionary       rangers
 category         infantry
 class            skirmish
 voice_type       General_1
-soldier          british_ranger, 6, 0, 0.68, 0.30, 1.7
+soldier          british_ranger, 6, 0, 0.85, 0.25, 1.7
 attributes       sea_faring, hide_improved_forest, hide_long_grass, hardy, can_sap
-formation        0.6, 0.63, 1.8, 1.26, 2, square
+formation        0.6, 0.63, 1.8, 11, 2, square
 stat_health      1, 0
-stat_pri         10, 0, jaeger_rifle, 200, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, jaeger_rifle, 200, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         7, 4, no, 0, 0, melee, simple, piercing, axe, 0.8, 0.15
+stat_sec         2, 1, no, 0, 0, melee, simple, piercing, axe, 0.8, 0.05
 stat_sec_attr    ap
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -3360,16 +3447,16 @@ dictionary       british_line
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line, 34, 0, 0.68, 0.30, 1.7
+soldier          british_line, 34, 0, 0.8, 0.25, 1.67
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         3, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -3388,16 +3475,16 @@ dictionary       british_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_fusilier, 34, 0, 0.68, 0.30, 1.7
+soldier          british_fusilier, 34, 0, 0.8, 0.25, 1.67
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -3416,17 +3503,17 @@ dictionary       british_marines
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line_2, 11, 0, 0.68, 0.30, 1.7
+soldier          british_line_2, 11, 0, 0.8, 0.25, 1.65
 officer          british_officer
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 6, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3443,16 +3530,16 @@ dictionary       eic_foot
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_line_2, 25, 0, 0.68, 0.30, 1.7
+soldier          british_line_2, 25, 0, 0.8, 0.25, 1.67
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -3471,18 +3558,18 @@ dictionary       british_sepoys
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_sepoy, 37, 0, 0.68, 0.30, 1.7
+soldier          british_sepoy, 37, 0, 0.7, 0.25, 1.6
 officer          british_officer
 officer          british_ensign
 officer          british_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 7, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3499,16 +3586,16 @@ dictionary       british_highlander
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_highlander, 34, 0, 0.78, 0.30, 1.7
+soldier          british_highlander, 34, 0, 0.76, 0.25, 1.64
 officer          british_officer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, power_charge
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3525,17 +3612,17 @@ dictionary       british_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          british_grenadier, 16, 0, 0.78, 0.30, 1.7
+soldier          british_grenadier, 16, 0, 0.9, 0.25, 1.73
 officer          british_officer
 officer          british_drummer
 attributes       sea_faring, hide_forest, frighten_foot, hardy, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 6, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3552,18 +3639,18 @@ dictionary       british_footguard
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          british_line, 20, 0, 0.78, 0.30, 1.7
+soldier          british_line, 20, 0, 0.87, 0.25, 1.7
 officer          british_officer
-officer          british_ensign
+officer          british_ensign_guard
 officer          british_drummer
 attributes       sea_faring, hide_forest, frighten_foot, mercenary_unit
-formation        0.63, 0.75, 0.63, 0.75, 3, square
+formation        0.51, 0.63, 0.51, 0.63, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742G, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
-stat_sec_attr    bp
-stat_pri_armour  2, 9, 0, leather
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
+stat_sec_attr    no
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3585,15 +3672,15 @@ mount            british horse 4
 attributes       sea_faring, hide_forest, frighten_mounted, hardy
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      4, impetuous, highly_trained
+stat_mental      4, impetuous, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -3611,15 +3698,15 @@ mount            horse dragoon
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      4, normal, highly_trained
+stat_mental      4, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -3637,15 +3724,15 @@ mount            british horse 1
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      4, normal, highly_trained
+stat_mental      4, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -3663,15 +3750,15 @@ mount            british horse 2
 attributes       sea_faring, hide_forest, frighten_foot, mercenary_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         11, 12, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, leather
+stat_pri_armour  9, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
-stat_mental      5, impetuous, highly_trained
+stat_mental      5, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -3689,11 +3776,11 @@ mount            british horse 3
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         11, 12, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  5, 9, 0, leather
+stat_pri_armour  9, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3717,9 +3804,9 @@ formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         3, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_sec         1, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
 stat_sec_attr    no
-stat_pri_armour  2, 3, 0, metal
+stat_pri_armour  2, 2, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3736,12 +3823,12 @@ dictionary       british_6pounder
 category         siege
 class            missile
 voice_type       General_1
-soldier          british_6p_crew, 10, 2, 0.68
+soldier          british_6p_crew, 10, 2, 0.8, 0.25, 1.67
 engine           british_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         2, 0, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3762,12 +3849,12 @@ dictionary       british_12pounder
 category         siege
 class            missile
 voice_type       General_1
-soldier          british_6p_crew, 10, 1, 0.68
+soldier          british_6p_crew, 10, 1, 0.8, 0.25, 1.67
 engine           british_12pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         2, 0, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         36, 0, british_12pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3788,12 +3875,12 @@ dictionary       british_24pounder
 category         siege
 class            missile
 voice_type       General_1
-soldier          british_6p_crew, 10, 1, 0.68
+soldier          british_6p_crew, 10, 1, 0.8, 0.25, 1.67
 engine           british_24pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         2, 0, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, british_24pounder, 1800, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -3816,16 +3903,16 @@ dictionary       hanoverian_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          hanoverian_militia, 6, 0, 0.68, 0.30, 1.7
+soldier          hanoverian_militia, 6, 0, 0.8, 0.25, 1.7
 officer          british_officer
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 2, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.3
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 6, 0, leather
+stat_pri_armour  2, 5, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3841,13 +3928,13 @@ dictionary       hanovarian_jaegers
 category         infantry
 class            skirmish
 voice_type       Heavy_1
-soldier          hanovarian_jaeger, 12, 0, 0.68, 0.3, 1.7
+soldier          hanovarian_jaeger, 12, 0, 0.8, 0.25, 1.7
 attributes       hide_long_grass
 formation        0.9, 0.63, 4, 0.63, 2, square
 stat_health      1, 0
 stat_pri         10, 0, jaeger_rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.27
+stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.13
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -3866,15 +3953,15 @@ dictionary       hanovarian_garrison
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hanoverian_garrison, 6, 0, 0.68, 0.3, 1.7
+soldier          hanoverian_garrison, 6, 0, 0.8, 0.25, 1.7
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1742, 190, 40, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 40, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3891,15 +3978,15 @@ dictionary       hanovarian_line
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hanovarian_line, 35, 0, 0.68, 0.3, 1.7
+soldier          hanovarian_line, 35, 0, 0.8, 0.25, 1.7
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1742, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3916,15 +4003,15 @@ dictionary       hanovarian_fussgarde
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          hanovarian_fussgarde, 20, 0, 0.68, 0.3, 1.7
+soldier          hanovarian_fussgarde, 20, 0, 0.8, 0.25, 1.7
 attributes       hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1742G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1742G, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
 stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        0
 stat_ground      0, 0, 0, 0
@@ -3945,11 +4032,11 @@ mount            hussar horse
 attributes       hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, flesh
+stat_pri_armour  4, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3973,9 +4060,9 @@ formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         5, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    prec
-stat_sec         8, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_sec         2, 1, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -3997,11 +4084,11 @@ mount            horse hanovarian horse
 attributes       hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         3, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         5, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    prec
-stat_sec         8, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_sec         2, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -4025,9 +4112,9 @@ formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         5, 0, pistol, 30, 3, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    prec
-stat_sec         11, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_sec         2, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -4049,7 +4136,7 @@ engine           british_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -4072,13 +4159,13 @@ dictionary       Russian_panders
 category         infantry
 class            light
 voice_type       General_1
-soldier          russian_pandur, 17, 0, 0.68, 0.3, 1.7
+soldier          russian_pandur, 17, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        0.6, 0.63, 4.0, 0.63, 3, square
 stat_health      1, 0
-stat_pri         10, 0, musket, 190, 18, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 18, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4097,17 +4184,17 @@ dictionary       Ukranian_militia
 category         infantry
 class            missile
 voice_type       General_1
-soldier          ukr_militia, 11, 0, 0.68, 0.3, 1.7
+soldier          ukr_militia, 11, 0, 0.8, 0.25, 1.7
 officer          russian_officer
 officer          russian_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1737, 190, 18, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1737, 190, 18, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -4124,18 +4211,18 @@ dictionary       Russian_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          russian_fusilier, 44, 0, 0.68, 0.3, 1.7
+soldier          russian_fusilier, 44, 0, 0.8, 0.25, 1.7
 officer          russian_officer
 officer          russian_ensign
 officer          russian_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 4, square
+formation        0.6, 0.75, 0.6, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1737, 190, 18, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1737, 190, 18, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -4152,17 +4239,17 @@ dictionary       russian_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          russian_grenadier, 39, 0, 0.68, 0.3, 1.7
+soldier          russian_grenadier, 39, 0, 0.8, 0.25, 1.7
 officer          russian_officer
 officer          russian_drummer
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
-formation        0.63, 0.75, 0.63, 0.75, 4, square
+formation        0.6, 0.75, 0.6, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1737G, 190, 28, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1737G, 190, 28, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         14, 28, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -4179,17 +4266,17 @@ dictionary       Russian_footguard
 category         infantry
 class            missile
 voice_type       General_1
-soldier          russian_footguard, 52, 0, 0.68, 0.3, 1.7
+soldier          russian_footguard, 52, 0, 0.8, 0.25, 1.7
 officer          russian_officer
 officer          russian_drummer
 attributes       sea_faring, hide_forest, can_sap
-formation        0.63, 0.75, 0.63, 0.75, 4, square
+formation        0.6, 0.75, 0.6, 0.75, 4, square
 stat_health      1, 0
-stat_pri         10, 0, M1737, 190, 18, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1737, 190, 18, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 9, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -4198,6 +4285,32 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        12, 8000, 900, 20, 30, 8000
+ownership        armenia
+
+
+type             Kalmyk
+dictionary       Kalmyk
+category         cavalry
+class            skirmish
+voice_type       General_1
+soldier          kalmyk, 13, 0, 1
+mount            CA horse
+attributes       sea_faring, hide_forest, cantabrian_circle, frighten_mounted
+formation        1.0, 4.5, 1.8, 4.5, 3, square
+stat_health      1, 0
+stat_pri         3, 0, sahm, 90, 50, missile, archery, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
+stat_sec_attr    no
+stat_pri_armour  1, 7, 2, metal
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -1, 0, -4, -2
+stat_mental      3, low, untrained
+stat_charge_dist 70
+stat_fire_delay  -20000
+stat_food        60, 300
+stat_cost        6, 7500, 550, 20, 30, 7500
 ownership        armenia
 
 
@@ -4211,11 +4324,11 @@ mount            light horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        0.9, 3.7, 1.8, 3.7, 3, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_pri         2, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         5, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4237,11 +4350,11 @@ mount            hussar horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, flesh
+stat_pri_armour  4, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -4263,11 +4376,11 @@ mount            russian horse 2
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 2, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, leather
+stat_pri_armour  4, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4289,11 +4402,11 @@ mount            russian horse 3
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4315,11 +4428,11 @@ mount            russian horse 1
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, metal
+stat_pri_armour  9, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4341,11 +4454,11 @@ mount            russian horse 1
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, metal
+stat_pri_armour  9, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4369,7 +4482,7 @@ formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         3, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         1, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_sec         1, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, metal
 stat_sec_armour  0, 0, flesh
@@ -4393,7 +4506,7 @@ engine           russian_12pounder
 attributes       sea_faring, hardy
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.15
+stat_pri         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.4
 stat_pri_attr    light_spear
 stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -4419,7 +4532,7 @@ engine           russian_12pounder
 attributes       sea_faring, hardy
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.15
+stat_pri         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.4
 stat_pri_attr    light_spear
 stat_sec         36, 0, british_12pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -4441,13 +4554,13 @@ dictionary       libyans
 category         infantry
 class            light
 voice_type       Light_1
-soldier          libyan, 20, 0, 0.68, 0.3, 1.7
+soldier          libyan, 20, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.0, 1.3, 2.0, 2.3, 2, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 300, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 300, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         3, 2, no, 0, 0, melee, simple, piercing, axe, 0.8, 0.15
+stat_sec         3, 2, no, 0, 0, melee, simple, piercing, axe, 0.8, 0.17
 stat_sec_attr    no
 stat_pri_armour  1, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4465,13 +4578,13 @@ dictionary       ottoman_syrians
 category         infantry
 class            light
 voice_type       Light_1
-soldier          ottoman_syrian, 20, 0, 0.68, 0.3, 1.7
+soldier          ottoman_syrian, 20, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.0, 1.3, 2.0, 2.3, 2, square
 stat_health      1, 0
-stat_pri         11, 0, good_musket, 300, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         no, 0, good_musket, 300, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         2, 1, no, 0, 0, melee, simple, piercing, knife, 20, 0.1
+stat_sec         2, 1, no, 0, 0, melee, simple, piercing, knife, 20, 0.07
 stat_sec_attr    no
 stat_pri_armour  2, 2, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4490,13 +4603,13 @@ dictionary       ottoman_bosnians
 category         infantry
 class            light
 voice_type       Light_1
-soldier          ottoman_lights, 20, 0, 0.68, 0.3, 1.7
+soldier          ottoman_lights, 20, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.0, 1.3, 2.0, 2.3, 2, square
 stat_health      1, 0
-stat_pri         9, 0, rifle, 300, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, rifle, 300, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         8, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.11
+stat_sec         8, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4515,13 +4628,13 @@ dictionary       albanians
 category         infantry
 class            light
 voice_type       Light_1
-soldier          albanian, 20, 0, 0.68, 0.3, 1.7
+soldier          albanian, 20, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, hardy
 formation        1.0, 1.3, 2.0, 2.3, 2, square
 stat_health      1, 0
-stat_pri         9, 0, rifle, 300, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, rifle, 300, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         6, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
+stat_sec         6, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.17
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4544,10 +4657,10 @@ soldier          tatar, 15, 0, 1
 mount            light horse
 attributes       sea_faring, hide_forest, can_sap, frighten_mounted, cantabrian_circle
 formation        1.0, 3.0, 3.7, 3.0, 3, square
-stat_health      1, 0
+stat_health      2, 0
 stat_pri         3, 0, sahm, 90, 100, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         6, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
+stat_sec         6, 8, no, 0, 0, melee, simple, slashing, sword, 1, 0.17
 stat_sec_attr    no
 stat_pri_armour  2, 8, 0, metal
 stat_sec_armour  0, 0, flesh
@@ -4566,13 +4679,13 @@ dictionary       ottoman_janissaries
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          ottoman_ankshari, 26, 0, 0.68, 0.3, 1.7
+soldier          ottoman_ankshari, 26, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        1.0, 1.3, 1.0, 1.3, 3, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 160, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 160, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         6, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
+stat_sec         6, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4591,13 +4704,13 @@ dictionary       ottoman_bostanci
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          bostanci, 13, 0, 0.68, 0.3, 1.7
+soldier          bostanci, 13, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        1.0, 1.3, 1.0, 1.3, 3, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 160, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         11, 0, aimed_musket, 160, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         9, 5, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
+stat_sec         9, 5, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
 stat_sec_attr    no
 stat_pri_armour  2, 5, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4616,13 +4729,13 @@ dictionary       ottoman_guard_janissaries
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          solak, 6, 0, 0.68, 0.3, 1.7
+soldier          solak, 6, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        1.0, 1.3, 1.0, 1.3, 3, square
 stat_health      1, 0
-stat_pri         12, 0, rifle, 160, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         10, 0, rifle, 160, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         9, 5, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
+stat_sec         9, 5, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
 stat_sec_attr    no
 stat_pri_armour  2, 5, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -4646,9 +4759,9 @@ mount            medium horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_mounted
 formation        0.9, 3.7, 1.8, 3.7, 3, square
 stat_health      1, 0
-stat_pri         3, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
+stat_pri         3, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         6, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         6, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
 stat_pri_armour  4, 9, 2, metal
 stat_sec_armour  0, 0, flesh
@@ -4670,14 +4783,15 @@ class            heavy
 voice_type       Heavy_1
 soldier          sipahi, 13, 0, 1
 mount            light horse
-attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_mounted
+mount_effect	 horse +4, camel +3
+attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         3, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
-stat_pri_attr    no
-stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         1, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
+stat_pri_attr    bp
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
-stat_pri_armour  4, 9, 2, metal
+stat_pri_armour  4, 3, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4699,9 +4813,9 @@ mount            medium horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
+stat_pri         5, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
 stat_pri_armour  4, 9, 2, metal
 stat_sec_armour  0, 0, flesh
@@ -4725,9 +4839,9 @@ mount            medium horse
 attributes       sea_faring, hide_forest, frighten_foot, power_charge, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.11
+stat_pri         5, 39, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
 stat_pri_armour  4, 9, 2, metal
 stat_sec_armour  0, 0, flesh
@@ -4751,7 +4865,7 @@ engine           french_24pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         6, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.22
+stat_pri         6, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         63, 0, french_24pdr, 1200, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -4774,15 +4888,15 @@ dictionary       swedish_line
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          swedish_line, 30, 0, 0.68, 0.3, 1.7
+soldier          swedish_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         7, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      2, 0, 0, 0
@@ -4799,15 +4913,15 @@ dictionary       finnish_line
 category         infantry
 class            missile
 voice_type       Medium_1
-soldier          swedish_line, 30, 0, 0.68, 0.3, 1.7
+soldier          swedish_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         7, 0, poor_musket, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      2, 0, 0, 0
@@ -4824,15 +4938,15 @@ dictionary       swedish_varvade_line
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          swedish_line_2, 30, 0, 0.68, 0.3, 1.7
+soldier          swedish_line_2, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1747, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         7, 0, M1747, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      2, 0, 0, 0
@@ -4849,15 +4963,15 @@ dictionary       swedish_grenadiers
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          swedish_grenadier, 13, 0, 0.78, 0.3, 1.7
+soldier          swedish_grenadier, 13, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1747, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         7, 0, M1747, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        4
 stat_ground      2, 0, 0, 0
@@ -4874,15 +4988,15 @@ dictionary       swedish_foot_guard
 category         infantry
 class            missile
 voice_type       Heavy_1
-soldier          swedish_line_2, 18, 0, 0.68, 0.3, 1.7
+soldier          swedish_line_2, 18, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         11, 0, M1747, 190, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         7, 0, M1747, 190, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        3
 stat_ground      2, 0, 0, 0
@@ -4904,11 +5018,11 @@ mount            light horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, flesh
+stat_pri_armour  2, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -4930,11 +5044,11 @@ mount            swedish horse 2
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4956,11 +5070,11 @@ mount            swedish horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, leather
+stat_pri_armour  9, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -4982,11 +5096,11 @@ mount            swedish horse 1
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 14, 0, metal
+stat_pri_armour  9, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5008,7 +5122,7 @@ engine           british_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -5026,18 +5140,47 @@ ownership        parthia
 
 ;*****************************************Denmark**************************************
 
-type             danish national line
-dictionary       danish_national_line
+
+type             danish jaeger
+dictionary       danish_jaeger
+category         infantry
+class            skirmish
+voice_type       Heavy_1
+soldier          danish_jaeger, 6, 0, 0.8, 0.25, 1.7
+attributes       sea_faring, hide_long_grass
+formation        0.9, 1.5, 4, 1.5, 2, square
+stat_health      1, 0
+stat_pri         10, 0, rifle, 300, 20, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         5, 3, no, 0, 0, melee, simple, piercing, sword, 1, 0.13
+stat_sec_attr    no
+stat_pri_armour  2, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      2, 0, 0, 0
+stat_mental      1, normal, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        24, 5500, 550, 20, 30, 5500
+ownership        pontus
+
+
+type             norwegian national line
+dictionary       norwegian_national_line
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          danish_line, 48, 0, 0.68, 0.3, 1.7
+soldier          national_line, 48, 0, 0.8, 0.25, 1.7
+officer          danish_ensign
+officer          danish_officer
+officer          danish_drummer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -5051,18 +5194,49 @@ stat_cost        6, 3000, 300, 20, 30, 3000
 ownership        pontus
 
 
+type             danish national line
+dictionary       danish_national_line
+category         infantry
+class            missile
+voice_type       Female_1
+soldier          national_line, 48, 0, 0.8, 0.25, 1.7
+officer          danish_ensign
+officer          danish_officer
+officer          danish_drummer
+attributes       sea_faring, hide_forest, can_sap
+formation        0.63, 0.75, 0.63, 0.75, 3, square
+stat_health      1, 0
+stat_pri         8, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec_attr    no
+stat_pri_armour  2, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        4
+stat_ground      2, 0, 0, 0
+stat_mental      1, normal, highly_trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 3000, 300, 20, 30, 3000
+ownership        pontus
+
+
 type             danish line
 dictionary       danish_line
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          danish_line, 42, 0, 0.68, 0.3, 1.7
+soldier          danish_line, 42, 0, 0.8, 0.25, 1.7
+officer          danish_ensign
+officer          danish_officer
+officer          danish_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1746, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1746, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -5081,15 +5255,18 @@ dictionary       danish_grenadiers
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          danish_grenadier, 23, 0, 0.89, 0.3, 1.7
+soldier          danish_grenadier, 23, 0, 0.89, 0.25, 1.7
+officer          danish_ensign
+officer          danish_officer
+officer          danish_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1746, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1746, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5106,15 +5283,18 @@ dictionary       danish_footguard
 category         infantry
 class            missile
 voice_type       Female_1
-soldier          danish_footguard, 23, 0, 0.68, 0.3, 1.7
+soldier          danish_footguard, 23, 0, 0.8, 0.25, 1.7
+officer          danish_ensign
+officer          danish_officer
+officer          danish_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, M1746, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, M1746, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5136,11 +5316,11 @@ mount            light horse
 attributes       sea_faring, hide_forest, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 6, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 8, 0, flesh
+stat_pri_armour  3, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -5163,11 +5343,11 @@ mount            danish dragoon horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  3, 12, 0, leather
+stat_pri_armour  3, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5189,11 +5369,11 @@ mount            danish horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, metal
+stat_pri_armour  9, 4, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5215,11 +5395,11 @@ mount            danish horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.1
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, metal
+stat_pri_armour  9, 4, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5228,6 +5408,32 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        6, 6600, 550, 20, 30, 7500
+ownership        pontus
+
+
+type             danish adc
+dictionary       danish_adc
+category         cavalry
+class            missile
+voice_type       Female_1
+soldier          danish_adc, 6, 0, 1
+mount            danish horse
+attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted, general_unit
+formation        1.0, 4.5, 1.0, 4.5, 3, square
+stat_health      1, 0
+stat_pri         5, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         1, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
+stat_sec_attr    no
+stat_pri_armour  2, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -1, 0, -4, -2
+stat_mental      3, normal, highly_trained
+stat_charge_dist 25
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 6500, 550, 20, 30, 7500
 ownership        pontus
 
 
@@ -5241,7 +5447,7 @@ engine           british_6pounder
 attributes       sea_faring
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -5259,24 +5465,82 @@ ownership        pontus
 
 ;*****************************************Portugal**************************************
 
+type             portuguese militia
+dictionary       portuguese_militia
+category         infantry
+class            missile
+voice_type       Medium_1
+soldier          portuguese_militia, 29, 0, 0.8, 0.25, 1.7
+officer          portuguese_officer
+officer          portuguese_ensign
+officer          portuguese_drummer
+attributes       sea_faring, hide_forest, can_sap
+formation        0.63, 0.75, 0.63, 0.75, 3, square
+stat_health      1, 0
+stat_pri         8, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec_attr    no
+stat_pri_armour  2, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      2, 0, 0, 0
+stat_mental      2, low, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        8, 3500, 400, 20, 30, 3500
+ownership        thrace
+
+
 type             portuguese fusiliers
 dictionary       portuguese_fusiliers
 category         infantry
 class            missile
 voice_type       Medium_1
-soldier          portuguese_fusilier, 29, 0, 0.68, 0.3, 1.7
+soldier          portuguese_fusilier, 29, 0, 0.8, 0.25, 1.7
+officer          portuguese_officer
+officer          portuguese_ensign
+officer          portuguese_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
 stat_mental      2, low, trained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        8, 3500, 400, 20, 30, 3500
+ownership        thrace
+
+
+type             portuguese lights
+dictionary       portuguese_lights
+category         infantry
+class            skirmish
+voice_type       Medium_1
+soldier          portuguese_fusilier, 10, 0, 0.8, 0.25, 1.7
+officer          portuguese_officer
+officer          portuguese_drummer
+attributes       sea_faring, hide_forest, can_sap
+formation        0.63, 0.75, 1.8, 0.75, 3, square
+stat_health      1, 0
+stat_pri         8, 0, musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec_attr    no
+stat_pri_armour  2, 4, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      2, 0, 0, 0
+stat_mental      2, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -5289,19 +5553,21 @@ dictionary       portuguese_grenadiers
 category         infantry
 class            missile
 voice_type       Medium_1
-soldier          portuguese_grenadier, 15, 0, 0.78, 0.3, 1.7
+soldier          portuguese_grenadier, 15, 0, 0.78, 0.25, 1.7
+officer          portuguese_officer
+officer          portuguese_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         11, 22, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
-stat_mental      2, low, trained
+stat_mental      2, normal, trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
@@ -5314,13 +5580,16 @@ dictionary       portuguese_marines
 category         infantry
 class            missile
 voice_type       Medium_1
-soldier          portuguese_fusilier, 29, 0, 0.78, 0.3, 1.7
+soldier          portuguese_fusilier, 29, 0, 0.78, 0.25, 1.7
+officer          portuguese_officer
+officer          portuguese_ensign
+officer          portuguese_drummer
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
 stat_pri         8, 0, M1728, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 26, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -5344,11 +5613,11 @@ mount            austrian dragoon horse
 attributes       sea_faring, hide_forest, can_sap, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, flesh
+stat_pri_armour  4, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -5370,11 +5639,11 @@ mount            french cuirassier horse
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, metal
+stat_pri_armour  4, 4, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -5385,6 +5654,58 @@ stat_food        60, 300
 stat_cost        6, 9500, 550, 20, 30, 9500
 ownership        thrace
 
+
+type             portuguese adc
+dictionary       portuguese_adc
+category         cavalry
+class            missile
+voice_type       General_1
+soldier          portuguese_adc, 6, 0, 1
+mount            austrian dragoon horse
+attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted, general_unit
+formation        1.0, 4.5, 1.0, 4.5, 3, square
+stat_health      1, 0
+stat_pri         5, 0, pistol, 30, 2, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         1, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.2
+stat_sec_attr    no
+stat_pri_armour  2, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -1, 0, -4, -2
+stat_mental      3, normal, highly_trained
+stat_charge_dist 25
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 6500, 550, 20, 30, 7500
+ownership        thrace
+
+
+type             portuguese 6pounder
+dictionary       portuguese_6pounder
+category         siege
+class            missile
+voice_type       General_1
+soldier          portuguese_6p_crew, 10, 2, 0.68
+engine           british_6pounder
+attributes       sea_faring
+formation        1.5, 1.5, 3, 3, 2, square
+stat_health      1, 0
+stat_pri         5, 3, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri_attr    no
+stat_sec         63, 0, british_6pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
+stat_sec_attr    ap, bp
+stat_pri_armour  2, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      2, normal, untrained
+stat_charge_dist 20
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        0, 830, 120, 500, 500, 650
+ownership        thrace
+
 ;*********************************************Polen****************************
 
 
@@ -5393,15 +5714,15 @@ dictionary       polish_line
 category         infantry
 class            missile
 voice_type       General_1
-soldier          polish_line, 30, 0, 0.68, 0.3, 1.7
+soldier          polish_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5417,15 +5738,15 @@ dictionary       polish_janissaries
 category         infantry
 class            missile
 voice_type       General_1
-soldier          polish_janissary, 15, 0, 0.68, 0.3, 1.7
+soldier          polish_janissary, 15, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5442,15 +5763,15 @@ dictionary       polish_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          saxon_grenadier, 29, 0, 0.78, 0.3, 1.7
+soldier          saxon_grenadier, 29, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         10, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5467,15 +5788,15 @@ dictionary       polish_footguard
 category         infantry
 class            missile
 voice_type       General_1
-soldier          polish_garde, 15, 0, 0.78, 0.3, 1.7
+soldier          polish_garde, 15, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 26, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5497,11 +5818,11 @@ mount            light horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         3, 19, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_pri         3, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_sec_attr    no
-stat_pri_armour  4, 4, 0, metal
+stat_pri_armour  4, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        7
 stat_ground      -1, 0, -4, -2
@@ -5513,21 +5834,21 @@ stat_cost        6, 6600, 550, 20, 30, 7500
 ownership        egypt
 
 
-type             polish_hussars
+type             polish hussars
 dictionary       polish_hussars
 category         cavalry
 class            heavy
 voice_type       Heavy_1
 soldier          polish_hussar, 10, 0, 1
 mount            polish hussar horse
-attributes       sea_faring, hide_forest, frighten_foot, power_charge, can_formed_charge, general_unit, frighten_mounted
+attributes       sea_faring, hide_forest, frighten_foot, power_charge, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         13, 28, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_pri         1, 14, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         10, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
-stat_pri_armour  12, 9, 0, metal
+stat_pri_armour  12, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        7
 stat_ground      -1, 0, -4, -2
@@ -5546,15 +5867,15 @@ dictionary       dutch_fusiliers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_line, 40, 0, 0.68, 0.3, 1.7
+soldier          dutch_line, 40, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5571,15 +5892,15 @@ dictionary       dutch_scottish fusiliers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_scottish_line, 40, 0, 0.68, 0.3, 1.7
+soldier          dutch_scottish_line, 40, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, leather
+stat_pri_armour  2, 4, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5596,13 +5917,13 @@ dictionary       dutch_swiss_fusiliers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_line, 40, 0, 0.68, 0.3, 1.7
+soldier          dutch_line, 40, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -5621,15 +5942,15 @@ dictionary       dutch_grenadiers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_grenadier, 40, 0, 0.78, 0.3, 1.7
+soldier          dutch_grenadier, 40, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, leather
+stat_pri_armour  3, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5646,15 +5967,15 @@ dictionary       dutch_footguard
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutchmen_2, 40, 0, 0.68, 0.3, 1.7
+soldier          dutchmen_2, 40, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         9, 0, good_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, good_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, leather
+stat_pri_armour  2, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5676,11 +5997,11 @@ mount            british horse 2
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 3, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -5702,11 +6023,11 @@ mount            british horse 1
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -5728,11 +6049,11 @@ mount            british horse 1
 attributes       sea_faring, hide_forest, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, leather
+stat_pri_armour  4, 7, 0, leather
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -5754,7 +6075,7 @@ engine           british_12pounder
 attributes       sea_faring, hardy
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.45
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
 stat_pri_attr    no
 stat_sec         63, 0, british_12pounder, 750, 186, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
@@ -5777,15 +6098,15 @@ dictionary       saxon_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          saxon_line, 30, 0, 0.68, 0.3, 1.7
+soldier          saxon_line, 30, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, flesh
+stat_pri_armour  2, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5802,13 +6123,13 @@ dictionary       saxon_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          saxon_grenadier, 29, 0, 0.78, 0.3, 1.7
+soldier          saxon_grenadier, 29, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 9, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
 stat_pri_armour  3, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -5827,15 +6148,15 @@ dictionary       saxon_grenadiergarde
 category         infantry
 class            missile
 voice_type       General_1
-soldier          saxon_grenadiergarde, 21, 0, 0.78, 0.3, 1.7
+soldier          saxon_grenadiergarde, 21, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, flesh
+stat_pri_armour  3, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5852,15 +6173,15 @@ dictionary       saxon_garde_zu_fuss
 category         infantry
 class            missile
 voice_type       General_1
-soldier          saxon_garde, 15, 0, 0.78, 0.3, 1.7
+soldier          saxon_garde, 15, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
-stat_pri         12, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, flesh
+stat_pri_armour  2, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -5882,11 +6203,11 @@ mount            light horse
 attributes       sea_faring, hide_forest, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         3, 19, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_pri         1, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.3
 stat_pri_attr    no
-stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_sec_attr    no
-stat_pri_armour  4, 4, 0, metal
+stat_pri_armour  4, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        7
 stat_ground      -1, 0, -4, -2
@@ -5908,11 +6229,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 9, 0, metal
+stat_pri_armour  4, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5934,11 +6255,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  10, 9, 0, metal
+stat_pri_armour  10, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5960,11 +6281,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  10, 9, 0, metal
+stat_pri_armour  10, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -5986,11 +6307,11 @@ mount            heavy horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 10, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  10, 9, 0, metal
+stat_pri_armour  10, 7, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -6001,6 +6322,32 @@ stat_food        60, 300
 stat_cost        6, 6600, 550, 20, 30, 7500
 ownership        romans_scipii
 
+
+type             saxon 6pounder
+dictionary       saxon_6pounder
+category         siege
+class            missile
+voice_type       Medium_1
+soldier          saxon_art_crew, 8, 2, 0.68, 0.25, 1.7
+engine           alasassone
+attributes       sea_faring
+formation        1.5, 1.5, 3, 3, 2, square
+stat_health      1, 0
+stat_pri         3, 2, no, 0, 0, melee, simple, piercing, knife, 20, 0.4
+stat_pri_attr    no
+stat_sec         18, 0, prussian_6pounder, 600, 45, siege_missile, blade, blunt, none, 25, 1
+stat_sec_attr    ap, bp, area
+stat_pri_armour  2, 3, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        0
+stat_ground      0, 0, 0, 0
+stat_mental      0, low, untrained
+stat_charge_dist 20
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        0, 830, 120, 500, 500, 650
+ownership        romans_scipii
+
 ;******************************************Bayern*******************************************
 
 
@@ -6009,15 +6356,18 @@ dictionary       bavarian_fusiliers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          bavarian_fusilier, 28, 0, 0.68, 0.3, 1.7
+soldier          bavarian_fusilier, 28, 0, 0.8, 0.25, 1.7
+officer			 bavarian_ensign
+officer			 bavarian_officer
+officer			 bavarian_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
 stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, flesh
+stat_pri_armour  2, 4, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6034,15 +6384,17 @@ dictionary       bavarian_grenadiers
 category         infantry
 class            missile
 voice_type       General_1
-soldier          bavarian_grenadier, 10, 0, 0.78, 0.3, 1.7
+soldier          bavarian_grenadier, 10, 0, 0.78, 0.25, 1.7
+officer			 bavarian_officer
+officer			 bavarian_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
 stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  3, 9, 0, flesh
+stat_pri_armour  3, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6059,15 +6411,18 @@ dictionary       bavarian_leib
 category         infantry
 class            heavy
 voice_type       General_1
-soldier          bavarian_leib, 18, 0, 0.78, 0.3, 1.7
+soldier          bavarian_leib, 18, 0, 0.78, 0.25, 1.7
+officer			 bavarian_ensign
+officer			 bavarian_officer
+officer			 bavarian_drummer
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 3, square
 stat_health      1, 0
 stat_pri         8, 0, musket, 190, 60, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
+stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
-stat_pri_armour  2, 9, 0, flesh
+stat_pri_armour  2, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6089,11 +6444,11 @@ mount            bavarian dhorse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  4, 8, 0, flesh
+stat_pri_armour  4, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6115,11 +6470,11 @@ mount            bavarian horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.13
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
 stat_pri_attr    no
 stat_sec         no
 stat_sec_attr    no
-stat_pri_armour  9, 9, 0, metal
+stat_pri_armour  9, 3, 0, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        5
 stat_ground      -1, 0, -4, -2
@@ -6131,6 +6486,32 @@ stat_cost        6, 6600, 550, 20, 30, 7500
 ownership        romans_julii
 
 
+type             bavarian staff
+dictionary       bavarian_staff
+category         cavalry
+class            missile
+voice_type       General_1
+soldier          bavarian_adc, 6, 0, 1
+mount            bavarian horse
+attributes       sea_faring, hide_forest, can_sap, general_unit
+formation        1.0, 4.5, 1.0, 4.5, 3, square
+stat_health      1, 0
+stat_pri         5, 0, M1740, 30, 2, siege_missile, other, piercing, none, 25, 1.0
+stat_pri_attr    no
+stat_sec         7, 9, no, 0, 0, melee, simple, slashing, sword, 1, 0.4
+stat_sec_attr    no
+stat_pri_armour  3, 3, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      -1, 0, -4, -2
+stat_mental      3, normal, highly_trained
+stat_charge_dist 25
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        6, 6500, 550, 20, 30, 7500
+ownership        romans_julii
+
+
 ;******************************************moghul*******************************************
 
 
@@ -6139,11 +6520,11 @@ dictionary       Moghul_bumi_infantry
 category         infantry
 class            spearmen
 voice_type       Light_1
-soldier          bumi, 25, 0, 0.6, 0.3, 1.7
+soldier          bumi, 25, 0, 0.6, 0.25, 1.6
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         2, 1, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
+stat_pri         1, 1, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
@@ -6164,11 +6545,11 @@ dictionary       afghan_infantry
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          afghan_infantry, 20, 0, 0.6, 0.3, 1.7
+soldier          afghan_infantry, 12, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
+stat_pri         2, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.2
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
@@ -6190,15 +6571,15 @@ dictionary       nagas
 category         infantry
 class            heavy
 voice_type       Light_1
-soldier          naga, 10, 0, 0.6, 0.3, 1.7
+soldier          naga, 12, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, slashing, sword, 0.6, 0.15
+stat_pri         2, 3, no, 0, 0, melee, simple, slashing, sword, 0.6, 0.2
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  0, 3, 2, flesh
+stat_pri_armour  0, 6, 2, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6215,13 +6596,13 @@ dictionary       Moghul_archers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          mughul_archer, 13, 0, 0.6, 0.3, 1.7
+soldier          mughul_archer, 25, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
 stat_pri         3, 0, sahm, 235, 60, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, piercing, sword, 0.5, 0.15
+stat_sec         2, 3, no, 0, 0, melee, simple, piercing, sword, 0.5, 0.17
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -6240,13 +6621,13 @@ dictionary       Moghul_musketeers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          regular_bunduqchi, 25, 0, 0.6, 0.3, 1.7
+soldier          regular_bunduqchi, 25, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.9, 0.9, 0.9, 0.9, 4, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
+stat_sec         2, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.17
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -6265,13 +6646,13 @@ dictionary       afghan_musketeers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          afghan_musketeer, 25, 0, 0.6, 0.3, 1.7
+soldier          afghan_musketeer, 25, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
 stat_pri         13, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
+stat_sec         2, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.17
 stat_sec_attr    no
 stat_pri_armour  2, 3, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -6290,15 +6671,15 @@ dictionary       Omani
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          omani, 13, 0, 0.68, 0.3, 1.7
+soldier          omani, 12, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         6, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.13
+stat_sec         3, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
 stat_sec_attr    no
-stat_pri_armour  1, 5, 0, flesh
+stat_pri_armour  1, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6315,15 +6696,15 @@ dictionary       Moghul_guard_musketeers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          khadmati, 13, 0, 0.68, 0.3, 1.7
+soldier          khadmati, 12, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        1.2, 1.2, 1.2, 1.2, 3, square
 stat_health      1, 0
-stat_pri         12, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, aimed_musket, 120, 12, siege_missile, other, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         7, 4, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
+stat_sec         2, 3, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.2
 stat_sec_attr    no
-stat_pri_armour  1, 5, 0, flesh
+stat_pri_armour  1, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      2, 0, 0, 0
@@ -6340,16 +6721,16 @@ dictionary       mughal_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          mughal_cavalry, 25, 0, 1
+soldier          mughal_cavalry, 12, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
 stat_pri         3, 0, sahm, 50, 10, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    prec
-stat_sec         5, 15, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
-stat_pri_armour  6, 14, 2, metal
+stat_pri_armour  6, 7, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6366,14 +6747,14 @@ dictionary       test_ca1
 category         cavalry
 class            skirmish
 voice_type       General_1
-soldier          jav_cavalry, 25, 0, 1
+soldier          jav_cavalry, 12, 0, 1
 mount            CA horse
 attributes       sea_faring, hide_forest, cantabrian_circle, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
 stat_pri         7, 0, javelin, 50, 4, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         5, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
 stat_pri_armour  3, 12, 2, metal
 stat_sec_armour  0, 0, flesh
@@ -6392,16 +6773,16 @@ dictionary       CA_light_cavalry
 category         cavalry
 class            skirmish
 voice_type       General_1
-soldier          mughal_light_cavalry, 25, 0, 1
+soldier          mughal_light_cavalry, 12, 0, 1
 mount            CA horse
 attributes       sea_faring, hide_forest, cantabrian_circle, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
 stat_pri         3, 0, sahm, 90, 50, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         5, 11, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_sec_attr    no
-stat_pri_armour  1, 8, 2, metal
+stat_pri_armour  1, 3, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6418,16 +6799,16 @@ dictionary       afghan_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          afghan_heavy_cavalry, 37, 0, 1
+soldier          afghan_heavy_cavalry, 12, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
+stat_pri         1, 4, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
 stat_pri_attr    no
-stat_sec         5, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
-stat_pri_armour  1, 9, 2, metal
+stat_pri_armour  10, 7, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6444,16 +6825,16 @@ dictionary       afghan_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          afghan_cavalry, 25, 0, 1
+soldier          afghan_cavalry, 12, 0, 1
 mount            mughul horse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.8, 4.5, 3, square
 stat_health      1, 0
-stat_pri         5, 7, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.15
+stat_pri         2, 4, no, 0, 0, melee, simple, slashing, sword, 0.8, 0.6
 stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, no, no, none, 25 ,1
 stat_sec_attr    no
-stat_pri_armour  10, 8, 2, metal
+stat_pri_armour  1, 7, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6470,16 +6851,16 @@ dictionary       mughal_heavy_cavalry
 category         cavalry
 class            heavy
 voice_type       General_1
-soldier          mughal_heavy_cavalry, 13, 0, 1
+soldier          mughal_heavy_cavalry, 12, 0, 1
 mount            mughul sphorse
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, command, general_unit, frighten_mounted
 formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
-stat_pri         8, 11, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.1
+stat_pri         1, 4, no, 0, 0, melee, simple, piercing, spear, 0.6, 0.5
 stat_pri_attr    no
-stat_sec         7, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 0, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
-stat_pri_armour  12, 9, 2, metal
+stat_pri_armour  12, 7, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6503,9 +6884,9 @@ formation        1.0, 4.5, 1.0, 4.5, 3, square
 stat_health      1, 0
 stat_pri         4, 0, sahm, 70, 10, missile, archery, piercing, none, 25, 1.0
 stat_pri_attr    no
-stat_sec         8, 15, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_sec         2, 4, no, 0, 0, melee, simple, slashing, sword, 1, 0.6
 stat_sec_attr    no
-stat_pri_armour  12, 9, 2, metal
+stat_pri_armour  12, 7, 2, metal
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      -1, 0, -4, -2
@@ -6523,13 +6904,13 @@ category         siege
 class            missile
 voice_type       General_1
 soldier          mughul_artillery_crew, 10, 1, 1
-engine           french_12pounder
+engine           serpentine
 attributes       sea_faring, hardy
 formation        1.5, 1.5, 3, 3, 2, square
 stat_health      1, 0
-stat_pri         5, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.15
+stat_pri         5, 3, no, 0, 0, melee, simple, slashing, sword, 1, 0.5
 stat_pri_attr    no
-stat_sec         63, 0, french_12pdr, 1000, 100, siege_missile, blade, blunt, none, 25, 1
+stat_sec         63, 0, french_4pdr, 1000, 100, siege_missile, blade, blunt, none, 25, 1
 stat_sec_attr    ap, bp
 stat_pri_armour  1, 3, 0, leather
 stat_sec_armour  0, 0, flesh
@@ -6549,12 +6930,12 @@ dictionary       savoyard_fusilier
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          savoyard_fusilier, 30, 0, 1, 0.30, 1.7
+soldier          savoyard_fusilier, 30, 0, 1, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
 stat_pri         8, 0, musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         10, 7, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 7, 0, leather
@@ -6574,12 +6955,12 @@ dictionary       savoyard_grenadier
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          savoyard_grenadier, 23, 0, 1, 0.30, 1.7
+soldier          savoyard_grenadier, 23, 0, 1, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
 stat_pri         8, 0, musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         13, 4, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
 stat_pri_armour  3, 9, 0, leather
@@ -6599,12 +6980,12 @@ dictionary       savoyard_footguard
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          savoyard_fusilier, 23, 0, 1, 0.30, 1.7
+soldier          savoyard_fusilier, 23, 0, 1, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, frighten_foot, mercenary_unit, general_unit
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
 stat_pri         8, 0, good_musket, 190, 24, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
+stat_pri_attr    ap
 stat_sec         13, 7, no, 0, 0, melee, simple, piercing, spear, 0.8, 0.1
 stat_sec_attr    no
 stat_pri_armour  2, 9, 0, leather
@@ -6628,13 +7009,13 @@ dictionary       Iroqois_warriors
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          Iroqois_warrior, 13, 0, 0.6, 0.3, 1.7
+soldier          Iroqois_warrior, 13, 0, 0.6, 0.25, 1.7
 attributes       sea_faring, hide_long_grass, can_sap, frighten_foot, hardy
 formation        1.0, 2.0, 2.5, 2.0, 3, square
 stat_health      1, 0
 stat_pri         12, 0, aimed_musket, 90, 12, siege_missile, other, piercing, none, 25, 1.0
-stat_pri_attr    no
-stat_sec         7, 4, no, 0, 0, melee, simple, blunt, mace, 0.8, 0.15
+stat_pri_attr    ap
+stat_sec         7, 4, no, 0, 0, melee, simple, blunt, mace, 0.8, 0.05
 stat_sec_attr    ap
 stat_pri_armour  0, 9, 0, flesh
 stat_sec_armour  0, 0, flesh

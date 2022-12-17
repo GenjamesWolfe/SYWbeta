@@ -44,16 +44,16 @@
 
 climate test_climate
 {
-	texture					SYW/data/textures/HRTW_grass_medit.tga
-	spacing					0.4	
+	texture					SYW/data/textures/RTR8_grass_medit.tga
+	spacing					0.5	
 	present_in_winter		true
 
-	ground_type scrub_dense
+	ground_type grass_short
 	{
-		avg_height			0.8			
-		width				3.0				
-		density				50
-		tex_v1				0.125			
+		avg_height			0.9			
+		width				1.3				
+		density				20
+		tex_v1				0.126			
 		tex_v2				0.25			
 		falloff				1.0
 		colour				0,0,0
@@ -63,10 +63,10 @@ climate test_climate
 	ground_type swamp
 	{
 		avg_height			1.1		
-		width				2.6		
-		density				30
-		tex_v1				0.25			
-		tex_v2				0.375			
+		width				1.3		
+		density				50
+		tex_v1				0.502			
+		tex_v2				0.625			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -74,9 +74,9 @@ climate test_climate
 
 	ground_type grass_long
 	{
-		avg_height			1.6		
-		width				3.0				
-		density				20
+		avg_height			1.5		
+		width				1.3				
+		density				30
 		tex_v1				0.0			
 		tex_v2				0.125			
 		falloff				1.0
@@ -84,61 +84,25 @@ climate test_climate
 		correction			0.1
 	}
 
-	ground_type forest_dense
+	ground_type scrub_dense
 	{
 		avg_height			1.0		
-		width				3.0		
+		width				1.3		
 		density				40
-		tex_v1				0.5			
-		tex_v2				0.625			
+		tex_v1				0.251			
+		tex_v2				0.375			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
 	}
 
-	ground_type grass_short
+	ground_type forest_dense
 	{
-		avg_height			1.1			
-		width				2.6				
+		avg_height			0.8			
+		width				1.3				
 		density				60
-		tex_v1				0.625			
-		tex_v2				0.75			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type mud
-	{
-		avg_height			1.0			
-		width				3.0				
-		density				70
-		tex_v1				0.375			
-		tex_v2				0.5			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type sand
-	{
-		avg_height			0.8			
-		width				2.0				
-		density				90
-		tex_v1				0.75			
-		tex_v2				0.999			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type dirt
-	{
-		avg_height			0.9			
-		width				3.0				
-		density				80
-		tex_v1				0.625			
-		tex_v2				0.75			
+		tex_v1				0.376			
+		tex_v2				0.502			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -147,76 +111,33 @@ climate test_climate
 	ground_type rock
 	{
 		avg_height			0.7			
-		width				2.0				
-		density				100
-		tex_v1				0.75			
-		tex_v2				0.999			
+		width				1.3				
+		density				60
+		tex_v1				0.876			
+		tex_v2				1.0			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
 	}
-}
 
-climate swamp
-{
-	texture					SYW/data/textures/HRTW_grass_medit_swamp.tga
-	spacing					0.4	
-	present_in_winter		true
+	ground_type sand
+	{
+		avg_height			0.7			
+		width				1.3				
+		density				100
+		tex_v1				0.876			
+		tex_v2				1.0			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
 
-	ground_type scrub_dense
+	ground_type dirt
 	{
 		avg_height			0.8			
-		width				3.0				
-		density				50
-		tex_v1				0.125			
-		tex_v2				0.25			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type swamp
-	{
-		avg_height			1.2		
-		width				2.6		
-		density				30
-		tex_v1				0.25			
-		tex_v2				0.375			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type grass_short
-	{
-		avg_height			1.1		
-		width				3.0				
-		density				10
-		tex_v1				0.0			
-		tex_v2				0.125			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type forest_dense
-	{
-		avg_height			1.0		
-		width				3.0		
-		density				40
-		tex_v1				0.5			
-		tex_v2				0.625			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type grass_long
-	{
-		avg_height			1.6			
-		width				2.6				
-		density				20
-		tex_v1				0.625			
+		width				1.3				
+		density				100
+		tex_v1				0.626			
 		tex_v2				0.75			
 		falloff				1.0
 		colour				0,0,0
@@ -225,47 +146,11 @@ climate swamp
 
 	ground_type mud
 	{
-		avg_height			1.0			
-		width				3.0				
-		density				70
-		tex_v1				0.375			
-		tex_v2				0.5			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type sand
-	{
 		avg_height			0.8			
-		width				2.0				
-		density				90
-		tex_v1				0.75			
-		tex_v2				0.999			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type dirt
-	{
-		avg_height			0.9			
-		width				3.0				
-		density				80
-		tex_v1				0.625			
-		tex_v2				0.75			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type rock
-	{
-		avg_height			0.7			
-		width				2.0				
+		width				1.3				
 		density				100
-		tex_v1				0.75			
-		tex_v2				0.999			
+		tex_v1				0.751			
+		tex_v2				0.875			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -338,6 +223,18 @@ climate temperate_grassland_fertile
 		correction			0.1
 	}
 
+	ground_type rock
+	{
+		avg_height			0.7			
+		width				1.3				
+		density				60
+		tex_v1				0.876			
+		tex_v2				1.0			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
 	ground_type sand
 	{
 		avg_height			0.7			
@@ -350,21 +247,9 @@ climate temperate_grassland_fertile
 		correction			0.1
 	}
 
-	ground_type rock
+	ground_type dirt
 	{
-		avg_height			0.7			
-		width				1.3				
-		density				100
-		tex_v1				0.876			
-		tex_v2				1.0			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
-	ground_type mud
-	{
-		avg_height			0.7			
+		avg_height			0.8			
 		width				1.3				
 		density				100
 		tex_v1				0.626			
@@ -374,7 +259,7 @@ climate temperate_grassland_fertile
 		correction			0.1
 	}
 
-	ground_type dirt
+	ground_type mud
 	{
 		avg_height			0.8			
 		width				1.3				
@@ -389,7 +274,7 @@ climate temperate_grassland_fertile
 
 climate temperate_grassland_infertile
 {
-	texture					SYW/data/textures/RTR8_grass_highland.tga
+	texture					SYW/data/textures/RTR8_grass_infertile.tga
 	spacing					0.5	
 	present_in_winter		true
 
@@ -479,11 +364,11 @@ climate temperate_grassland_infertile
 
 	ground_type dirt
 	{
-		avg_height			0.7			
+		avg_height			0.8			
 		width				1.3				
 		density				100
-		tex_v1				0.876			
-		tex_v2				1.0			
+		tex_v1				0.626			
+		tex_v2				0.75			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -506,7 +391,7 @@ climate temperate_forest_open
 {
 	texture					SYW/data/textures/RTR8_grass_forest_open.tga
 	spacing					0.5	
-	present_in_winter		true
+	present_in_winter		false
 
 	ground_type grass_short
 	{
@@ -568,11 +453,11 @@ climate temperate_forest_open
 		correction			0.1
 	}
 
-	ground_type sand
+	ground_type rock
 	{
 		avg_height			0.7			
 		width				1.3				
-		density				100
+		density				60
 		tex_v1				0.876			
 		tex_v2				1.0			
 		falloff				1.0
@@ -580,7 +465,7 @@ climate temperate_forest_open
 		correction			0.1
 	}
 
-	ground_type rock
+	ground_type sand
 	{
 		avg_height			0.7			
 		width				1.3				
@@ -594,7 +479,7 @@ climate temperate_forest_open
 
 	ground_type dirt
 	{
-		avg_height			0.7			
+		avg_height			0.8			
 		width				1.3				
 		density				100
 		tex_v1				0.626			
@@ -683,11 +568,11 @@ climate temperate_forest_deep
 		correction			0.1
 	}
 
-	ground_type sand
+	ground_type rock
 	{
 		avg_height			0.7			
 		width				1.3				
-		density				100
+		density				60
 		tex_v1				0.876			
 		tex_v2				1.0			
 		falloff				1.0
@@ -695,7 +580,7 @@ climate temperate_forest_deep
 		correction			0.1
 	}
 
-	ground_type rock
+	ground_type sand
 	{
 		avg_height			0.7			
 		width				1.3				
@@ -709,7 +594,7 @@ climate temperate_forest_deep
 
 	ground_type dirt
 	{
-		avg_height			0.7			
+		avg_height			0.8			
 		width				1.3				
 		density				100
 		tex_v1				0.626			
@@ -734,9 +619,9 @@ climate temperate_forest_deep
 
 climate highland
 {
-	texture					SYW/data/textures/RTR8_grass_infertile.tga
+	texture					SYW/data/textures/RTR8_grass_highland.tga
 	spacing					0.5	
-	present_in_winter		true
+	present_in_winter		false
 
 	ground_type grass_short
 	{
@@ -810,18 +695,6 @@ climate highland
 		correction			0.1
 	}
 
-	ground_type rock
-	{
-		avg_height			0.7			
-		width				1.3				
-		density				60
-		tex_v1				0.876			
-		tex_v2				1.0			
-		falloff				1.0
-		colour				0,0,0
-		correction			0.1
-	}
-
 	ground_type sand
 	{
 		avg_height			0.7			
@@ -836,11 +709,11 @@ climate highland
 
 	ground_type dirt
 	{
-		avg_height			0.7			
+		avg_height			0.8			
 		width				1.3				
 		density				100
-		tex_v1				0.876			
-		tex_v2				1.0			
+		tex_v1				0.626			
+		tex_v2				0.75			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -925,11 +798,11 @@ climate alpine
 		correction			0.1
 	}
 
-	ground_type sand
+	ground_type rock
 	{
 		avg_height			0.7			
 		width				1.3				
-		density				100
+		density				60
 		tex_v1				0.876			
 		tex_v2				1.0			
 		falloff				1.0
@@ -937,7 +810,7 @@ climate alpine
 		correction			0.1
 	}
 
-	ground_type rock
+	ground_type sand
 	{
 		avg_height			0.7			
 		width				1.3				
@@ -951,7 +824,7 @@ climate alpine
 
 	ground_type dirt
 	{
-		avg_height			0.7			
+		avg_height			0.8			
 		width				1.3				
 		density				100
 		tex_v1				0.626			
@@ -976,9 +849,9 @@ climate alpine
 
 climate sub_arctic
 {
-	texture					SYW/data/textures/RTR8_grass_swamp2.tga
+	texture					SYW/data/textures/RTR8_grass_sub_arctic.tga
 	spacing					0.5	
-	present_in_winter		true
+	present_in_winter		false
 
 	ground_type grass_short
 	{
@@ -1009,8 +882,8 @@ climate sub_arctic
 		avg_height			1.5		
 		width				1.3				
 		density				30
-		tex_v1				0.75			
-		tex_v2				0.875			
+		tex_v1				0.0			
+		tex_v2				0.125			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -1021,8 +894,8 @@ climate sub_arctic
 		avg_height			1.0		
 		width				1.3		
 		density				40
-		tex_v1				0.376			
-		tex_v2				0.502			
+		tex_v1				0.251			
+		tex_v2				0.375			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -1033,8 +906,8 @@ climate sub_arctic
 		avg_height			1.4			
 		width				1.3				
 		density				25
-		tex_v1				0.876			
-		tex_v2				1.0			
+		tex_v1				0.376			
+		tex_v2				0.502			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -1064,25 +937,25 @@ climate sub_arctic
 		correction			0.1
 	}
 
-	ground_type mud
+	ground_type dirt
 	{
-		avg_height			1.0			
+		avg_height			0.8			
 		width				1.3				
-		density				60
-		tex_v1				0.0			
-		tex_v2				0.125			
+		density				100
+		tex_v1				0.626			
+		tex_v2				0.75			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
 	}
-	
-	ground_type dirt
+
+	ground_type mud
 	{
-		avg_height			0.9		
-		width				1.3		
-		density				40
-		tex_v1				0.251			
-		tex_v2				0.375			
+		avg_height			0.8			
+		width				1.3				
+		density				100
+		tex_v1				0.751			
+		tex_v2				0.875			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -1193,7 +1066,122 @@ climate semi_arid
 
 	ground_type mud
 	{
+		avg_height			0.8			
+		width				1.3				
+		density				100
+		tex_v1				0.751			
+		tex_v2				0.875			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+}
+
+climate swamp
+{
+	texture					SYW/data/textures/RTR8_grass_swamp.tga
+	spacing					0.5	
+	present_in_winter		true
+
+	ground_type grass_short
+	{
 		avg_height			0.9			
+		width				1.3				
+		density				20
+		tex_v1				0.126			
+		tex_v2				0.25			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type swamp
+	{
+		avg_height			1.1		
+		width				1.3		
+		density				50
+		tex_v1				0.502			
+		tex_v2				0.625			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type grass_long
+	{
+		avg_height			1.5		
+		width				1.3				
+		density				30
+		tex_v1				0.0			
+		tex_v2				0.125			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type scrub_dense
+	{
+		avg_height			1.0		
+		width				1.3		
+		density				40
+		tex_v1				0.251			
+		tex_v2				0.375			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type forest_dense
+	{
+		avg_height			0.8			
+		width				1.3				
+		density				60
+		tex_v1				0.376			
+		tex_v2				0.502			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type rock
+	{
+		avg_height			0.7			
+		width				1.3				
+		density				60
+		tex_v1				0.876			
+		tex_v2				1.0			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type sand
+	{
+		avg_height			0.7			
+		width				1.3				
+		density				100
+		tex_v1				0.876			
+		tex_v2				1.0			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type dirt
+	{
+		avg_height			0.8			
+		width				1.3				
+		density				100
+		tex_v1				0.626			
+		tex_v2				0.75			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type mud
+	{
+		avg_height			0.8			
 		width				1.3				
 		density				100
 		tex_v1				0.751			
@@ -1217,6 +1205,18 @@ climate rocky_desert
 		density				20
 		tex_v1				0.252			
 		tex_v2				0.5			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type swamp
+	{
+		avg_height			1.1		
+		width				1.3		
+		density				50
+		tex_v1				0.502			
+		tex_v2				0.75			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -1262,7 +1262,7 @@ climate rocky_desert
 	{
 		avg_height			0.7			
 		width				1.3				
-		density				100
+		density				60
 		tex_v1				0.752			
 		tex_v2				1.0			
 		falloff				1.0
@@ -1296,7 +1296,7 @@ climate rocky_desert
 
 	ground_type mud
 	{
-		avg_height			0.9			
+		avg_height			0.8			
 		width				1.3				
 		density				100
 		tex_v1				0.252			
@@ -1320,6 +1320,18 @@ climate sandy_desert
 		density				20
 		tex_v1				0.252			
 		tex_v2				0.5			
+		falloff				1.0
+		colour				0,0,0
+		correction			0.1
+	}
+
+	ground_type swamp
+	{
+		avg_height			1.1		
+		width				1.3		
+		density				50
+		tex_v1				0.502			
+		tex_v2				0.75			
 		falloff				1.0
 		colour				0,0,0
 		correction			0.1
@@ -1365,7 +1377,7 @@ climate sandy_desert
 	{
 		avg_height			0.7			
 		width				1.3				
-		density				100
+		density				60
 		tex_v1				0.752			
 		tex_v2				1.0			
 		falloff				1.0

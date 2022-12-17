@@ -135,7 +135,7 @@ model				horse_light
 radius				1.5
 x_radius			0.5	;changed from 0.5 29/4/05
 height				1.2
-mass				3.2.2
+mass				4.5
 banner_height		0
 bouyancy_offset		1.6
 water_trail_effect	horse_water_trail
@@ -290,7 +290,7 @@ model				french_cuirassier_horse
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				1.2
-mass				3.2
+mass				5
 banner_height		0
 bouyancy_offset		1.8
 water_trail_effect	horse_water_trail
@@ -304,7 +304,7 @@ model				french_gendarme_horse
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				1.2
-mass				3.2
+mass				5.5
 banner_height		0
 bouyancy_offset		1.8
 water_trail_effect	horse_water_trail
@@ -318,7 +318,7 @@ model				french_garde_horse
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				1.2
-mass				3.2
+mass				5.5
 banner_height		0
 bouyancy_offset		1.8
 water_trail_effect	horse_water_trail
@@ -332,7 +332,7 @@ model				french_dragoon_horse
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				1.2
-mass				3.2
+mass				4
 banner_height		0
 bouyancy_offset		1.8
 water_trail_effect	horse_water_trail
@@ -438,7 +438,7 @@ model				british_horse_1
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
-mass				3.2
+mass				4.5
 banner_height		0
 bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
@@ -452,7 +452,7 @@ model				british_horse_2
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
-mass				3.2
+mass				4.5
 banner_height		0
 bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
@@ -465,7 +465,7 @@ model				horse_british_dragoon
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
-mass				3.2
+mass				4
 banner_height		0
 bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
@@ -478,7 +478,7 @@ model				british_horse_3
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
-mass				3.2
+mass				4
 banner_height		0
 bouyancy_offset		1.4
 water_trail_effect	horse_water_trail
@@ -492,7 +492,7 @@ model				british_horse_4
 radius				1.5
 x_radius			0.45	;changed from 0.5 29/4/05
 height				2.3
-mass				3.2
+mass				4
 banner_height		0
 bouyancy_offset		1.6
 water_trail_effect	horse_water_trail

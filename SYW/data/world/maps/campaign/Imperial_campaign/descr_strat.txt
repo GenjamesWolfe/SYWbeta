@@ -5,25 +5,28 @@ playable
 	romans_julii
 	romans_brutii
 	romans_scipii
-	egypt	
-	seleucid
-	germans
+	romans_senate
 	britons
 	carthage
-	parthia
 	greek_cities
-	romans_senate
-	macedon
-	pontus
-	armenia
 	thrace
-	gauls
-	scythia
+	seleucid
+	macedon
+	parthia
+	pontus
+	germans
+ 	egypt
+ 	gauls
+	armenia
+	scythia	
 end
 unlockable
 end
 nonplayable
 	slave
+;	dacia
+;	numidia
+;	spain
 end
 
 
@@ -34,188 +37,890 @@ brigand_spawn_value 10
 pirate_spawn_value 28
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; >>>> start of landmarks section <<<<
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;The Netherlands;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; >>>> start of resources section <<<<   ! sorted alphabetically !
-; dogs - sugar now
-; furs - cotton now
-; glass - rum now
-; tin - slaves now
-; marble - gems now
-; pigs - horses now
-; amber - coffee now
-; camels - tobacco now
-; lead - tea now
-; animals - fish now
+faction	macedon, sailor henry
+denari	20000
+settlement
+{
+	level town
+	region estgen
 
-landmark pyramids_and_sphinx,	266, 54
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;silk;;;;;;;;;;;;;;;;;;;;;;;;;
-resource	silk,	102,	153
-resource	silk,	140,	137
-resource	silk,	145,	135
-resource	silk,	109,	138
-resource	silk,	110,	138
-resource	silk,	151,	149
-;resource	silk,	51,		198
-resource	silk,	251,	116
-resource	silk,	250,	121
-resource	silk,	177,	107
-resource	silk,	133,	140
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;wine;;;;;;;;;;;;;;;;;;;;;;;;;
-resource	wine,	101,	171
-resource	wine,	122,	165
-resource	wine,	113,	156
-resource	wine,	113,	134
-resource	wine,	107,	139
-resource	wine,	94,		133
-resource	wine,	106,	156
-resource	wine,	67,		157
-resource	wine,	106,	157
-resource	wine,	78,		160
-resource	wine,	74,		147
-resource	wine,	71,		141
-resource	wine,	74,		136
-resource	wine,	75,		137
-resource	wine,	53,		135
-resource	wine,	55,		129
-resource	wine,	47,		94
-resource	wine,	56,		112
-resource	wine,	35,		108
-resource	wine,	69,		107
-resource	wine,	70,		107
-resource	wine,	71,		111
-resource	wine,	85,		122
-resource	wine,	41,		122
-resource	wine,	95,		111
-resource	wine,	130,	130
-resource	wine,	153,	101
-resource	wine,	130,	108
-resource	wine,	144,	136
-resource	wine,	165,	122
-resource	wine,	186,	114
-resource	wine,	162,	129
-resource	wine,	153,	149
-resource	wine,	123,	144
-resource	wine,	124,	137
-resource	wine,	149,	128
-resource	wine,	158,	135
-resource	wine,	151,	142
-resource	wine,	23,		107
-resource	wine,	30,		117
-resource	wine,	29,		96
-resource	wine,	125,	165
-resource	wine,	129,	169
-resource	wine,	130,	168
-resource	wine,	135,	172
-resource	wine,	118,	174
-resource	wine,	125,	173
-resource	wine,	124,	171
-resource	wine,	158,	183
-resource	wine,	136,	181
-resource	wine,	118,	179
-resource	wine,	130,	161
-resource	wine,	104,	176
-resource	wine,	178,	166
-resource	wine,	174,	156
-resource	wine,	196,	154
-resource	wine,	190,	154
-resource	wine,	209,	102
-resource	wine,	247,	91
-resource	wine,	201,	103
-resource	wine,	263,	95
-resource	wine,	242,	107
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;iron;;;;;;;;;;;;;;;;;;;;;
-resource	iron,	242,	107
-resource	iron,	167,	239
-resource	iron,	197,	285
-resource	iron,	117,	176
-resource	iron,	80,		182
-resource	iron,	75,		190
-resource	iron,	65,		202
-resource	iron,	116,	170
-resource	iron,	120,	166
-resource	iron,	78,		168
-resource	iron,	167,	167
-resource	iron,	184,	290
-resource	iron,	162,	182
-resource	iron,	171,	182
-resource	iron,	171,	181
-resource	iron,	171,	180
-resource	iron,	170,	182
-resource	iron,	170,	181
-resource	iron,	159,	179
-resource	iron,	175,	168
-resource	iron,	58,		98
-resource	iron,	40,		133
-resource	iron,	37,		129
-resource	iron,	65,		133
-resource	iron,	226,	122
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;slaves;;;;;;;;;;;;;;;;;;;;;
-resource	slaves,	95,		94
-resource	slaves,	95,		94
-resource	slaves,	35,		78
-resource	slaves,	138,	96
-resource	slaves,	159,	70
-resource	slaves,	273,	2
-resource	slaves,	369,	55
-resource	slaves,	332,	126
-resource	slaves,	292,	144
-resource	slaves,	292,	145
-resource	slaves,	23,		96
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;textiles;;;;;;;;;;;;;;;;;;;;;
-resource	textiles,	66,		200
-resource	textiles,	53,		180
-resource	textiles,	38,		110
-resource	textiles,	39,		110
-resource	textiles,	38,		111
-resource	textiles,	39,		111
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ceramic;;;;;;;;;;;;;;;;;;;;;
-resource	pottery,	153,	148
-resource	pottery,	146,	135
-resource	pottery,	83,		171
-resource	pottery,	89,		167
-resource	pottery,	75,		183
-resource	pottery,	162,	183
-resource	pottery,	175,	165
-resource	pottery,	151,	147
-resource	pottery,	90,		169
-resource	pottery,	258,	235
-resource	pottery,	164,	120
-resource	pottery,	132,	173
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;tin;;;;;;;;;;;;;;;;;;;;;
-resource	tin,	47,	178
-resource	tin,	47,	179
-resource	tin,	57,	165
-resource	tin,	37,	129
-resource	tin,	157,	181
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;copper;;;;;;;;;;;;;;;;;;;;;
-resource	copper,	48,	178
-resource	copper,	48,	179
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;silver;;;;;;;;;;;;;;;;;;;;;
-resource	silver,	49,	178
-resource	silver,		165,	182
-resource	silver,		160,	181
-resource	silver,		157,	178
-resource	silver,		125,	165
-resource	silver,		221,	118
-resource	silver,		288,	96
-resource	silver,		283,	103
-resource	silver,		296,	101
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;gold;;;;;;;;;;;;;;;;;;;;;
-resource	gold,		221,	119
-resource	gold,		288,	97
-resource	gold,		283,	104
-resource	gold,		295,	101
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Holland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Zeeland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Guelderland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Ommelanden
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Frisia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Overjissel
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; >>>> start of factions section <<<<
+character	WillemIV, named character, leader, age 50, , x 145, y 277 
+traits 
+ancillaries 
+army
+unit		savoyard footguard				exp 2 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+character_record		Catherine, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
 
-faction	romans_julii, comfortable caesar
+relative 	WillemIV, 	Catherine,		end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Sweden;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+faction	parthia, bureaucrat henry
+denari	7000
+settlement
+{
+	level large_town
+	region Sodermanland
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Norrland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Gotaland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Scania
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Finland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Sw_Pomerania
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+character	Fredrik SwHesse, named character, leader, age 73, , x 224, y 345 
+traits 
+ancillaries 
+army
+unit		swedish lifeguard			exp 1 armour 0 weapon_lvl 0
+unit		swedish cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		swedish cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		swedish dragoons				exp 0 armour 0 weapon_lvl 0
+unit		swedish foot guard				exp 0 armour 0 weapon_lvl 0
+unit		swedish line				exp 0 armour 0 weapon_lvl 0
+unit		swedish line				exp 0 armour 0 weapon_lvl 0
+
+character	Lars, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 209, y 342
+army
+unit		swedish line				exp 0 armour 0 weapon_lvl 0
+unit		swedish cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		swedish dragoons				exp 0 armour 0 weapon_lvl 0
+
+character	Per, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 195, y 314
+army
+unit		swedish line				exp 0 armour 0 weapon_lvl 0
+
+character	Anders, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 232, y 390
+army
+unit		swedish line				exp 0 armour 0 weapon_lvl 0
+
+character	Erik, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 259, y 355
+army
+unit		finnish line				exp 0 armour 0 weapon_lvl 0
+unit		finnish line				exp 0 armour 0 weapon_lvl 0
+unit		swedish varvade line				exp 0 armour 0 weapon_lvl 0
+
+character	Erik, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 197, y 294
+army
+unit		swedish varvade line				exp 0 armour 0 weapon_lvl 0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Denmark;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+faction	pontus, sailor henry
+denari	3000
+settlement
+{
+	level large_town
+	region Zealand
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Holstein
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region D_Oldenburg
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Schleswig
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Jutland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Norway
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region N_Norway
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+character	FredV, named character, leader, age 60, , x 192, y 308 
+traits 
+ancillaries 
+army
+unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+
+character_record		Mary, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
+
+relative 	FredV,	Mary,		end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Hapsburg domains;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	romans_senate, religious henry
+denari	5000
+settlement
+{
+	level large_town
+	region Austria
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Styria
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Tyrol
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region G_Austria
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Brabant
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Luxembourg
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Bohemia
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Moravia
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Hungary
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Croatia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Carniola
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Slovakia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Siebenburgen
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Banat
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level large_town
+	region Lombardy
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+
+settlement
+{
+	level town
+	region Tuscany
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_senate
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+; ----------------Austria
+character	Franz Hapsburg, named character, leader, age 41, x 215, y 236
+traits 
+ancillaries 
+army
+unit		austrian stabsdragoner			exp 0 armour 0 weapon_lvl 0
+
+character	Wenzel Kaunitz, diplomat, command 0, influence 5, mangement 8, subterfuge 0, age 38, x 215, y 236
+traits 
+ancillaries 
+
+character	Leopold Daun, named character, command 3, influence 2, management 2, subterfuge 0, age 43, x 215, y 234
+traits 
+army
+unit		austrian stabsdragoner
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+
+; ----------------Freiberg area
+
+character	Maximilian, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 162, y 236
+army
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+
+; ----------------Styria
+character	JosefF Hildburghausen, named character, command 5, influence 0, mangement 8, subterfuge 0, age 46, x 210, y 225
+traits 
+ancillaries 
+army
+unit		austrian stabsdragoner			exp 0 armour 0 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+
+;----------------Belgium
+character	KarlA Lorraine, named character, heir, age 36, x 142, y 265
+traits 
+army
+unit		austrian stabsdragoner			exp 0 armour 0 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+
+;----------------Luxembourg
+character	Maximilian, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 152, y 252
+army
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+
+;----------------Slovenia
+character	Sigmund, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 204, y 215
+army
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+
+;-----------------Siebenburgen
+character	Maximilian Browne, named character, command 3, influence 2, management 2, subterfuge 0, age 43, x 262, y 223
+traits
+army
+unit		austrian stabsdragoner			exp 0 armour 0 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-----------------Croatia
+character	Josef Draskovic, named character, command 3, influence 2, management 2, subterfuge 0, age 35, x 211, y 212
+traits 
+army
+unit		austrian stabsdragoner			exp 0 armour 0 weapon_lvl 0
+
+; in Agram/Karlstaedt area
+
+character	Franz, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 213, y 214
+army
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-----------------Slovakia
+
+character	Josef, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 220, y 237
+army
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-----------------Banat
+
+character	JosefF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 249, y 214
+army
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-----------------Bohemia
+character	Josef Liechtenstein, named character, command 5, influence 2, management 2, subterfuge 0, age 52, x 200, y 250
+traits 
+army
+unit		austrian stabsdragoner
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+
+character	Ferdinand, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 202, y 254
+army
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+
+;-------------------Moravia
+character	Anton, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 217, y 245
+army
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-------------------Tyrol
+character	Wenzel, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 185, y 227
+army
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+
+;-------------------Lombardy
+character	KarlA, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 167, y 212
+army
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-------------------Hungary
+character	Franz Nadasdy, named character, command 5, influence 2, management 2, subterfuge 0, age 41, x 235, y 231
+traits 
+army
+unit		hungarian hussars
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
+unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
+
+;-------------------Other Characters
+character_record		MariaT, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader, portrait mariatheresa
+character_record		MariaAnna, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Josef Hapsburg,	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
+character_record		Karl Hapsburg, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		Leopold Hapsburg, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+
+;relative	;Leopold Lorraine,	;Elisabeth, Franz Lorraine, ;KarlA Lorraine, end
+relative 	Franz Hapsburg,		MariaT, MariaAnna, Josef Hapsburg,	Karl Hapsburg, Leopold Hapsburg, end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Bavaria;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+faction	romans_julii, comfort henry
 denari	5000
 settlement
 {
@@ -278,10 +983,9 @@ settlement
 	}
 }
 
-
-character	MaximilianB, named character, leader, age 47, , x 145, y 164 
-traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , PoliticsSkill 3 , GoodAdministrator 2 , Austere 1 
-ancillaries aged_retainer
+character	MaximilianB, named character, leader, age 47, , x 187, y 235 
+traits 
+ancillaries 
 army
 unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
 unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
@@ -293,9 +997,44 @@ character_record		Augusta, 	female, command 0, influence 0, management 0, subter
 
 relative 	MaximilianB,	Augusta,		end
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	romans_scipii, bureaucrat napoleon
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Hesse-Kassel;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+faction	gauls, fortified napoleon
+ai_do_not_attack_faction britons
+denari	5000
+settlement
+{
+	level town
+	region Hessen_kassel
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+character	Wilhelm, named character, leader, age 68, , x 174, y 264 
+army
+unit		kassel garde				exp 1 armour 0 weapon_lvl 0
+unit		kassel line				exp 1 armour 0 weapon_lvl 0
+unit		kassel line				exp 1 armour 0 weapon_lvl 0
+unit		kassel line				exp 1 armour 0 weapon_lvl 0
+unit		kassel line				exp 1 armour 0 weapon_lvl 0
+unit		kassel militia				exp 1 armour 0 weapon_lvl 0
+unit		hessian cuirassier				exp 1 armour 0 weapon_lvl 0
+unit		hessian dragoons				exp 1 armour 0 weapon_lvl 0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Saxony;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+faction	romans_scipii, trader henry
 ai_do_not_attack_faction egypt
 denari	5000
 settlement
@@ -359,23 +1098,42 @@ settlement
 	}
 }
 
-
-character	Xaver, named character, leader, age 54, , x 158, y 181 
-traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1 
-ancillaries aged_retainer
+;Dresden
+character	FXaver Sachsen, named character, leader, age 54, , x 199, y 263 
+traits 
+ancillaries 
 army
-unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 2 armour 0 weapon_lvl 0
+unit		saxon garde du corps			exp 1 armour 0 weapon_lvl 0
+unit		saxon carabiniergarde			exp 1 armour 0 weapon_lvl 0
+unit		saxon grenadiergarde			exp 1 armour 0 weapon_lvl 0
+unit		saxon garde zu fuss			exp 1 armour 0 weapon_lvl 0
+unit		saxon cuirassiers		exp 1 armour 0 weapon_lvl 0
+unit		saxon dragoons			exp 1 armour 0 weapon_lvl 0
+unit		saxon dragoons			exp 1 armour 0 weapon_lvl 0
+unit		saxon fusiliers			exp 1 armour 0 weapon_lvl 0
+unit		saxon fusiliers			exp 1 armour 0 weapon_lvl 0
+
+;Leipzig
+character	JGeorg, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 193, y 267
+army
+unit		saxon cuirassiers		exp 1 armour 0 weapon_lvl 0
+unit		saxon fusiliers			exp 1 armour 0 weapon_lvl 0
+
+;Goerlitz
+character	FAR, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 206, y 265
+army
+unit		saxon cuirassiers		exp 1 armour 0 weapon_lvl 0
+unit		saxon fusiliers			exp 1 armour 0 weapon_lvl 0
 
 character_record		Henrietta, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
 
-relative 	Xaver,	Henrietta,		end
+relative 	FXaver Sachsen,	Henrietta,		end
 
-;;;;;;;;;;;;;;;;;;;;;;
 
-faction	egypt, religious caesar
+;;;;;;;;;;;;;;;;;;;;;;Poland-Lithuania
+
+
+faction	egypt, comfort smith
 ai_do_not_attack_faction romans_scipii
 denari	5000
 settlement
@@ -487,6 +1245,21 @@ settlement
 settlement
 {
 	level town
+	region Courland
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
 	region Witebskie
 
 	year_founded 0
@@ -502,7 +1275,7 @@ settlement
 settlement
 {
 	level town
-	region Br_litewskie
+	region S_Livonia
 
 	year_founded 0
 	population 1000
@@ -547,7 +1320,7 @@ settlement
 settlement
 {
 	level town
-	region S_Livonia
+	region Br_litewskie
 
 	year_founded 0
 	population 1000
@@ -559,25 +1332,9 @@ settlement
 	}
 }
 
-settlement
-{
-	level town
-	region Courland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	FAR, named character, leader, age 55, , x 205, y 187 
-traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2 
-ancillaries librarian, master_embalmer
+character	FAR, named character, leader, age 55, , x 242, y 274 
+traits 
+ancillaries 
 army
 unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
 unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
@@ -589,556 +1346,9 @@ unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
 unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
 
 
-faction	romans_senate, comfortable napoleon
-denari	5000
-settlement
-{
-	level large_town
-	region Austria
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Prussia;;
 
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level large_town
-	region Bohemia
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level large_town
-	region Moravia
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level large_town
-	region Lombardy
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
-	region Styria
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Tyrol
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region G_Austria
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Carniola
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Brabant
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Luxembourg
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level large_town
-	region Hungary
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
-	region Croatia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Siebenburgen
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Banat
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Northern_Hungary
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-settlement
-{
-	level town
-	region Tuscany
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_senate
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-; ----------------Austria
-character	Franz Hapsburg, named character, leader, age 41, x 175, y 163
-traits GoodCommander 0 , NaturalMilitarySkill 0 , PoliticsSkill 0 , GoodAdministrator 0 , Intelligent 1
-ancillaries bodyguard
-army
-unit		Austrian carabiniers			exp 0 armour 0 weapon_lvl 0
-
-character	Wenzel Kaunitz, diplomat, command 0, influence 5, mangement 8, subterfuge 0, age 38, x 176, y 163
-traits GoodDiplomat 3, Intelligent 2
-ancillaries bodyguard
-
-character	Leopold Daun, named character, command 3, influence 2, management 2, subterfuge 0, age 43, x 174, y 163
-traits NaturalMilitarySkill 2
-army
-unit		Austrian carabiniers
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-
-
-; ----------------Freiberg area
-
-character	Maximilian, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 125, y 163
-army
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-
-; ----------------Styria
-character	JosefF Hildburghausen, named character, command 5, influence 0, mangement 8, subterfuge 0, age 46, x 168, y 156
-traits PoliticsSkill 0, GoodAdministrator 0, Intelligent 2
-ancillaries bodyguard
-army
-unit		Austrian carabiniers			exp 0 armour 0 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-
-;----------------Belgium
-character	KarlA Lorraine, named character, heir, age 36, x 103, y 180
-traits GoodCommander 0 , NaturalMilitarySkill 0 , PoliticsSkill 1 , GoodAdministrator 3 , Intelligent 1 
-army
-unit		Austrian carabiniers			exp 0 armour 0 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-
-;----------------Luxembourg
-character	Maximilian, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 112, y 174
-army
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-
-;----------------Slovenia
-character	Sigmund, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 162, y 150
-army
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-
-;-----------------Siebenburgen
-character	Maximilian Browne, named character, command 3, influence 2, management 2, subterfuge 0, age 43, x 222, y 154
-traits NaturalMilitarySkill 0
-army
-unit		Austrian carabiniers			exp 0 armour 0 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-;-----------------Croatia
-character	Josef Draskovic, named character, command 3, influence 2, management 2, subterfuge 0, age 35, x 173, y 138
-traits NaturalMilitarySkill 0
-army
-unit		Austrian carabiniers			exp 0 armour 0 weapon_lvl 0
-
-; in Agram/Karlstaedt area
-
-character	Franz, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 173, y 148
-army
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		Austrian grenzers				exp 0 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-
-;-----------------Slovakia
-
-character	Josef, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 182, y 164
-army
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-
-;-----------------Banat
-
-character	JosefF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 212, y 148
-army
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-;-----------------Bohemia
-character	Josef Liechtenstein, named character, command 5, influence 2, management 2, subterfuge 0, age 52, x 165, y 172
-traits NaturalMilitarySkill 2
-army
-unit		Austrian carabiniers
-unit		austrian 6pounder				exp 3 armour 1 weapon_lvl 0
-unit		austrian 6pounder				exp 3 armour 1 weapon_lvl 0
-unit		austrian 6pounder				exp 3 armour 1 weapon_lvl 0
-unit		austrian 12pounder				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-
-character	Ferdinand, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 166, y 175
-army
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-
-;-------------------Moravia
-character	Anton, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 177, y 170
-army
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-;-------------------Tyrol
-character	Wenzel, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 140, y 156
-army
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-
-;-------------------Lombardy
-character	KarlA, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 132, y 148
-army
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-unit		Hungarian fusiliers				exp 0 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-;-------------------Hungary
-character	Franz Nadasdy, named character, command 5, influence 2, management 2, subterfuge 0, age 41, x 191, y 158
-traits NaturalMilitarySkill 2
-army
-unit		Austrian carabiniers
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		Austrian cuirassiers				exp 3 armour 1 weapon_lvl 0
-unit		austrian fusiliers				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		austrian dragoons				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-unit		hungarian hussars				exp 3 armour 1 weapon_lvl 0
-
-;-------------------Other Characters
-;character_record		Elisabeth,	female, command 0, influence 0, management 0, subterfuge 0, age 68, dead, never_a_leader
-character_record		MariaT, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader, portrait mariatheresa
-character_record		MariaAnna, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
-character_record		Josef Hapsburg,	male, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
-character_record		Karl Hapsburg, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
-character_record		Leopold Hapsburg, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
-
-;relative	;Leopold Lorraine,	;Elisabeth, Franz Lorraine, ;KarlA Lorraine, end
-relative 	Franz Hapsburg,		MariaT, MariaAnna, Josef Hapsburg,	Karl Hapsburg, Leopold Hapsburg, end
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	romans_brutii, balanced stalin
-denari	5000
-settlement
-{
-	level large_town
-	region Piedmont
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator romans_brutii
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
-	region Sardinia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_brutii
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Savoy
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator romans_brutii
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	CEIII, named character, leader, age 52, , x 121, y 145 
-traits GoodCommander 1 , NaturalMilitarySkill 1 , GoodAttacker 1 , PoliticsSkill 2 , Intelligent 1 
-ancillaries drillmaster
-army
-unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-
-character_record		Augusta, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
-
-relative 	CEIII, 	Augusta,		end
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	germans, balanced mao
+faction	germans, fortified henry
 denari	5000
 settlement
 {
@@ -1303,11 +1513,12 @@ settlement
 	}
 }
 
-;---------------------------Brandenburg
-character	Fritz Prussia, named character, leader, age 37, , x 159, y 191, portrait deraltefritz
-traits GoodCommander 2 , Intelligent 2 , PublicFaith 1 
-ancillaries bodyguard, civilized_slave
+;-----------------Brandenburg
+character	Fritz Prussia, named character, leader, age 37, , x 199, y 277, portrait deraltefritz
+traits Courage 2, Intelligence 3, Sickliness 1, KingInPrussia 1, ElectorBrandenburg 1, NeuchatelPrinz 1
+ancillaries 
 army
+unit		prussian staff
 unit		prussian garde du corps				exp 1 armour 0 weapon_lvl 0
 unit		prussian leib				exp 1 armour 0 weapon_lvl 0
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
@@ -1322,32 +1533,32 @@ unit		prussian dragoons				exp 1 armour 0 weapon_lvl 0
 unit		prussian hussars				exp 1 armour 0 weapon_lvl 0		
 unit		prussian feldjaeger				exp 1 armour 0 weapon_lvl 0	
 
-character	AugustW Prussia, named character, heir, age 27, , x 150, y 193 
-traits GoodCommander 1
+character	AugustW Prussia, named character, heir, age 27, , x 200, y 277 
+traits Courage 2, Intelligence 1, Health 1
 army
-unit		prussian garde du corps				exp 1 armour 0 weapon_lvl 0
+unit		prussian staff				exp 1 armour 0 weapon_lvl 0
 
-character	Heinrich Prussia, named character, age 23, , x 160, y 194 
-traits GoodCommander 2
+character	Heinrich Prussia, named character, age 23, , x 201, y 277 
+traits Courage 1, Intelligence 3, Health 1
 army
-unit		prussian garde du corps				exp 1 armour 0 weapon_lvl 0
+unit		prussian staff				exp 1 armour 0 weapon_lvl 0
 
-character	Ferdinand Prussia, named character, age 19, , x 161, y 193 
-traits GoodCommander 2
+character	Ferdinand Prussia, named character, age 19, , x 199, y 278 
+traits Courage 1, Intelligence 2, Sickliness 1 
 army
-unit		prussian garde du corps				exp 1 armour 0 weapon_lvl 0
+unit		prussian staff				exp 1 armour 0 weapon_lvl 0
 
-character	FriedW Prussia, named character, age 61, dead 9, x 160, y 192 
+character	FriedW Prussia, named character, age 61, dead 9, x 199, y 279 
 army
-unit		prussian garde du corps				exp 1 armour 0 weapon_lvl 0
+unit		prussian staff				exp 1 armour 0 weapon_lvl 0
 
-character	KarlF BrandenburgS, named character, age 44, , x 161, y 192 
-traits GoodCommander 1
+character	KarlF BrandenburgS, named character, age 44, , x 200, y 279 
+traits Courage 1 
 army
-unit		prussian garde du corps				exp 1 armour 0 weapon_lvl 0
+unit		prussian staff				exp 1 armour 0 weapon_lvl 0
 
 ;----------------------------Duchy of Magdeburg
-character	Moritz, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 144, y 188
+character	Moritz, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 186, y 273
 army
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
@@ -1359,8 +1570,7 @@ unit		prussian cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		prussian cuirassiers				exp 1 armour 0 weapon_lvl 0		
 
 ;---------------------------East Prussia 
-
-character	Ernst, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 199, y 204
+character	Ernst, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 239, y 298
 army
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
@@ -1376,12 +1586,12 @@ unit		prussian hussars				exp 1 armour 0 weapon_lvl 0
 unit		prussian hussars				exp 1 armour 0 weapon_lvl 0			
 
 ;----------------------------------Kleve
-character	Wilhelm, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 115, y 184
+character	Wilhelm, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 154, y 273
 army
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
 
 ;----------------------------------Pomerania
-character	Georg, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 166, y 198
+character	Georg, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 203, y 286
 army
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
@@ -1394,7 +1604,7 @@ unit		prussian hussars				exp 1 armour 0 weapon_lvl 0
 unit		prussian hussars				exp 1 armour 0 weapon_lvl 0		
 
 ;----------------------------------Lower Silesia
-character	Paul, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 173, y 184
+character	Paul, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 214, y 264
 army
 unit		prussian fusiliers				exp 1 armour 0 weapon_lvl 0	
 unit		prussian garrison				exp 1 armour 0 weapon_lvl 0	
@@ -1403,7 +1613,7 @@ unit		prussian dragoons				exp 1 armour 0 weapon_lvl 0
 unit		prussian hussars				exp 1 armour 0 weapon_lvl 0		
 
 ;----------------------------------Middle and Upper Silesia
-character	Karl, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 179, y 181
+character	Karl, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 219, y 262
 army
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
 unit		prussian fusiliers				exp 1 armour 0 weapon_lvl 0	
@@ -1416,18 +1626,18 @@ unit		prussian hussars				exp 1 armour 0 weapon_lvl 0
 unit		prussian hussars				exp 1 armour 0 weapon_lvl 0		
 
 ;----------------------------------Mark 
-character	Hans, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 121, y 182
+character	Hans, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 164, y 268
 army
 unit		prussian line				exp 1 armour 0 weapon_lvl 0
 unit		prussian fusiliers				exp 1 armour 0 weapon_lvl 0	
 
 ;----------------------------------Minden 
-character	Kurt, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 128, y 188
+character	Kurt, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 172, y 277
 army
 unit		prussian garrison				exp 1 armour 0 weapon_lvl 0	
 
 ;----------------------------------Ostfriesland
-character	Christoph, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 121, y 196
+character	Christoph, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 164, y 289
 army
 unit		prussian garrison				exp 1 armour 0 weapon_lvl 0	
 
@@ -1441,7 +1651,7 @@ relative	FriedW Prussia, Sophie,		Fritz Prussia, AugustW Prussia, Heinrich Pruss
 relative 	Fritz Prussia, 	Elizabeth,		end
 relative 	AugustW Prussia,  Louise,		FredW Prussia, FriedrichH Prussia,		end
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Great Britain;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 faction	britons, trader henry
 ai_do_not_attack_faction thrace
@@ -1450,6 +1660,75 @@ settlement
 {
 	level large_town
 	region England
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator britons
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Midlands
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator britons
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Northern_England
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator britons
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region West_Country
 
 	year_founded 0
 	population 2800
@@ -1538,6 +1817,7 @@ settlement
 	}
 }
 
+
 settlement
 {
 	level large_town
@@ -1558,36 +1838,6 @@ settlement
 	building
 	{
 		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
-	region Gibraltar
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Minorca
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
 	}
 }
 
@@ -1636,11 +1886,43 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Gibraltar
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+
+settlement
+{
+	level town
+	region Minorca
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
 ;----------------------------England-London
-character	George Hanover, named character, leader, age 50, , x 75, y 185 
-traits GoodCommander 1
-ancillaries druid
+character	George Hanover, named character, leader, age 50, , x 118, y 274 
+traits Courage 3, Stupidity 1, Health 2, UKKing 1, EireKing 1, HenVFrance 1, vLueneburg 1
+ancillaries 
 army
+unit		british staff				exp 0 armour 0 weapon_lvl 0
 unit		british life guards				exp 0 armour 0 weapon_lvl 0
 unit		british footguard				exp 1 armour 0 weapon_lvl 0
 unit		british footguard				exp 1 armour 0 weapon_lvl 0
@@ -1656,7 +1938,7 @@ unit		british militia				exp 0 armour 0 weapon_lvl 0
 unit		british militia				exp 0 armour 0 weapon_lvl 0
 
 ;----------------------------England-west country
-character	WilliamA, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 70, y 180
+character	WilliamA, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 103, y 274
 army
 unit		british line				exp 0 armour 0 weapon_lvl 0
 unit		british line				exp 0 armour 0 weapon_lvl 0
@@ -1665,12 +1947,12 @@ unit		british militia				exp 0 armour 0 weapon_lvl 0
 unit		british militia				exp 0 armour 0 weapon_lvl 0
 
 ;----------------------------Wales
-character	John, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 53, y 185
+character	John, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 100, y 280
 army
 unit		british militia				exp 0 armour 0 weapon_lvl 0
 
 ;----------------------------Ireland
-character	Edward, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 38, y 195
+character	Edward, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 85, y 301
 army
 unit		british line				exp 0 armour 0 weapon_lvl 0
 unit		british line				exp 0 armour 0 weapon_lvl 0
@@ -1683,25 +1965,25 @@ unit		british dragoons				exp 0 armour 0 weapon_lvl 0
 unit		british militia				exp 0 armour 0 weapon_lvl 0
 
 ;--------------------------Scotland
-character	Thomas, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 58, y 210
+character	Thomas, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 110, y 321
 army
 unit		british line				exp 0 armour 0 weapon_lvl 0
 unit		british dragoons				exp 0 armour 0 weapon_lvl 0
 unit		british militia				exp 0 armour 0 weapon_lvl 0
 
 ;-------------------------Gibraltar
-character	Frederick, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 44, y 92
+character	Frederick, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 51, y 141
 army
 unit		british line				exp 0 armour 0 weapon_lvl 0
 unit		british line				exp 0 armour 0 weapon_lvl 0
 
 ;-------------------------Minorca
-character	Charles, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 102, y 113
+character	Charles, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 127, y 163
 army
 unit		british line				exp 0 armour 0 weapon_lvl 0
 
 ;-------------------------Hanover_P
-character	George, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 133, y 189
+character	George, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 176, y 278
 army
 unit		hanovarian garde du corps				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian horse				exp 0 armour 0 weapon_lvl 0
@@ -1718,7 +2000,7 @@ unit		hanoverian militia				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian garrison				exp 0 armour 0 weapon_lvl 0
 
 ;-------------------------Bremen_P
-character	William, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 129, y 195
+character	William, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 172, y 288
 army
 unit		hanovarian line				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian line				exp 0 armour 0 weapon_lvl 0
@@ -1726,1856 +2008,31 @@ unit		hanoverian militia				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian garrison				exp 0 armour 0 weapon_lvl 0
 
 ;-------------------------Lueneburg
-character	GeorgeW, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 138, y 194
+character	GeorgeW, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 178, y 286
 army
 unit		hanovarian line				exp 0 armour 0 weapon_lvl 0
 unit		hanoverian militia				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian garrison				exp 0 armour 0 weapon_lvl 0
 
 ;-------------------------Gottingen_P
-character	Robert, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 134, y 184
+character	Robert, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 177, y 268
 army
 unit		hanovarian line				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian line				exp 0 armour 0 weapon_lvl 0
 unit		hanoverian militia				exp 0 armour 0 weapon_lvl 0
 unit		hanovarian garrison				exp 0 armour 0 weapon_lvl 0
 
+
 character_record		Caroline, 	female, command 0, influence 0, management 0, subterfuge 0, age 38, alive, never_a_leader
 
 relative 	George Hanover, 	Caroline,		end
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-faction	armenia, fortified henry
-denari	5000
-settlement
-{
-	level large_town
-	region Ingria
 
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator britons
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
+;;;;;;;;;;;;;;;;;;;;;;;;;;;France;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-settlement
-{
-	level town
-	region Livonia
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Estland
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Kiev_G
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Muscovy
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Smolenska
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Vyborgski
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Archangelski
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Novgorodski
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Voronezhski
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Astrakhan_G
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Kazan_G
-
-	year_founded 0
-	population 984
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	Apraxin, named character, leader, age 60, , x 258, y 236 
-traits GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1 
-ancillaries chief_eunuch
-army
-unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-
-character_record		Elizabeth, 	female, command 0, influence 0, management 0, subterfuge 0, age 47, alive, never_a_leader
-
-relative 	Apraxin, 	Elizabeth,		end
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	macedon, trader genghis
-denari	20000
-settlement
-{
-	level town
-	region estgen
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Holland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Zeeland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Guelderland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Ommelanden
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Frisia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Overjissel
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	WillemIV, named character, leader, age 50, , x 103, y 187 
-traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 2 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1 
-ancillaries shieldbearer
-army
-unit		savoyard footguard				exp 2 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-character_record		Catherine, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-
-relative 	WillemIV, 	Catherine,		end
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	thrace, sailor napoleon
-ai_do_not_attack_faction britons
-denari	3000
-settlement
-{
-	level large_town
-	region central_portugal
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level large_town
-	region Aveiro_p
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level large_town
-	region Braganza
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level large_town
-	region Faro_P
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level large_town
-	region Casablanca_P
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-
-character	Lippe, named character, leader, age 60, , x 20, y 107 
-traits GoodCommander 2 , GoodAttacker 2 , Energetic 1 , Drink 2 
-ancillaries wine_steward, comedian, aged_retainer
-army
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-character_record		Louise, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-
-relative 	Lippe,	Louise,		end
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	gauls, bureaucrat napoleon
-ai_do_not_attack_faction britons
-denari	5000
-settlement
-{
-	level town
-	region Hessen_kassel
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-character	Wilhelm, named character, leader, age 68, , x 132, y 181 
-army
-unit		kassel garde				exp 1 armour 0 weapon_lvl 0
-unit		kassel line				exp 1 armour 0 weapon_lvl 0
-unit		kassel line				exp 1 armour 0 weapon_lvl 0
-unit		kassel line				exp 1 armour 0 weapon_lvl 0
-unit		kassel line				exp 1 armour 0 weapon_lvl 0
-unit		kassel militia				exp 1 armour 0 weapon_lvl 0
-unit		hessian cuirassier				exp 1 armour 0 weapon_lvl 0
-unit		hessian dragoons				exp 1 armour 0 weapon_lvl 0
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	scythia, bureaucrat napoleon
-denari	5000
-settlement
-{
-	level town
-	region Wurttemberg
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-character	KarlE, named character, leader, age 21, , x 130, y 167 
-army
-unit		wurttemberg garde zu fuss				exp 1 armour 0 weapon_lvl 0
-unit		wurttemberg line				exp 1 armour 0 weapon_lvl 0
-unit		wurttemberg line				exp 1 armour 0 weapon_lvl 0
-unit		wurttemberg line				exp 1 armour 0 weapon_lvl 0
-unit		wurttemberg dragoons				exp 1 armour 0 weapon_lvl 0
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-faction	seleucid, balanced stalin
-denari	3000
-settlement
-{
-	level large_town
-	region La_Mancha
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Castilla
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Extramadura
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Andalucia
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Galicia
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Asturias
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Catalonia
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Valencia_P
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Navarre
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Balearics
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Aragon
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-settlement
-{
-	level large_town
-	region Ceuta_P
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Naples_P
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Parma_P
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-
-settlement
-{
-	level large_town
-	region Sicily
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-
-character	CarloIII, named character, leader, age 40, , x 52, y 116 
-traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 
-ancillaries heroic_saviour
-army
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-
-character_record		Louise, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-
-relative 	CarloIII,	Louise,		end
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	carthage, balanced smith
-denari	7000
-settlement
-{
-	level large_town
-	region Rumeila
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-
-settlement
-{
-	level town
-	region Bosnia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Crete
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Crimea
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Silistra
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Wallachia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Moldova
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region N_Serbia
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region W_Rumeila
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Iraq
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Egypt
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Trablus
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Tunis
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Algiers
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Habes
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Sidon
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Sham
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Tripoli
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Aleppo
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Basra
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Mosul
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Morea
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Ioannina
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Anatol
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Karaman
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Adana
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Cyprus
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Trebizond
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Sivas
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Azaq
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Childir
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Van
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region E_Diyarbakir
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	Mustafa, named character, leader, age 65, , x 251, y 121 
-traits GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , GoodTrader 1 
-ancillaries spymaster
-army
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 2 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
-
-
-character_record		Sarah, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-
-relative 	Mustafa, 	Sarah,		end
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
-faction	parthia, balanced genghis
-denari	7000
-settlement
-{
-	level large_town
-	region Sodermanland
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
-	region Finland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Norrland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Gotaland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Scania
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Sw_Pomerania
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	Ehrensvard, named character, leader, age 60, , x 188, y 233 
-traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 2 , Austere 1 
-ancillaries foodtaster
-army
-unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	pontus, trader napoleon
-denari	3000
-settlement
-{
-	level large_town
-	region Zealand
-
-	year_founded 0
-	population 5000
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type market trader
-	}
-	building
-	{
-		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
-	region D_Oldenburg
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Schleswig
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Holstein
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Jutland
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region Norway
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level town
-	region N_Norway
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-
-character	FredV, named character, leader, age 60, , x 151, y 210 
-traits GoodCommander 2 , PublicFaith 1 , Intelligent 2 
-ancillaries aged_retainer, chief_eunuch
-army
-unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-character_record		Mary, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
-
-relative 	FredV,	Mary,		end
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-faction	greek_cities, balanced smith
+faction	greek_cities, comfort henry
 denari	5000
 settlement
 {
@@ -3681,6 +2138,29 @@ settlement
 {
 	level large_town
 	region Orleanais
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
+settlement
+{
+	level large_town
+	region Burgundy
 
 	year_founded 0
 	population 2000
@@ -3818,29 +2298,6 @@ settlement
 settlement
 {
 	level large_town
-	region Burgundy
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-}
-
-settlement
-{
-	level large_town
 	region Champagne
 
 	year_founded 0
@@ -3886,10 +2343,11 @@ settlement
 
 ;---------------------Ile de France
 
-character	Louis deFrance, named character, leader, age 56, , x 89, y 169 
-traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , Intelligent 1 
-ancillaries wrestler
+character	Louis deFrance, named character, leader, age 39, , x 125, y 251 
+traits KingOfFrance 1, Courage 1, Intelligence 2, Health 3
+ancillaries 
 army
+unit		french staff				exp 1 armour 0 weapon_lvl 0
 unit		french garde du corps				exp 1 armour 0 weapon_lvl 0
 unit		french gendarmes				exp 1 armour 0 weapon_lvl 0
 unit		garde francais				exp 1 armour 0 weapon_lvl 0
@@ -3903,7 +2361,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;---------------------Pas du Calais
 
-character	Victor, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 88, y 181
+character	Victor, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 128, y 267
 army
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
@@ -3913,7 +2371,7 @@ unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 
 ;---------------------Picardie
 
-character	VictorF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 89, y 175
+character	VictorF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 129, y 258
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
@@ -3928,7 +2386,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;---------------------Brittany
 
-character	FrancoisG, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 65, y 164
+character	FrancoisG, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 100, y 248
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
@@ -3937,7 +2395,7 @@ unit		french irish fusiliers				exp 1 armour 0 weapon_lvl 0
 
 ;---------------------Champagne
 
-character	Francois, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 101, y 171
+character	Francois, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 140, y 251
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
@@ -3956,7 +2414,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;---------------------Normandy
 
-character	LouisG, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 82, y 171
+character	LouisG, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 120, y 257
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
@@ -3968,7 +2426,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Alsace
 
-character	YvesM, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 123, y 167
+character	YvesM, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 160, y 242
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
@@ -3989,7 +2447,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Provence
 
-character	Pierre, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 109, y 135
+character	Pierre, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 141, y 195
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
@@ -4000,10 +2458,11 @@ unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 unit		french italian fusilier				exp 1 armour 0 weapon_lvl 0
-unit		french militia				exp 1 armour 0 weapon_lvl 0
+unit		french militia		
+
 ;--------------------Languedoc
 
-character	PierreF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 85, y 135
+character	PierreF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 115, y 198
 army
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 unit		french militia				exp 1 armour 0 weapon_lvl 0
@@ -4012,7 +2471,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Burgundy
 
-character	Philippe, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 108, y 160
+character	Philippe, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 145, y 232
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
@@ -4026,20 +2485,20 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Dauphine
 
-character	CharlesF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 112, y 146
+character	CharlesF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 145, y 207
 army
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
 unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Lyonnais
 
-character	PierreF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 102, y 152
+character	PierreF, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 137, y 218
 army
 unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Aquitaine
 
-character	LouisJ, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 71, y 142
+character	LouisJ, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 102, y 214
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
@@ -4054,7 +2513,7 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 
 ;--------------------Orleanais
 
-character	ClaudeL, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 84, y 161
+character	ClaudeL, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 120, y 239
 army
 unit		french cuirassiers				exp 1 armour 0 weapon_lvl 0
 unit		french fusiliers				exp 1 armour 0 weapon_lvl 0
@@ -4064,19 +2523,1141 @@ unit		french militia				exp 1 armour 0 weapon_lvl 0
 unit		french militia				exp 1 armour 0 weapon_lvl 0
 unit		french militia				exp 1 armour 0 weapon_lvl 0
 
+
 character_record		Marie, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
 
 relative 	Louis deFrance, 	Marie,	end
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Spain;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-faction	slave, balanced smith
-denari	10000
+faction	seleucid, religious henry
+denari	3000
 settlement
 {
 	level large_town
-	region Afsharian
+	region La_Mancha
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Galicia
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Asturias
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Navarre
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Valencia_P
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Andalucia
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Catalonia
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aragon
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Balearics
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Castilla
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Ceuta_P
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Extramadura
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Naples_P
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Sicily
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Parma_P
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+;Madrid
+character	Fernando BourbonF, named character, leader, age 36, , x 69, y 176 
+traits 
+ancillaries
+army
+unit		spanish staff				exp 1 armour 0 weapon_lvl 0
+unit		reales guardias de corps				exp 1 armour 0 weapon_lvl 0
+unit		carbineros reales				exp 1 armour 0 weapon_lvl 0
+unit		guardias				exp 0 armour 0 weapon_lvl 0
+unit		guardias				exp 0 armour 0 weapon_lvl 0
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0
+
+;Valencia
+character	Diego, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 94, y 162
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0	
+unit		spanish valonas fusiliers				exp 1 armour 0 weapon_lvl 0	
+unit		spanish swiss fusiliers				exp 1 armour 0 weapon_lvl 0	
+unit		spanish italian fusiliers				exp 1 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0			
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Barcelona
+character	Pedro, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 115, y 178
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0
+unit		spanish migueletes				exp 0 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0	
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0	
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0	
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0	
+unit		spanish dragoons				exp 0 armour 0 weapon_lvl 0			
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Zaragoza
+character	Pedro, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 93, y 186
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0
+unit		spanish dragoons				exp 0 armour 0 weapon_lvl 0		
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Andalucia
+character	Alejandro, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 49, y 156
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0	
+unit		spanish dragoons				exp 0 armour 0 weapon_lvl 0		
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Ceuta
+character	Juan, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 49, y 137
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0	
+
+;Oran
+character	Jose, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 85, y 128
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0	
+
+;Cadiz
+character	Luis, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 45, y 143
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0	
+
+;Extramadura
+character	Antonio, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 49, y 172
+army
+unit		spanish fusiliers				exp 1 armour 0 weapon_lvl 0
+unit		spanish line cavalry				exp 0 armour 0 weapon_lvl 0	
+unit		spanish dragoons				exp 0 armour 0 weapon_lvl 0		
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Galicia
+character	Felipe, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 46, y 208
+army
+unit		spanish irish fusiliers				exp 1 armour 0 weapon_lvl 0
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Valladolid
+character	Zenon, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 65, y 193
+army
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Oviedo
+character	Manuel, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 66, y 208
+army
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Pamplona
+character	Benito, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 91, y 197
+army
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0	
+
+;Pamplona
+character	Gabriel, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 118, y 159
+army
+unit		spanish militia				exp 0 armour 0 weapon_lvl 0
+unit		spanish dragoons				exp 0 armour 0 weapon_lvl 0			
+
+
+character_record		Louise, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+
+relative 	Fernando BourbonF,	Louise,		end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;Portugal;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	thrace, sailor henry
+ai_do_not_attack_faction britons
+denari	3000
+settlement
+{
+	level large_town
+	region central_portugal
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aveiro_p
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Braganza
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Faro_P
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Casablanca_P
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+;Lisbon
+character	Joao Braganza, named character, leader, age 60, , x 29, y 173 
+traits 
+ancillaries
+army
+unit		portuguese adc				exp 1 armour 0 weapon_lvl 0
+unit		portuguese marines				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		portuguese fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Coimbra
+character	Juse, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 38, y 183
+army
+unit		portuguese line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		portuguese line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		portuguese line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		portuguese dragoons				exp 0 armour 0 weapon_lvl 0
+unit		portuguese dragoons				exp 0 armour 0 weapon_lvl 0
+unit		portuguese fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		portuguese fusiliers				exp 0 armour 0 weapon_lvl 0	
+
+;up north or something
+character	Sebastiao, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 41, y 193
+army
+unit		portuguese line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		portuguese line cavalry				exp 0 armour 0 weapon_lvl 0
+unit		portuguese fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		portuguese fusiliers				exp 0 armour 0 weapon_lvl 0	
+
+;Southern Portugal
+character	Sebastiao, general, command 0, influence 0, management 0, subterfuge 0, age 20, , x 35, y 154
+army
+unit		portuguese fusiliers				exp 0 armour 0 weapon_lvl 0
+
+
+character_record		Louise, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+
+relative 	Joao Braganza,	Louise,		end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	romans_brutii, balanced henry
+denari	5000
+settlement
+{
+	level large_town
+	region Piedmont
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Sardinia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Savoy
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator romans_brutii
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+
+character	CEIII, named character, leader, age 52, , x 158, y 210 
+traits 
+ancillaries 
+army
+unit		savoyard footguard			exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
+
+character_record		Augusta, 	female, command 0, influence 0, management 0, subterfuge 0, age 40, alive, never_a_leader
+
+relative 	CEIII, 	Augusta,		end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Russian Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	armenia, trader smith
+denari	5000
+settlement
+{
+	level large_town
+	region Ingria
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator britons
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Muscovy
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Smolenska
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Novgorodski
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Livonia
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Estland
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Vyborgski
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Voronezhski
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Astrakhan_G
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Kazan_G
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Kiev_G
+
+	year_founded 0
+	population 984
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+;St. Petersburg and Ingria
+
+character	Alexey Razumovsky, named character, leader, age 40, , x 281, y 357 
+traits 
+ancillaries 
+army
+unit		russian staff			exp 0 armour 0 weapon_lvl 0
+unit		russian lifeguards				exp 0 armour 0 weapon_lvl 0
+unit		russian cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		Russian footguard				exp 0 armour 0 weapon_lvl 0
+unit		Russian footguard				exp 0 armour 0 weapon_lvl 0
+unit		Russian footguard				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Moscovy
+character	Fyodor, general, , age 25, , x 335, y 332
+army
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Novgorod
+character	Villim, general, , age 25, , x 289, y 350
+army
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Livonia
+character	Vasilij, general, , age 25, , x 256, y 323
+army
+unit		russian cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Courland
+character	Alexey, general, , age 25, , x 252, y 319
+army
+unit		russian cuirassiers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Estland
+character	Piotr, general, , age 25, , x 258, y 348
+army
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Vyborgsky
+character	Kasper, general, , age 25, , x 275, y 360
+army
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+
+;Kazan
+character	Stepan, general, , age 25, , x 388, y 348
+army
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		Russian fusiliers				exp 0 armour 0 weapon_lvl 0
+unit		Ukranian militia				exp 0 armour 0 weapon_lvl 0
+
+;Astrakhan
+character	Ivan, general, , age 25, , x 422, y 257
+army
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+
+;Kiev
+character	Kirill, general, , age 25, , x 302, y 263
+army
+unit		russian horse grenadier				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		Ukranian militia				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+
+;Siberia
+character	Henrikh, general, , age 25, , x 492, y 401
+army
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+
+;Smolensk
+character	Henrikh, general, , age 25, , x 302, y 307
+army
+unit		russian horse grenadier				exp 0 armour 0 weapon_lvl 0
+unit		russian horse grenadier				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+
+;Southern border
+character	Kirill, general, , age 25, , x 327, y 247
+army
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian dragoons				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		Russian pandurs				exp 0 armour 0 weapon_lvl 0
+unit		Russian pandurs				exp 0 armour 0 weapon_lvl 0
+
+;Voronezh
+character	Kirill, general, , age 25, , x 350, y 291
+army
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+unit		russian cossacks				exp 0 armour 0 weapon_lvl 0
+
+character_record		Elizabeth, 	female, command 0, influence 0, management 0, subterfuge 0, age 47, alive, never_a_leader
+
+relative 	Alexey Razumovsky, 	Elizabeth,		end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;Ottoman Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	carthage, religious genghis
+denari	7000
+settlement
+{
+	level large_town
+	region Rumeila
 
 	year_founded 0
 	population 2000
@@ -4096,29 +3677,526 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Moldova
 
-character	sub_faction britons, George, general, age 20, , x 395, y 59 
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Silistra
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region N_Serbia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Wallachia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Morea
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Ioannina
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Bosnia
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Crete
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region W_Rumeila
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Egypt
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Azaq
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Crimea
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Habes
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Sidon
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Sham
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Tripoli
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Adana
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Cyprus
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Aleppo
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Anatol
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Karaman
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Sivas
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Basra
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Childir
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Trebizond
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Trablus
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Tunis
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Algiers
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Mosul
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region Iraq
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Diyarbakir
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+settlement
+{
+	level town
+	region E_Van
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+character	Mustafa, named character, leader, age 65, , x 304, y 177 
+traits 
+ancillaries 
 army
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
 unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
 unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
 unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 2 armour 0 weapon_lvl 0
+unit		savoyard footguard				exp 1 armour 0 weapon_lvl 0
 
 
-character	sub_faction britons, Charles, general, age 20, , x 75, y 187
+character_record		Sarah, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
+
+relative 	Mustafa, 	Sarah,		end
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction	scythia, craftsman henry
+denari	5000
+settlement
+{
+	level town
+	region Wurttemberg
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+}
+
+character	KarlE, named character, leader, age 21, , x 169, y 242 
 army
-unit		savoyard footguard				exp 0 armour 0 weapon_lvl 0
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; >>>> start of diplomacy section <<<<
-faction_relationships	britons, allied_to 		thrace
-faction_relationships	romans_scipii, allied_to 		egypt
-core_attitudes	britons,	550 greek_cities
-core_attitudes	britons,	410	seleucid
-core_attitudes	britons,	0	thrace
-core_attitudes	britons,	250	germans
-core_attitudes britons,	210	romans_senate
-core_attitudes britons,	300 romans_julii, romans_scipii, romans_brutii, armenia, parthia, pontus, egypt
-core_attitudes britons,	380	carthage
-core_attitudes	greek_cities,	450 britons
-core_attitudes	romans_scipii,	50 egypt
-core_attitudes	egypt,	90	romans_scipii
+unit		wurttemberg garde zu fuss				exp 1 armour 0 weapon_lvl 0
+unit		wurttemberg line				exp 1 armour 0 weapon_lvl 0
+unit		wurttemberg line				exp 1 armour 0 weapon_lvl 0
+unit		wurttemberg line				exp 1 armour 0 weapon_lvl 0
+unit		wurttemberg dragoons				exp 1 armour 0 weapon_lvl 0

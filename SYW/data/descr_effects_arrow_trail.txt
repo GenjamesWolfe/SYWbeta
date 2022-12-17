@@ -6,12 +6,12 @@ effect default_arrow_trail
 {
 	type ribbon
 	{
-		alpha_max	128	  ; Alpha value at start of trail
-		alpha_min	10	  ; Alpha value at end of trail
-		fade_start	100	  ; Distance to start fading out.
-		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		alpha_max	255	  ; Alpha value at start of trail
+		alpha_min	255	  ; Alpha value at end of trail
+		fade_start	300	  ; Distance to start fading out.
+		fade_end	600	  ; This should be the same as the max lod distance in the effect set.
 		head_width	0.1	  ; Width of the ribbon at arrow end
-		tail_width  0.01    ; Width of the ribbon at the tail end
+		tail_width  0.1    ; Width of the ribbon at the tail end
 
 		texture	    data/textures/arrow_trail.tga
 	}
@@ -29,14 +29,14 @@ effect small_arrow_trail
 {
 	type ribbon
 	{
-		alpha_max	128	  ; Alpha value at start of trail
-		alpha_min	10	  ; Alpha value at end of trail
-		fade_start	100	  ; Distance to start fading out.
-		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		alpha_max	255	  ; Alpha value at start of trail
+		alpha_min	255	  ; Alpha value at end of trail
+		fade_start	300	  ; Distance to start fading out.
+		fade_end	600	  ; This should be the same as the max lod distance in the effect set.
 		head_width	0.1	  ; Width of the ribbon at arrow end
-		tail_width  0.01    ; Width of the ribbon at the tail end
+		tail_width  0.1    ; Width of the ribbon at the tail end
 
-		texture	    data/textures/slingshot_trail.tga
+		texture	    data/textures/arrow_trail.tga
 	}
 }	
 
@@ -52,12 +52,27 @@ effect large_arrow_trail
 {
 	type ribbon
 	{
-		alpha_max	196	  ; Alpha value at start of trail
-		alpha_min	64	  ; Alpha value at end of trail
-		fade_start	100	  ; Distance to start fading out.
-		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		alpha_max	255	  ; Alpha value at start of trail
+		alpha_min	255	  ; Alpha value at end of trail
+		fade_start	400	  ; Distance to start fading out.
+		fade_end	800	  ; This should be the same as the max lod distance in the effect set.
 		head_width	0.15  ; Width of the ribbon at arrow end
-		tail_width  0.015 ; Width of the ribbon at the tail end
+		tail_width  0.15 ; Width of the ribbon at the tail end
+
+		texture	    data/textures/arrow_trail.tga
+	}
+}	
+
+effect boulder_trail
+{
+	type ribbon
+	{
+		alpha_max	255	  ; Alpha value at start of trail
+		alpha_min	10	  ; Alpha value at end of trail
+		fade_start	500	  ; Distance to start fading out.
+		fade_end	1000	  ; This should be the same as the max lod distance in the effect set.
+		head_width	0.80  ; Width of the ribbon at arrow end
+		tail_width  0.80 ; Width of the ribbon at the tail end
 
 		texture	    data/textures/arrow_trail.tga
 	}
@@ -126,14 +141,14 @@ effect fiery_boulder_light
 		}
 	}
 }
-
+;-------------------------------------------- настройка самого взрыв
 effect fiery_boulder_explosion_light
 {
 	type light
 	{
 		offset		0.0, 0.0, 5.0
 		fade_in_time	0.1
-		fade_out_time	0.1
+		fade_out_time	2.0
 		keyframe_colour
 		{
 				0.05, 	240, 100, 0
@@ -160,7 +175,7 @@ effect boulder
 		fade_time	0.01
 	}
 }
-
+;------------------------------------- дым за снарядом?!
 effect boulder_dust
 {
 	type particle
@@ -182,7 +197,7 @@ effect boulder_dust
 		clr_adjust_by_ambient_intensity
 	}
 }
-
+;------------------------------------- дым за снарядом?!
 effect fiery_boulder_smoke
 {
 	type particle
@@ -306,11 +321,11 @@ effect fiery_boulder_dust_explosion2
 	{
 	; dust explode
 		model 				models_effects/explosion_dust2.cas
-		anim_time			9
-		max_scale   			6
+		anim_time			1
+		max_scale   			20
 		max_particle_scale 		10
-		scale_time_bias			.9
-		alpha_time_bias			0.6
+		scale_time_bias			0.9
+		alpha_time_bias			0.9
 
 		; debris
 	        debris_model                             models_effects/debri02.cas
@@ -327,7 +342,7 @@ effect fiery_boulder_dust_explosion3
 {
 	type explosion
 	{
-	; dust explode
+	; -----------------------------------------------------взрыв снаряда _____________dust explode
 		model 				models_effects/flame_explode.cas
 		anim_time			.7
 		max_scale   			1.5
@@ -368,15 +383,15 @@ effect boulder_dust_explosion
 	        debris_scale_range       0.4, 1.5
 	}
 }
-
+;-----------------------------------------------------------------удар без огня пылью
 effect boulder_dust_explosion2
 {
 	type explosion
 	{
 	; dust explode
-		model 				models_effects/explosion_dust2.cas
-		anim_time			7
-		max_scale   			5
+		model 				models_effects/xeo_explosion_dust2.cas
+		anim_time			1
+		max_scale   			50
 		max_particle_scale 		9
 		scale_time_bias			.9
 		alpha_time_bias			0.6
@@ -437,6 +452,7 @@ effect_set boulder_set
 {
 	lod 1000
 	{
+		boulder_trail
 		boulder
 		boulder_dust
 	}
