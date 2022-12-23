@@ -1,0 +1,239 @@
+  +0.8750000
+20
+  0   0   0   0   1   0   0   0   +0.0017843   +1.4124814   -0.1563863    -1
+  0   0   0   0   0   0   0   0   +0.0029662   -0.0065162   -0.1238086     0
+  0   0   0   0   0   0   0   0   -0.0013159   +0.0562256   -0.6544184     1
+  0   0   0   0   0   0   0   0   +0.0000002   -0.1846571   -0.1032774     2
+  0   0   0   0   0   0   0   0   +0.1475411   -0.1522212   -0.5524397     1
+143   0 127  63   0   0   0   0   -0.0004349   -0.3376706   -0.0729493     4
+ 80   0 117 190   0   0   0   0   -0.0038998   -0.3388662   -0.0917212     5
+184   0  38 188   0   0   0   0   -0.0027863   -0.3860827   -0.0710649     6
+  0   0   0   0   0   0   0   0   -0.1554672   -0.1469441   -0.5530448     1
+  0   0   0   0   0   0   0   0   -0.0002911   -0.3376721   -0.0729488     8
+  0   0   0   0   0   0   0   0   -0.0040016   -0.3390299   -0.0925326     9
+  0   0   0   0   0   0   0   0   -0.0027817   -0.3863381   -0.0717976    10
+  0   0   0   0   0   0   0   0   +0.1203255   -0.2057759   +0.5824580     0
+  0   0   0   0   0   0   0   0   +0.0000001   -0.6823820   -0.0465375    12
+  0   0   0   0   0   0   0   0   -0.0000001   -0.3495934   -0.0017557    13
+  0   0   0   0   0   0   0   0   +0.0026154   +0.0335876   +0.6443081     0
+  0   0   0   0   0   0   0   0   +0.0000001   +0.4386160   +0.4237987    15
+  0   0   0   0   0   0   0   0   -0.1242843   -0.2057759   +0.5824580     0
+  0   0   0   0   0   0   0   0   +0.0000001   -0.6823820   -0.0465375    17
+  0   0   0   0   0   0   0   0   -0.0000001   -0.3495934   -0.0017557    18
+  0   0   0   0 
+38
+data/animations/horse/Horse_idle.CAS                                              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0   0 0 0 0 0 0 0 0 0 0    
+data/animations/horse/Horse_turn~right~standing.cas                               0   8407        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7 171  42    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  8  0 10  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 12  0 14  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 14  0 16  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_turn~right~rear.cas                                   0   8167        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7 171  42    +0.0000  +0.0000  +1.0000 
+  4   
+ 1  0  0  0  2  0  8  0 ANIM_HORSE_REGROUP        0  1  0 
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 14  0 16  0 animal_footstep_walk      0  0  0 
+ 2  0  0  0 16  0 18  0 animal_footstep_walk      0  0  0    
+data/animations/horse/Horse_turn~left~standing.cas                                0  57129        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7 171  42    +0.0000  +0.0000  +1.0000 
+  3   
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  8  0 10  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 12  0 14  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_turn~left~rear.cas                                    0  57364        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7 171  42    +0.0000  +0.0000  +1.0000 
+  4   
+ 1  0  0  0  2  0  8  0 ANIM_HORSE_REGROUP        0  1  0 
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 14  0 16  0 animal_footstep_walk      0  0  0 
+ 2  0  0  0 18  0 20  0 animal_footstep_walk      0  0  0    
+data/animations/horse/Horse_Stand2walk.CAS                                        0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 10  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 16  0 18  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 21  0 21  0 animal_footstep_run       0  0  0    
+data/animations/horse/Horse_walk.CAS                                              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  1  0  5  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  5  0  9  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 11  0 15  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 15  0 19  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_walk2Stand.CAS                                        0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  5   
+ 2  0  0  0  2  0  4  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 16  0 18  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 18  0 20  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 24  0 24  0 animal_footstep_run       0  0  0    0 0 0 
+data/animations/horse/Horse_walk2Canter.CAS                                       0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  1  0  2  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  4  0  6  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 12  0 13  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 13  0 14  0 animal_footstep_run       0  1  0    
+data/animations/horse/Horse_canter.CAS                                            0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  0  0  0  0 animal_footstep_run       0  0  0 
+ 2  0  0  0  1  0  1  0 animal_footstep_run       0  0  0 
+ 2  0  0  0  3  0  3  0 animal_footstep_run       0  0  0 
+ 2  0  0  0  4  0  4  0 animal_footstep_run       0  0  0    
+data/animations/horse/Horse_canter2Stand.CAS                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  8   
+ 2  0  0  0  2  0  4  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  4  0  6  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 10  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 12  0 14  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 16  0 18  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 18  0 20  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 26  0 28  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 28  0 30  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_canter2Walk.CAS                                       0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  2  0  4  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  5  0  7  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 10  0 12  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 12  0 14  0 animal_footstep_run       0  1  0    
+data/animations/horse/Horse_walk2Canter.CAS                                       0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  1  0  2  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  4  0  6  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 12  0 13  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 13  0 14  0 animal_footstep_run       0  1  0    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+data/animations/horse/Horse_shuffle~forwards.CAS                                  0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  6   
+ 2  0  0  0 10  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 12  0 14  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 20  0 22  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 21  0 22  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 27  0 28  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 28  0 29  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_shuffle~backwards.CAS                                 0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  6   
+ 2  0  0  0 10  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 11  0 13  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 18  0 20  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 20  0 22  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 27  0 28  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 28  0 29  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_shuffle~left.CAS                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  6  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  8  0 10  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 11  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 12  0 13  0 animal_footstep_walk      0  1  0    
+data/animations/horse/Horse_shuffle~right.CAS                                     0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  4  0  6  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  7  0  9  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 11  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 12  0 13  0 animal_footstep_walk      0  1  0    0 0 0 
+data/animations/horse/horse_jump.CAS                                              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+ 10   
+ 2  0  0  0  2  0  4  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  3  0  5  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  7  0  9  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  8  0 10  0 animal_footstep_run       0  1  0 
+ 1  0  0  0 10  0 20  0 ANIM_HORSE_REGROUP        0  1  0 
+ 2  0  0  0 12  0 14  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 25  0 27  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 27  0 29  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 34  0 36  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 37  0 39  0 animal_footstep_run       0  1  0    
+data/animations/horse/horse_refuse.CAS                                            0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+ 12   
+ 1  0  0  0  2  0  6  0 ANIM_HORSE_REGROUP        0  1  0 
+ 2  0  0  0  2  0  4  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  4  0  6  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  5  0  7  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  8  0 10  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 13  0 15  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 17  0 19  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 19  0 21  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 25  0 27  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 30  0 32  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 40  0 42  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 42  0 43  0 animal_footstep_run       0  1  0    0 0 
+data/animations/horse/Horse_rear.CAS                                              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  7   
+ 2  0  0  0  6  0  7  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  7  0  8  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0  9  0 10  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 11  0 12  0 animal_footstep_walk      0  1  0 
+ 1  0  0  0 14  0 14  0 ANIM_HORSE_REGROUP        0  0  0 
+ 2  0  0  0 44  0 46  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 46  0 48  0 animal_footstep_walk      0  1  0    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+data/animations/horse/Horse_die_standing.cas                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  3   
+ 1  0  0  0  2  0  2  0 ANIM_HORSE_DEATH          0  0  0 
+ 2  0  0  0 18  0 18  0 animal_fall               0  0  0 
+ 1  0  0  0 20  0 20  0 ANIM_SQUASH               0  0  0    0 
+data/animations/horse/Horse_die_standing.cas                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  3   
+ 1  0  0  0  2  0  2  0 ANIM_HORSE_DEATH          0  0  0 
+ 2  0  0  0 18  0 18  0 animal_fall               0  0  0 
+ 1  0  0  0 20  0 20  0 ANIM_SQUASH               0  0  0    0 
+data/animations/horse/Horse_die_standing.cas                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  3   
+ 1  0  0  0  2  0  2  0 ANIM_HORSE_DEATH          0  0  0 
+ 2  0  0  0 18  0 18  0 animal_fall               0  0  0 
+ 1  0  0  0 20  0 20  0 ANIM_SQUASH               0  0  0    0 0 0 
+data/animations/horse/Horse_die_standing.cas                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  3   
+ 1  0  0  0  2  0  2  0 ANIM_HORSE_DEATH          0  0  0 
+ 2  0  0  0 18  0 18  0 animal_fall               0  0  0 
+ 1  0  0  0 20  0 20  0 ANIM_SQUASH               0  0  0    
+data/animations/horse/Horse_die_standing.cas                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  3   
+ 1  0  0  0  2  0  2  0 ANIM_HORSE_DEATH          0  0  0 
+ 2  0  0  0 18  0 18  0 animal_fall               0  0  0 
+ 1  0  0  0 20  0 20  0 ANIM_SQUASH               0  0  0    0 0 0 0 
+data/animations/horse/horse_refuse_death.CAS                                      0  27987        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  6   
+ 1  0  0  0  2  0 10  0 ANIM_HORSE_DEATH          0  1  0 
+ 2  0  0  0  3  0  5  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  4  0  6  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  8  0 10  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 11  0 13  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 18  0 18  0 animal_fall               0  0  0    
+data/animations/horse/horse_galloping_death.CAS                                   0  27987        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  2   
+ 1  0  0  0  0  0  4  0 ANIM_HORSE_DEATH          0  1  0 
+ 2  0  0  0  7  0  7  0 animal_fall               0  0  0    0 0 
+data/animations/horse/Horse_Gallop.CAS                                            0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  5   
+ 1  0  0  0  0  0 11  0 ANIM_HORSE_ATTACK         0  1  0 
+ 2  0  0  0  1  0  1  0 animal_footstep_run       0  0  0 
+ 2  0  0  0  4  0  4  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  9  0 10  0 animal_footstep_run       0  1  0 
+ 2  0  0  0 11  0 11  0 animal_footstep_run       0  0  0    
+data/animations/horse/Horse_Stand2Gallop.CAS                                      0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  4   
+ 2  0  0  0  9  0  9  0 animal_footstep_walk      0  0  0 
+ 2  0  0  0 10  0 12  0 animal_footstep_walk      0  1  0 
+ 2  0  0  0 14  0 14  0 animal_footstep_walk      0  0  0 
+ 2  0  0  0 19  0 21  0 animal_footstep_run       0  1  0    0 
+data/animations/horse/Horse_canter2Gallop.CAS                                     0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  5   
+ 4  0  0  0  0  0 10  0 Inviduals_Charge          0  1  0 
+ 2  0  0  0  2  0  6  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  4  0  8  0 animal_footstep_run       0  1  0 
+ 2  0  0  0  9  0  9  0 animal_footstep_run       0  0  0 
+ 2  0  0  0 11  0 11  0 animal_footstep_run       0  0  0    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+data/animations/horse/horse_swim_STAND2SWIM.CAS                                   0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim_SWIM2STAND.CAS                                   0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim_treadwater.CAS                                   0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim.cas                                              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim_shuffle_forward.CAS                              0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim_shuffle_backward.CAS                             0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim_shuffle_left.CAS                                 0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      
+data/animations/horse/horse_swim_shuffle_right.CAS                                0      0        0   0   0   0     0   0   0   0   205 204 204  63     0   0   0   0     0   0   0   0     0   0   0   0    28   7  74 127    +0.0000  +0.0000  +1.0000 
+  0      0 0 0 
+  +2.1031749   +8.8899994  +12.7134514 0 1 

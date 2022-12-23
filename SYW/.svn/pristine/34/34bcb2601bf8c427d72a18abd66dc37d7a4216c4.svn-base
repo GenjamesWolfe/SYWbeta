@@ -1,0 +1,591 @@
+script
+	prepare_for_battle
+
+	declare_timer RI_timer
+
+
+;ai_active_set off
+
+;Labelling units
+
+label_unit 0 0 0 I_pr_Gen
+label_unit 0 0 1 I_pr_jaeger
+label_unit 0 0 2 I_pr_line1
+label_unit 0 0 3 I_pr_line2
+label_unit 0 0 4 I_pr_line3
+label_unit 0 0 5 I_pr_line4
+label_unit 0 0 6 I_pr_line5
+label_unit 0 0 7 I_pr_line6
+label_unit 0 0 8 I_pr_mil1
+label_unit 0 0 9 I_pr_mil2
+label_unit 0 0 10 I_pr_mil3
+label_unit 0 0 11 I_pr_mil4
+label_unit 0 0 12 I_pr_mil5
+label_unit 0 0 13 I_pr_mil6
+label_unit 0 0 14 I_pr_6pndr1
+label_unit 0 0 15 I_pr_6pndr2
+label_unit 0 0 16 I_pr_uhlan
+label_unit 0 0 17 I_pr_dragoons
+label_unit 0 0 18 I_pr_hussars
+label_unit 0 0 19 I_pr_LW_cav
+
+label_unit 0 1 0 II_pr_GJ1
+label_unit 0 1 1 II_pr_GJ2
+label_unit 0 1 2 II_pr_line1
+label_unit 0 1 3 II_pr_line2
+label_unit 0 1 4 II_pr_gren1
+label_unit 0 1 5 II_pr_gren2
+label_unit 0 1 6 II_pr_Gen
+label_unit 0 1 7 II_pr_6pndr1
+label_unit 0 1 8 II_pr_6pndr2
+
+label_unit 1 0 0 fr_Gen
+label_unit 1 0 1 fr_6pndr_1
+label_unit 1 0 2 fr_6pndr_2
+label_unit 1 0 3 fr_chass_1
+label_unit 1 0 4 fr_chass_2
+label_unit 1 0 5 fr_fuss_1
+label_unit 1 0 6 fr_fuss_2
+label_unit 1 0 7 fr_fuss_3
+label_unit 1 0 8 fr_fuss_4
+label_unit 1 0 9 fr_fuss_5
+label_unit 1 0 10 fr_fuss_6
+label_unit 1 0 11 fr_CaC
+label_unit 1 0 12 fr_6pndr_3
+label_unit 1 0 13 fr_chass_3
+label_unit 1 0 14 fr_fuss_7
+label_unit 1 0 15 fr_fuss_8
+label_unit 1 0 16 fr_fuss_9
+label_unit 1 0 17 fr_fuss_10
+label_unit 1 0 18 fr_dragons
+label_unit 1 0 19 fr_hussars
+
+
+
+	while ! I_BattleStarted 
+	end_while
+
+;turning off skirmish mode for all infantry units
+
+          unit_set_skirmish_mode I_pr_jaeger off
+          unit_set_skirmish_mode I_pr_line1 off
+          unit_set_skirmish_mode I_pr_line2 off
+          unit_set_skirmish_mode I_pr_line3 off
+          unit_set_skirmish_mode I_pr_line4 off
+          unit_set_skirmish_mode I_pr_line5 off
+          unit_set_skirmish_mode I_pr_line6 off
+          unit_set_skirmish_mode I_pr_mil1 off
+          unit_set_skirmish_mode I_pr_mil2 off
+          unit_set_skirmish_mode I_pr_mil3 off
+          unit_set_skirmish_mode I_pr_mil4 off
+          unit_set_skirmish_mode I_pr_mil5 off
+          unit_set_skirmish_mode I_pr_mil6 off
+          unit_set_skirmish_mode II_pr_GJ1 off
+          unit_set_skirmish_mode II_pr_GJ2 off
+          unit_set_skirmish_mode II_pr_line1 off
+          unit_set_skirmish_mode II_pr_line2 off
+          unit_set_skirmish_mode II_pr_gren1 off
+          unit_set_skirmish_mode II_pr_gren2 off
+          unit_set_skirmish_mode fr_chass_1 off
+          unit_set_skirmish_mode fr_chass_2 off
+          unit_set_skirmish_mode fr_fuss_1 off
+          unit_set_skirmish_mode fr_fuss_2 off
+          unit_set_skirmish_mode fr_fuss_3 off
+          unit_set_skirmish_mode fr_fuss_4 off
+          unit_set_skirmish_mode fr_fuss_5 off
+          unit_set_skirmish_mode fr_fuss_6 off
+          unit_set_skirmish_mode fr_chass_3 off
+          unit_set_skirmish_mode fr_fuss_7 off
+          unit_set_skirmish_mode fr_fuss_8 off
+          unit_set_skirmish_mode fr_fuss_9 off
+          unit_set_skirmish_mode fr_fuss_10 off
+
+
+;No Fire in Melee rules
+;No Fire in Melee for unit I_pr_jaeger
+
+monitor_conditions I_IsUnitEngaged I_pr_jaeger
+   filter_unit_commands off I_pr_jaeger off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_jaeger
+   filter_unit_commands on I_pr_jaeger
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_jaeger
+   filter_unit_commands on I_pr_jaeger
+end_monitor
+
+;No Fire in Melee for unit I_pr_line1
+
+monitor_conditions I_IsUnitEngaged I_pr_line1
+   filter_unit_commands off I_pr_line1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_line1
+   filter_unit_commands on I_pr_line1
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_line1
+   filter_unit_commands on I_pr_line1
+end_monitor
+
+;No Fire in Melee for unit I_pr_line2
+
+monitor_conditions I_IsUnitEngaged I_pr_line2
+   filter_unit_commands off I_pr_line2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_line2
+   filter_unit_commands on I_pr_line2
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_line2
+   filter_unit_commands on I_pr_line2
+end_monitor
+
+;No Fire in Melee for unit I_pr_line3
+
+monitor_conditions I_IsUnitEngaged I_pr_line3
+   filter_unit_commands off I_pr_line3 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_line3
+   filter_unit_commands on I_pr_line3
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_line3
+   filter_unit_commands on I_pr_line3
+end_monitor
+
+;No Fire in Melee for unit I_pr_line4
+
+monitor_conditions I_IsUnitEngaged I_pr_line4
+   filter_unit_commands off I_pr_line4 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_line4
+   filter_unit_commands on I_pr_line4
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_line4
+   filter_unit_commands on I_pr_line4
+end_monitor
+
+;No Fire in Melee for unit I_pr_line5
+
+monitor_conditions I_IsUnitEngaged I_pr_line5
+   filter_unit_commands off I_pr_line5 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_line5
+   filter_unit_commands on I_pr_line5
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_line5
+   filter_unit_commands on I_pr_line5
+end_monitor
+
+;No Fire in Melee for unit I_pr_line6
+
+monitor_conditions I_IsUnitEngaged I_pr_line6
+   filter_unit_commands off I_pr_line6 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_line6
+   filter_unit_commands on I_pr_line6
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_line6
+   filter_unit_commands on I_pr_line6
+end_monitor
+
+;No Fire in Melee for unit I_pr_mil1
+
+monitor_conditions I_IsUnitEngaged I_pr_mil1
+   filter_unit_commands off I_pr_mil1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_mil1
+   filter_unit_commands on I_pr_mil1
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_mil1
+   filter_unit_commands on I_pr_mil1
+end_monitor
+
+;No Fire in Melee for unit I_pr_mil2
+
+monitor_conditions I_IsUnitEngaged I_pr_mil2
+   filter_unit_commands off I_pr_mil2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_mil2
+   filter_unit_commands on I_pr_mil2
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_mil2
+   filter_unit_commands on I_pr_mil2
+end_monitor
+
+;No Fire in Melee for unit I_pr_mil3
+
+monitor_conditions I_IsUnitEngaged I_pr_mil3
+   filter_unit_commands off I_pr_mil3 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_mil3
+   filter_unit_commands on I_pr_mil3
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_mil3
+   filter_unit_commands on I_pr_mil3
+end_monitor
+
+;No Fire in Melee for unit I_pr_mil4
+
+monitor_conditions I_IsUnitEngaged I_pr_mil4
+   filter_unit_commands off I_pr_mil4 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_mil4
+   filter_unit_commands on I_pr_mil4
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_mil4
+   filter_unit_commands on I_pr_mil4
+end_monitor
+
+;No Fire in Melee for unit I_pr_mil5
+
+monitor_conditions I_IsUnitEngaged I_pr_mil5
+   filter_unit_commands off I_pr_mil5 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_mil5
+   filter_unit_commands on I_pr_mil5
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_mil5
+   filter_unit_commands on I_pr_mil5
+end_monitor
+
+;No Fire in Melee for unit I_pr_mil6
+
+monitor_conditions I_IsUnitEngaged I_pr_mil6
+   filter_unit_commands off I_pr_mil6 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged I_pr_mil6
+   filter_unit_commands on I_pr_mil6
+end_monitor
+
+monitor_conditions I_IsUnitRouting I_pr_mil6
+   filter_unit_commands on I_pr_mil6
+end_monitor
+
+;No Fire in Melee for unit II_pr_GJ1
+
+monitor_conditions I_IsUnitEngaged II_pr_GJ1
+   filter_unit_commands off II_pr_GJ1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged II_pr_GJ1
+   filter_unit_commands on II_pr_GJ1
+end_monitor
+
+monitor_conditions I_IsUnitRouting II_pr_GJ1
+   filter_unit_commands on II_pr_GJ1
+end_monitor
+
+;No Fire in Melee for unit II_pr_GJ2
+
+monitor_conditions I_IsUnitEngaged II_pr_GJ2
+   filter_unit_commands off II_pr_GJ2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged II_pr_GJ2
+   filter_unit_commands on II_pr_GJ2
+end_monitor
+
+monitor_conditions I_IsUnitRouting II_pr_GJ2
+   filter_unit_commands on II_pr_GJ2
+end_monitor
+
+;No Fire in Melee for unit II_pr_line1
+
+monitor_conditions I_IsUnitEngaged II_pr_line1
+   filter_unit_commands off II_pr_line1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged II_pr_line1
+   filter_unit_commands on II_pr_line1
+end_monitor
+
+monitor_conditions I_IsUnitRouting II_pr_line1
+   filter_unit_commands on II_pr_line1
+end_monitor
+
+;No Fire in Melee for unit II_pr_line2
+
+monitor_conditions I_IsUnitEngaged II_pr_line2
+   filter_unit_commands off II_pr_line2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged II_pr_line2
+   filter_unit_commands on II_pr_line2
+end_monitor
+
+monitor_conditions I_IsUnitRouting II_pr_line2
+   filter_unit_commands on II_pr_line2
+end_monitor
+
+;No Fire in Melee for unit II_pr_gren1
+
+monitor_conditions I_IsUnitEngaged II_pr_gren1
+   filter_unit_commands off II_pr_gren1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged II_pr_gren1
+   filter_unit_commands on II_pr_gren1
+end_monitor
+
+monitor_conditions I_IsUnitRouting II_pr_gren1
+   filter_unit_commands on II_pr_gren1
+end_monitor
+
+;No Fire in Melee for unit II_pr_gren2
+
+monitor_conditions I_IsUnitEngaged II_pr_gren2
+   filter_unit_commands off II_pr_gren2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged II_pr_gren2
+   filter_unit_commands on II_pr_gren2
+end_monitor
+
+monitor_conditions I_IsUnitRouting II_pr_gren2
+   filter_unit_commands on II_pr_gren2
+end_monitor
+
+;No Fire in Melee for unit fr_chass_1
+
+monitor_conditions I_IsUnitEngaged fr_chass_1
+   filter_unit_commands off fr_chass_1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_chass_1
+   filter_unit_commands on fr_chass_1
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_chass_1
+   filter_unit_commands on fr_chass_1
+end_monitor
+
+;No Fire in Melee for unit fr_chass_2
+
+monitor_conditions I_IsUnitEngaged fr_chass_2
+   filter_unit_commands off fr_chass_2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_chass_2
+   filter_unit_commands on fr_chass_2
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_chass_2
+   filter_unit_commands on fr_chass_2
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_1
+
+monitor_conditions I_IsUnitEngaged fr_fuss_1
+   filter_unit_commands off fr_fuss_1 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_1
+   filter_unit_commands on fr_fuss_1
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_1
+   filter_unit_commands on fr_fuss_1
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_2
+
+monitor_conditions I_IsUnitEngaged fr_fuss_2
+   filter_unit_commands off fr_fuss_2 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_2
+   filter_unit_commands on fr_fuss_2
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_2
+   filter_unit_commands on fr_fuss_2
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_3
+
+monitor_conditions I_IsUnitEngaged fr_fuss_3
+   filter_unit_commands off fr_fuss_3 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_3
+   filter_unit_commands on fr_fuss_3
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_3
+   filter_unit_commands on fr_fuss_3
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_4
+
+monitor_conditions I_IsUnitEngaged fr_fuss_4
+   filter_unit_commands off fr_fuss_4 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_4
+   filter_unit_commands on fr_fuss_4
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_4
+   filter_unit_commands on fr_fuss_4
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_5
+
+monitor_conditions I_IsUnitEngaged fr_fuss_5
+   filter_unit_commands off fr_fuss_5 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_5
+   filter_unit_commands on fr_fuss_5
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_5
+   filter_unit_commands on fr_fuss_5
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_6
+
+monitor_conditions I_IsUnitEngaged fr_fuss_6
+   filter_unit_commands off fr_fuss_6 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_6
+   filter_unit_commands on fr_fuss_6
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_6
+   filter_unit_commands on fr_fuss_6
+end_monitor
+
+;No Fire in Melee for unit fr_chass_3
+
+monitor_conditions I_IsUnitEngaged fr_chass_3
+   filter_unit_commands off fr_chass_3 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_chass_3
+   filter_unit_commands on fr_chass_3
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_chass_3
+   filter_unit_commands on fr_chass_3
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_7
+
+monitor_conditions I_IsUnitEngaged fr_fuss_7
+   filter_unit_commands off fr_fuss_7 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_7
+   filter_unit_commands on fr_fuss_7
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_7
+   filter_unit_commands on fr_fuss_7
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_8
+
+monitor_conditions I_IsUnitEngaged fr_fuss_8
+   filter_unit_commands off fr_fuss_8 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_8
+   filter_unit_commands on fr_fuss_8
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_8
+   filter_unit_commands on fr_fuss_8
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_9
+
+monitor_conditions I_IsUnitEngaged fr_fuss_9
+   filter_unit_commands off fr_fuss_9 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_9
+   filter_unit_commands on fr_fuss_9
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_9
+   filter_unit_commands on fr_fuss_9
+end_monitor
+
+;No Fire in Melee for unit fr_fuss_10
+
+monitor_conditions I_IsUnitEngaged fr_fuss_10
+   filter_unit_commands off fr_fuss_10 off
+end_monitor
+
+monitor_conditions not I_IsUnitEngaged fr_fuss_10
+   filter_unit_commands on fr_fuss_10
+end_monitor
+
+monitor_conditions I_IsUnitRouting fr_fuss_10
+   filter_unit_commands on fr_fuss_10
+end_monitor
+
+;;BATTLE LOOP
+while I_InBattle
+          unit_set_guard_mode I_pr_jaeger off
+          unit_set_guard_mode I_pr_line1 off
+          unit_set_guard_mode I_pr_line2 off
+          unit_set_guard_mode I_pr_line3 off
+          unit_set_guard_mode I_pr_line4 off
+          unit_set_guard_mode I_pr_line5 off
+          unit_set_guard_mode I_pr_line6 off
+          unit_set_guard_mode I_pr_mil1 off
+          unit_set_guard_mode I_pr_mil2 off
+          unit_set_guard_mode I_pr_mil3 off
+          unit_set_guard_mode I_pr_mil4 off
+          unit_set_guard_mode I_pr_mil5 off
+          unit_set_guard_mode I_pr_mil6 off
+          unit_set_guard_mode II_pr_GJ1 off
+          unit_set_guard_mode II_pr_GJ2 off
+          unit_set_guard_mode II_pr_line1 off
+          unit_set_guard_mode II_pr_line2 off
+          unit_set_guard_mode II_pr_gren1 off
+          unit_set_guard_mode II_pr_gren2 off
+          unit_set_guard_mode fr_chass_1 off
+          unit_set_guard_mode fr_chass_2 off
+          unit_set_guard_mode fr_fuss_1 off
+          unit_set_guard_mode fr_fuss_2 off
+          unit_set_guard_mode fr_fuss_3 off
+          unit_set_guard_mode fr_fuss_4 off
+          unit_set_guard_mode fr_fuss_5 off
+          unit_set_guard_mode fr_fuss_6 off
+          unit_set_guard_mode fr_chass_3 off
+          unit_set_guard_mode fr_fuss_7 off
+          unit_set_guard_mode fr_fuss_8 off
+          unit_set_guard_mode fr_fuss_9 off
+          unit_set_guard_mode fr_fuss_10 off
+	end_while
+	
+	
+end_script
+

@@ -1,0 +1,39 @@
+Infantry:
+
+Barcelona: IIIIII II (1)
+Valencia: IIII	(1)
+Zaragoza: IIIIII II (1)
+Oran: IIIIII (1)
+Ceuta: IIIIII (1)
+Cadiz: IIIIII IIII (2)
+Andalusia: IIIIII (1)
+Badajoz: II
+Majorca: II
+Galicia: II
+
+Irish:
+Galicia: IIIIII
+
+Walloon:
+Valenci?: IIIIII
+
+Swiss:
+Valencia: IIIIII II
+
+
+
+Line cavalry:
+Catalonia: II II II II (4)
+Extramadura: I (1)
+Valencia: II II (2)
+Andalusia: II (1)
+
+unknown: II II I (2)
+
+
+Dragoons:
+Zaragoza: II
+Extramadura: II
+Majorca: II
+Catalonia: II
+Andalusia: II 

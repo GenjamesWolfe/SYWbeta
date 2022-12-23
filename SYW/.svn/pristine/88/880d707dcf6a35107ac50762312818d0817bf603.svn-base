@@ -1,0 +1,1585 @@
+;	
+;	This file contains the engine linkages; it gets parsed on application 
+;	startup but is not otherwise referred to. The data format is thus:
+;
+;	;						indicates a comment ;-)
+;				
+;	Common Data
+;	-----------		
+;	type					indicates a new engine type, must be followed by id name string,
+;								and id strings must be unique
+;	culture					permitted cultures - 'all' for any culture
+;	class					underlying engine class
+;	projectile				projectile type used (if any)
+;	engine_collision		cas file detailing the 3D collision model
+;	engine_model			model(s) to be used for the engine, followed by distance in m or "max"
+;	engine_radius			2D radius for the engine
+;	engine_height			height of the engine
+;	engine_mass				total mass for the engine
+;
+;	Artillery Classes Only
+;	----------------------
+;	missile_model			model(s) to be used for the missile, followed by distance in m or "max"
+;	missile_radius			2D radius for the missile
+;	missile_height			height of the missile
+;	missile_mass			total mass for the missile
+;
+
+;;; *** Medium-light calibre (3-4 pdrs) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+type				austrian_3pounder
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/austrian_3pdr.cas
+engine_model		SYW/data/models_engine/austrian_3pdr.cas,		20.0
+engine_model		SYW/data/models_engine/austrian_3pdr.cas,	60.0
+engine_model		SYW/data/models_engine/austrian_3pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/austrian_3pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/austrian_3pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			5
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+
+
+type				french_4pounder
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/french_4pdr.CAS
+engine_model		SYW/data/models_engine/french_4pdr.CAS,		20.0
+engine_model		SYW/data/models_engine/french_4pdr.CAS,	60.0
+engine_model		SYW/data/models_engine/french_4pdr.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/french_4pdr.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/french_4pdr.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+
+
+;;;;; *** Medium calibre (6 pounders) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				austrian_6pounder
+culture				all
+class				ballista	
+projectile			austrian_6pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/austrian_6pdr.cas
+engine_model		SYW/data/models_engine/austrian_6pdr.cas,		20.0
+engine_model		SYW/data/models_engine/austrian_6pdr.cas,	60.0
+engine_model		SYW/data/models_engine/austrian_6pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/austrian_6pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/austrian_6pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+;;;
+
+type				british_6pounder
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/british_6pdr.cas
+engine_model		SYW/data/models_engine/british_6pdr.cas,		20.0
+engine_model		SYW/data/models_engine/british_6pdr.cas,	60.0
+engine_model		SYW/data/models_engine/british_6pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/british_6pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/british_6pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+;;;;
+
+type				prussian_6pounder
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/prussian_6pounder.cas
+engine_model		SYW/data/models_engine/prussian_6pounder.cas,		20.0
+engine_model		SYW/data/models_engine/prussian_6pounder.cas,	60.0
+engine_model		SYW/data/models_engine/prussian_6pounder.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/prussian_6pounder.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/prussian_6pounder.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+;;;;
+
+type				russian_6pounder
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/russian_6pdr.cas
+engine_model		SYW/data/models_engine/russian_6pdr.cas,		20.0
+engine_model		SYW/data/models_engine/russian_6pdr.cas,	60.0
+engine_model		SYW/data/models_engine/russian_6pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/russian_6pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/russian_6pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+;;;;; *** medium-heavy calibre (8-12 pdrs);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+type				french_8pounder
+culture				all
+class				ballista
+projectile			french_8pdr
+
+engine_model_group	normal
+engine_skeleton		fix_cannon
+engine_collision	SYW/data/models_engine/french_8pdr.CAS
+engine_model		SYW/data/models_engine/french_8pdr.CAS,		20.0
+engine_model		SYW/data/models_engine/french_8pdr.CAS,	60.0
+engine_model		SYW/data/models_engine/french_8pdr.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/french_8pdr.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/french_8pdr.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    1.0   1.7   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+
+
+
+type				french_12pounder
+culture				all
+class				ballista
+projectile			french_12pdr
+
+engine_model_group	normal
+engine_skeleton		ballista
+engine_collision	SYW/data/models_engine/french_12pdr.CAS
+engine_model		SYW/data/models_engine/french_12pdr.CAS,		20.0
+engine_model		SYW/data/models_engine/french_12pdr.CAS,	60.0
+engine_model		SYW/data/models_engine/french_12pdr.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/french_12pdr.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/french_12pdr.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   1.0   ; loader left 
+engine_station      crank    0.5   1.0   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+
+
+type				austrian_12pounder
+culture				all
+class				ballista	
+projectile			french_8pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/austrian_12pdr.cas
+engine_model		SYW/data/models_engine/austrian_12pdr.cas,		20.0
+engine_model		SYW/data/models_engine/austrian_12pdr.cas,	60.0
+engine_model		SYW/data/models_engine/austrian_12pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/austrian_12pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/austrian_12pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+
+
+type				prussian_12pounder
+culture				all
+class				ballista
+projectile			french_12pdr
+
+engine_model_group	normal
+engine_skeleton		ballista
+engine_collision	SYW/data/models_engine/prussian_12pounder.CAS
+engine_model		SYW/data/models_engine/prussian_12pounder.CAS,		20.0
+engine_model		SYW/data/models_engine/prussian_12pounder.CAS,	60.0
+engine_model		SYW/data/models_engine/prussian_12pounder.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/prussian_12pounder.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/prussian_12pounder.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+;;;;;
+
+type				british_12pounder
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/british_12pdr.cas
+engine_model		SYW/data/models_engine/british_12pdr.cas,		20.0
+engine_model		SYW/data/models_engine/british_12pdr.cas,	60.0
+engine_model		SYW/data/models_engine/british_12pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/british_12pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/british_12pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+
+type				russian_12pounder
+culture				all
+class				ballista	
+projectile			french_8pdr
+
+engine_model_group	normal
+engine_skeleton		cannon	
+engine_collision	SYW/data/models_engine/russian_12pdr.cas
+engine_model		SYW/data/models_engine/russian_12pdr.cas,		20.0
+engine_model		SYW/data/models_engine/russian_12pdr.cas,	60.0
+engine_model		SYW/data/models_engine/russian_12pdr.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/russian_12pdr.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/russian_12pdr.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+;;;;
+;;;;; *** heavy calibre (15+ pdrs);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type				french_24pounder
+culture				all
+class				ballista
+projectile			french_12pdr
+
+engine_model_group	normal
+engine_skeleton		ballista
+engine_collision	SYW/data/models_engine/french_24pdr.CAS
+engine_model		SYW/data/models_engine/french_24pdr.CAS,		20.0
+engine_model		SYW/data/models_engine/french_24pdr.CAS,	60.0
+engine_model		SYW/data/models_engine/french_24pdr.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/french_24pdr.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/french_24pdr.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+
+
+type				austrian_24pounder
+culture				all
+class				ballista
+projectile			french_12pdr
+
+engine_model_group	normal
+engine_skeleton		ballista
+engine_collision	SYW/data/models_engine/austrian_24pdr.CAS
+engine_model		SYW/data/models_engine/austrian_24pdr.CAS,		20.0
+engine_model		SYW/data/models_engine/austrian_24pdr.CAS,	60.0
+engine_model		SYW/data/models_engine/austrian_24pdr.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/austrian_24pdr.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/austrian_24pdr.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+
+
+
+type				prussian_24pounder
+culture				all
+class				ballista
+projectile			french_12pdr
+
+engine_model_group	normal
+engine_skeleton		ballista
+engine_collision	SYW/data/models_engine/prussian_24pounder.CAS
+engine_model		SYW/data/models_engine/prussian_24pounder.CAS,		20.0
+engine_model		SYW/data/models_engine/prussian_24pounder.CAS,	60.0
+engine_model		SYW/data/models_engine/prussian_24pounder.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/prussian_24pounder.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/prussian_24pounder.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+
+
+
+type				british_24pounder
+culture				all
+class				ballista
+projectile			french_12pdr
+
+engine_model_group	normal
+engine_skeleton		ballista
+engine_collision	SYW/data/models_engine/british_24pdr.CAS
+engine_model		SYW/data/models_engine/british_24pdr.CAS,		20.0
+engine_model		SYW/data/models_engine/british_24pdr.CAS,	60.0
+engine_model		SYW/data/models_engine/british_24pdr.CAS,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/british_24pdr.CAS, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/british_24pdr.CAS, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		5
+engine_width		4
+engine_height		1.5
+engine_mass			10
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		3
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Howitzers;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+type				french_howitzer
+culture				all
+class				scorpion
+projectile			fr_howitzer_shell
+
+engine_model_group	normal
+engine_skeleton		howitzer
+engine_collision	SYW/data/models_engine/french_howitzer.cas
+engine_model		SYW/data/models_engine/french_howitzer.cas, 	20.0
+engine_model		SYW/data/models_engine/french_howitzer.cas, 60.0
+engine_model		SYW/data/models_engine/french_howitzer.cas,  max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/french_howitzer.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/french_howitzer.cas,  max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		2
+engine_width		1
+engine_height		0.1
+engine_mass			4
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 2.1 2.5
+missile_radius		20.0
+missile_height		20.0
+missile_mass		0
+
+
+
+type				austrian_howitzer
+culture				all
+class				scorpion
+projectile			Aus_howitzer_shell
+
+engine_model_group	normal
+engine_skeleton		howitzer
+engine_collision	SYW/data/models_engine/austrian_howitzer.cas
+engine_model		SYW/data/models_engine/austrian_howitzer.cas, 	20.0
+engine_model		SYW/data/models_engine/austrian_howitzer.cas, 60.0
+engine_model		SYW/data/models_engine/austrian_howitzer.cas,  max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/austrian_howitzer.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/austrian_howitzer.cas,  max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		2
+engine_width		1
+engine_height		0.1
+engine_mass			4
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 2.1 2.5
+missile_radius		20.0
+missile_height		20.0
+missile_mass		0
+
+
+
+type				prussian_howitzer
+culture				all
+class				scorpion
+projectile			Pr_howitzer_shell
+
+engine_model_group	normal
+engine_skeleton		howitzer
+engine_collision	SYW/data/models_engine/prussian_howitzer.cas
+engine_model		SYW/data/models_engine/prussian_howitzer.cas, 20.0
+engine_model		SYW/data/models_engine/prussian_howitzer.cas, 60.0
+engine_model		SYW/data/models_engine/prussian_howitzer.cas,  max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/prussian_howitzer.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/prussian_howitzer.cas,  max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.8
+engine_length		2
+engine_width		1
+engine_height		0.1
+engine_mass			4
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right
+
+engine_health		300
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 2.1 2.5
+missile_radius		20.0
+missile_height		20.0
+missile_mass		0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;test guns;;;;;;;;;;;;;;;;
+
+type				serpentine
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		serpentine	
+engine_collision	SYW/data/models_engine/serpentine.cas
+engine_model		SYW/data/models_engine/serpentine.cas,		20.0
+engine_model		SYW/data/models_engine/serpentine.cas,	60.0
+engine_model		SYW/data/models_engine/serpentine.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		ballista_dying
+engine_model		SYW/data/models_engine/serpentine.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/serpentine.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		4
+engine_width		3
+engine_height		1.5
+engine_mass			5
+engine_dock_dist	3
+engine_mob_dist		7.5
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.5
+obstacle_y_radius	1.0
+
+engine_spo
+
+engine_push_point      -0.5   0.2   ; loader left 
+engine_push_point      0.5   0.2   ; loader right 
+engine_push_point      -0.6   2.5   ; front left 
+engine_push_point      0.6   2.5   ; front right 
+engine_push_point      -0.6   1.4   ; middle left 
+engine_push_point      0.6   1.4   ; middle right 
+engine_push_point      -0.6   -4.0   ; behind left 
+engine_push_point      0.6   -4.0   ; behind right 
+
+engine_station      crank   -0.5   0.2   ; loader left 
+engine_station      crank    0.5   0.2   ; loader right 
+engine_station      captain   -2.2   1.9   ; front left 
+engine_station      captain   2.0   1.9   ; front right 
+engine_station      captain   -2.0   0.8   ; middle left 
+engine_station      captain   2.1   0.8   ; middle right 
+engine_station      captain   -0.6   -4.0   ; behind left 
+engine_station      captain   0.7   -3.0   ; behind right 
+
+
+
+engine_health		2
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.5 7.5
+missile_radius		1
+missile_height		2.5
+missile_mass		2
+
+;;;;;;;;;;;;;;;;;;;;;;Saxon and Savoyard quick-fire pieces
+
+type				alasassone
+culture				all
+class				ballista	
+projectile			french_4pdr
+
+engine_model_group	normal
+engine_skeleton		dropcannon	
+engine_collision	SYW/data/models_engine/alasassone.cas
+engine_model		SYW/data/models_engine/alasassone.cas,		20.0
+engine_model		SYW/data/models_engine/alasassone.cas,	60.0
+engine_model		SYW/data/models_engine/alasassone.cas,   	max
+engine_platforms	none
+
+engine_model_group	dying
+engine_skeleton		dropcannon
+engine_model		SYW/data/models_engine/alasassone.cas, max
+engine_platforms	none
+
+engine_model_group	dead
+engine_model		SYW/data/models_engine/alasassone.cas, max
+engine_platforms	none
+
+engine_shadow		none
+
+engine_radius		0.6
+engine_length		3.3
+engine_width		1.33
+engine_height		1.2
+engine_mass			8
+engine_dock_dist	10
+engine_mob_dist		15
+engine_flammable    	false
+engine_ignition		2.5
+fire_effect		    engine_fire_ballista_set
+
+obstacle_shape		drop
+obstacle_x_radius	0.67
+obstacle_y_radius	1.67
+
+engine_spo
+
+engine_push_point      -1.0   2.0   ; loader left 
+engine_push_point      1.0   2.0   ; loader right 
+engine_push_point      -0.8   0.0   ; loader rear left 
+engine_push_point      0.8   0.0   ; loader rear right 
+engine_push_point      -1.0   -4.0   ; middle left: Gunner
+engine_push_point      0   -2.5   ; middle right; ammunition carrier
+engine_push_point      -0.6   -4.0   ; behind left; caisson left
+engine_push_point      0.6   -4.0   ; behind right; caisson right 
+
+engine_station      crank   -0.8   0.7   ; loader left 
+engine_station      crank    0.8   0.6   ; loader right 
+engine_station      captain   -1.0   -1.0   ; loader rear left 
+engine_station      captain   1.0   -1.0   ; loader rear right 
+engine_station      captain   0   -4.0   ; middle left: Gunner
+engine_station      captain   -0.3   -4.5   ; middle right; ammunition carrier 
+engine_station      captain   -0.6   -9.0   ; behind left; caisson left
+engine_station      captain   0.7   -9.0   ; behind right; caisson right 
+
+
+
+engine_health		2
+;engine_weapon		ballista
+;engine_armour		ballista
+
+missile_model		data/models_engine/Big_Boulder_high.CAS, 20.0
+missile_model		data/models_engine/Big_Boulder_med.CAS,  40.0
+missile_model		data/models_engine/Big_Boulder_low.CAS,  max
+missile_pos			0.0 1.0 2.1
+missile_radius		1
+missile_height		1
+missile_mass		2

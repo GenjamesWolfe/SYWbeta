@@ -1,0 +1,1 @@
+mov oT0, IN_TEXCOORD0

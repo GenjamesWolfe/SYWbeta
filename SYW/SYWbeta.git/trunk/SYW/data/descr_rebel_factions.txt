@@ -1,0 +1,58 @@
+rebel_type			Brigantes	//Indians
+category			peasant_revolt
+chance				0					
+description			Brigantes
+unit				savoyard fusilier
+
+rebel_type			Turks	//Eastxix
+category			peasant_revolt
+chance				0					
+description			Turks
+unit				savoyard fusilier
+
+rebel_type			Easterns	//Eastxviii
+category			peasant_revolt
+chance				0					
+description			Easterns
+unit				savoyard fusilier
+
+rebel_type			Italians	//Europexix
+category			peasant_revolt
+chance				0					
+description			Italians
+unit				savoyard fusilier
+
+rebel_type			Europeans	//Europexviii
+category			peasant_revolt
+chance				0					
+description			Europeans
+unit				savoyard fusilier
+
+
+					
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;				
+;non region			based
+;;;;;;;;;;;;		;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+					
+rebel_type			gladiator_uprising
+category			gladiator_revolt
+chance				100
+description			gladiator_uprising
+unit				savoyard fusilier
+unit				savoyard fusilier
+unit				savoyard fusilier
+					
+rebel_type			brigands
+category			brigands
+chance				50
+description			brigands
+unit				savoyard fusilier
+unit				savoyard fusilier
+unit				savoyard fusilier
+					
+rebel_type			pirates
+category			pirates
+chance				50
+description			pirates
+unit				naval pirate ships
+unit				naval pirate ships					

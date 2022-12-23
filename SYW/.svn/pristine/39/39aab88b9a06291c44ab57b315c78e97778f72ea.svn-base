@@ -1,0 +1,710 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Names Database Entries
+;;
+;; Holds non-localised Latin names for settlements and characters.  These are arranged on
+;; a per faction basis.
+;;
+;; Entries are specified by the following syntax:
+;;
+;; faction: <faction name>
+;;	settlements
+;;		<settlement names list>
+;;	characters
+;;		<character names list>
+;;
+;; faction ... etc
+
+
+faction: romans_senate
+
+	characters
+		Maximilian
+		Leopold
+		András
+		Franz
+		KarlA
+		Ernst
+		Josef
+		Karl
+		Ferdinand
+		Wenzel
+		JosefF
+		KarlJ
+		Sigmund
+		Anton
+		
+	surnames
+        Browne
+		Lorraine
+		Hapsburg
+		Daun
+		Kaunitz
+		Hildburghausen
+		Draskovic
+		Liechtenstein
+		Nadasdy
+		Batthyanyi
+		
+		
+    women
+		Anna
+		MariaAnna
+		MariaAm
+		MariaC
+		MariaE
+		MariaAn
+		MariaT
+		MariaJ
+		MariaCa
+		Elisabeth
+
+faction: romans_julii
+
+	characters
+		MaximilianB
+		Pechmann
+		Herold
+		Clemenz
+		Ausbayern
+		Minucci
+		Rosee
+		Morawitzky
+		Preysing
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+faction: romans_brutii
+
+	characters
+		CEIII
+		VEIII
+		Bricherasio
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		
+faction: romans_scipii
+
+	characters
+		FXaver
+		JGeorg
+		FAR
+		
+	surnames
+		Sachsen
+		Rutowsky
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+			
+
+faction: gauls
+
+	characters
+		Wilhelm
+		Heinrich
+		Ferdinand
+		FriedW
+		Friedrich
+		FriedrichH
+		
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		
+
+;;Russia	
+faction: armenia
+
+	characters
+		Stepan
+		Piotr
+		Villim
+		Henrikh
+		Aleksader
+		Kasper
+		Fyodor
+		Ivan
+		Alexey
+		Kirill
+		Burkhard
+		Adonis
+		Nikita
+		Yuri
+		Mikhail
+		Semyon
+		Grigory
+		Vasilij
+		Valentin
+		Viktor
+		Vitalij
+		Vladislav
+		Gedeon
+		Hektor
+		Gennadij
+		Georgij
+		Gorgij
+		Dementij
+		Dmitrij
+		Evgenij
+		Egor
+		Igor
+		Ignatij
+		Iosif
+		Kazimir
+		Kliment
+		Konstantin
+		Lavrentij
+		Leonid
+		Luka
+		Oleg
+		Petr
+		Samson
+		Feliks
+		Filipp
+		Jeduard
+		
+	surnames
+        Romanov
+		Apraxin
+		Munnich
+		Fermor
+		Saltykov
+		Ryumin
+		Razumovsky
+		Abaturov
+		Aganin
+		Aleksandrovich
+		Aleksandrov
+		Aleksandrov_Protopopov
+		Alefel'd_Laurvigen
+		Alekseev
+		Buturlin
+		Saltykov
+		Shuvalov
+		Bestuzhev_Ryumin
+		Golytsin
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+
+;;BRITAIN
+faction: britons
+
+	characters
+	    George
+		GeorgeA
+		GeorgeW
+		Frederick
+		FrederickL
+		William
+		WilliamA
+		John
+		Edward
+		James
+		Thomas
+		Henry
+		Robert
+		Charles
+		
+	surnames
+        Hanover
+		Ligonier
+		Wolfe
+		Manners
+		Pitt
+		Pelham
+		Rich
+		OHara
+		Sackville
+		Abercrombie
+		Cornwallis
+		Loudon
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise
+		Eliza
+		Anne
+		Hannah
+		Eleanor
+		Martha
+
+;; Wuerttemberg
+faction: scythia
+
+	characters
+		KarlE
+		LudwigE
+		FerdinandE
+		Wilhelm
+
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+;; Brunswick
+faction: dacia
+
+	characters
+		KWF
+		Behr
+		PFred
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+;; Prussia
+faction: germans
+
+	characters
+		Fritz
+		Friedrich
+		Moritz
+		Wilhelm
+		Karl
+		KarlF
+		August
+		AugustW
+		Christoph
+		Ferdinand
+		Heinrich
+		Georg
+		Johann
+		Ernst 
+		Paul 
+		Hans
+		Kurt
+		James
+		FredW
+		FriedW
+		FriedrichH
+		
+	surnames
+        Prussia 
+		Desu
+		Zieten
+		Seydlitz
+		Brunswick 
+		Gessler
+		Schwerin
+		Manteuffel
+		Foque
+		Winterfeldt
+		Werner 
+		Keith
+		HolsteinG
+		Lehwaldt
+		BrandenburgS
+			
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		Sophie
+	
+;; Denmark
+faction: pontus
+
+	characters
+		FredV
+		Moltke
+		Pete
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		
+;; Spain
+faction: seleucid
+
+	characters
+		Carlos
+		Fernando
+		Gabriel
+		Felipe
+		Antonio
+		Zenon
+		Jose
+		Alejandro
+		Francisco
+		Benito
+		Tomas
+		Manuel
+		Matias
+		Mariano
+		Ignacio
+		Simon
+		Juan
+		Pedro
+		Vicente
+		Diego
+		Pablo
+		Prudencio
+		Rafael
+		Domingo
+		Luis
+		Rodrigo
+		
+	surnames
+		BourbonF
+		Velasco
+		Penaypena
+		Somodevilla
+		Carvajal
+		Aguillo
+		AldeCastro
+		AldeToledo
+		AldeAcevedo
+		Alvarez
+		Anda
+		Salazar
+		Aviles
+		Balmaseda
+		Benavides
+		Bodega
+		CandAponte
+		Casanova
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+
+;; France
+faction: greek_cities
+
+	characters
+		Louis
+		DLouis
+		LouisA
+		LouisAG
+		LouisG
+		LouisC
+		LouisJ
+		LouisF
+		Victor
+		VictorF
+		Francois
+		FrancoisG
+		YvesM
+		Charles
+		CharlesL
+		CharlesF
+		Philippe
+		PhillipeJ
+		ClaudeL
+		Pierre
+		PierreF
+		
+	surnames
+		deFrance
+		Bougainville
+		Broglie
+		Chervert
+		BourbonC
+		Estrees
+		Contades
+		Levis
+		Desmarets
+		Baylenx
+		duPlessis
+		Rostaing
+		SaintGermain
+		Soubise
+		deRigaud
+		Vogue
+		
+    women
+		Marie
+		MarieL
+		MarieJ
+		MarieT
+		MarieClothide
+		Charlotte
+		Helene
+		JAntoinette
+		
+;; Sweden
+faction: parthia
+
+	characters
+		Lars
+		Mikael
+		Anders
+		Johan
+		Erik
+		Per
+		KarlSw
+		PeterSw
+		Gustaf
+		Jakob
+		Mathias
+		Fredrik
+		
+	surnames
+		SwHesse
+		Ehrensvard
+		Hamilton
+		Lanting
+		Rosen
+		Sternberg
+		Lingen
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		
+
+;; VOC
+faction: macedon
+
+	characters
+		WillemIV
+		WillemV
+		Waldeck
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+;; Poland
+faction: egypt
+
+	characters
+		Xaver
+		GeorgvS
+		FAR
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		
+
+;; Ottoman Empire
+faction: carthage
+
+	characters
+		Mahmud
+		Osman
+		Mustafa
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+
+;;Darmstadt
+faction: spain
+
+	characters
+		LVIII
+		LIX
+		Driesch
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+faction: numidia
+
+	characters
+		Siraj
+		Jafar
+		Walajah
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+
+faction: thrace
+
+	characters
+		Juse
+		Joao
+		Pedru
+		Afonso
+		Diogo
+		Luij
+		Sebastiao
+		Rodrigu
+		
+	surnames
+		Braganza
+		Lippe
+		Silveira
+		Burgoyne
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte
+		Frances
+		Louise 
+		
+;;Savoy and Sardinia
+faction: slave
+
+	characters
+		CEIII
+		VEIII
+		Bricherasio
+		
+    women
+		Caroline
+		Henrietta
+		Augusta
+		Mary
+		Elizabeth
+		Sarah
+		Catherine
+		Charlotte 
+	

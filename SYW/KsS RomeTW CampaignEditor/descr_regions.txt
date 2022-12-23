@@ -1,0 +1,1517 @@
+;
+; regions list
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Brigantium
+	Isurium
+	britons
+	Brigantes
+	232 41 198
+	slaves, lead, dogs, pigs
+	5
+	5
+Tribus_Saxones
+	Bordesholm
+	germans
+	Saxones
+	232 41 55
+	slaves, timber, amber, dogs, pigs
+	5
+	5
+Locus_Gepidae
+	Vicus_Gepidae
+	germans
+	Gepids
+	58 177 95
+	slaves, wild_animals, dogs, pigs
+	5
+	5
+Tribus_Alani
+	Campus_Alani
+	scythia
+	Alans
+	177 170 58
+	slaves, wild_animals, dogs, pigs
+	5
+	5
+Tribus_Sakae
+	Campus_Sakae
+	parthia
+	Saka
+	58 177 75
+	slaves, camels
+	5
+	5
+Eriu
+	Tara
+	britons
+	Eriu
+	212 232 41
+	slaves, dogs, pigs, wild_animals, timber, lead
+	5
+	4
+Ordovicum
+	Brannogenium
+	britons
+	Ordivices
+	41 232 63
+	slaves, gold, lead, dogs, pigs
+	5
+	5
+Locus_Gothi
+	Vicus_Gothi
+	germans
+	Goths
+	203 41 232
+	dogs, pigs, slaves, silver, timber, iron, amber
+	5
+	5
+Pripet
+	Vicus_Venedae
+	dacia
+	Venedae
+	131 33 125
+	slaves, dogs, pigs, hides
+	5
+	5
+Tribus_Catuvellauni
+	Verlamion
+	britons
+	Catuvellauni
+	232 41 46
+	slaves, iron, textiles, dogs, pigs, stonehenge
+	5
+	6
+Germania_Inferior
+	Batavodurum
+	germans
+	Batavi
+	41 162 232
+	slaves, iron, hides, dogs, pigs
+	5
+	5
+Tribus_Chattii
+	Damme
+	germans
+	Chatti
+	232 198 41
+	slaves, dogs, pigs, hides
+	5
+	6
+Regnum_Marcomannii
+	Vicus_Marcomannii
+	germans
+	Marcomanni
+	177 78 58
+	slaves, iron, wild_animals, dogs, pigs
+	5
+	5
+Belgica
+	Samarobriva
+	britons
+	Belgae
+	232 90 41
+	slaves, pottery, textiles, dogs, pigs
+	5
+	6
+Agri_Decumates
+	Mogontiacum
+	germans
+	Alamanni
+	63 232 41
+	slaves, hides, wild_animals, dogs
+	5
+	5
+Armorica
+	Condate_Redonum
+	gauls
+	Veneti
+	232 41 135
+	slaves, timber, glass, dogs, pigs
+	5
+	6
+Germania_Superior
+	Trier
+	germans
+	Treveri
+	72 41 232
+	slaves, dogs, pigs
+	5
+	5
+Boihaemum
+	Lovosice
+	gauls
+	Boii
+	58 150 177
+	slaves, iron, dogs, pigs
+	5
+	5
+Tribus_Tevrisci
+	Campus_Tevrisci
+	dacia
+	Tevrisci
+	33 100 131
+	slaves, dogs, pigs
+	5
+	5
+Central_Gaul
+	Alesia
+	gauls
+	Senones
+	31 75 37
+	slaves, iron, hides, lead, dogs, pigs
+	5
+	7
+Dacia
+	Sarmizegetusa
+	dacia
+	Carpi
+	72 177 58
+	gold, iron, slaves, dogs, pigs
+	5
+	6
+Noricum
+	Iuvavum
+	gauls
+	Helvetii
+	230 41 232
+	slaves, dogs, pigs
+	5
+	5
+Tribus_Getae
+	Constanta
+	thrace
+	Troglodytae
+	131 33 38
+	timber, slaves, dogs, pigs
+	5
+	6
+Pannonia
+	Aquincum
+	dacia
+	Scordisci
+	131 61 33
+	iron, slaves, dogs, pigs
+	5
+	5
+Aquitania
+	Lemonum
+	gauls
+	Pictones
+	68 232 41
+	gold, iron, wine, slaves, lead, dogs, pigs
+	5
+	6
+Lugdinensis
+	Lugdunum
+	gauls
+	Aedui
+	85 114 141
+	gold, pottery, slaves, dogs, pigs
+	5
+	6
+Colchis
+	Kotais
+	armenia
+	Colchians
+	199 31 143
+	gold, slaves, dogs, pigs
+	5
+	5
+Atropatene
+	Phraaspa
+	parthia
+	Medes
+	61 239 246
+	slaves
+	5
+	5
+Cisalpine_Gaul
+	Mediolanium
+	gauls
+	Insubres
+	221 232 41
+	slaves, dogs, pigs, italy
+	5
+	8
+Venetia
+	Patavium
+	gauls
+	Veneti
+	13 198 117
+	slaves, glass, textiles, dogs, pigs, italy
+	5
+	8
+Transalpine_Gaul
+	Massilia
+	gauls
+	Vocontii
+	117 198 13
+	wine, slaves, dogs, pigs
+	5
+	7
+Illyria
+	Segestica
+	greek_cities
+	Illyrians
+	58 173 177
+	slaves, gold, silver, iron, wine, dogs, pigs
+	5
+	5
+Thrace
+	Tylis
+	thrace
+	Odrysae
+	218 246 61
+	slaves, gold, dogs, pigs
+	5
+	7
+Gallaecia
+	Asturica
+	spain
+	Iberians
+	13 157 198
+	slaves, gold, timber, iron, tin, iberia, dogs, pigs
+	0
+	5
+Armenia
+	Artaxarta
+	armenia
+	Cappadocians
+	202 61 17
+	iron, wine, slaves, dogs, pigs
+	5
+	5
+Dalmatia
+	Salona
+	greek_cities
+	Illyrians
+	61 177 58
+	slaves, gold, timber, olive_oil, dogs, pigs
+	5
+	6
+Narbonensis
+	Tolosa
+	gauls
+	Volcae
+	196 13 198
+	gold, wine, slaves, textiles, dogs, pigs
+	5
+	7
+Celtiberia
+	Numantia
+	gauls
+	Iberians
+	198 13 35
+	iron, slaves, lead, iberia, dogs, pigs
+	5
+	5
+Liguria
+	Segesta
+	gauls
+	Ligurians
+	157 13 198
+	pottery, timber, slaves, dogs, pigs, italy
+	5
+	5
+Amazonia
+	Themiskyra
+	pontus
+	Amazons
+	202 156 17
+	silver, iron, slaves, dogs, pigs, wine
+	5
+	8
+Paionia
+	Bylazora
+	macedon
+	Paionians
+	131 33 100
+	slaves, dogs, pigs
+	5
+	7
+Etruria
+	Arretium
+	macedon
+	Etruscans
+	157 198 13
+	iron, slaves, marble, dogs, pigs, italy
+	5
+	8
+Media
+	Arsakia
+	parthia
+	Medes
+	58 167 177
+	iron, slaves, silk, elephants, camels
+	5
+	6
+Taraconenis
+	Osca
+	spain
+	Iberians
+	13 196 198
+	silver, wine, slaves, marble, iberia, dogs, pigs
+	5
+	6
+Umbria
+	Ariminum
+	macedon
+	Umbrians
+	198 43 13
+	pottery, olive_oil, wine, slaves, dogs, pigs, italy
+	5
+	8
+Lusitania
+	Scallabis
+	spain
+	Iberians
+	13 198 30
+	slaves, iberia, dogs, pigs
+	5
+	5
+Sardinia
+	Caralis
+	carthage
+	Beronicensis
+	198 35 13
+	wine, slaves, dogs, pigs
+	5
+	5
+Latium
+	Rome
+	macedon
+	Latins
+	52 13 198
+	slaves, dogs, pigs, rome, italy
+	5
+	8
+Cappadocia
+	Myrina
+	pontus
+	Cappadocians
+	177 58 148
+	slaves, lead
+	5
+	7
+Propontis
+	Byzantium
+	macedon
+	Sithones
+	118 131 33
+	gold, timber, slaves, dogs, pigs
+	5
+	7
+Bithynia
+	Nicomedia
+	macedon
+	Bithynians
+	202 17 122
+	wine, slaves, dogs
+	5
+	7
+Epirus
+	Apollonia
+	macedon
+	Epirots
+	83 58 177
+	slaves, dogs, pigs
+	5
+	6
+Macedonia
+	Pella
+	macedon
+	Edones
+	177 58 145
+	gold, timber, slaves, dogs, pigs, cretan
+	5
+	8
+Galatia
+	Ancyra
+	gauls
+	Galatians
+	17 165 202
+	slaves, textiles, dogs
+	5
+	6
+Hispania
+	Carthago_Nova
+	spain
+	Iberians
+	187 198 13
+	silver, pottery, slaves, dogs, pigs, iberia
+	5
+	7
+Apulia
+	Tarentum
+	macedon
+	Calabrians
+	33 196 58
+	timber, slaves, copper, dogs, pigs, italy
+	5
+	9
+Campania
+	Capua
+	macedon
+	Campanians
+	198 13 174
+	wine, slaves, dogs, pigs, italy
+	5
+	9
+Assyria
+	Hatra
+	seleucid
+	Syrians
+	244 122 13
+	slaves, textiles, silk, elephants, camels
+	5
+	5
+Baetica
+	Corduba
+	carthage
+	Iberians
+	17 13 198
+	slaves, gold, olive_oil, wine, iberia, dogs, pigs
+	5
+	8
+Phrygia
+	Pergamum
+	macedon
+	Lesbians
+	33 59 131
+	silver, timber, wine, slaves, textiles, dogs, pigs, cretan
+	5
+	8
+Cilicia
+	Tarsus
+	seleucid
+	Cilicians
+	17 202 52
+	slaves, silver, pottery, timber 
+	5
+	7
+Thessalia
+	Larissa
+	macedon
+	Thessalians
+	177 83 58
+	slaves, dogs, pigs, cretan
+	5
+	8
+Baliares
+	Palma
+	carthage
+	Iberians
+	41 232 225
+	slaves, wine, marble, lead, dogs, pigs, balearic
+	5
+	6
+Bruttium
+	Croton
+	slavs
+	Lucanians
+	13 170 198
+	slaves, silver, dogs, pigs, italy
+	5
+	8
+Ionia
+	Sardis
+	seleucid
+	Ionians
+	149 109 127
+	slaves, silver, timber, marble, textiles, dogs, pigs, cretan
+	5
+	7
+Babylonia
+	Seleucia
+	seleucid
+	Syrians
+	177 58 167
+	slaves, silk, elephants, camels, grain
+	5
+	9
+Syria
+	Antioch
+	seleucid
+	Syrians
+	13 244 165
+	iron, wine, slaves, textiles, silk, elephants, camels
+	5
+	8
+Aetolia
+	Thermon
+	macedon
+	Aetolians
+	13 18 244
+	slaves, dogs, pigs
+	5
+	7
+Attica
+	Athens
+	macedon
+	Athenians
+	58 177 106
+	silver, iron, olive_oil, slaves, dogs, pigs, cretan
+	5
+	8
+Elymais
+	Susa
+	parthia
+	Elamites
+	72 58 177
+	iron, slaves, elephants, camels
+	5
+	8
+Lycia
+	Halicarnasus
+	macedon
+	Lycians
+	131 83 77
+	olive_oil, slaves, textiles, cretan
+	5
+	7
+Peloponnesus
+	Corinth
+	macedon
+	Achaeans
+	225 192 192
+	timber, slaves, marble, dogs, pigs, cretan
+	5
+	8
+Sicilia_Romanus
+	Messana
+	macedon
+	Sicani
+	177 142 58
+	slaves, dogs, pigs, italy
+	5
+	8
+Sicilia_Poeni
+	Lilybaeum
+	carthage
+	Sicani
+	65 17 202
+	slaves, dogs, pigs, italy
+	5
+	7
+Mauretania
+	Tingi
+	numidia
+	Moors
+	202 126 17
+	timber, slaves, wild_animals, copper, elephants, camels
+	5
+	6
+Cyprus
+	Salamis
+	macedon
+	Cypriots
+	126 144 111
+	gold, timber, slaves, purple_dye, copper
+	5
+	6
+Regnum_Palmyrae
+	Palmyra
+	armenia
+	Palmyrans
+	175 171 244
+	slaves, incense, camels
+	5
+	6
+Phoenicia
+	Sidon
+	seleucid
+	Phoenicians
+	33 131 128
+	timber, slaves, glass
+	5
+	8
+Numidia
+	Cirta
+	numidia
+	Moors
+	17 83 202
+	timber, slaves, marble, wild_animals, elephants, camels
+	5
+	8
+Africa
+	Carthage
+	carthage
+	Poeni
+	202 191 17
+	grain, timber, olive_oil, slaves, elephants, camels, glass, wine
+	5
+	11
+Sicilia_Graecus
+	Syracuse
+	macedon
+	Syracusans
+	198 178 13
+	grain, timber, slaves, dogs, pigs, italy
+	5
+	8
+Laconia
+	Sparta
+	macedon
+	Helots
+	244 13 24
+	slaves, dogs, pigs, sparta, cretan
+	5
+	7
+Coele_Syria
+	Damascus
+	seleucid
+	Syrians
+	244 203 14
+	slaves, elephants, camels
+	5
+	6
+Rhodos
+	Rhodes
+	macedon
+	Rhodians
+	131 33 77
+	timber, slaves, dogs, pigs, rhodes, cretan
+	5
+	6
+Arabia
+	Dumatha
+	parthia
+	Nabataeans
+	13 171 244
+	camels, slaves, kaaba 
+	5
+	3
+Byzacium
+	Thapsus
+	carthage
+	Poeni
+	31 202 17
+	olive_oil, slaves, elephants, camels
+	5
+	9
+Crete
+	Kydonia
+	macedon
+	Cretans
+	193 162 206
+	iron, slaves, purple_dye, dogs, pigs, cretan
+	5
+	7
+Judaea
+	Jerusalem
+	egypt
+	Judaeans
+	244 13 29
+	slaves, olive_oil, wine, purple_dye, camels
+	5
+	8
+Nabataea
+	Bostra
+	parthia
+	Nabataeans
+	13 244 160
+	slaves, camels, incense 
+	5
+	4
+Tripolitania
+	Sabrata
+	carthage
+	Poeni
+	202 17 48
+	slaves, purple_dye, wild_animals, camels
+	5
+	4
+Cyrenaica
+	Cyrene
+	greek_cities
+	Libyans
+	244 171 13
+	timber, slaves, camels
+	5
+	4
+Nile_Delta
+	Alexandria
+	egypt
+	Libyans
+	244 13 214
+	grain, slaves, glass, textiles, camels
+	5
+	12
+Sinai
+	Petra
+	parthia
+	Nabataeans
+	35 244 13
+	slaves, camels, incense
+	5
+	4
+Libya
+	Siwa
+	egypt
+	Libyans
+	42 232 77
+	slaves, camels
+	5
+	3
+Middle_Egypt
+	Memphis
+	egypt
+	Libyans
+	122 13 244
+	grain, slaves, incense, camels
+	5
+	10
+Thebais
+	Thebes
+	egypt
+	Libyans
+	241 244 13
+	gold, slaves, wild_animals, camels
+	5
+	8
+Thatea
+	Thatis
+	scythia
+	Thateans
+	58 178 177
+	slaves, wild_animals, pigs, dogs
+	5
+	5
+;Bosporus
+;	Panticapaeum
+;	macedon
+;	Bosporans
+;	217 245 60
+;	grain, slaves, hides, pigs, dogs
+;	5
+;	5
+;Maeotis
+;	Tanais
+;	scythia
+;	Maeotae
+;	131 89 33
+;	slaves, wild_animals, dogs, pigs
+;	5
+;	7
+;Scythia
+;	Olbia
+;	scythia
+;	Roxolani
+;	33 131 116
+;	slaves, iron, hides, dogs, wild_animals
+;	6
+;	6
+;Tribus_Bastarnae
+;	Vibantavarium
+;	scythia
+;	Bastarnae
+;	18 166 203
+;	slaves, dogs, hides
+;	5
+;	5
+;Tribus_Neuri
+;	Vicus_Neuri
+;	dacia
+;	Neuri
+;	226 193 193
+;	slaves, dogs, pigs, wild_animals
+;	5
+;	6
+;Tribus_Androphagi
+;	Androphagia
+;	scythia
+;	Androphagi
+;	187 68 93
+;	slaves, wild_animals, dogs, pigs
+;	5
+;	6
+Tribus_Siraces
+	Campus_Siraces
+	scythia
+	Siraces
+	73 179 58 	
+	timber, slaves, hides, dogs
+	5
+	6
+Tribus_Aorsi
+	Campus_Aorsi
+	scythia
+	Aorsi
+	132 34 126 	
+	slaves, wild_animals, dogs
+	5
+	6
+Tribus_Sauromatae
+	Campus_Sauromatae
+	scythia
+	Sarmatians
+	233 42 56 	
+	timber, grain, slaves, wild_animals, dogs
+	5
+	6
+Tribus_Roxolani
+	Campus_Roxolani
+	scythia
+	Roxolani
+	204 42 233 	
+	slaves, hides, dogs
+	5
+	6
+Locus_Aesti
+	Vicus_Aesti
+	germans
+	Aesti
+	176 172 245
+	slaves, dogs, pigs, wild_animals, timber
+	5
+	5
+Van
+	Thospia
+	armenia
+	Thospians
+	132 84 78
+	iron, slaves, dogs, pigs
+	5
+	5
+Sagarthia
+	Arbela
+	Seleucid
+	Sagarthians
+	199 179 15
+	iron, slaves, dogs, pigs, camels
+	5
+	5
+Matieni
+	Ecbatana
+	parthia
+	Medes
+	132 33 38
+	iron, slaves, elephants, camels
+	5
+	5
+Euphrates
+	Thapsakos
+	seleucid
+	Syrians
+	34 132 129
+	slaves, silk, camels, elephants
+	5
+	6
+Iconia
+	Iconium
+	seleucid
+	Ionians
+	134 34 104
+	silver, copper, slaves, dogs, pigs
+	5
+	6
+Lycus
+	Heraclea
+	macedon
+	Bithynians
+	197 161 205
+	wine, slaves, dogs, pigs
+	5
+	6
+Trebizond
+	Trapezus
+	macedon
+	Trebizonds
+	34 60 132
+	timber, slaves, dogs, pigs
+	7
+	7
+Budini
+	Gelonos
+	germans
+	Budini
+	62 249 255
+	slaves, dogs, pigs, hides, timber
+	5
+	5
+Tribus_Scordisci
+	Singidunum
+	gauls
+	Scordisci
+	232 43 230
+	slaves, dogs, pigs, wild_animals
+	5
+	6
+Zauecia
+	Hippo
+	carthage
+	Zaueces
+	214 233 40
+	slaves, elephants, marble, olive_oil, camels
+	5
+	5
+Massylia
+	Icosium
+	numidia
+	Massylii
+	215 234 39
+	slaves, elephants, camels, wild_animals
+	5
+	5
+Massaesylia
+	Sica
+	numidia
+	Massaesylii
+	224 14 118
+	slaves, elephants, camels, copper
+	5
+	5
+Caetulia
+	Capsa
+	carthage
+	Caetulii
+	203 127 16
+	slaves, elephants, camels, iron
+	5
+	5
+Tritonia
+	Triton
+	greek_cities
+	Tritonians
+	33 180 188
+	slaves, elephants, camels, wild_animals, grain
+	5
+	6
+Emporia
+	Tecape
+	carthage
+	Emporians
+	195 12 199
+	slaves, purple_dye, elephants, camels, wild_animals, hesperides
+	5
+	4
+Psylii
+	Charax
+	carthage
+	Psylii
+	178 84 57
+	slaves, elephants, camels
+	5
+	4
+Gigamma
+	Menelaus_Point
+	greek_cities
+	Gigammae
+	159 138 108
+	slaves, camels
+	5
+	4
+Sahara
+	Dimmidi
+	romans_julii
+	Gaetuli
+	41 86 232
+	slaves, camels, wild_animals, elephants, iron, lead
+	5
+	4
+Gaetulia
+	Theneste
+	romans_julii
+	Gaetuli
+	244 13 138
+	slaves, camels, elephants, iron, lead, glass
+	5
+	5
+Valkyr
+	Vanahemir
+	romans_scipii
+	Valkyrja
+	58 89 177
+	slaves, gold, lead, pottery, dogs, pigs
+	5
+	8
+Hyperborea
+	Mari
+	romans_scipii
+	Mari
+	158 189 77
+	slaves, timber, hides, dogs, pigs, iron
+	5
+	5
+Locus_Careotae
+	Careotae
+	romans_scipii
+	Careotae
+	203 157 18
+	slaves, dogs, pigs, hides, timber, wild_animals, glass
+	5
+	6
+Tribus_Melanchlaeni
+	Melanchlaeni
+	romans_scipii
+	Melanchlaeni
+	177 58 83
+	slaves, dogs, pigs, timber, wild_animals, textiles
+	5
+	6
+Gautar
+	Aranaes
+	germans
+	Geats
+	233 40 150
+	slaves, dogs, pigs, timber, iron, amber
+	5
+	4
+Dewnans
+	Isca
+	britons
+	Dumnonii
+	212 108 42
+	slaves, tin, lead, dogs, pigs
+	5
+	5
+Caledonia
+	Tir_Tairngire
+	dacia
+	Caledonians
+	168 160 167
+	slaves, dogs, pigs, pottery, timber, iron
+	5
+	5
+Mag_Ealga
+	Tir_na_nog
+	dacia
+	Bean_Sidhe
+	40 232 67
+	slaves, dogs, pigs, glass, hides, silver
+	5
+	7
+Lesbos
+	Mytilenas
+	pontus
+	Amazons
+	242 14 143
+	slaves, dogs, pigs, grain, olive_oil, wine, amazoncommunity 
+	5
+	5
+El_Borma
+	Gadames
+	romans_julii
+	Amazons
+	72 32 231
+	slaves, camels, textiles, elephants, iron, lead
+	5
+	4
+Hassi_Messaoud
+	Uargla
+	romans_julii
+	Amazons
+	180 138 19
+	slaves, camels, wild_animals, elephants, grain, timber
+	5
+	4
+El_Golea
+	Metlili
+	romans_julii
+	Amazons
+	184 29 220
+	slaves, camels, textiles, elephants, iron, lead
+	5
+	4
+West_Hand
+	West_Elbow
+	dacia
+	Bean_Sidhe
+	108 20 121
+	slaves, dogs, pigs, tin, furs, textiles, copper, hides, wild_animals
+	5
+	3
+West_Head
+	West_Eye
+	dacia
+	Bean_Sidhe
+	51 69 171
+	slaves, dogs, pigs, marble, silver, tin, amber, pottery, hides
+	5
+	4
+West_Breast
+	West_Tit
+	dacia
+	Bean_Sidhe
+	75 234 94
+	slaves, dogs, pigs, amber, olive_oil, tin, iron, silk, wine
+	5
+	6
+West_Back
+	West_Shovel
+	dacia
+	Bean_Sidhe
+	198 83 178
+	slaves, dogs, pigs, purple_dye, furs, marble, incense, wild_animals, iron
+	5
+	8
+West_Stomach
+	West_Navel
+	dacia
+	Bean_Sidhe
+	216 183 78
+	slaves, dogs, pigs, amber, copper, wild_animals, tin, marble, hides
+	5
+	8
+West_Loin
+	West_Coccyx
+	dacia
+	Bean_Sidhe
+	41 84 119
+	slaves, dogs, pigs, glass, hides, pottery, marble, copper, furs
+	5
+	5
+West_Limber
+	West_Groin
+	dacia
+	Bean_Sidhe
+	63 211 71
+	slaves, dogs, pigs, silk, pottery, wild_animals, tin, wine, hides
+	5
+	10
+West_Buttocks
+	West_Ass
+	dacia
+	Bean_Sidhe
+	123 38 223
+	slaves, dogs, pigs, furs, olive_oil, incense, marble, wine, wild_animals
+	5
+	8
+West_Left_Thigh
+	West_Left_Knee
+	dacia
+	Bean_Sidhe
+	73 197 249
+	slaves, dogs, pigs, olive_oil, silver, marble, hides, timber, wild_animals
+	5
+	8
+West_Right_Thigh
+	West_Right_Knee
+	dacia
+	Bean_Sidhe
+	126 227 211
+	slaves, dogs, pigs, tin, pottery, copper, wild_animals, timber, glass
+	5
+	8
+West_Left_Shin
+	West_Left_Foot
+	dacia
+	Bean_Sidhe
+	5 36 36
+	slaves, dogs, pigs, glass, copper, wild_animals, olive_oil, tin, timber
+	5
+	5
+West_Right_Shin
+	West_Right_Foot
+	dacia
+	Bean_Sidhe
+	128 5 151
+	slaves, dogs, pigs, textiles, iron, silk, glass, incense, marble
+	5
+	5
+East_Hand
+	East_Elbow
+	dacia
+	Bean_Sidhe
+	18 215 15
+	slaves, dogs, pigs, hides, iron, glass, wine, silk, timber
+	5
+	3
+East_Head
+	East_Eye
+	dacia
+	Bean_Sidhe
+	81 41 95
+	slaves, dogs, pigs, glass, iron, wild_animals, gold, textiles, amber
+	5
+	4
+East_Breast
+	East_Tit
+	dacia
+	Bean_Sidhe
+	2 198 166
+	slaves, dogs, pigs, textiles, marble, silk, glass, copper, tin
+	5
+	6
+East_Back
+	East_Shovel
+	dacia
+	Bean_Sidhe
+	197 181 142
+	slaves, dogs, pigs, copper, hides, tin, incense, furs, iron
+	5
+	8
+East_Stomach
+	East_Navel
+	dacia
+	Bean_Sidhe
+	244 164 255
+	slaves, dogs, pigs, marble, wine, textiles, timber, purple_dye, glass
+	5
+	8
+East_Loin
+	East_Coccyx
+	dacia
+	Bean_Sidhe
+	62 173 75
+	slaves, dogs, pigs, wild_animals, purple_dye, textiles, silver, pottery, marble
+	5
+	5
+East_Limber
+	East_Groin
+	dacia
+	Bean_Sidhe
+	52 174 151
+	slaves, dogs, pigs, amber, wild_animals, furs, pottery, incense, marble
+	5
+	10
+East_Buttocks
+	East_Ass
+	dacia
+	Bean_Sidhe
+	225 130 146
+	slaves, dogs, pigs, purple_dye, furs, copper, silver, incense, glass
+	5
+	8
+East_Left_Thigh
+	East_Left_Knee
+	dacia
+	Bean_Sidhe
+	244 175 86
+	slaves, dogs, pigs, hides, marble, purple_dye, olive_oil, pottery, incense
+	5
+	8
+East_Right_Thigh
+	East_Right_Knee
+	dacia
+	Bean_Sidhe
+	21 197 126
+	slaves, dogs, pigs, furs, hides, pottery, textiles, copper, marble
+	5
+	8
+East_Left_Shin
+	East_Left_Foot
+	dacia
+	Bean_Sidhe
+	1 180 253
+	slaves, dogs, pigs, timber, purple_dye, wild_animals, wine, hides, silk
+	5
+	5
+East_Right_Shin
+	East_Right_Foot
+	dacia
+	Bean_Sidhe
+	198 191 50
+	slaves, dogs, pigs, marble, tin, incense, purple_dye, gold, pottery
+	5
+	5
+Krym
+	Simferopol
+	romans_scipii
+	Taruines
+	130 32 37
+	slaves, wild_animals, dogs
+	5
+	5
+Vinnychyna
+	Vinnycia
+	scythia
+	Roxolani
+	193 55 254
+	slaves, dogs, pigs
+	5
+	7
+Volyn
+	Luck
+	scythia
+	Roxolani
+	197 254 56
+	slaves, dogs, pigs
+	5
+	3
+Dnipropetrovshchyna
+	Dnipro
+	scythia
+	Roxolani
+	84 154 55
+	slaves, dogs, pigs
+	5
+	8
+Donechchyna
+	Doneck
+	romans_scipii
+	Roxolani
+	117 255 46
+	slaves, dogs, pigs
+	5
+	5
+Zhytomyrshchyna
+	Zhytomyr
+	scythia
+	Roxolani
+	254 224 55
+	slaves, dogs, pigs
+	5
+	4
+Zakarpattia
+	Uzhgorod
+	scythia
+	Roxolani
+	250 226 55
+	slaves, dogs, pigs
+	5
+	3
+Zaporizhchyna
+	Zaporizhzhia
+	scythia
+	Roxolani
+	251 137 47
+	slaves, dogs, pigs
+	5
+	6
+Ivano_Frankivshchyna
+	Ivano_Frankivsk
+	scythia
+	Roxolani
+	251 57 143
+	slaves, dogs, pigs
+	5
+	3
+Kyyivshchyna
+	Kyyiv
+	scythia
+	Roxolani
+	245 60 55
+	slaves, dogs, pigs
+	5
+	7
+Kirovogradshchyna
+	Kropyvnyckyj
+	scythia
+	Roxolani
+	201 255 55
+	slaves, dogs, pigs
+	5
+	7
+Luganshchyna
+	Lugansk
+	romans_scipii
+	Roxolani
+	190 57 255
+	slaves, dogs, pigs
+	5
+	4
+Lvivshchyna
+	Lviv
+	scythia
+	Roxolani
+	126 154 54
+	slaves, dogs, pigs
+	5
+	3
+Mykolayivshchyna
+	Mykolayiv
+	scythia
+	Roxolani
+	254 55 226
+	slaves, dogs, pigs
+	5
+	7
+Odeshchyna
+	Odesa
+	scythia
+	Roxolani
+	113 252 63
+	slaves, dogs, pigs
+	5
+	8
+Poltavshchyna
+	Poltava
+	scythia
+	Roxolani
+	254 55 141
+	slaves, dogs, pigs
+	5
+	7
+Rivnenshchyna
+	Rivne
+	scythia
+	Roxolani
+	254 194 155
+	slaves, dogs, pigs
+	5
+	3
+Sumshchyna
+	Sumy
+	scythia
+	Roxolani
+	127 155 53
+	slaves, dogs, pigs
+	5
+	4
+Ternopilshchyna
+	Ternopil
+	scythia
+	Roxolani
+	114 254 55
+	slaves, dogs, pigs
+	5
+	4
+Harkivshchyna
+	Harkiv
+	scythia
+	Roxolani
+	250 223 56
+	slaves, dogs, pigs
+	5
+	6
+Hersonshchyna
+	Herson
+	scythia
+	Roxolani
+	245 198 172
+	slaves, dogs, pigs
+	5
+	5
+Hmelnychchyna
+	Hmelnyckyj
+	scythia
+	Roxolani
+	254 139 56
+	slaves, dogs, pigs
+	5
+	5
+Cherkashchyna
+	Cherkasy
+	scythia
+	Roxolani
+	154 137 55
+	slaves, dogs, pigs
+	5
+	7
+Chernivechchyna
+	Chernivci
+	scythia
+	Roxolani
+	254 151 152
+	slaves, dogs, pigs
+	5
+	3
+Chernigivshchyna
+	Chernigiv
+	scythia
+	Roxolani
+	121 248 73
+	slaves, dogs, pigs
+	5
+	5
+Sevastopolshchyna
+	Sevastopol
+	romans_scipii
+	Chersonese
+	17 74 202
+	slaves, dogs, pigs, hides
+	5
+	4

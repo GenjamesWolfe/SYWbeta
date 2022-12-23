@@ -2976,7 +2976,7 @@ model_tri         400, 0.5f, 0.5f, 0.5
 
 
 type           dutch_line
-skeleton             SYW_austrian_musketeer, SYW_bayonet
+skeleton             SYW_prussian_musketeer_sixty, SYW_bayonet
 indiv_range       40
 texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_line.tga
 texture           merc, SYW/data/models_unit/textures/netherlands/dutch_swiss_line.tga
@@ -2990,7 +2990,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           dutch_scottish_line
-skeleton             SYW_austrian_musketeer, SYW_bayonet
+skeleton             SYW_prussian_musketeer_sixty, SYW_bayonet
 indiv_range       40
 texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_scottish_line.tga
 model_flexi             SYW/data/models_unit/dutch_scot_line.cas, 8
@@ -3003,7 +3003,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           dutch_grenadier
-skeleton             SYW_british_musketeer, prussian_bayonet
+skeleton             SYW_prussian_musketeer_sixty, SYW_bayonet
 indiv_range       40
 texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_grenadier.tga
 model_flexi             SYW/data/models_unit/dutch_grenadier.cas, 8
@@ -3016,7 +3016,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           dutchmen_2
-skeleton             SYW_austrian_musketeer, SYW_bayonet
+skeleton             SYW_prussian_musketeer_sixty, SYW_bayonet
 indiv_range       40
 texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_guard.tga
 model_flexi             SYW/data/models_unit/dutch_line.cas, 8

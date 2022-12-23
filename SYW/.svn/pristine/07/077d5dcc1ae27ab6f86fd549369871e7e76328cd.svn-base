@@ -1,0 +1,9091 @@
+BANK: unit_voice
+	culture barbarian
+
+
+
+;******* ENGLISH *****************************************************************************************************
+		class General_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/english
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event streamed volume -10
+					folder SYW/data/sounds/voices/orders/english
+					Advance01.mp3
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/english
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/english
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/english
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2 volume 45
+					folder SYW/data/sounds/voices/orders/english
+					Fire03.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/english
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/english
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/english
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+				
+;******* GERMAN *****************************************************************************************************
+		class Heavy_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					marsch01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Sammen01.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Ruckzug01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HaltendieStell01.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Formieren01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Formieren01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					SchlagtanFeuer01.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					Laden01.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					marsch02.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Sammen01.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Ruckzug01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+				end
+				unit prussian line
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					musketeer.wav
+					group
+				end
+				unit prussian grenadiers
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					grenadiers.wav
+					group
+				end	
+				unit prussian leib
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					leibgarde.wav
+					group
+				end
+				unit prussian landmilitz
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					militia.wav
+					group
+				end
+				unit prussian freijaeger
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					jaeger.wav
+					group
+				end
+				unit prussian feldjaeger
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					jaeger.wav
+					group
+				end
+				unit prussian saxon line
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					musketeer.wav
+					group
+				end
+				unit prussian freikorps line
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					musketeer.wav
+					group
+				end
+				unit prussian hussars
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					hussars.wav
+					group
+				end
+				unit prussian dragoons
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					dragoons.wav
+					group
+				end						
+				unit prussian cuirassiers
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					cuirassiers.wav
+					group
+				end	
+				unit prussian garde du corps
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					garde.wav
+					group
+				end
+				unit prussian howitzer
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					howitzers.wav
+					group
+				end	
+				unit prussian Mpounder
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					cannon.wav
+					group
+				end
+				unit prussian Hpounder
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					cannon.wav
+					group
+				end
+				unit prussian Spounder
+				event maxdist 140
+					folder SYW/data/sounds/voices/units/german
+					cannon.wav
+					group
+				end						
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Formieren01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					SchliessenReihen01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HaltendieStell01.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HHaltendieStell01.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+        culture greek
+	
+	
+	
+;******* FRENCH ************************************************************************************************	
+	        class General_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation06.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/french
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/french
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/french
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/french
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/french
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/french
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/french
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/french
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/french
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/french
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+;******* SPANISH *****************************************************************************************************
+	class Heavy_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Fire03.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/spanish
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Run01.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/spanish
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/spanish
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/spanish
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+;					folder SYW/data/sounds/voices/orders/spanish
+;					Fire03.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event 
+
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/spanish
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Run01.wav
+				end
+			vocal Unit_Rally
+				event
+
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/spanish
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+;******* PORTUGUESE *****************************************************************************************************
+		class   Medium_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/portuguese
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event streamed volume -10
+					folder SYW/data/sounds/voices/orders/portuguese
+					Advance01.mp3
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/portuguese
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/portuguese
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/portuguese
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/portuguese
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/portuguese
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/portuguese
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/portuguese
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/portuguese
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end				
+			
+
+;******* DUTCH *****************************************************************************************************
+	        class Light_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/dutch
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event streamed volume -10
+					folder SYW/data/sounds/voices/orders/dutch
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/dutch
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/dutch
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/dutch
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/dutch
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/dutch
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/dutch
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/dutch
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/dutch
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+;******* GERMAN II *****************************************************************************************************
+		class Female_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/german
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+;					folder SYW/data/sounds/voices/orders/german
+;					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/german
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+				
+	culture eastern
+
+	
+
+;********** RUSSIAN *****************************************************************************************************
+		class General_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/russian
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/russian
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/russian
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/russian
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/russian
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/russian
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/russian
+					Makeready01
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/russian
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+				
+;******* SWEDISH *****************************************************************************************************
+	        class Heavy_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event streamed volume -10
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.mp3
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/swedish
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/swedish
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/swedish
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/swedish
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/swedish
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+;******* FINNISH *****************************************************************************************************
+		class Medium_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event streamed volume -10
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.mp3
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/finnish
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/swedish
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/swedish
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/swedish
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/swedish
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/swedish
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/finnish
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+				
+;******* GERMAN II *****************************************************************************************************
+		class female_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/german
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+;					folder SYW/data/sounds/voices/orders/german
+;					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/german
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+				
+        culture roman, egyptian
+	
+	
+
+;******* AUSTRIAN GERMAN*****************************************************************************************************
+		class General_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/german
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					marsch01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Sammen01.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Ruckzug01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HaltendieStell01.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Formieren01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Formieren01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/german
+					Attack01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					LSchlagtanFeuer01.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					Laden01.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/german
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/german
+					marsch02.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					marschmarsch01.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Sammen01.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Ruckzug01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Feueraufbefehl01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					FeuerFrei01.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Formieren01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					SchliessenReihen01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HaltendieStell01.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					HHaltendieStell01.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/german
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+;******* HUNGARIAN *****************************************************************************************************
+		class Heavy_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation05.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation04.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation03.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/hungarian
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/hungarian
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/hungarian
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/hungarian
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/hungarian
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+;					folder SYW/data/sounds/voices/orders/hungarian
+;					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/hungarian
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/hungarian
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/hungarian
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/hungarian
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+				
+;*************************************************Italian********************************
+	class Light_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Fire03.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+
+				end
+			vocal Group_Order_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/italian
+					Advance01.wav
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+
+				end
+			vocal Group_Order_Rally confirm
+				event
+
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/italian
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    	folder SYW/data/sounds/voices/orders/italian
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/italian
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+;					folder SYW/data/sounds/voices/orders/italian
+;					Fire03.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event 
+
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/italian
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+
+				end
+			vocal Unit_Rally
+				event
+
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					ChangeFormation02.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/italian
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end
+
+
+
+	culture carthaginian
+
+
+;******* OTTOMAN *****************************************************************************************************
+		class Heavy_1
+			vocal Group_Created
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Disbanded
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Drop confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Formation_Cavalry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFacing01.wav
+				end
+			vocal Group_Formation_Cavalry_Screen confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Column confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFacing01.wav
+				end
+			vocal Group_Formation_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Infantry_First_3_Lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Missile_First_3_lines confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Single_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Double_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Formation_Sorted_Line confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_Order_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Attack01.wav
+				end
+			vocal Group_Order_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Charge01.wav
+				end
+			vocal Group_Order_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Halt01.wav
+				end
+			vocal Group_Order_Missile_Attack confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Fire03.wav
+					folder SYW/data/sounds/voices/orders/ottoman
+					OpenFire02.wav
+				end
+			vocal Group_Order_Missile_Attack_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					GetThem02.wav
+				end
+			vocal Group_Order_Move confirm
+				event streamed volume -10
+					folder SYW/data/sounds/voices/orders/ottoman
+					Advance01.mp3
+				end
+			vocal Group_Order_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Run02.wav
+				end
+			vocal Group_Order_Rally confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Rally02.wav
+				end
+			vocal Group_Order_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Retreat01.wav
+				end
+			vocal Group_Select
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Select_Cavalry
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Select_Engines
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Select_Infantry
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_Select_Missiles
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Group_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Group_State_Chant_Off
+				event
+
+				end
+			vocal Group_State_Chant_On
+				event
+
+				end
+			vocal Group_State_Engage_At_Will_Off confirm
+				event delay 1
+					folder SYW/data/sounds/voices/orders/ottoman
+					Halt01.wav
+				end
+			vocal Group_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					GetThem02.wav
+				end
+			vocal Group_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Halt01.wav
+				end
+			vocal Group_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					OpenFire02.wav
+				end
+			vocal Group_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Advance01.wav
+				end
+			vocal Group_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Group_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Group_State_Flaming_On confirm
+				event
+
+				end
+			vocal Group_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					SpreadOut01.wav
+				end
+			vocal Group_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					CloseRanks01.wav
+				end
+			vocal Group_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Advance01.wav
+				end
+			vocal Group_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					HoldYourGround03.wav
+				end
+			vocal Group_State_Line_Off confirm
+				event
+
+				end
+			vocal Group_State_Line_On confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_Off confirm
+				event
+				
+				end
+			vocal Group_State_Phalanx_On confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_Off confirm
+				event
+				
+				end
+			vocal Group_State_Rapid_Fire_On confirm
+				event
+				
+				end
+			vocal Group_State_Screech_Off
+				event
+
+				end
+			vocal Group_State_Screech_On
+				event
+
+				end
+			vocal Group_State_Shieldwall_Off confirm
+				event
+				end
+			vocal Group_State_Shieldwall_On confirm
+				event
+				end
+			vocal Group_State_Testudo_Off confirm
+				event
+				end
+			vocal Group_State_Testudo_On confirm
+				event
+				end
+			vocal Group_State_Warcry_Off
+				event
+
+				end
+			vocal Group_State_Warcry_On
+				event
+
+				end
+			vocal Group_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Group_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Unit_Attack confirm
+				event
+					folder Attack01.wav
+					Attack01.wav
+				end
+			vocal Unit_Attack_Fast confirm
+				event
+				    folder SYW/data/sounds/voices/orders/ottoman
+					Charge01.wav
+				end
+			vocal Unit_Completed
+				event
+
+				end
+			vocal Unit_Error
+				event
+
+				end
+			vocal Unit_Generic
+				event
+
+				end
+			vocal Unit_Halt confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Halt01.wav
+				end
+			vocal Unit_Ladder_Attack confirm
+				event
+
+				end
+			vocal Unit_Ladder_Drop confirm
+				event
+
+				end
+			vocal Unit_Ladder_Start confirm
+				event
+
+				end
+			vocal Unit_Ladder_Use confirm
+				event
+
+				end
+			vocal Unit_Missile_Aim
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/ottoman
+					TakeAim02.wav
+				end
+			vocal Unit_Missile_Fire
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/ottoman
+					Fire03.wav
+;					folder SYW/data/sounds/voices/orders/ottoman
+;					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					OpenFire02.wav
+				end
+			vocal Unit_Missile_Move_Into_Range_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Fire03.wav
+				end
+			vocal Unit_Missile_Ready
+				event mindist 2
+					folder SYW/data/sounds/voices/orders/ottoman
+					Load01.wav
+				end
+			vocal Unit_Move confirm
+				event volume -10
+					folder SYW/data/sounds/voices/orders/ottoman
+					Advance01.wav
+				end
+			vocal Unit_Move_Fast confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Run02.wav
+				end
+			vocal Unit_Rally
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Rally02.wav
+				end
+			vocal Unit_Ram_Attack confirm
+				event
+
+				end
+			vocal Unit_Ram_Attack_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Drop confirm
+				event
+
+				end
+			vocal Unit_Ram_Ramming
+				event mindist 2
+
+				end
+			vocal Unit_Ram_Start confirm
+				event
+
+				end
+			vocal Unit_Ram_Start_Walls confirm
+				event
+
+				end
+			vocal Unit_Ram_Use confirm
+				event
+
+				end
+			vocal Unit_Retreat confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Retreat01.wav
+				end
+			vocal Unit_Select
+				engine town_ladder, medium_ladder, large_ladder
+				event
+
+				end
+				engine sap_point
+				event
+
+				end
+				engine tortoise_ram, eastern_ram, open_frame_ram
+				event
+
+				end
+				engine siege_tower, middle_tower
+				event
+
+				end
+			vocal Unit_Siege_Tower_Attack confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Drop confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Start confirm
+				event
+
+				end
+			vocal Unit_Siege_Tower_Use confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_Off confirm
+				event
+
+				end
+			vocal Unit_State_Cantabrian_On confirm
+				event
+
+				end
+			vocal Unit_State_Chant_Off
+				event
+
+				end
+			vocal Unit_State_Chant_On
+				event
+
+				end
+			vocal Unit_State_Engage_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Halt01.wav
+				end
+			vocal Unit_State_Engage_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					GetThem02.wav
+				end
+			vocal Unit_State_Fire_At_Will_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Halt01.wav
+				end
+			vocal Unit_State_Fire_At_Will_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					OpenFire02.wav
+				end
+			vocal Unit_State_Flaming_Off confirm
+				event
+
+				end
+			vocal Unit_State_Flaming_On confirm
+				event
+
+				end
+			vocal Unit_State_Formation_Loose confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					SpreadOut01.wav
+				end
+			vocal Unit_State_Formation_Tight confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					CloseRanks01.wav
+				end
+			vocal Unit_State_Guard_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Advance01.wav
+				end
+			vocal Unit_State_Guard_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Hold_Position_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Advance01.wav
+				end
+			vocal Unit_State_Hold_Position_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					HoldYourGround03.wav
+				end
+			vocal Unit_State_Line_Off confirm
+				event
+
+				end
+			vocal Unit_State_Line_On confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_Off confirm
+				event
+
+				end
+			vocal Unit_State_Phalanx_On confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_Off confirm
+				event
+
+				end
+			vocal Unit_State_Rapid_Fire_On confirm
+				event
+
+				end
+			vocal Unit_State_Screech_Off
+				event
+
+				end
+			vocal Unit_State_Screech_On
+				event
+
+				end
+			vocal Unit_State_Shieldwall_Off confirm
+				event
+
+				end
+			vocal Unit_State_Shieldwall_On confirm
+				event
+
+				end
+			vocal Unit_State_Skirmish_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Unit_State_Skirmish_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Unit_State_Testudo_Off confirm
+				event
+				
+				end
+			vocal Unit_State_Testudo_On confirm
+				event
+
+				end
+			vocal Unit_State_Warcry_Off
+				event
+
+				end
+			vocal Unit_State_Warcry_On
+				event
+
+				end
+			vocal Unit_State_Wedge_Off confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Unit_State_Wedge_On confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					ChangeFormation01.wav
+				end
+			vocal Unit_Tunnel_Dig confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Exit confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Unit_Tunnel_Use confirm
+				event
+					folder SYW/data/sounds/voices/orders/ottoman
+					Agreed01.wav
+				end
+			vocal Unit_Under_Attack
+				event
+
+				end

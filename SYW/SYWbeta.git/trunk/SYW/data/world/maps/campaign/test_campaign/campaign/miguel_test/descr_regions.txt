@@ -1,0 +1,48 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; Regions list
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Britannia_Inferior
+	Eburacum
+	britons
+	Brigantes
+	212 198 206
+	slaves, lead, dogs, pigs
+	5
+	5
+Tribus_Silurii
+	Deva
+	britons
+	Brigantes
+	41 232 63
+	gold, slaves, tin, lead, dogs, pigs
+	0
+	4
+Germania_Inferior
+	Batavodurum
+	carthage
+	Brigantes
+	251 15 128
+	iron, slaves, hides, dogs, pigs
+	5
+	6
+Scythia
+	Campus_Scythii
+	carthage
+	Brigantes
+	33 131 116
+	iron, slaves
+	5
+	7
+Dacia
+	Porrolissum
+	carthage
+	Brigantes
+	72 177 58
+	gold, iron, slaves, dogs, pigs
+	5
+	6
+
+

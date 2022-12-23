@@ -1,0 +1,778 @@
+;	
+;	This file contains the character profession attributes, the idea being that a 
+;	character has a certain set of skills and a current profession. The character 
+;	is represented by his profession: if he is acting as a general, he will get 
+;	represented as a general of a strat_model dictated by his combat skills.
+;
+;	This file gets parsed on application startup but is not otherwise referred to. 
+;	The data format is thus:
+;
+;	;						indicates a comment ;-)
+;							
+;	type					indicates a new character type
+;
+;								must be followed by id name string (phrase)
+;
+;	faction					indicates one or more factions which use the following
+;								strat_model descriptions, valid entries are these:
+;
+;								romans_julii, romans_brutii, romans_scipii, macedon, 
+;								egypt, seleucid, carthage, parthia, pontus, gauls,  
+;								germans, britons, armenia, dacia, greek_cities, numidia,  
+;								scythia, spain, thrace, slave
+;								
+;								if a given faction is not present in a given character 
+;								type listing, that faction cannot use characters of that
+;								type - so not all factions have access to all character 
+;								professions
+;
+;	dictionary				specifies dictionary entry for character type name
+;
+;								note that there is one dictionary entry per type per 
+;								faction set, allowing different names for the same 
+;								character type - ie a diplomat barabarian could be a 
+;								'chieftain', while a roman might be a 'legatus'
+;
+;	strat_model				model to represent the character on the strategy map
+;
+;	battle_model			model to represent the character on the battle map (optional)
+;	battle_equip			equipment character has on the battle field must be followed by a  weapon type,
+;							(not missile weapon type) and armour type
+;
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+starting_action_points	130
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+type			named character
+
+actions			moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, diplomacy, bribe, exchange, building_fort, building_watchtower
+wage_base		200
+
+faction			romans_julii
+dictionary		15
+strat_model		sm_roman_lesser_general
+battle_model	bavarian_general
+battle_equip	gladius
+
+faction			romans_brutii
+dictionary		15
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			romans_scipii
+dictionary		15
+strat_model		sm_roman_lesser_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			romans_senate
+dictionary		15
+strat_model		sm_roman_lesser_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			macedon
+dictionary		2
+strat_model		sm_greek_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			egypt
+dictionary		2
+strat_model		sm_egypt_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			seleucid
+dictionary		2
+strat_model		sm_greek_general
+battle_model	french_general
+battle_equip	gladius
+
+faction			carthage
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet
+
+faction			parthia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	swedish_general
+battle_equip	gladius
+
+faction			pontus
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	danish_general
+battle_equip	gladius
+
+faction			gauls
+dictionary		2
+strat_model		sm_barb_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			germans
+dictionary		2
+strat_model		sm_barb_general
+battle_model	prussian_general
+battle_equip	gladius
+
+faction			britons
+dictionary		2
+strat_model		sm_barb_general
+battle_model	british_general
+battle_equip	gladius
+
+faction			armenia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	russian_general
+battle_equip	gladius
+
+faction			dacia
+dictionary		2
+strat_model		sm_barb_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			greek_cities
+dictionary		2
+strat_model		sm_greek_general
+battle_model	french_general
+battle_equip	gladius
+
+faction			numidia
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet
+
+faction			scythia
+dictionary		2
+strat_model		sm_barb_general
+battle_model	prussian_general
+battle_equip	gladius
+
+faction			spain
+dictionary		2
+strat_model		sm_barb_general
+battle_model	prussian_general
+battle_equip	gladius
+
+faction			thrace
+dictionary		2
+strat_model		sm_greek_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			slave
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	austrian_general
+battle_equip	gladius
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+type			general
+
+actions	moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, exchange
+wage_base		0
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	bavarian_general
+battle_equip	gladius
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/portraits/captain_card_gaul.tga
+strat_model		sm_greek_lesser_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_egypt_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	french_general
+battle_equip	gladius
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	swedish_general
+battle_equip	gladius
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	danish_general
+battle_equip	gladius
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	prussian_general
+battle_equip	gladius
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	british_general
+battle_equip	gladius
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	russian_general
+battle_equip	gladius
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	french_general
+battle_equip	gladius
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	prussian_general
+battle_equip	gladius
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	prussian_general
+battle_equip	gladius
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	austrian_general
+battle_equip	gladius
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_rebel_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			spy
+
+actions			moving_normal, spying
+wage_base		100
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			britons
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			spain
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+type			assassin
+
+actions			moving_normal, assassinate, sabotage
+wage_base		200
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			britons
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			spain
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+type			diplomat
+
+actions			moving_normal, diplomacy, bribe 
+wage_base		50
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			admiral
+
+actions			moving_normal, quick_sail, blockade, disembark, exchange
+wage_base		50
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		brutii_admiral
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		scipii_admiral
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		senate_admiral
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		macedon_admiral
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		egypt_admiral
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		seleucid_admiral
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		carthage_admiral
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		parthia_admiral
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		pontus_admiral
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		gaul_admiral
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		german_admiral
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		briton_admiral
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		armenia_admiral
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		dacia_admiral
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		greek_cities_admiral
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		numidia_admiral
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		scythia_admiral
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		spain_admiral
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		thrace_admiral
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral

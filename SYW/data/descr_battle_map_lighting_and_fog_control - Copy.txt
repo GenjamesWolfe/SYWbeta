@@ -1,0 +1,71 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; general
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+enable_gloom
+
+sun_below_horizon_night_lighting_out		-10.0
+sun_below_horizon_night_lighting_full		0.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; lighting
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+min_light_intensity							0.75
+max_light_intensity							1.1
+ambient_reduce_proportion					0.75
+ambient_red_increase_proportion				0.25
+ambient_green_increase_proportion			0.25
+ambient_blue_increase_proportion			0.35
+
+;night_min_light_intensity						0.5
+;night_max_light_intensity						1
+;night_ambient_reduce_proportion					0.75
+;night_ambient_red_increase_proportion			0.25
+;night_ambient_green_increase_proportion			0
+;night_ambient_blue_increase_proportion			0.75
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; unit lighting
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+unit_min_light_intensity						0.75
+unit_max_light_intensity						0.9
+unit_ambient_reduce_proportion					0.75
+unit_ambient_red_increase_proportion			0.25
+unit_ambient_green_increase_proportion			0.25
+unit_ambient_blue_increase_proportion			0.35
+unit_ambient_multiplier							1.1
+unit_diffuse_multiplier							0.9
+
+unit_night_min_light_intensity					0.25
+unit_night_max_light_intensity					0.75
+unit_night_ambient_reduce_proportion			0.25
+unit_night_ambient_red_increase_proportion		0.33
+unit_night_ambient_green_increase_proportion	0.33
+unit_night_ambient_blue_increase_proportion		0.33
+unit_night_ambient_multiplier					0.33
+unit_night_diffuse_multiplier					0.33
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+; fog
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+settlement_exponential_modifier				0.0002			
+camera_height_exponential_modifier			-0.0001		
+camera_exponential_modifier_max_height		200.0
+min_fog_exponential							0.00015
+min_fog_intensity							0.0
+haze_to_fog_transition_exponential			0.0004
+haze_to_fog_transition_exponential_range	0.00005
+gloom_fog_exponential						0.005
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -1,0 +1,641 @@
+;===============================================================
+;== TRAIT DATA STARTS HERE ==
+;===============================================================
+
+;------------------------------------------
+Trait Immortal
+    Characters family
+    Hidden
+
+    Level Immortal
+        Description Immortal_desc
+        EffectsDescription Immortal_effects_desc
+        Threshold 1
+
+
+;------Courage & Cowardice----
+
+Trait Courage
+	Characters family
+	NoGoingBackLevel 2
+	AntiTraits Cowardice
+	
+	Level Untested
+		Description Untested_desc
+		EffectsDescription	Untested_effects_desc
+		Threshold 1
+		
+	Level Proven
+		Description Proven_desc
+		EffectsDescription	Proven_effects_desc
+		Threshold 2
+		
+		Effect Command 1
+	
+	Level Brave
+		Description Brave_desc
+		EffectsDescription Brave_effects_desc
+		Threshold 3
+		
+		Effect Command 2
+		Effect TroopMorale 1
+		Effect Influence 1
+	
+	Level HighCourage
+		Description HighCourage_desc
+		EffectsDescription HighCourage_effect_desc
+		Threshold 4
+		
+		Effect Command 3
+		Effect TroopMorale 2
+		Effect Influence 2
+
+		
+;----------------------------------------------		
+Trait Cowardice
+	Characters family
+	AntiTraits Courage
+	
+	Level DoubtfulCourage
+		Description DoubtfulCourage_desc
+		EffectsDescription DoubtfulCourage_effects_desc
+		Threshold 1
+	
+		Effect Command -1
+
+	Level Timid
+		Description Timid_desc
+		EffectsDescription Timid_effects_desc
+		Threshold 2
+		
+		Effect Command -2
+		Effect TroopMorale -1
+		Effect Influence -3
+		
+	Level Coward
+		Description Coward_desc
+		EffectsDescription Coward_effects_desc
+		Threshold 3
+		
+		Effect Command -4
+		Effect TroopMorale -2
+		Effect Influence -5
+	
+	
+;------------------------------Person's mental faculties--------------
+
+Trait Intelligence
+	Characters family diplomat
+	AntiTraits Stupidity
+	
+	Level Normal
+		Description Normal_desc
+		EffectsDescription Normal_effects_desc
+		Threshold 1
+		
+	Level Intelligent
+		Description Intelligent_desc
+		EffectsDescription Intelligent_effects_desc
+		Threshold 2
+		
+		Effect Command 1
+		Effect Management 1
+	
+	Level Brilliant
+		Description Brilliant_desc
+		EffectsDescription Brilliant_effects_desc
+		Threshold 3
+		
+		Effect Command 1
+		Effect Management 2
+		
+	Level Genius
+		Description Genius_desc
+		EffectsDescription genius_effects_desc
+		Threshold 4
+		
+		Effect Command 1
+		Effect Management 3
+
+
+;----------------------------------------------	
+Trait Stupidity		
+	Characters family diplomat
+	AntiTraits Intelligence 
+	
+	Level SomewhatShallow
+		Description SomewhatShallow_desc
+		EffectsDescription SomewhatShallow_effects_desc
+		Threshold 1
+		
+		Effect Management -1
+		
+	Level QuiteShallow
+		Description QuiteShallow_desc
+		EffectsDescription QuiteShallow_effects_desc
+		Threshold 2
+		
+		Effect Command -1
+		Effect Management -2
+		
+	Level VeryShallow
+		Description VeryShallow_desc
+		EffectsDescription VeryShallow_effects_desc
+		Threshold 3
+		
+		Effect Command -2
+		Effect Management -3
+		Effect Influence -1
+
+
+;-------------------------------Person's health
+
+Trait Health
+	Characters family diplomat
+	AntiTraits sickliness
+	
+	Level NormalHealth
+		Description NormalHealth_desc
+		EffectsDescription NormalHealth_effects_desc
+		Threshold 1
+		
+	Level GoodHealth
+		Description GoodHealth_desc
+		EffectsDescription GoodHealth_effects_desc
+		Threshold 2
+		
+		Effect HitPoints 1
+		
+	Level RobustHealth
+		Description RobustHealth_desc
+		EffectsDescription RobustHealth_effects_desc
+		Threshold 3
+		
+		Effect HitPoints 2
+		Effect Command 1
+		Effect Management 1
+
+
+;----------------------------------------------	
+Trait Sickliness	
+	Characters family diplomat
+	AntiTraits Health
+	
+	Level Fragile
+		Description Fragile_desc
+		EffectsDescription Fragile_effects_desc
+		Threshold 1	
+		
+		Effect HitPoints -1
+		
+	Level Sickly
+		Description Sickly_desc
+		EffectsDescription Sickly_effects_desc
+		Threshold 2
+		
+		Effect HitPoints -2
+		Effect Management -1
+		Effect MovementPoints  -2 
+		
+	Level Bedridden
+		Description Bedridden_desc
+		EffectsDescription Bedridden_effects_desc
+		Threshold 3
+		
+		Effect HitPoints -3
+		Effect Management -2
+		Effect Command -2
+		Effect MovementPoints  -10
+		
+		
+;-------------------------------Wounded and recovered
+Trait BattleWound
+	Characters  family
+	NoGoingBackLevel	5
+	AntiTraits Healed
+	
+	Level lightWound
+		Description lightWound_desc
+		EffectsDescription lightWound_effects_desc
+		GainMessage	lightWound_gain_desc
+		Threshold 1
+		
+		Effect HitPoints -1
+		
+	Level Wounded
+		Description	wounded_desc
+		EffectsDescription wounded_effects_desc
+		GainMessage	wounded_gained_desc
+		Threshold 2
+		
+		Effect Command -2
+		Effect HitPoints -2
+		Effect PersonalSecurity -2
+		Effect MovementPoints -3
+		
+	Level severelyWounded
+		Description severelyWounded_desc
+		EffectsDescription	severelyWounded_effects_desc
+		GainMessage	severely Woudned_gain_desc
+		Threshold 3
+		
+		Effect Command -4
+		Effect HitPoints -3
+		Effect PersonalSecurity -4
+		Effect MovementPoints -6
+
+;----------------------------------------------			
+Trait Healed
+	Characters  family 
+	Hidden
+	AntiTraits BattleWound
+	
+	Level healedWound
+		Description healedWound_desc
+		EffectsDescription healedWound_effect_desc
+		Threshold 1
+
+;-----------------------------------------------Titles
+;Prussia
+Trait KingInPrussia
+	Characters family
+	NoGoingBackLevel 1
+	
+	Level KingInPrussia
+		Description KingInPrussia_desc
+		EffectsDescription KingInPrussia_effect_desc
+		Threshold 1
+		
+		Effect Influence 2
+		Effect TroopMorale 2
+		
+	Level KingOfPrussia
+		Description KingOfPrussia_desc
+		EffectsDescription KingOfPrussia_desc
+		GainMessage KingOfPrussia_gain_desc
+		Threshold 2
+		
+		Effect Influence 4
+		Effect TroopMorale 2
+
+
+Trait ElectorBrandenburg
+	Characters family
+	NoGoingBackLevel 1
+	
+	Level ElectorBrandenburg
+		Description ElectorBrandenburg_desc
+		EffectsDescription ElectorBrandenburg_effect_desc
+		GainMessage ElectorBrandenburg_gain_desc
+		Threshold 1
+
+		Effect Influence 1
+		
+Trait NeuchatelPrinz
+	Characters family
+	NoGoingBackLevel 1
+	
+	Level PrinceNeuchatel
+		Description PrinceNeuchatel_desc
+		EffectsDescription PrinceNeuchatel_effect_desc
+		GainMessage PrinceNeuchatel_gain_desc
+		Threshold 1
+		
+		Effect Influence 1
+
+;Hanoverians
+Trait UKKing
+	Characters family
+	NoGoingBackLevel 1
+	
+	Level KingofGreatBritain
+		Description KingofGreatBritain_desc
+		EffectsDescription KingofGreatBritain_effect_desc
+		GainMessage KingofGreatBritain_gain_desc
+		Threshold 1
+		
+		Effect Influence 4
+		Effect TroopMorale 2
+
+Trait EireKing
+	Characters family
+	NoGoingBackLevel 1
+	
+	Level KingofIreland
+		Description KingofIreland_desc
+		EffectsDescription KingofIreland_effect_desc
+		GainMessage KingofIreland_gain_desc
+		Threshold 1
+		
+		Effect Influence 3
+
+Trait HenVFrance
+	Characters family
+	
+	Level KingofFranceUK
+		Description KingofFranceUK_desc
+		EffectsDescription KingofFranceUK_effect_desc
+		Threshold 1
+		
+Trait vLueneburg
+	Characters family
+	
+	Level ElectorofHanover
+		Description ElectorofHanover_desc
+		EffectsDescription ElectorofHanover_effect_desc
+		GainMessage ElectorofHanover_gain_desc
+		Threshold 1
+		
+		Effect Influence 2
+		
+Trait FideiDefensor
+	Characters family
+	
+	Level DefenderFaith
+		Description DefenderFaith_desc
+		EffectsDescription DefenderFaith_effect_desc
+		GainMessage DefenderFaith_gain_desc
+		Threshold 1
+		
+		Effect Unrest -1
+
+;Titles of France
+Trait KingOfFrance
+	Characters family
+	
+	Level KingOfFrance
+		Description KingOfFrance_desc
+		EffectsDescription KingOfFrance_effect_desc
+		GainMessage KingOfFrance_gain_desc
+		Threshold 1
+		
+		Effect Influence 5
+		Effect TroopMorale 2
+;===============================================================
+;== TRAIT DATA STARTS HERE ==
+;===============================================================
+
+;-------------------------------Intelligence
+Trigger brains1
+	WhenToTest CharacterComesOfAge
+	
+	Affects Intelligence 1 Chance 40
+
+Trigger brains2
+	WhenToTest CharacterComesOfAge	
+	
+	Affects Intelligence 2 Chance 15
+	
+Trigger Brains3
+	WhenToTest CharacterComesOfAge	
+	
+	Affects Intelligence 3 Chance 10
+	
+Trigger Brains4
+	WhenToTest CharacterComesOfAge	
+	
+	Affects Intelligence 4 Chance 5
+	
+Trigger Brains5
+	WhenToTest CharacterComesOfAge	
+	
+	Affects stupidity 1 Chance 15
+
+Trigger Brains6
+	WhenToTest CharacterComesOfAge	
+	
+	Affects stupidity 2 Chance 10
+	
+Trigger Brains7
+	WhenToTest CharacterComesOfAge	
+	
+	Affects stupidity 3 Chance 5
+
+;--------------------------------Battlefield triggers-----------
+Trigger	BattleZero
+	WhenToTest CharacterComesOfAge
+	
+	Affects Courage 1 Chance 100
+
+
+;------------------------------------------
+Trigger battleEvent1 ;Man was exposed to combat.
+	WhenToTest PostBattle
+	
+	Condition	GeneralFoughtInCombat
+	
+	Affects Courage 1 Chance 30
+
+
+;------------------------------------------
+Trigger battleEvent2 ;Man has actively fought/led, but did not route
+	WhenToTest PostBattle
+	
+	Condition	GeneralFoughtInCombat
+		and GeneralNumKillsInBattle > 1
+	
+	Affects Courage 1 Chance 50
+	
+
+;------------------------------------------
+Trigger	battleEvent3 ;Man was wounded, and retreated/routed
+	WhenToTest	BattleGeneralRouted
+		
+	Condition	Routs
+		and	GeneralHPLostRatioinBattle >= 0.14
+	
+	Affects Courage 1 Chance 30
+	Affects Cowardice 1 Chance 5
+	
+
+;------------------------------------------	
+Trigger battleEvent4 ;Man ran for it
+	WhenToTest	BattleGeneralRouted
+		
+	Condition	Routs
+		and GeneralHPLostRatioinBattle < 0.14
+	
+	Affects Cowardice 1 Chance 80
+	
+
+;------------------------------------------
+Trigger Wounded01
+	WhenToTest PostBattle
+
+	Condition GeneralHPLostRatioinBattle >= 0.14
+		and GeneralHPLostRatioinBattle < 0.3
+	
+	Affects BattleWound 1 Chance 100
+
+;------------------------------------------	
+
+Trigger Wounded02
+	WhenToTest PostBattle
+	
+	Condition GeneralHPLostRatioinBattle >= 0.3
+	and GeneralHPLostRatioinBattle < 0.4
+	
+	Affects BattleWound 2 Chance 100
+
+;------------------------------------------	
+
+Trigger Wounded02
+	WhenToTest PostBattle
+	
+	Condition GeneralHPLostRatioinBattle >= 0.4
+	
+	Affects BattleWound 3 Chance 100
+	
+;------------------------------------------	
+
+Trigger Healed01
+	WhenToTest CharacterTurnEnd
+	
+	Condition Trait BattleWound = 1
+	
+	Affects Healed 1 Chance 80
+
+;------------------------------------------	
+Trigger Healed02	
+	WhenToTest CharacterTurnEnd
+	
+	Condition Trait BattleWound = 2
+	
+	Affects Healed 1 Chance 50
+	
+;------------------------------------------	
+Trigger Healed03	
+	WhenToTest CharacterTurnEnd
+	
+	Condition Trait BattleWound = 2
+		
+	Affects Healed 1 Chance 20
+	
+;------------------------------------------	Title Trigger
+
+Trigger IsKingInPrussia
+	WhenToTest CharacterTurnEnd
+	
+	Condition IsFactionLeader
+		and Trait KingInPrussia < 1
+		and FactionType germans
+
+	Affects KingInPrussia 1 Chance 100
+
+Trigger IsKingOfPrussia
+	WhenToTest CharacterTurnEnd
+	
+	Condition IsFactionLeader
+		and Trait KingInPrussia >= 1
+		and FactionType germans
+		and I_settlement Konigsberg = germans
+		and I_settlement Stettin = germans
+		and I_settlement Danzig = germans
+		
+	Affects KingInPrussia 1 Chance 100
+	
+Trigger IsElectorBrandenburg
+	WhenToTest CharacterTurnEnd
+	
+	Condition IsFactionLeader
+		and FactionType germans
+		
+	Affects ElectorBrandenburg 1 Chance 100
+	
+
+Trigger IsNeuchatelPrinz
+	WhenToTest CharacterTurnEnd
+	
+	Condition IsFactionLeader
+		and FactionType germans
+		
+	Affects PrinceNeuchatel 1 Chance 100
+
+Trigger IsBritishMonarch
+	WhenToTest CharacterTurnEnd
+	
+	Condition IsFactionLeader
+		and Trait UKKing < 1
+		and FactionType britons
+
+	Affects UKKing 1 Chance 100
+	Affects EireKing 1 Chance 100
+	Affects HenVFrance 1 Chance 100
+	Affects FideiDefensor 1 Chance 100
+	
+Trigger IsKingOfFrance
+	WhenToTest  CharacterTurnEnd
+	
+	Condition IsFactionLeader
+		and Trait KingOfFrance < 1
+		and FactionType greek_cities
+	
+	Affects KingOfFrance 1 Chance 100
+;------------------------------------------	
+;Trigger Infection01
+;	WhenToTest CharacterTurnEnd
+;	
+;	Condition Trait Healed < 1
+;	
+;	Affects 
+	
+
+;--------religion----------
+;;-----For Sunnism
+;Trigger interitSunnism
+;	WhinToTest CharacterComesOfAge
+;	
+;	Condition FatherTrait Muslim >= 1
+;	
+;	Affects Sunni 1 Chance 100
+	
+	
+;Trigger SunniSonBecomesSunniA
+;	WhenToTest OfferedForAdoption
+;	
+;	Condition FactionLeaderTrait Sunni >= 1
+;	
+;	Affects Sunni  1  Chance  100
+
+
+;;------For Shi'sm.
+;Trigger interitShiism
+;	WhinToTest CharacterComesOfAge
+;	
+;	Condition FatherTrait Shia >= 1
+;	
+;	Affects Shia 1 Chance 100
+
+
+;Trigger ShiaSonBecomesShiaA
+;	WhenToTest OfferedForAdoption
+;	
+;	Condition FactionLeaderTrait Shia >= 1
+;	
+;	Affects Shia  1  Chance  100
+	
+;;------For Ibadism
+
+;Trigger interitIbadism
+;	WhenToTest CharacterComesOfAge
+;	
+;	Condition FatherTrait Ibadi >= 1
+;	
+;	Affects Ibadi 1 Chance 100
+
+
+;Trigger IbadiSonBecomesIbadi
+;	WhenToTest OfferedForAdoption
+;	
+;	Condition FactionLeaderTrait Ibadi >= 1
+;	
+;	Affects Ibadi  1  Chance  100
+	
+;;-----For The irreligious.
+
+;Trigger interitirreligious
+;	WhinToTest CharacterComesOfAge
+;	
+;	Condition FatherTrait Protestant >= 1
+;	
+;	Affects Shia 1 Chance 100

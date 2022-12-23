@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+vs .1 .1
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; v0 = position
+; v1 = blend weights
+; v2 = blend indices
+; v3 = normal
+; v4 = texture coordinates
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; r0.w = Last blend weight
+; r1 = Blend indices
+; r2 = Temp position
+; r3 = Temp normal
+; r4 = Blended position in camera space
+; r5 = Blended normal in camera space
+; r6 = view space vertex position
+; r8.x = fog exponent
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; oPos	  = Output position
+; oD0	  = Diffuse
+; oD1	  = Specular
+; oT0	  = texture coordinates
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+
+mul 		r1,			v2.zyxw,			c[0].wwww
+
+
+
+dp3 		r0.w,		v1.xyz,				c[0].xzz; 
+add 		r0.w,		-r0.w, 				c[0].x
+
+
+mov 		a0.x,		r1.x
+m3x3 		r4,			v0,					c[a0.x + 23]
+m3x3 		r5,			v3,					c[a0.x + 23]
+	 
+
+mul 		r4,			r4,					v1.xxxx
+mul 		r5,			r5,					v1.xxxx
+
+
+
+mov 		r11.x, 		c[a0.x + 23 + 0].w
+mov 		r11.y, 		c[a0.x + 23 + 1].w
+mov 		r11.z, 		c[a0.x + 23 + 2].w
+mov 		r11.w, 		c0.x
+
+
+mov 		a0.x,		r1.y
+m3x3 		r2,			v0,				c[a0.x + 23]
+m3x3 		r3,			v3,				c[a0.x + 23]
+
+
+mad 		r4,			r2,				r0.wwww,					r4
+mad 		r5,			r3,				r0.wwww,					r5
+
+
+add 		r4, 		r4, 			r11
+
+
+mov 		r4.w, 		c[0].x
+m4x4 		r6,			r4, 			c[2]
+mov			oPos, 		r6
+
+; Do the lighting calculation
+dp3 		r1.x,   	r5, 			-c[1] 		; normal dot light
+mul 		r0,     	r1.x,  			c[6]  	; scale light diffuse
+mov 		r0.w,   	c[0].x    								; set alpha to one
+mul 		r0,     	r0, 			c[14]   ; scale by material diffuse
+max 		r0,     	r0, 			c[0].z  				; clamp if < 0
+add 		r0,     	r0,     		c[7]   ; Add in ambient
+min 		oD0,    	r0,     		c[0].x 				; clamp if > 1 and output
+mov 		oD1,    	c[0].zzzz       						; output specular
+
+;mov oD0.y, c0.z
+; Copy texture coordinate
+mov 		oT0, 		v4
+
+
+; Calculate the fog using D3DFOG_EXP
+mul			r8.x, 		-c[0].y, 			r6.z				; - (fog_exp_density * z_dist)
+exp			oFog, 		r8.x								; evaluate exponential function (2^ ( -fog_exp_density * z_dist))
+
+
+; Relies on world space position is in r4
+m4x4 		oT1, 		r4, 		c[15]  ; generate world space coordinate.

@@ -1,0 +1,331 @@
+;
+; Proper list of all references in descr_geography.db - .tga(.dds)
+;
+
+test_climate
+
+season summer
+terrain/battolfield/test_climate/summer/oz_medi_rock.tga
+terrain/battolfield/test_climate/summer/oz_medi_grvl.tga
+terrain/battolfield/test_climate/summer/sndk.tga
+terrain/battolfield/test_climate/summer/sand.tga
+terrain/battolfield/test_climate/summer/sndb.tga
+terrain/battolfield/test_climate/summer/drt.tga
+terrain/battolfield/test_climate/summer/mud.tga
+terrain/battolfield/test_climate/summer/smp.tga
+terrain/battolfield/test_climate/summer/oz_medi_drgrs.tga
+terrain/battolfield/test_climate/summer/oz_medi_gshrt.tga
+terrain/battolfield/test_climate/summer/oz_medi_grlong.tga
+terrain/battolfield/test_climate/summer/oz_medi_shrub_spar.tga
+terrain/battolfield/test_climate/summer/oz_medi_shrub_dens.tga
+terrain/battolfield/test_climate/summer/oz_medi_fospar.tga
+terrain/battolfield/test_climate/summer/oz_medi_fodens.tga
+battolfield/envmaps/grass.dds
+
+season winter
+terrain/battolfield/test_climate/winter/rock.tga
+terrain/battolfield/test_climate/winter/grvl.tga
+terrain/battolfield/test_climate/winter/sndk.tga
+terrain/battolfield/test_climate/winter/sand.tga
+terrain/battolfield/test_climate/winter/sndb.tga
+terrain/battolfield/test_climate/winter/drt.tga
+terrain/battolfield/test_climate/winter/mud.tga
+terrain/battolfield/test_climate/winter/smp.tga
+terrain/battolfield/test_climate/winter/drgrs.tga
+terrain/battolfield/test_climate/winter/gshrt.tga
+terrain/battolfield/test_climate/winter/grlong.tga
+terrain/battolfield/test_climate/winter/shrub_spar.tga
+terrain/battolfield/test_climate/winter/shrub_dens.tga
+terrain/battolfield/test_climate/winter/fospar.tga
+terrain/battolfield/test_climate/winter/fodens.tga
+battlefield/envmaps/snow.dds
+
+
+
+
+sandy_desert
+
+season summer
+terrain/battolfield/sandy_desert/summer/rock.tga
+terrain/battolfield/sandy_desert/summer/sand_caked.tga
+terrain/battolfield/sandy_desert/summer/sand.tga
+terrain/battolfield/sandy_desert/summer/sand_blown.tga
+battlefield/envmaps/desert.dds
+season winter
+terrain/battolfield/sandy_desert/summer/rock.tga
+terrain/battolfield/sandy_desert/summer/sand_caked.tga
+terrain/battolfield/sandy_desert/summer/sand.tga
+terrain/battolfield/sandy_desert/summer/sand_blown.tga
+battlefield/envmaps/desert.dds
+
+
+
+
+rocky_desert
+
+season summer
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_rock.tga
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_pebbles.tga
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_sand.tga
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_shrubbase.tga
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_sand.tga
+battlefield/envmaps/rock.dds
+season winter
+terrain/battolfield/rocky_desert/summer/rock.tga
+terrain/battolfield/rocky_desert/summer/pebble.tga
+terrain/battolfield/rocky_desert/summer/sand.tga
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_shrubbase.tga
+terrain/battolfield/rocky_desert/summer/oz_rockydesert_summer_sand.tga
+battlefield/envmaps/rock.dds
+
+
+
+temperate_grassland_fertile
+
+	season summer
+		terrain/battolfield/grld_fertile/summer/oz_medi_rock.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_grvl.tga
+		terrain/battolfield/grld_fertile/summer/sndk.tga
+		terrain/battolfield/grld_fertile/summer/sand.tga
+		terrain/battolfield/grld_fertile/summer/sndb.tga
+		terrain/battolfield/grld_fertile/summer/drt.tga
+		terrain/battolfield/grld_fertile/summer/mud.tga
+		terrain/battolfield/grld_fertile/summer/swp.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_grdry.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_gshrt.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_grlong.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_shrub_spar.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_shrub_dens.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_fospar.tga
+		terrain/battolfield/grld_fertile/summer/oz_medi_fodens.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_rock.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_grvl.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_sndk.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_sand.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_sndb.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_drt.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_mud.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_swp.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_grdry.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_grass.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_longgrass.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_shrub_spar.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_shrub_dens.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_fospar.tga
+		terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_fodens.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+temperate_grassland_infertile
+
+	season summer
+		terrain/battolfield/temperate_grassland_infertile/summer/rock.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/grvl.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/grvl.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/sand.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/sand.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/mud.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/mud.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/mud.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/gshrt.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/gshrt.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/grlong.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/shrub_dens.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/shrub_dens.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/fodens.tga
+		terrain/battolfield/temperate_grassland_infertile/summer/fodens.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/temperate_grassland_infertile/winter/rock.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/rock.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/sand.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/sand.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/sand.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/mud.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/mud.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/mud.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/grass.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/grass.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/grass1.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/shrub_base.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/shrub_base.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/forest.tga
+		terrain/battolfield/temperate_grassland_infertile/winter/forest.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+temperate_forest_open
+
+	season summer
+		terrain/battolfield/temperate_forest_open/summer/rock.tga
+		terrain/battolfield/temperate_forest_open/summer/sand.tga
+		terrain/battolfield/temperate_forest_open/summer/mud.tga
+		terrain/battolfield/temperate_forest_open/summer/grass.tga
+		terrain/battolfield/temperate_forest_open/summer/grass1.tga
+		terrain/battolfield/temperate_forest_open/summer/shrub_base.tga
+		terrain/battolfield/temperate_forest_open/summer/forest.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/temperate_forest_open/winter/rock.tga
+		terrain/battolfield/temperate_forest_open/winter/sand.tga
+		terrain/battolfield/temperate_forest_open/winter/mud.tga
+		terrain/battolfield/temperate_forest_open/winter/grass.tga
+		terrain/battolfield/temperate_forest_open/winter/grass1.tga
+		terrain/battolfield/temperate_forest_open/winter/shrub_base.tga
+		terrain/battolfield/temperate_forest_open/winter/forest.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+temperate_forest_deep
+
+season summer
+terrain/battolfield/temperate_forest_deep/summer/rock.tga
+terrain/battolfield/temperate_forest_deep/summer/sand.tga
+terrain/battolfield/temperate_forest_deep/summer/mud.tga
+terrain/battolfield/temperate_forest_deep/summer/grass.tga
+terrain/battolfield/temperate_forest_deep/summer/grass1.tga
+terrain/battolfield/temperate_forest_deep/summer/shrub_base.tga
+terrain/battolfield/temperate_forest_deep/summer/forest.tga
+battlefield/envmaps/grass.dds
+
+season winter
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_rock.tga
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_sand.tga
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_mud.tga
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_grass.tga
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_longgrass.tga
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_shrub_base.tga
+terrain/battolfield/temperate_grassland_fertile/winter/oz_grassfert_winter_fodens.tga
+battlefield/envmaps/snow.dds
+
+
+
+
+swamp
+
+	season summer
+		terrain/battolfield/swamp/summer/sand.tga
+		terrain/battolfield/swamp/summer/mud.tga
+		terrain/battolfield/swamp/summer/swamp.tga
+		terrain/battolfield/swamp/summer/grass.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/swamp/summer/sand.tga
+		terrain/battolfield/swamp/summer/mud.tga
+		terrain/battolfield/swamp/summer/swamp.tga
+		terrain/battolfield/swamp/summer/grass.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+highland
+
+	season summer
+		terrain/battolfield/highland/summer/rock.tga
+		terrain/battolfield/highland/summer/mud.tga
+		terrain/battolfield/highland/summer/grass.tga
+		terrain/battolfield/highland/summer/grass1.tga
+		terrain/battolfield/highland/summer/shrub_base.tga
+		terrain/battolfield/highland/summer/forest.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/highland/winter/rock.tga
+		terrain/battolfield/highland/winter/mud.tga
+		terrain/battolfield/highland/winter/grass.tga
+		terrain/battolfield/highland/winter/grass1.tga
+		terrain/battolfield/highland/winter/shrub_base.tga
+		terrain/battolfield/highland/winter/forest.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+alpine
+
+	season summer
+		terrain/battolfield/alpine/summer/oz_rockunder.tga
+		terrain/battolfield/alpine/summer/oz_mud.tga
+		terrain/battolfield/alpine/summer/oz_shortgrass.tga
+		terrain/battolfield/alpine/summer/oz_grass.tga
+		terrain/battolfield/alpine/summer/oz_brownshrubbase.tga
+		terrain/battolfield/alpine/summer/oz_forest.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/alpine/winter/oz_alpine_winter_rock.tga
+		terrain/battolfield/alpine/winter/oz_alpine_winter_mud.tga
+		terrain/battolfield/alpine/winter/oz_alpine_winter_grass.tga
+		terrain/battolfield/alpine/winter/oz_alpine_winter_long_grass.tga
+		terrain/battolfield/alpine/winter/oz_alpine_winter_shrub_base.tga
+		terrain/battolfield/alpine/winter/oz_alpine_winter_forest.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+sub_arctic
+
+	season summer
+		terrain/battolfield/sub_arctic/summer/rock.tga
+		terrain/battolfield/sub_arctic/summer/pebble.tga
+		terrain/battolfield/sub_arctic/summer/sand.tga
+		terrain/battolfield/sub_arctic/summer/mud.tga
+		terrain/battolfield/sub_arctic/summer/grass.tga
+		terrain/battolfield/sub_arctic/summer/grass1.tga
+		terrain/battolfield/sub_arctic/summer/shrub_base.tga
+		terrain/battolfield/sub_arctic/summer/forest.tga
+		battlefield/envmaps/snow.dds
+
+	season winter
+		terrain/battolfield/sub_arctic/winter/rock.tga
+		terrain/battolfield/sub_arctic/winter/pebble.tga
+		terrain/battolfield/sub_arctic/winter/sand.tga
+		terrain/battolfield/sub_arctic/winter/mud.tga
+		terrain/battolfield/sub_arctic/winter/grass.tga
+		terrain/battolfield/sub_arctic/winter/grass1.tga
+		terrain/battolfield/sub_arctic/winter/shrub_base.tga
+		terrain/battolfield/sub_arctic/winter/forest.tga
+		battlefield/envmaps/snow.dds
+
+
+
+
+semi_arid
+
+	season summer
+		terrain/battolfield/semi_arid/summer/pebble.tga
+		terrain/battolfield/semi_arid/summer/sand.tga
+		terrain/battolfield/semi_arid/summer/mud.tga
+		terrain/battolfield/semi_arid/summer/grass.tga
+		terrain/battolfield/semi_arid/summer/grass1.tga
+		terrain/battolfield/semi_arid/summer/shrub_base.tga
+		terrain/battolfield/semi_arid/summer/forest.tga
+		battlefield/envmaps/grass.dds
+
+	season winter
+		terrain/battolfield/semi_arid/summer/pebble.tga
+		terrain/battolfield/semi_arid/summer/sand.tga
+		terrain/battolfield/semi_arid/summer/mud.tga
+		terrain/battolfield/semi_arid/summer/grass.tga
+		terrain/battolfield/semi_arid/summer/grass1.tga
+		terrain/battolfield/semi_arid/summer/shrub_base.tga
+		terrain/battolfield/semi_arid/summer/forest.tga
+		battlefield/envmaps/grass.dds
+		
+		
+		
+		

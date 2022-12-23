@@ -1,0 +1,5291 @@
+;This file is generated from the Spreadsheet prologue.xls
+;Please modify the spreadsheet and re-xport the data, rather than editing this file directly
+
+;===============================================================
+;== ADVICE THREAD DATA STARTS HERE ==
+;===============================================================
+
+;------------------------------------------
+AdviceThread Prologue_Welcome_First_Turn_Thread
+    GameArea Campaign
+
+    Item Prologue_Welcome_First_Turn_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Welcome_First_Turn_Text_01_Title
+        Text Prologue_Welcome_First_Turn_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Welcome_First_Turn_Thread_2
+    GameArea Campaign
+
+    Item Prologue_Welcome_First_Turn_Text_01_2
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Welcome_First_Turn_Text_01_2_Title
+        Text Prologue_Welcome_First_Turn_Text_01_2_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Welcome_First_Turn_Thread_3
+    GameArea Campaign
+
+    Item Prologue_ROME_ITALY_MUST_BE_UNIFIED_Text_01_Text1b
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_ROME_ITALY_MUST_BE_UNIFIED_Text_01_Text1b_Title
+        Text Prologue_ROME_ITALY_MUST_BE_UNIFIED_Text_01_Text1b_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Welcome_First_Turn_Thread_4
+    GameArea Campaign
+
+    Item Prologue_This_is_Rome_Text_02
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_This_is_Rome_Text_02_Title
+        Text Prologue_This_is_Rome_Text_02_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Welcome_First_Turn_Thread_5
+    GameArea Campaign
+
+    Item Prologue_This_is_Gaius_Julius_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_This_is_Gaius_Julius_Text_01_Title
+        Text Prologue_This_is_Gaius_Julius_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Rome_Under_Attack_Thread
+    GameArea Campaign
+
+    Item Prologue_Rome_Under_Attack_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Rome_Under_Attack_Text_01_Title
+        Text Prologue_Rome_Under_Attack_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Barbarians_Destroyed_Thread
+    GameArea Campaign
+
+    Item Prologue_Barbarians_Destroyed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Barbarians_Destroyed_Text_01_Title
+        Text Prologue_Barbarians_Destroyed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Capture_First_Settlement_Thread
+    GameArea Campaign
+
+    Item Prologue_Capture_First_Settlement_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Capture_First_Settlement_Text_01_Title
+        Text Prologue_Capture_First_Settlement_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_First_Turn_Select_Army_Advice_Thread
+    GameArea Campaign
+
+    Item Prologue_First_Turn_Select_Army_Advice_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_First_Turn_Select_Army_Advice_Text_01_Title
+        Text Prologue_First_Turn_Select_Army_Advice_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Player_Must_Move_Army_Thread
+    GameArea Campaign
+
+    Item Prologue_Player_Must_Move_Army_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Player_Must_Move_Army_Text_01_Title
+        Text Prologue_Player_Must_Move_Army_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_The_Player_To_Select_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_The_Player_To_Select_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_The_Player_To_Select_Text_01_Title
+        Text Prologue_Prod_The_Player_To_Select_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_The_Player_To_Select_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_The_Player_To_Select_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_The_Player_To_Select_01_Text_01_Title
+        Text Prologue_Prod_The_Player_To_Select_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_The_Player_To_Select_02_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_The_Player_To_Select_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_The_Player_To_Select_02_Text_01_Title
+        Text Prologue_Prod_The_Player_To_Select_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_The_Player_To_Select_03_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_The_Player_To_Select_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_The_Player_To_Select_03_Text_01_Title
+        Text Prologue_Prod_The_Player_To_Select_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_The_Player_To_Select_04_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_The_Player_To_Select_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_The_Player_To_Select_04_Text_01_Title
+        Text Prologue_Prod_The_Player_To_Select_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_The_Player_To_Select_05_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_The_Player_To_Select_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_The_Player_To_Select_05_Text_01_Title
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Army_On_The_Move_Thread
+    GameArea Campaign
+
+    Item Prologue_Army_On_The_Move_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Army_On_The_Move_Text_01_Title
+        Text Prologue_Army_On_The_Move_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_All_Moves_Complete_Thread
+    GameArea Campaign
+
+    Item Prologue_All_Moves_Complete_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_All_Moves_Complete_Text_01_Title
+        Text Prologue_All_Moves_Complete_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_First_Turn_Completed_Thread
+    GameArea Campaign
+
+    Item Prologue_First_Turn_Completed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_First_Turn_Completed_Text_01_Title
+        Text Prologue_First_Turn_Completed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prod_Player_First_Turn_Complete_Thread
+    GameArea Campaign
+
+    Item Prologue_Prod_Player_First_Turn_Complete_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prod_Player_First_Turn_Complete_Text_01_Title
+        Text Prologue_Prod_Player_First_Turn_Complete_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Second_Turn_Thread
+    GameArea Campaign
+
+    Item Prologue_Second_Turn_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Second_Turn_Text_01_Title
+        Text Prologue_Second_Turn_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_How_To_Attack_01_Thread
+    GameArea Campaign
+
+    Item Prologue_How_To_Attack_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_How_To_Attack_01_Text_01_Title
+        Text Prologue_How_To_Attack_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_How_To_Attack_02_Thread
+    GameArea Campaign
+
+    Item Prologue_How_To_Attack_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_How_To_Attack_02_Text_01_Title
+        Text Prologue_How_To_Attack_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_How_To_Attack_03_Thread
+    GameArea Campaign
+
+    Item Prologue_How_To_Attack_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_How_To_Attack_03_Text_01_Title
+        Text Prologue_How_To_Attack_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Player_Not_Attacking_Tarquinii
+    GameArea Campaign
+
+    Item Prologue_Player_Not_Attacking_Tarquinii_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Player_Not_Attacking_Tarquinii_Text_01_Title
+        Text Prologue_Player_Not_Attacking_Tarquinii_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Player_Still_Not_Attacking_Tarquinii_Thread
+    GameArea Campaign
+
+    Item Prologue_Player_Still_Not_Attacking_Tarquinii_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Player_Still_Not_Attacking_Tarquinii_Text_01_Title
+        Text Prologue_Player_Still_Not_Attacking_Tarquinii_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Player_Final_Demand_ToAttack_Tarquinii
+    GameArea Campaign
+
+    Item Prologue_Player_Final_Demand_ToAttack_Tarquinii_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Player_Final_Demand_ToAttack_Tarquinii_Text_01_Title
+        Text Prologue_Player_Final_Demand_ToAttack_Tarquinii_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Player_Outside_Tarquinii_Thread
+    GameArea Campaign
+
+    Item Prologue_Player_Outside_Tarquinii_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Player_Outside_Tarquinii_Text_01_Title
+        Text Prologue_Player_Outside_Tarquinii_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Siege_Window_Open_Thread
+    GameArea Campaign
+
+    Item Prologue_Siege_Window_Open_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Siege_Window_Open_Text_01_Title
+        Text Prologue_Siege_Window_Open_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prompt_Autoresolve_Seige_Thread
+    GameArea Campaign
+
+    Item Prologue_Prompt_Autoresolve_Seige_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prompt_Autoresolve_Seige_Text_01_Title
+        Text Prologue_Prompt_Autoresolve_Seige_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Captured_Tarquinii_Thread
+    GameArea Campaign
+
+    Item Prologue_Captured_Tarquinii_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Captured_Tarquinii_Text_01_Title
+        Text Prologue_Captured_Tarquinii_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prompt_How_To_Build_Buildings_Thread
+    GameArea Campaign
+
+    Item Prologue_Prompt_How_To_Build_Buildings_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prompt_How_To_Build_Buildings_Text_01_Title
+        Text Prologue_Prompt_How_To_Build_Buildings_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prompt_How_To_Build_Recruit_Thread
+    GameArea Campaign
+
+    Item Prologue_Prompt_How_To_Build_Recruit_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prompt_How_To_Build_Recruit_Text_01_Title
+        Text Prologue_Prompt_How_To_Build_Recruit_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prompt_How_To_Build_Troops_Thread
+    GameArea Campaign
+
+    Item Prologue_Prompt_How_To_Build_Troops_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prompt_How_To_Build_Troops_Text_01_Title
+        Text Prologue_Prompt_How_To_Build_Troops_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Notify_New_Troops_Prologue_Thread
+    GameArea Campaign
+
+    Item Prologue_Notify_New_Troops_Prologue_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Notify_New_Troops_Prologue_Text_01_Title
+        Text Prologue_Notify_New_Troops_Prologue_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Garrisons_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Garrisons_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Garrisons_01_Text_01_Title
+        Text Prologue_Garrisons_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Garrisons_02_Thread
+    GameArea Campaign
+
+    Item Prologue_Garrisons_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Garrisons_02_Text_01_Title
+        Text Prologue_Garrisons_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Garrisons_03_Thread
+    GameArea Campaign
+
+    Item Prologue_Garrisons_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Garrisons_03_Text_01_Title
+        Text Prologue_Garrisons_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Prepare_for_Battle
+    GameArea Campaign
+
+    Item Prologue_Prepare_for_Battle_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Prepare_for_Battle_Text_01_Title
+        Text Prologue_Prepare_for_Battle_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Intro_Text_01_Title
+        Text Prologue_HUD_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Options_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Options_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Options_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Options_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Radar_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Radar_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Radar_Intro_Text_01_Title
+        Text Prologue_HUD_Radar_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Senate_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Senate_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Senate_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Senate_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Finances_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Finances_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Finances_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Finances_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Faction_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Faction_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Faction_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Faction_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Faction_Button_IntroV2_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Faction_Button_IntroV2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Faction_Button_IntroV2_Text_01_Title
+        Text Prologue_HUD_Faction_Button_IntroV2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Construction_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Construction_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Construction_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Construction_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Recruitment_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Recruitment_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Recruitment_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Recruitment_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Season_Icon_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Season_Icon_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Season_Icon_Intro_Text_01_Title
+        Text Prologue_HUD_Season_Icon_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_End_Turn_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_End_Turn_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_End_Turn_Intro_Text_01_Title
+        Text Prologue_HUD_End_Turn_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Get_A_Move_On_Thread
+    GameArea Campaign
+
+    Item Prologue_Get_A_Move_On_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Get_A_Move_On_Text_01_Title
+        Text Prologue_Get_A_Move_On_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_You_Can_Move_Further_Thread
+    GameArea Campaign
+
+    Item Prologue_You_Can_Move_Further_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_You_Can_Move_Further_Text_01_Title
+        Text Prologue_You_Can_Move_Further_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Press_End_Turn_Thread
+    GameArea Campaign
+
+    Item Prologue_Press_End_Turn_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Press_End_Turn_Text_01_Title
+        Text Prologue_Press_End_Turn_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Hurry_Up_Nothing_To_See_Thread
+    GameArea Campaign
+
+    Item Prologue_Hurry_Up_Nothing_to_See_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Hurry_Up_Nothing_to_See_Text_01_Title
+        Text Prologue_Hurry_Up_Nothing_to_See_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Take_Tarquinii_To_Stop_Losing_Cash_Thread
+    GameArea Campaign
+
+    Item Prologue_Take_Tarquinii_To_Stop_Losing_Cash_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Take_Tarquinii_To_Stop_Losing_Cash_Text_01_Title
+        Text Prologue_Take_Tarquinii_To_Stop_Losing_Cash_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Go_To_Tarquinii_Thread
+    GameArea Campaign
+
+    Item Prologue_Go_To_Tarquinii_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Go_To_Tarquinii_Text_01_Title
+        Text Prologue_Go_To_Tarquinii_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Take_Tarquinii_You_Outnumber_Enemy_Thread
+    GameArea Campaign
+
+    Item Prologue_Take_Tarquinii_You_Outnumber_Enemy_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Take_Tarquinii_You_Outnumber_Enemy_Text_01_Title
+        Text Prologue_Take_Tarquinii_You_Outnumber_Enemy_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Carrying_Out_A_Seige_Thread
+    GameArea Campaign
+
+    Item Prologue_Carrying_Out_A_Seige_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Carrying_Out_A_Seige_Text_01_Title
+        Text Prologue_Carrying_Out_A_Seige_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Start_Samnite_War_Thread
+    GameArea Campaign
+
+    Item Prologue_Start_Samnite_War_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Start_Samnite_War_Text_01_Title
+        Text Prologue_Start_Samnite_War_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Diplomacy_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Diplomacy_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Diplomacy_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Diplomacy_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_This_Is_An_Event_Message_Thread
+    GameArea Campaign
+
+    Item Prologue_This_Is_An_Event_Message_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_This_Is_An_Event_Message_Text_01_Title
+        Text Prologue_This_Is_An_Event_Message_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Selected_Item_Button_Intro_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Selected_Item_Button_Intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Selected_Item_Button_Intro_Text_01_Title
+        Text Prologue_HUD_Selected_Item_Button_Intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Selected_Item_Button_IntroV2_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Selected_Item_Button_IntroV2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Selected_Item_Button_IntroV2_Text_01_Title
+        Text Prologue_HUD_Selected_Item_Button_IntroV2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Test_1_Thread
+    GameArea Campaign
+
+    Item Prologue_Test_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Test_1_Text_01_Title
+        Text Prologue_Test_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Test_2_Thread
+    GameArea Campaign
+
+    Item Prologue_Test_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Test_2_Text_01_Title
+        Text Prologue_Test_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Test_3_Thread
+    GameArea Campaign
+
+    Item Prologue_Test_3_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Test_3_Text_01_Title
+        Text Prologue_Test_3_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Test_4_Thread
+    GameArea Campaign
+
+    Item Prologue_Test_4_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Test_4_Text_01_Title
+        Text Prologue_Test_4_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Test_5_Thread
+    GameArea Campaign
+
+    Item Prologue_Test_5_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Test_5_Text_01_Title
+        Text Prologue_Test_5_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Construction_1_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Construction_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Construction_1_Text_01_Title
+        Text Prologue_Settlement_Construction_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Construction_1a_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Construction_1a_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Construction_1a_Text_01_Title
+        Text Prologue_Settlement_Construction_1a_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Construction_2_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Construction_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Construction_2_Text_01_Title
+        Text Prologue_Settlement_Construction_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Construction_3_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Construction_3_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Construction_3_Text_01_Title
+        Text Prologue_Settlement_Construction_3_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Garrisons_1_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Garrisons_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Garrisons_1_Text_01_Title
+        Text Prologue_Settlement_Garrisons_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Garrisons_2_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Garrisons_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Garrisons_2_Text_01_Title
+        Text Prologue_Settlement_Garrisons_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Garrisons_3_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Garrisons_3_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Garrisons_3_Text_01_Title
+        Text Prologue_Settlement_Garrisons_3_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Garrisons_4_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Garrisons_4_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Garrisons_4_Text_01_Title
+        Text Prologue_Settlement_Garrisons_4_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Recruitment_1_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Recruitment_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Recruitment_1_Text_01_Title
+        Text Prologue_Settlement_Recruitment_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_War_Samnites_1_Thread
+    GameArea Campaign
+
+    Item Prologue_War_Samnites_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_War_Samnites_1_Text_01_Title
+        Text Prologue_War_Samnites_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Settlement_Recruit_Diplomat_Thread
+    GameArea Campaign
+
+    Item Prologue_Settlement_Recruit_Diplomat_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Settlement_Recruit_Diplomat_Text_01_Title
+        Text Prologue_Settlement_Recruit_Diplomat_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomat_First_Use_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomat_First_Use_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomat_First_Use_Text_01_Title
+        Text Prologue_Diplomat_First_Use_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Diplomacy_Button_Intro_1_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Diplomacy_Button_Intro_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Diplomacy_Button_Intro_1_Text_01_Title
+        Text Prologue_HUD_Diplomacy_Button_Intro_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_HUD_Diplomacy_Button_Intro_2_Thread
+    GameArea Campaign
+
+    Item Prologue_HUD_Diplomacy_Button_Intro_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_HUD_Diplomacy_Button_Intro_2_Text_01_Title
+        Text Prologue_HUD_Diplomacy_Button_Intro_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_1_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_1_Text_01_Title
+        Text Prologue_Diplomacy_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_2_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_2_Text_01_Title
+        Text Prologue_Diplomacy_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_3_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_3_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_3_Text_01_Title
+        Text Prologue_Diplomacy_3_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_4_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_4_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_4_Text_01_Title
+        Text Prologue_Diplomacy_4_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_5_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_5_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_5_Text_01_Title
+        Text Prologue_Diplomacy_5_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_6_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_6_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_6_Text_01_Title
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Diplomacy_7_Thread
+    GameArea Campaign
+
+    Item Prologue_Diplomacy_7_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Diplomacy_7_Text_01_Title
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Tarentum_Hostile_To_Rome_Thread
+    GameArea Campaign
+
+    Item Prologue_Tarentum_Hostile_To_Rome_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Tarentum_Hostile_To_Rome_Text_01_Title
+        Text Prologue_Tarentum_Hostile_To_Rome_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Pyrrhus_Arrives_Thread
+    GameArea Campaign
+
+    Item Prologue_Pyrrhus_Arrives_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Pyrrhus_Arrives_Text_01_Title
+        Text Prologue_Pyrrhus_Arrives_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Pyrrhus_Promote_Player_Thread
+    GameArea Campaign
+
+    Item Prologue_Pyrrhus_Promote_Player_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Pyrrhus_Promote_Player_Text_01_Title
+        Text Prologue_Pyrrhus_Promote_Player_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Build_More_Troops_Thread
+    GameArea Campaign
+
+    Item Prologue_Build_More_Troops_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Build_More_Troops_Text_01_Title
+        Text Prologue_Build_More_Troops_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Build_More_Troops_Pyrrhus_About_Thread
+    GameArea Campaign
+
+    Item Prologue_Build_More_Troops_Pyrrhus_About_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Build_More_Troops_Pyrrhus_About_Text_01_Title
+        Text Prologue_Build_More_Troops_Pyrrhus_About_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Select_Character_To_Move_First_Time_Thread
+    GameArea Campaign
+
+    Item Prologue_Select_Character_To_Move_First_Time_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Select_Character_To_Move_First_Time_Text_01_Title
+        Text Prologue_Select_Character_To_Move_First_Time_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Options_Button_Pressed_Thread
+    GameArea Campaign
+
+    Item Prologue_Options_Button_Pressed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Options_Button_Pressed_Text_01_Title
+        Text Prologue_Options_Button_Pressed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Senate_Button_Pressed_Thread
+    GameArea Campaign
+
+    Item Prologue_Senate_Button_Pressed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Senate_Button_Pressed_Text_01_Title
+        Text Prologue_Senate_Button_Pressed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Finances_Button_Pressed_Thread
+    GameArea Campaign
+
+    Item Prologue_Finances_Button_Pressed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Finances_Button_Pressed_Text_01_Title
+        Text Prologue_Finances_Button_Pressed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Faction_Button_Pressed_Thread
+    GameArea Campaign
+
+    Item Prologue_Faction_Button_Pressed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Faction_Button_Pressed_Text_01_Title
+        Text Prologue_Faction_Button_Pressed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Construction_Button_Pressed_Thread
+    GameArea Campaign
+
+    Item Prologue_Construction_Button_Pressed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Construction_Button_Pressed_Text_01_Title
+        Text Prologue_Construction_Button_Pressed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Recruitment_Button_Pressed_Thread
+    GameArea Campaign
+
+    Item Prologue_Recruitment_Button_Pressed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Recruitment_Button_Pressed_Text_01_Title
+        Text Prologue_Recruitment_Button_Pressed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Camera_Control_Explained_Thread
+    GameArea Campaign
+
+    Item Prologue_Camera_Control_Explained_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Camera_Control_Explained_Text_01_Title
+        Text Prologue_Camera_Control_Explained_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Player_Camera_Moves_Completed_Thread 
+    GameArea Campaign
+
+    Item Prologue_Player_Camera_Moves_Completed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Player_Camera_Moves_Completed_Text_01_Title
+        Text Prologue_Player_Camera_Moves_Completed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Placeholder_Advice_Thread 
+    GameArea Campaign
+
+    Item Prologue_Placeholder_Advice_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Placeholder_Advice_Text_01_Title
+        Text Prologue_Placeholder_Advice_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_First_Turn_Well_Done_Army_Selected_Thread
+    GameArea Campaign
+
+    Item Prologue_First_Turn_Well_Done_Army_Selected_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_First_Turn_Well_Done_Army_Selected_Text_01_Title
+        Text Prologue_First_Turn_Well_Done_Army_Selected_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_First_Turn_Keep_Units_Grouped_Thread
+    GameArea Campaign
+
+    Item Prologue_First_Turn_Keep_Units_Grouped_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_First_Turn_Keep_Units_Grouped_Text_01_Title
+        Text Prologue_First_Turn_Keep_Units_Grouped_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_ROME_ITALY_MUST_BE_UNIFIED_Thread
+    GameArea Campaign
+
+    Item Prologue_ROME_ITALY_MUST_BE_UNIFIED_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_ROME_ITALY_MUST_BE_UNIFIED_Text_01_Title
+        Text Prologue_ROME_ITALY_MUST_BE_UNIFIED_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_This_is_Rome_Thread
+    GameArea Campaign
+
+    Item Prologue_This_is_Rome_Text_01_Text1
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_This_is_Rome_Text_01_Text1_Title
+        Text Prologue_This_is_Rome_Text_01_Text1_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_This_is_Gaius_Julius_Thread
+    GameArea Campaign
+
+    Item Prologue_This_is_Gaius_Julius_Text_02
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_This_is_Gaius_Julius_Text_02_Title
+        Text Prologue_This_is_Gaius_Julius_Text_02_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Campaign_First_Use_Right_Click_Move_Thread
+    GameArea Campaign
+
+    Item Prologue_Campaign_First_Use_Right_Click_Move_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Campaign_First_Use_Right_Click_Move_Text_01_Title
+        Text Prologue_Campaign_First_Use_Right_Click_Move_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Bovianum_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Bovianum_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Bovianum_01_Text_01_Title
+        Text Prologue_Bovianum_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Bovianum_02_Thread
+    GameArea Campaign
+
+    Item Prologue_Bovianum_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Bovianum_02_Text_01_Title
+        Text Prologue_Bovianum_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Bovianum_03_Thread
+    GameArea Campaign
+
+    Item Prologue_Bovianum_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Bovianum_03_Text_01_Title
+        Text Prologue_Bovianum_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Picenum_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Picenum_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Picenum_01_Text_01_Title
+        Text Prologue_Picenum_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Picenum_02_Thread
+    GameArea Campaign
+
+    Item Prologue_Picenum_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Picenum_02_Text_01_Title
+        Text Prologue_Picenum_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Picenum_03_Thread
+    GameArea Campaign
+
+    Item Prologue_Picenum_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Picenum_03_Text_01_Title
+        Text Prologue_Picenum_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Gallia_Cispadana_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Gallia_Cispadana_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Gallia_Cispadana_01_Text_01_Title
+        Text Prologue_Gallia_Cispadana_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Pass_To_Gallia_Cispadana_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Pass_To_Gallia_Cispadana_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Pass_To_Gallia_Cispadana_01_Text_01_Title
+        Text Prologue_Pass_To_Gallia_Cispadana_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Umbria_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Umbria_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Umbria_01_Text_01_Title
+        Text Prologue_Umbria_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_East_Pass_To_Picenum_01_Thread
+    GameArea Campaign
+
+    Item Prologue_East_Pass_To_Picenum_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_East_Pass_To_Picenum_01_Text_01_Title
+        Text Prologue_East_Pass_To_Picenum_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_East_Pass_To_Picenum_02_Thread
+    GameArea Campaign
+
+    Item Prologue_East_Pass_To_Picenum_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_East_Pass_To_Picenum_02_Text_01_Title
+        Text Prologue_East_Pass_To_Picenum_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_South_Pass_01_Thread
+    GameArea Campaign
+
+    Item Prologue_South_Pass_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_South_Pass_01_Text_01_Title
+        Text Prologue_South_Pass_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_Near_Vesuvius_01_Thread
+    GameArea Campaign
+
+    Item Prologue_Near_Vesuvius_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_Near_Vesuvius_01_Text_01_Title
+        Text Prologue_Near_Vesuvius_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_END_Thread
+    GameArea Campaign
+
+    Item Prologue_END_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_END_Text_01_Title
+        Text Prologue_END_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_camera_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_camera_01_text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_camera_01_text_01_Title
+        Text Prologue_battle_1_move_camera_01_text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_camera_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_camera_02_text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_camera_02_text_01_Title
+        Text Prologue_battle_1_move_camera_02_text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_battlefield_overview_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_battlefield_overview_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_battlefield_overview_01_Text_01_Title
+        Text Prologue_battle_1_battlefield_overview_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_Generals_Speech_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_Generals_Speech_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_Generals_Speech_01_Text_01_Title
+        Text Prologue_battle_1_Generals_Speech_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_Generals_Speech_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_Generals_Speech_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_Generals_Speech_02_Text_01_Title
+        Text Prologue_battle_1_Generals_Speech_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_Generals_Speech_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_Generals_Speech_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_Generals_Speech_03_Text_01_Title
+        Text Prologue_battle_1_Generals_Speech_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_Generals_Speech_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_Generals_Speech_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_Generals_Speech_04_Text_01_Title
+        Text Prologue_battle_1_Generals_Speech_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_battlefield_overview_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_battlefield_overview_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_battlefield_overview_02_Text_01_Title
+        Text Prologue_battle_1_battlefield_overview_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_battlefield_overview_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_battlefield_overview_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_battlefield_overview_03_Text_01_Title
+        Text Prologue_battle_1_battlefield_overview_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_battlefield_overview_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_battlefield_overview_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_battlefield_overview_04_Text_01_Title
+        Text Prologue_battle_1_battlefield_overview_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_battlefield_overview_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_battlefield_overview_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_battlefield_overview_05_Text_01_Title
+        Text Prologue_battle_1_battlefield_overview_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_battlefield_overview_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_battlefield_overview_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_battlefield_overview_06_Text_01_Title
+        Text Prologue_battle_1_battlefield_overview_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_senate_overview_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_senate_overview_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_senate_overview_01_Text_01_Title
+        Text Prologue_battle_1_senate_overview_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_senate_overview_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_senate_overview_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_senate_overview_02_Text_01_Title
+        Text Prologue_battle_1_senate_overview_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_gauls_overview_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_gauls_overview_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_gauls_overview_01_Text_01_Title
+        Text Prologue_battle_1_gauls_overview_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_gauls_overview_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_gauls_overview_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_gauls_overview_02_Text_01_Title
+        Text Prologue_battle_1_gauls_overview_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_your_general_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_your_general_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_your_general_01_Text_01_Title
+        Text Prologue_battle_1_your_general_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_left_click_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_left_click_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_left_click_01_Text_01_Title
+        Text Prologue_battle_1_left_click_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_right_click_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_right_click_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_right_click_01_Text_01_Title
+        Text Prologue_battle_1_right_click_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_right_click_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_right_click_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_right_click_02_Text_01_Title
+        Text Prologue_battle_1_right_click_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_right_click_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_right_click_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_right_click_03_Text_01_Title
+        Text Prologue_battle_1_right_click_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_well_done_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_well_done_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_well_done_01_Text_01_Title
+        Text Prologue_battle_1_well_done_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_zoom_to_unit_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_zoom_to_unit_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_zoom_to_unit_01_Text_01_Title
+        Text Prologue_battle_1_zoom_to_unit_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_zoom_to_unit_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_zoom_to_unit_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_zoom_to_unit_02_Text_01_Title
+        Text Prologue_battle_1_zoom_to_unit_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_zoom_to_unit_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_zoom_to_unit_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_zoom_to_unit_03_Text_01_Title
+        Text Prologue_battle_1_zoom_to_unit_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_archers_default_skirmish_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_archers_default_skirmish_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_archers_default_skirmish_01_Text_01_Title
+        Text Prologue_battle_1_archers_default_skirmish_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_archers_default_skirmish_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_archers_default_skirmish_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_archers_default_skirmish_02_Text_01_Title
+        Text Prologue_battle_1_archers_default_skirmish_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_archers_default_skirmish_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_archers_default_skirmish_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_archers_default_skirmish_03_Text_01_Title
+        Text Prologue_battle_1_archers_default_skirmish_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_archers_default_skirmish_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_archers_default_skirmish_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_archers_default_skirmish_04_Text_01_Title
+        Text Prologue_battle_1_archers_default_skirmish_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_archers_default_skirmish_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_archers_default_skirmish_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_archers_default_skirmish_05_Text_01_Title
+        Text Prologue_battle_1_archers_default_skirmish_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_drag_box_sel_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_drag_box_sel_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_drag_box_sel_01_Text_01_Title
+        Text Prologue_battle_1_drag_box_sel_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_drag_box_sel_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_drag_box_sel_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_drag_box_sel_02_Text_01_Title
+        Text Prologue_battle_1_drag_box_sel_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_drag_box_sel_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_drag_box_sel_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_drag_box_sel_03_Text_01_Title
+        Text Prologue_battle_1_drag_box_sel_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_drag_box_sel_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_drag_box_sel_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_drag_box_sel_04_Text_01_Title
+        Text Prologue_battle_1_drag_box_sel_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_drag_box_sel_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_drag_box_sel_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_drag_box_sel_05_Text_01_Title
+        Text Prologue_battle_1_drag_box_sel_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_ctrl_a_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_ctrl_a_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_ctrl_a_01_Text_01_Title
+        Text Prologue_battle_1_ctrl_a_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_ctrl_a_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_ctrl_a_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_ctrl_a_02_Text_01_Title
+        Text Prologue_battle_1_ctrl_a_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_ctrl_a_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_ctrl_a_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_ctrl_a_03_Text_01_Title
+        Text Prologue_battle_1_ctrl_a_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_ctrl_a_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_ctrl_a_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_ctrl_a_04_Text_01_Title
+        Text Prologue_battle_1_ctrl_a_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_ctrl_a_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_ctrl_a_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_ctrl_a_05_Text_01_Title
+        Text Prologue_battle_1_ctrl_a_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_pause_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_pause_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_pause_01_Text_01_Title
+        Text Prologue_battle_1_pause_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_pause_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_pause_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_pause_02_Text_01_Title
+        Text Prologue_battle_1_pause_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_pause_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_pause_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_pause_03_Text_01_Title
+        Text Prologue_battle_1_pause_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_pause_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_pause_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_pause_04_Text_01_Title
+        Text Prologue_battle_1_pause_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_pause_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_pause_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_pause_05_Text_01_Title
+        Text Prologue_battle_1_pause_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fight_cav_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fight_cav_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fight_cav_01_Text_01_Title
+        Text Prologue_battle_1_fight_cav_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fight_cav_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fight_cav_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fight_cav_02_Text_01_Title
+        Text Prologue_battle_1_fight_cav_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fight_cav_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fight_cav_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fight_cav_03_Text_01_Title
+        Text Prologue_battle_1_fight_cav_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fight_cav_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fight_cav_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fight_cav_04_Text_01_Title
+        Text Prologue_battle_1_fight_cav_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fight_cav_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fight_cav_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fight_cav_05_Text_01_Title
+        Text Prologue_battle_1_fight_cav_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_against_archers_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_against_archers_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_against_archers_01_Text_01_Title
+        Text Prologue_battle_1_fighting_against_archers_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_against_archers_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_against_archers_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_against_archers_02_Text_01_Title
+        Text Prologue_battle_1_fighting_against_archers_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_against_archers_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_against_archers_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_against_archers_03_Text_01_Title
+        Text Prologue_battle_1_fighting_against_archers_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_against_archers_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_against_archers_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_against_archers_04_Text_01_Title
+        Text Prologue_battle_1_fighting_against_archers_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_against_archers_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_against_archers_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_against_archers_05_Text_01_Title
+        Text Prologue_battle_1_fighting_against_archers_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_triarii_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_triarii_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_triarii_01_Text_01_Title
+        Text Prologue_battle_1_fighting_triarii_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_triarii_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_triarii_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_triarii_02_Text_01_Title
+        Text Prologue_battle_1_fighting_triarii_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_triarii_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_triarii_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_triarii_03_Text_01_Title
+        Text Prologue_battle_1_fighting_triarii_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_triarii_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_triarii_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_triarii_04_Text_01_Title
+        Text Prologue_battle_1_fighting_triarii_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_fighting_triarii_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_fighting_triarii_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_fighting_triarii_05_Text_01_Title
+        Text Prologue_battle_1_fighting_triarii_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_grouping_units_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_grouping_units_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_grouping_units_01_Text_01_Title
+        Text Prologue_battle_1_grouping_units_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_grouping_units_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_grouping_units_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_grouping_units_02_Text_01_Title
+        Text Prologue_battle_1_grouping_units_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_grouping_units_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_grouping_units_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_grouping_units_03_Text_01_Title
+        Text Prologue_battle_1_grouping_units_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_grouping_units_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_grouping_units_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_grouping_units_04_Text_01_Title
+        Text Prologue_battle_1_grouping_units_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_grouping_units_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_grouping_units_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_grouping_units_05_Text_01_Title
+        Text Prologue_battle_1_grouping_units_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_cam_bookmarks_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_cam_bookmarks_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_cam_bookmarks_01_Text_01_Title
+        Text Prologue_battle_1_cam_bookmarks_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_cam_bookmarks_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_cam_bookmarks_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_cam_bookmarks_02_Text_01_Title
+        Text Prologue_battle_1_cam_bookmarks_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_cam_bookmarks_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_cam_bookmarks_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_cam_bookmarks_03_Text_01_Title
+        Text Prologue_battle_1_cam_bookmarks_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_cam_bookmarks_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_cam_bookmarks_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_cam_bookmarks_04_Text_01_Title
+        Text Prologue_battle_1_cam_bookmarks_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_cam_bookmarks_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_cam_bookmarks_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_cam_bookmarks_05_Text_01_Title
+        Text Prologue_battle_1_cam_bookmarks_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_01_Text_01_Title
+        Text Prologue_battle_1_army_formations_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_02_Text_01_Title
+        Text Prologue_battle_1_army_formations_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_03_Text_01_Title
+        Text Prologue_battle_1_army_formations_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_04_Text_01_Title
+        Text Prologue_battle_1_army_formations_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_05_Text_01_Title
+        Text Prologue_battle_1_army_formations_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_06_Text_01_Title
+        Text Prologue_battle_1_army_formations_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_07_Text_01_Title
+        Text Prologue_battle_1_army_formations_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_08_Text_01_Title
+        Text Prologue_battle_1_army_formations_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_09_Text_01_Title
+        Text Prologue_battle_1_army_formations_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_army_formations_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_army_formations_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_army_formations_10_Text_01_Title
+        Text Prologue_battle_1_army_formations_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_01_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_02_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_03_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_04_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_05_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_06_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_07_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_08_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_09_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_engage_barb_army_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_engage_barb_army_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_engage_barb_army_10_Text_01_Title
+        Text Prologue_battle_1_engage_barb_army_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_01_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_02_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_03_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_04_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_05_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_06_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_07_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_08_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_09_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_teach_player_to_fight_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_teach_player_to_fight_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_teach_player_to_fight_10_Text_01_Title
+        Text Prologue_battle_1_teach_player_to_fight_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_01_Text_01_Title
+        Text Prologue_battle_1_spare_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_02_Text_01_Title
+        Text Prologue_battle_1_spare_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_03_Text_01_Title
+        Text Prologue_battle_1_spare_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_04_Text_01_Title
+        Text Prologue_battle_1_spare_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_05_Text_01_Title
+        Text Prologue_battle_1_spare_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_06_Text_01_Title
+        Text Prologue_battle_1_spare_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_07_Text_01_Title
+        Text Prologue_battle_1_spare_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_08_Text_01_Title
+        Text Prologue_battle_1_spare_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_09_Text_01_Title
+        Text Prologue_battle_1_spare_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_spare_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_spare_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_spare_10_Text_01_Title
+        Text Prologue_battle_1_spare_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_01_Text_01_Title
+        Text Prologue_battle_1_sel_unit_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_02_Text_01_Title
+        Text Prologue_battle_1_sel_unit_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_03_Text_01_Title
+        Text Prologue_battle_1_sel_unit_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_04_Text_01_Title
+        Text Prologue_battle_1_sel_unit_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_05_Text_01_Title
+        Text Prologue_battle_1_sel_unit_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_06_Text_01_Title
+        Text Prologue_battle_1_sel_unit_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_07_Text_01_Title
+        Text Prologue_battle_1_sel_unit_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_08_Text_01_Title
+        Text Prologue_battle_1_sel_unit_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_09_Text_01_Title
+        Text Prologue_battle_1_sel_unit_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_sel_unit_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_sel_unit_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_sel_unit_10_Text_01_Title
+        Text Prologue_battle_1_sel_unit_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_01_Text_01_Title
+        Text Prologue_battle_1_move_cam_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_02_Text_01_Title
+        Text Prologue_battle_1_move_cam_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_03_Text_01_Title
+        Text Prologue_battle_1_move_cam_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_04_Text_01_Title
+        Text Prologue_battle_1_move_cam_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_05_Text_01_Title
+        Text Prologue_battle_1_move_cam_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_06_Text_01_Title
+        Text Prologue_battle_1_move_cam_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_07_Text_01_Title
+        Text Prologue_battle_1_move_cam_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_08_Text_01_Title
+        Text Prologue_battle_1_move_cam_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_09_Text_01_Title
+        Text Prologue_battle_1_move_cam_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_move_cam_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_move_cam_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_move_cam_10_Text_01_Title
+        Text Prologue_battle_1_move_cam_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_01_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_02_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_03_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_04_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_05_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_06_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_07_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_08_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_09_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_single_right_click_unit_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_single_right_click_unit_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_single_right_click_unit_10_Text_01_Title
+        Text Prologue_battle_1_single_right_click_unit_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_01_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_01_Text_01_Title
+        Text Prologue_battle_1_generic_01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_02_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_02_Text_01_Title
+        Text Prologue_battle_1_generic_02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_03_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_03_Text_01_Title
+        Text Prologue_battle_1_generic_03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_04_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_04_Text_01_Title
+        Text Prologue_battle_1_generic_04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_05_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_05_Text_01_Title
+        Text Prologue_battle_1_generic_05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_06_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_06_Text_01_Title
+        Text Prologue_battle_1_generic_06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_07_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_07_Text_01_Title
+        Text Prologue_battle_1_generic_07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_08_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_08_Text_01_Title
+        Text Prologue_battle_1_generic_08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_09_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_09_Text_01_Title
+        Text Prologue_battle_1_generic_09_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Prologue_battle_1_generic_10_Thread
+    GameArea Battle
+
+    Item Prologue_battle_1_generic_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Prologue_battle_1_generic_10_Text_01_Title
+        Text Prologue_battle_1_generic_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Your_General_Killed_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Your_General_Killed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Your_General_Killed_Text_01_Title
+        Text Historical_Asculum_Your_General_Killed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Allied_General_Killed_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Allied_General_Killed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Allied_General_Killed_Text_01_Title
+        Text Historical_Asculum_Allied_General_Killed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Enemy_General_Killed_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Enemy_General_Killed_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Enemy_General_Killed_Text_01_Title
+        Text Historical_Asculum_Enemy_General_Killed_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Enemy_Cavalry_Routing_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Enemy_Cavalry_Routing_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Enemy_Cavalry_Routing_Text_01_Title
+        Text Historical_Asculum_Enemy_Cavalry_Routing_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Protect_Allied_General_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Protect_Allied_General_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Protect_Allied_General_Text_01_Title
+        Text Historical_Asculum_Protect_Allied_General_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Protect_Your_General_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Protect_Your_General_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Protect_Your_General_Text_01_Title
+        Text Historical_Asculum_Protect_Your_General_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generals_Conversation_1_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generals_Conversation_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generals_Conversation_1_Text_01_Title
+        Text Historical_Asculum_Generals_Conversation_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generals_Conversation_2_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generals_Conversation_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generals_Conversation_2_Text_01_Title
+        Text Historical_Asculum_Generals_Conversation_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_1_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_1_Text_01_Title
+        Text Historical_Asculum_Generic_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_2_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_2_Text_01_Title
+        Text Historical_Asculum_Generic_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_3_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_3_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_3_Text_01_Title
+        Text Historical_Asculum_Generic_3_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_4_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_4_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_4_Text_01_Title
+        Text Historical_Asculum_Generic_4_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_5_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_5_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_5_Text_01_Title
+        Text Historical_Asculum_Generic_5_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_6_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_6_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_6_Text_01_Title
+        Text Historical_Asculum_Generic_6_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_7_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_7_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_7_Text_01_Title
+        Text Historical_Asculum_Generic_7_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_8_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_8_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_8_Text_01_Title
+        Text Historical_Asculum_Generic_8_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_9_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_9_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_9_Text_01_Title
+        Text Historical_Asculum_Generic_9_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Historical_Asculum_Generic_10_Thread
+    GameArea Battle
+
+    Item Historical_Asculum_Generic_10_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Historical_Asculum_Generic_10_Text_01_Title
+        Text Historical_Asculum_Generic_10_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Teutoburgerwald_intro_Thread
+    GameArea Battle
+
+    Item Teutoburgerwald_intro_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Teutoburgerwald_intro_Text_01_Title
+        Text Teutoburgerwald_intro_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_1_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_1_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_1_Text_01_Title
+        Text Caesar_Campaign_Mission_1_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_2_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_2_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_2_Text_01_Title
+        Text Caesar_Campaign_Mission_2_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_3_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_3_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_3_Text_01_Title
+        Text Caesar_Campaign_Mission_3_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_4_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_4_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_4_Text_01_Title
+        Text Caesar_Campaign_Mission_4_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_5_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_5_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_5_Text_01_Title
+        Text Caesar_Campaign_Mission_5_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_6_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_6_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_6_Text_01_Title
+        Text Caesar_Campaign_Mission_6_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_7_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_7_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_7_Text_01_Title
+        Text Caesar_Campaign_Mission_7_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread Caesar_Campaign_Mission_8_Thread
+    GameArea Campaign
+
+    Item Caesar_Campaign_Mission_8_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title Caesar_Campaign_Mission_8_Text_01_Title
+        Text Caesar_Campaign_Mission_8_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc00_Thread
+    GameArea Battle
+
+    Item ACTI_Misc00_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc00_Text_01_Title
+        Text ACTI_Misc00_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc01_Thread
+    GameArea Battle
+
+    Item ACTI_Misc01_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc01_Text_01_Title
+        Text ACTI_Misc01_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc02_Thread
+    GameArea Battle
+
+    Item ACTI_Misc02_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc02_Text_01_Title
+        Text ACTI_Misc02_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc03_Thread
+    GameArea Battle
+
+    Item ACTI_Misc03_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc03_Text_01_Title
+        Text ACTI_Misc03_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc04_Thread
+    GameArea Battle
+
+    Item ACTI_Misc04_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc04_Text_01_Title
+        Text ACTI_Misc04_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc05_Thread
+    GameArea Battle
+
+    Item ACTI_Misc05_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc05_Text_01_Title
+        Text ACTI_Misc05_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc06_Thread
+    GameArea Battle
+
+    Item ACTI_Misc06_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc06_Text_01_Title
+        Text ACTI_Misc06_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc07_Thread
+    GameArea Battle
+
+    Item ACTI_Misc07_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc07_Text_01_Title
+        Text ACTI_Misc07_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc08_Thread
+    GameArea Battle
+
+    Item ACTI_Misc08_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc08_Text_01_Title
+        Text ACTI_Misc08_Text_01_Text1
+
+
+
+;------------------------------------------
+AdviceThread ACTI_Misc09_Thread
+    GameArea Battle
+
+    Item ACTI_Misc09_Text_01
+        Verbosity  1 
+        Threshold  1 
+        MaxRepeats  0 
+        RepeatInterval  1 
+        Attitude Normal
+        Presentation Default
+        TextFormat Normal
+        Title ACTI_Misc09_Text_01_Title
+        Text ACTI_Misc09_Text_01_Text1
+
+
+

@@ -1,0 +1,41 @@
+guards (foot and horse):
+
+London:
+Lifeguard: 2
+Footguard: 3
+Horse Guard: 1
+
+British foot (1 unit = 3 regiments): 
+Isle of Wight: IIIIII (2)
+Hampshire: II (0.67) (1)
+Ireland: IIIIIIIIIIIIIIIII (5.67) (5)
+Minorca: IIII (1.33) (1)
+Gibraltar: IIIII (1.67) (2)
+Channel Islands: I (0.33) (0)
+Scotland: I (0.33) (1)
+Kent: I (0.33) 
+England (unknown): I (0.33) (1) --add to Kent
+Leeward Islands (out of map): I (0.33)
+Jamaica: I (0.33)
+Nova Scotia: III (1)
+
+Fusiliers:
+England: II (0.67) (1)
+Ireland: I (0.33)
+
+Highlanders: 
+Ireland: I (0.33) (1) --assume cropped Irish regiments go here; not really, but each unit = one brigade
+
+Total: 16 units
+
+Horse (1 unit = 5 regiments):
+England: II (0.5)
+Sotland: I (0.2)
+Ireland: IIII (0.8)
+
+Total: 2
+
+Dragoons (1 unit = 5 regiments):
+England: IIIIIII (1.4)
+Scotland: I (0.2)
+Ireland: IIIIII (1.2)

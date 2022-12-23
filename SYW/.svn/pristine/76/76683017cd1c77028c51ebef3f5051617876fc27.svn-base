@@ -1,0 +1,1543 @@
+;
+;	projectile descriptions text file
+;   _old accuracies (standards): 0.4, 0.213
+;***********************generic rounds***************************
+
+projectile poor_musket					
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.15
+accuracy_vs_units	0.3
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		350
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+
+projectile pistol				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.038
+accuracy_vs_units	0.08
+affected_by_rain
+min_angle		-60 
+max_angle		80 
+velocity		320
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+
+;;;;;;;British small-arms;;;;;;;;;;
+
+;British long land pattern
+projectile M1742				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.55
+damage			0
+damage_to_troops 	2
+radius			0.009 
+mass		    0.13
+accuracy_vs_units	0.06 ;0.13
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only  
+
+
+projectile M1742G				
+
+destroy_after_max_range_percent_and_variation   30   90  
+effect			musket
+effect_offset	-1.55
+damage			0
+damage_to_troops 	2
+radius			0.009
+mass		    0.13
+accuracy_vs_units	0.04
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250
+display			aimed
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only  
+
+;;;;;;;;;;;;;;Prussian small-arms;;;;;;;;;;;;
+
+
+;M1723/40 Potzdam musket
+projectile M1740				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.009
+mass		    0.11 
+accuracy_vs_units	0.17
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		295
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile M1740G				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.11
+accuracy_vs_units	0.08
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		295
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+;;;;;;;;;;;;;;;;Swedish small-arms;;;;;;;;;;;;;;;;;;;
+
+
+;M1747 Swedish musket
+projectile M1747				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.11
+accuracy_vs_units	0.23
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		320; 78
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+;;;;;;;;;;;;;;;;;Danish small-arms;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+
+;M1746 Danish musket
+projectile M1746				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.11
+accuracy_vs_units	0.2
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		320; 78
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+;;;;;;;;;;;;;;Austrian small-arms;;;;;;;;;;;;
+
+;Austrian musket
+projectile M1745				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.1
+accuracy_vs_units	0.15
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		285
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile M1754				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009
+mass		    0.1 
+accuracy_vs_units	0.07
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		285
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+;;;;;;;;;;;;;;Frech small-arms;;;;;;;;;;;;
+
+;St.Etienne
+projectile M1728				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.116
+accuracy_vs_units	0.36
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile M1728G				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.116
+accuracy_vs_units	0.2
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile musket					
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.15
+accuracy_vs_units	0.2
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile good_musket					
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009 
+mass		    0.15 ; 0.14
+accuracy_vs_units	0.1
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+;;;;;;;;;;;;;;;;;;Russian muskets;;;;;;;;;;;;;;;
+
+
+projectile M1737				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009
+mass		    0.15 
+accuracy_vs_units	0.25
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		330
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+projectile M1737_b				
+
+destroy_after_max_range_percent_and_variation   30   90 
+flaming         M1737
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.25
+mass		    0.22 
+accuracy_vs_units	0.3
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		300
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile M1737G				
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	1
+radius			0.009
+mass		    0.15 
+accuracy_vs_units	0.15
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		330
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only
+
+
+projectile M1737G_b				
+
+destroy_after_max_range_percent_and_variation   30   90 
+flaming         M1737G
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.25
+mass		    0.22 
+accuracy_vs_units	0.25
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		300
+display			
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+;;;;;;;;;;;;;;;;;;;light_infantry rounds;;;;;;;;;;;;;;;;;;;;
+
+
+projectile aimed_musket					
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.009 
+mass		    0.15
+accuracy_vs_units	0.04
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		85 
+display			aimed
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile rifle					
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.009 
+mass		    0.14
+accuracy_vs_units	0.01
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		250 
+display			aimed
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+
+projectile jaeger_rifle		 ; for a mix of rifles and muskets			
+
+destroy_after_max_range_percent_and_variation   30   90 
+effect			musket
+effect_offset	-1.7
+damage			0
+damage_to_troops 	2
+radius			0.01
+mass		    0.14
+accuracy_vs_units	0.12
+affected_by_rain
+min_angle		-60 
+max_angle		45 
+velocity		100 
+display			aimed
+model			SYW/data/models_missile/bullet.cas,  max
+;effect_only 
+
+;******************************Artillery projectiles********************************
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;3-5pdrs;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+projectile austrian_3pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			7
+;damage_to_troops 	5
+radius			0.036
+mass			0.014
+area			1.8
+accuracy_vs_units   	0.013
+accuracy_vs_buildings   0.013
+min_angle		-6.5
+max_angle		4
+velocity		250	
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.1
+display		    aimed
+model			SYW/data/models_missile/4fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      austrian_3pdr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         austrian_3pdr
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops 	9600 ;56 balls
+radius			0.9 ; 0.9
+area			1.8 ; 1.8
+accuracy_vs_units    	0.013
+min_angle		-11.5
+max_angle		4
+velocity		220
+display			
+effect_only
+
+
+projectile french_4pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			9
+damage_to_troops 	90
+radius			0.08
+mass			0.51
+area			0.091
+accuracy_vs_units   	0.06
+accuracy_vs_buildings   0.06
+min_angle		-5
+max_angle		15
+velocity		200		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/4fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      french_4pdr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         french_4pdr	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops 	9800
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units    	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+
+projectile sahm					; * USED BY bowmen
+
+destroy_after_max_range_percent_and_variation   30   90 
+;effect			default_arrow_trail_set
+effect_offset	-1.5
+damage			0
+radius		0.007
+mass		0.043
+accuracy_vs_units	0.1
+min_angle	-50
+max_angle	45
+velocity	55
+display			aimed
+model			SYW/data/models_missile/arrow.cas,  max
+;effect_only 
+
+;;;;;;;;;;;;;;;;;;;;;;6-9pdr;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+projectile austrian_6pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			5
+damage_to_troops 	10
+radius			0.04
+mass			0.37
+area			2.0
+accuracy_vs_units   	0.0038
+accuracy_vs_buildings   0.0038
+min_angle		-11.5
+max_angle		23
+velocity		112		
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/4fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      austrian_6pdr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         austrian_6pdr
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops 	9600; 56
+radius			1.3 ; 1.3
+area			1.8 ; 1.8
+accuracy_vs_units    	0.012
+min_angle		-11.5
+max_angle		23
+velocity		62
+display			
+effect_only
+
+
+projectile prussian_6pounder					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			5
+damage_to_troops 	10
+radius			0.05
+mass			0.36
+area			2.0
+accuracy_vs_units   	0.0048
+accuracy_vs_buildings   0.0048
+min_angle		-11.5
+max_angle		23
+velocity		122		
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/4fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      prussian_6pdr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         prussian_6pounder
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600; 56
+radius			1.3 ; 1.3
+area			0 ; 0
+accuracy_vs_units    	0.0048
+min_angle		-11.5
+max_angle		23
+velocity		62
+display			
+effect_only
+
+
+projectile british_6pounder				
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			13
+damage_to_troops 	80
+radius			0.045
+mass			20
+accuracy_vs_units	0.016
+accuracy_vs_buildings	0.005
+min_angle		-5
+max_angle		15
+velocity		122	
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.05 0.7 0.7 0.05
+display		    aimed
+model			SYW/data/models_missile/cannonball.cas,  max
+;effect_only
+
+
+projectile      british_6pounder_kart
+
+destroy_after_max_range_percent_and_variation 	66 100
+flaming         british_6pounder
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops	9600
+radius			0.045
+mass            1.0
+area			4.5 
+accuracy_vs_units    	0.022
+min_angle		-5
+max_angle		15
+velocity		100
+ground_shatter
+display			
+effect_only
+
+projectile french_8pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			18
+damage_to_troops 	180
+radius			0.17
+mass			0.26
+area			0.091
+accuracy_vs_units    	0.0048
+accuracy_vs_buildings   0.0048
+min_angle		-5
+max_angle		15
+velocity		130		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/8fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      french_8pdr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         french_8pdr	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;10-14pdr;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+projectile french_12pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			27
+damage_to_troops 	270
+radius			0.17
+mass			0.17
+area			0.091
+accuracy_vs_units    	0.004
+accuracy_vs_buildings   0.004
+min_angle		-5
+max_angle		15
+velocity		150		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      french_12dr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         french_12pdr	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+
+projectile austrian_12pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+effect_offset	-1.5
+damage			10
+damage_to_troops 	20
+radius			0.55
+mass			0.055
+area			5.5
+accuracy_vs_units   	0.0035
+accuracy_vs_buildings   0.0035
+min_angle		-8.5
+max_angle		21.5
+velocity		150
+bounce			0.01 0.01 0.93 0.5
+display		    
+model			SYW/data/models_missile/4fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      austrian_12pdr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         austrian_12pdr
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops    9600
+radius			2 ; 2
+area			1.8 ; 1.8
+accuracy_vs_units    	0.01
+min_angle		-8.5
+max_angle		21.5
+velocity		84
+display			
+effect_only
+
+
+projectile prussian_12pounder				
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			10
+damage_to_troops 	72
+radius			0.55
+mass			0.055
+area			0.9
+accuracy_vs_units    	0.0044
+accuracy_vs_buildings   0.044
+min_angle		-5
+max_angle		15
+velocity		150		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      prussian_12dr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         prussian_12pounder	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops    9600
+radius			0.55 ; 2
+area			2.6 ; 1.8
+accuracy_vs_units    	0.01
+min_angle		-8.5
+max_angle		21.5
+velocity		84
+display			
+effect_only
+
+
+projectile british_12pounder				
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			27
+damage_to_troops 	270
+radius			0.13
+mass			24.5
+area			0.8
+accuracy_vs_units	0.01
+accuracy_vs_buildings	0.0045
+min_angle		-5
+max_angle		15
+velocity		315	
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/cannonball.cas,  max
+;effect_only
+
+
+projectile      british_12dr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         british_12pounder	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;siege;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+projectile french_24pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			54
+damage_to_troops 	540
+radius			0.17
+mass			0.085
+area			0.091
+accuracy_vs_units    	0.004
+accuracy_vs_buildings   0.052
+min_angle		-5
+max_angle		15
+velocity		260		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      french_24dr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         french_12pdr	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+
+projectile austrian_24pdr					
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			54
+damage_to_troops 	540
+radius			0.25
+mass			0.091
+area			0.091
+accuracy_vs_units    	0.0035
+accuracy_vs_buildings   0.01
+min_angle		-5
+max_angle		15
+velocity		150		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      austrian_24dr_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         austrian_24pdr	
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			2.0 ; 2.0
+area			1.8 ; 1.8
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+
+projectile prussian_24pounder			
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			54
+damage_to_troops 	540
+radius			0.25
+mass			11
+area			0.091
+accuracy_vs_units    	0.0050
+accuracy_vs_buildings   0.0050
+min_angle		-5
+max_angle		15
+velocity		300		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;effect_only
+
+
+projectile      prussian_24pounder_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         prussian_24pounder
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+
+projectile british_24pounder			
+
+destroy_after_max_range_percent_and_variation   120   20
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			54
+damage_to_troops 	540
+radius			0.25
+mass			0.91
+area			0.091
+accuracy_vs_units    	0.005
+accuracy_vs_buildings   0.005
+min_angle		-5
+max_angle		15
+velocity		500		
+;bounce			0.001 1.0 1.0 0.5
+bounce			0.001 1.0 1.0 0.5
+display		    aimed
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;effect_only
+
+
+
+projectile      british_24pounder_kart
+
+destroy_after_max_range_percent_and_variation 	66 1
+flaming         british_24pounder
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops   9600
+radius			6.0 ; 6.0
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+;;;;;;;;;;;;;;;;;;;;;;;;;howitzers;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+projectile fr_howitzer_shell					; * USED BY HOWITZERS
+
+effect 			shell_effect
+end_effect		shell_end_effect
+damage			24
+damage_to_troops 	20
+radius			0.1
+mass			0.1
+area			36
+accuracy_vs_units	0.07
+accuracy_vs_buildings	0.07
+fiery
+min_angle		0
+max_angle		80
+velocity		150
+display			aimed, particle_trail
+effect_only
+
+
+projectile fr_howitzer_kart					; * USED BY HOWITZERS
+
+destroy_after_max_range_percent_and_variation 	19 100
+flaming         fr_howitzer_shell
+effect 			canister_effect
+end_effect		canister_end_effect
+damage			0
+damage_to_troops 	200
+radius			0.2 ; 6.0
+mass			0.001
+area			3.0 ; 3.0
+accuracy_vs_units	0.02
+min_angle		-5
+max_angle		15
+velocity		150
+display			
+effect_only
+
+projectile Aus_howitzer_shell					; * USED BY HOWITZERS
+
+effect 			rocket_set
+end_effect		rocket_end_effect
+damage			7
+radius			0.1
+mass			0.1
+area			5
+accuracy_vs_units	0.08
+accuracy_vs_buildings	0.05
+fiery
+min_angle		-4.5
+max_angle		30.5
+velocity		121
+ground_shatter
+display			aimed particle_trail
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+
+
+projectile Aus_howitzer_kart					; * USED BY HOWITZERS
+
+flaming			Aus_howitzer_shell
+effect 			shell_effect
+end_effect		rocket_end_effect
+damage			20
+radius			0.1
+mass			0.1
+area			10
+accuracy_vs_units	0.03
+accuracy_vs_buildings	0.05
+fiery
+min_angle		-4.5
+max_angle		30.5
+velocity		121
+ground_shatter
+display			aimed
+effect_only
+
+
+projectile Pr_howitzer_shell					; * USED BY HOWITZERS
+
+effect 			rocket_set
+end_effect		rocket_end_effect
+damage			7
+radius			0.1
+mass			0.1
+area			5
+accuracy_vs_units	0.08
+accuracy_vs_buildings	0.05
+fiery
+min_angle		-4.5
+max_angle		30.5
+velocity		121
+ground_shatter
+display			aimed particle_trail
+model			SYW/data/models_missile/12fr_cannonball.cas,  max
+;;;;;;;;;;;;;;;;;;;;;;;;mortars;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;RTW vanilla;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+projectile arrow
+
+;effect			default_arrow_trail_set
+effect_offset	-1.5
+damage		0
+radius		0.005
+mass		0.02
+accuracy_vs_units		0.25
+min_angle	-60
+max_angle	60
+velocity	65
+display		particle_trail
+triangle
+texture		SYW/data/textures/arrow_test.tga
+tail		0.3
+length		0.7
+tail_tex0	0 0.0 
+tail_tex1	0 0.25 
+head_tex	1 0.125
+end
+
+projectile arrow_2
+
+effect 		fiery_arrow_set
+end_effect	fiery_arrow_explosion_set
+effect_offset	-1.5
+damage		0
+radius		0.005
+mass		0.02
+accuracy_vs_units		3.14
+min_angle	-35
+max_angle	80
+velocity	138
+display		particle_trail
+triangle
+texture		SYW/data/textures/arrow_test.tga
+tail		0.3
+length		0.7
+tail_tex0	0 0.0 
+tail_tex1	0 0.25 
+head_tex	1 0.125
+end
+
+
+;projectile arrow_fiery
+
+;flaming		arrow
+;effect 		fiery_arrow_set
+;end_effect	fiery_arrow_explosion_set
+;effect_offset -0.85
+;damage		0
+;radius		0.1
+;affected_by_rain
+;fiery
+;min_angle	-60
+;max_angle	70
+;velocity	48
+;display		aimed
+;triangle	
+;texture		data/textures/arrow_test.tga
+;tail		0.3
+;length		2.5
+;tail_tex0	0 0.0 
+;tail_tex1	0 0.25 
+;head_tex	1 0.125
+;end
+
+projectile head
+
+damage		0
+radius		0.1
+min_angle	-60
+max_angle	70
+velocity	25
+display		
+model		data/models_missile/missile_head_high.CAS,  45.0
+model		data/models_missile/missile_head_med.CAS,  80.0
+model		data/models_missile/missile_head_low.CAS,  max
+
+projectile boulder
+
+effect 			boulder_set
+end_effect		boulder_explosion_set
+damage			20
+damage_to_troops 	8
+radius			0.3
+mass			0.1
+area			2.0
+accuracy_vs_units	0.15
+accuracy_vs_buildings	0.0625
+min_angle		0
+max_angle		70
+velocity		60
+bounce			0.5 0.6 0.5 0.4
+display			aimed
+effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+;model			data/models_missile/onager_rock.CAS,  max
+;model			data/models_missile/Big_Boulder_high.CAS, 45.0
+;model			data/models_missile/Big_Boulder_med.CAS,  80.0
+;model			data/models_missile/Big_Boulder_low.CAS,  max
+
+projectile fiery_boulder
+
+flaming			boulder
+effect 			fiery_boulder_set
+end_effect		fiery_boulder_explosion_set
+damage			5
+damage_to_troops 	30
+radius			0.3
+mass			0.1
+area			2.5
+accuracy_vs_units	0.15
+accuracy_vs_buildings	0.0625
+fiery					; uncomment this to make all boulders fiery
+min_angle		0
+max_angle		70
+velocity		60
+ground_shatter
+display			aimed
+effect_only
+
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+;model			data/models_missile/onager_rock.CAS,  max
+;model			data/models_missile/Big_Boulder_high.CAS, 45.0
+;model			data/models_missile/Big_Boulder_med.CAS,  80.0
+;model			data/models_missile/Big_Boulder_low.CAS,  max
+
+projectile big_boulder
+
+effect 			boulder_set
+end_effect		boulder_explosion_set
+damage			110
+damage_to_troops 10
+radius			0.3
+mass			0.1
+area			2.0
+accuracy_vs_units		0.09
+accuracy_vs_buildings	0.0625
+min_angle		0
+max_angle		70
+velocity		60
+bounce			0.5 0.6 0.5 0.4
+display			aimed 
+effect_only
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+;model			data/models_missile/onager_rock.CAS,  max
+;model			data/models_missile/Big_Boulder_high.CAS, 45.0
+;model			data/models_missile/Big_Boulder_med.CAS,  80.0
+;model			data/models_missile/Big_Boulder_low.CAS,  max
+
+projectile big_fiery_boulder
+
+flaming			big_boulder
+effect 			fiery_boulder_set
+end_effect		fiery_boulder_explosion_set
+damage			60
+damage_to_troops 45
+radius			0.30
+mass			0.1
+area			3.0
+accuracy_vs_units		0.35
+accuracy_vs_buildings	0.125
+fiery					; uncomment this to make all boulders fiery
+min_angle		0
+max_angle		70
+velocity		60
+ground_shatter
+display			aimed
+effect_only
+
+; Stuck model not used at the mo, shatter effect is better, but adding some shatter debris for ground impact would be good?
+;stuck
+;model			data/models_missile/onager_rock.CAS,  max
+;model			data/models_missile/Big_Boulder_high.CAS, 45.0
+;model			data/models_missile/Big_Boulder_med.CAS,  80.0
+;model			data/models_missile/Big_Boulder_low.CAS,  max
+
+projectile tarred_rock
+
+damage		5
+radius		0.3
+fiery
+min_angle	0
+max_angle	70
+velocity	60
+display		particle_trail shatter_dust shatter_debris vanish_debris invert_model_z
+model		data/models_missile/onager_rock.CAS,  max
+
+projectile stone
+
+effect		small_arrow_trail_set
+damage		0
+radius		0.1
+mass		0.05
+min_angle	-60
+max_angle	70
+velocity	60
+display 
+model		data/models_missile/sling_stone.cas, max
+
+projectile bolt
+
+damage		3
+radius		0
+min_angle	-60
+max_angle	70
+velocity	60
+display		aimed particle_trail invert_model_z
+model		data/models_missile/Bolt_high.CAS,  45.0
+model		data/models_missile/Bolt_med.CAS,  80.0
+model		data/models_missile/Bolt_low.CAS,  max
+
+projectile bullet
+
+damage		0
+radius		0
+min_angle	-60
+max_angle	70
+velocity	60
+display 
+model		data/models_missile/sling_stone.cas, max
+
+projectile javelin
+
+damage		0
+radius		0
+min_angle	-60
+max_angle	70
+velocity	30
+display		aimed invert_model_z 
+model		data/models_missile/weapon_javelin_high.cas, 45
+model		data/models_missile/weapon_javelin_low.cas,  max
+
+
+projectile pilum
+
+damage		0
+radius		0
+min_angle	-60
+max_angle	70
+velocity	25
+display		aimed 
+model		data/models_missile/weapon_pilum_high.cas, 45
+model		data/models_missile/weapon_pilum_low.cas,  max
+
+projectile dart
+
+damage		0
+radius		0
+min_angle	-60
+max_angle	70
+velocity	60
+display 
+triangle
+texture		data/textures/arrow_test.tga
+tail		0.2
+length		0.5
+tail_tex0	0 0 
+tail_tex1	0 0 
+head_tex	0 0 
+end
+
+projectile axe
+
+damage		0
+radius		0
+min_angle	-60
+max_angle	70
+velocity	60
+display 
+triangle
+texture		data/textures/arrow_test.tga
+tail		0.2
+length		0.5
+tail_tex0	0 0 
+tail_tex1	0 0 
+head_tex	0 0 
+end
+
+projectile ballista
+
+effect	    large_arrow_trail_set
+end_effect   large_arrow_explode_set
+damage		24
+damage_to_troops 5
+radius		0
+min_angle	-30
+max_angle	70
+velocity	60
+;bounce		0.5 0.6 0.5 0.4
+display		aimed particle_trail invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  45.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+projectile flaming_ballista
+
+flaming		ballista
+effect	        fiery_ballista_trail_set
+end_effect	fiery_ballista_explosion_set
+effect_offset 1.0
+damage		24
+damage_to_troops 5
+radius		0
+accuracy_vs_units		0.15
+fiery
+min_angle	-60
+max_angle	70
+velocity	60
+;bounce		0.5 0.6 0.5 0.4
+display		aimed invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  45.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+;tower ballistas are identical to normal ballistas, have do reduced damage
+;intoduced when the number of artillery pieces per unit was reduced, as this
+;required doubling the power of each hit to save having to rebalance all the 
+;wall and building hit points.
+projectile tower_ballista
+
+effect	    large_arrow_trail_set
+end_effect   large_arrow_explode_set
+damage		12
+damage_to_troops 5
+radius		0
+min_angle	-30
+max_angle	70
+velocity	60
+;bounce		0.5 0.6 0.5 0.4
+display		aimed particle_trail invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  45.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+projectile tower_flaming_ballista
+
+flaming		tower_ballista
+effect	        fiery_ballista_trail_set
+end_effect	fiery_ballista_explosion_set
+effect_offset 1.0
+damage		12
+damage_to_troops 5
+radius		0
+accuracy_vs_units		0.15
+fiery
+min_angle	-60
+max_angle	70
+velocity	60
+;bounce		0.5 0.6 0.5 0.4
+display		aimed invert_model_z
+model		data/models_missile/missile_ballista_bolt_high.CAS,  45.0
+model		data/models_missile/missile_ballista_bolt_med.CAS,  80.0
+model		data/models_missile/missile_ballista_bolt_low.CAS,  max
+
+projectile scorpion
+
+effect	    large_arrow_trail_set
+end_effect  large_arrow_explode_set
+damage		0
+damage_to_troops 2
+radius		0
+min_angle	-30
+max_angle	70
+velocity	90
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  45.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+projectile flaming_scorpion
+
+flaming		scorpion
+effect	    	fiery_ballista_trail_set
+end_effect      fiery_ballista_explosion_set
+effect_offset	1.0
+damage		0
+damage_to_troops 2
+radius		0
+accuracy_vs_units		0.15
+fiery
+min_angle	-60
+max_angle	70
+velocity	90
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  45.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+projectile repeating_ballista
+
+effect	    large_arrow_trail_set
+end_effect  large_arrow_explode_set
+damage		0
+damage_to_troops 2
+radius		0
+min_angle	-30
+max_angle	70
+velocity	60
+display		aimed particle_trail
+model		data/models_missile/missile_scorpion_bolt_high.CAS,  45.0
+model		data/models_missile/missile_scorpion_bolt_med.CAS,  80.0
+model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
+
+
+;;;;;;;;;;;;;;;;testing;;;;;;;;;;;;;;;
+projectile test_cannon_12pdr
+
+destroy_after_max_range_percent_and_variation   200   200
+effect 			cannon_effect
+end_effect		cannon_end_effect
+damage			25
+damage_to_troops	50
+radius			0.1
+mass			0.2
+area			5
+accuracy_vs_units	0.045
+accuracy_vs_buildings	0.125
+min_angle		-4
+max_angle		13
+velocity		250
+bounce			0.05 0.7 0.7 0.7
+display		    aimed
+model			bi/data/models_missile/cannonball.cas,  max
+;effect_only

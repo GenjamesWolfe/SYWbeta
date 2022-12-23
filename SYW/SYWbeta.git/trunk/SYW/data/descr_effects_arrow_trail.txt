@@ -1,0 +1,708 @@
+;-----------------------------------------------------------------------------
+; Arrow trail effects.
+;-----------------------------------------------------------------------------
+
+effect default_arrow_trail
+{
+	type ribbon
+	{
+		alpha_max	128	  ; Alpha value at start of trail
+		alpha_min	10	  ; Alpha value at end of trail
+		fade_start	100	  ; Distance to start fading out.
+		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		head_width	0.1	  ; Width of the ribbon at arrow end
+		tail_width  0.01    ; Width of the ribbon at the tail end
+
+		texture	    data/textures/arrow_trail.tga
+	}
+}	
+
+effect_set default_arrow_trail_set
+{
+	lod 1000
+	{
+		default_arrow_trail
+	}
+}
+
+effect small_arrow_trail
+{
+	type ribbon
+	{
+		alpha_max	128	  ; Alpha value at start of trail
+		alpha_min	10	  ; Alpha value at end of trail
+		fade_start	100	  ; Distance to start fading out.
+		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		head_width	0.1	  ; Width of the ribbon at arrow end
+		tail_width  0.01    ; Width of the ribbon at the tail end
+
+		texture	    data/textures/slingshot_trail.tga
+	}
+}	
+
+effect_set small_arrow_trail_set
+{
+	lod 1000
+	{
+		small_arrow_trail
+	}
+}
+
+effect large_arrow_trail
+{
+	type ribbon
+	{
+		alpha_max	196	  ; Alpha value at start of trail
+		alpha_min	64	  ; Alpha value at end of trail
+		fade_start	100	  ; Distance to start fading out.
+		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		head_width	0.15  ; Width of the ribbon at arrow end
+		tail_width  0.015 ; Width of the ribbon at the tail end
+
+		texture	    data/textures/arrow_trail.tga
+	}
+}	
+
+effect_set large_arrow_trail_set
+{
+	lod 1000
+	{
+		large_arrow_trail
+	}
+}
+
+effect fiery_arrow_trail
+{
+	type ribbon
+	{
+		alpha_max	255	  ; Alpha value at start of trail
+		alpha_min	128	  ; Alpha value at end of trail
+		fade_start	100	  ; Distance to start fading out.
+		fade_end	200	  ; This should be the same as the max lod distance in the effect set.
+		head_width	0.5	  ; Width of the ribbon at arrow end
+		tail_width  0.1   ; Width of the ribbon at the tail end
+
+		texture	    data/textures/arrow_fire.tga
+	}
+}	
+
+effect_set fiery_arrow_trail_set
+{
+	lod 1000
+	{
+		fiery_arrow_trail
+	}
+}		
+
+
+effect fiery_boulder
+{
+	type projectile
+	{
+		model		models_effects/fireball.cas
+		fade_time	0.01
+	}
+}
+
+effect fiery_boulder_light
+{
+	type light
+	{
+		fade_out_time	0.1
+		keyframe_colour
+		{
+				0.05, 	240, 100, 0
+				0.1, 	240, 130, 0
+				0.15, 	240, 80, 0
+				0.2, 	240, 140, 0
+				0.25, 	240, 70, 0
+				0.3, 	240, 120, 0
+		}
+			
+		keyframe_radius
+		{
+				0.05, 	10
+				0.1, 	11
+		}
+	}
+}
+
+effect fiery_boulder_explosion_light
+{
+	type light
+	{
+		offset		0.0, 0.0, 5.0
+		fade_in_time	0.1
+		fade_out_time	0.1
+		keyframe_colour
+		{
+				0.05, 	240, 100, 0
+				0.1, 	240, 130, 0
+				0.15, 	240, 80, 0
+				0.2, 	240, 140, 0
+				0.25, 	240, 70, 0
+				0.3, 	240, 120, 0
+		}
+			
+		keyframe_radius
+		{
+				0.05, 	20
+				0.1, 	21
+		}
+	}
+}
+
+effect boulder
+{
+	type projectile
+	{
+		model		models_effects/boulder.cas
+		fade_time	0.01
+	}
+}
+
+effect boulder_dust
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      1.0, 1.5
+		age_range       0.1, 0.5
+	    grow_range		1.1, 1.6
+		velocity   		0.0, 0.2
+		colour     		87, 87, 74
+		alpha_max	   	14			 ; maximum alpha value
+		
+		emitter distance
+		{
+			density			2 	     ; how many particels per meter
+		}
+
+		clr_adjust_by_ambient_intensity
+	}
+}
+
+effect fiery_boulder_smoke
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      2.0, 2.5
+		age_range       0.5, 1.5
+	    grow_range		1.5, 1.8
+		velocity   		0.0, 0.2
+		colour     		87, 87, 74
+		alpha_max	   	90			 ; maximum alpha value
+		emitter distance
+		{
+			density			1 	     ; how many particels per meter
+		}
+		
+		fade_time		0.1		
+
+		clr_adjust_by_ambient_intensity		
+	}
+}
+
+effect boulder_explosion_01
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/explosion_dirt1.cas
+		anim_time			0.4
+		max_scale   			2
+		max_particle_scale 		4
+		scale_time_bias			.9
+		alpha_time_bias			0.6		
+		
+
+		; debris
+        debris_model                             models_effects/debri02.cas
+        debris_num_particles     0
+        debris_lifetime_range    2.2, 20
+        debris_emit_angle        70              ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    5.5, 30.5
+        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect boulder_explosion_02
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/explosion_dirt2.cas
+		anim_time			0.9
+		max_scale   			5
+		max_particle_scale 		7
+		scale_time_bias			.9
+		alpha_time_bias			0.34		
+
+		; debris
+        debris_model                             models_effects/debri02.cas
+        debris_num_particles     0
+        debris_lifetime_range    2.2, 20
+        debris_emit_angle        70              ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    5.5, 30.5
+        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect fiery_boulder_explosion
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/explosion.cas
+		anim_time			0.9
+		max_scale   			3
+		max_particle_scale 		5
+		scale_time_bias			.9
+		alpha_time_bias			0.6		
+		
+
+		; debris
+        debris_model                             models_effects/fire_debri_01.CAS
+        debris_num_particles     10
+        debris_lifetime_range    2.2, 15
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    15.5, 20.5
+        debris_scale_range       1.4, 3.6
+	}
+}
+
+effect fiery_boulder_dust_explosion
+{
+	type explosion
+	{
+	; dust explode
+		model 				models_effects/explosion_dust.cas
+		anim_time			1.7
+		max_scale   			3
+		max_particle_scale 		5
+		scale_time_bias			.9
+		alpha_time_bias			0.6
+
+		; debris
+        debris_model                             models_effects/fire_debri_02.CAS
+        debris_num_particles     20
+        debris_lifetime_range    2.2, 15
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    10.5, 15.5
+        debris_scale_range       1.4, 4.6
+	}
+}
+
+effect fiery_boulder_dust_explosion2
+{
+	type explosion
+	{
+	; dust explode
+		model 				models_effects/explosion_dust2.cas
+		anim_time			9
+		max_scale   			6
+		max_particle_scale 		10
+		scale_time_bias			.9
+		alpha_time_bias			0.6
+
+		; debris
+	        debris_model                             models_effects/debri02.cas
+        	debris_num_particles     0
+	        debris_lifetime_range    2.2, 20
+        	debris_emit_angle        70              ; degrees
+	        debris_time_bias         0.9
+        	debris_velocity_range    5.5, 30.5
+	        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect fiery_boulder_dust_explosion3
+{
+	type explosion
+	{
+	; dust explode
+		model 				models_effects/flame_explode.cas
+		anim_time			.7
+		max_scale   			1.5
+		max_particle_scale 		2.5
+		scale_time_bias			.9
+		alpha_time_bias			0.9
+
+		; debris
+        debris_model                             models_effects/fire_debri_02.CAS
+        debris_num_particles     20
+        debris_lifetime_range    2.2, 15
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.9
+        debris_velocity_range    10.5, 15.5
+        debris_scale_range       1.4, 4.6
+	}
+}
+
+effect boulder_dust_explosion
+{
+	type explosion
+	{
+	; dust explode
+		model 				models_effects/explosion_dust.cas
+		anim_time			1.7
+		max_scale   			2
+		max_particle_scale 		4
+		scale_time_bias			.9
+		alpha_time_bias			0.6
+
+		; debris
+	        debris_model                             models_effects/debri02.cas
+        	debris_num_particles     0
+	        debris_lifetime_range    2.2, 20
+        	debris_emit_angle        70              ; degrees
+	        debris_time_bias         0.9
+        	debris_velocity_range    5.5, 30.5
+	        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect boulder_dust_explosion2
+{
+	type explosion
+	{
+	; dust explode
+		model 				models_effects/explosion_dust2.cas
+		anim_time			7
+		max_scale   			5
+		max_particle_scale 		9
+		scale_time_bias			.9
+		alpha_time_bias			0.6
+
+		; debris
+        	debris_model                             models_effects/fire_debri_02.CAS
+        	debris_num_particles     20
+        	debris_lifetime_range    2.2, 15
+        	debris_emit_angle        50               ; degrees
+        	debris_time_bias         0.9
+        	debris_velocity_range    3.5, 7.5
+        	debris_scale_range       1.4, 2.6
+	}
+}
+
+effect ballista_arrow_impact
+{
+	type explosion
+	{
+	; dust explode
+		model 				models_effects/explosion_dust.cas
+		anim_time			1.7
+		max_scale   			2
+		max_particle_scale 		4
+		scale_time_bias			.9
+		alpha_time_bias			0.6
+
+		; debris
+	        debris_model                             models_effects/debri02.cas
+        	debris_num_particles     0
+	        debris_lifetime_range    2.2, 20
+        	debris_emit_angle        70              ; degrees
+	        debris_time_bias         0.9
+        	debris_velocity_range    5.5, 30.5
+	        debris_scale_range       0.4, 1.5
+	}
+}
+
+effect_set large_arrow_explode_set
+{
+	lod 1000
+	{
+		ballista_arrow_impact
+	}
+}
+
+effect_set fiery_boulder_set
+{
+	lod 1000
+	{
+		fiery_boulder
+		fiery_boulder_smoke
+		fiery_boulder_light
+	}
+}
+
+effect_set boulder_set
+{
+	lod 1000
+	{
+		boulder
+		boulder_dust
+	}
+}
+
+effect_set fiery_boulder_explosion_set
+{
+	play_time 0.2
+	lod 1000
+	{
+		fiery_boulder_dust_explosion3
+		fiery_boulder_explosion		
+		fiery_boulder_dust_explosion
+		fiery_boulder_dust_explosion2
+		fiery_boulder_explosion_light
+	}
+}
+
+effect_set boulder_explosion_set
+{
+	lod 1000
+	{
+		boulder_explosion_01
+		boulder_explosion_02
+		boulder_dust_explosion
+		boulder_dust_explosion2
+	}
+}
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Fiery arrow
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+effect fiery_arrow
+{
+	type projectile
+	{
+		model		models_effects/flaming_arrow.cas
+		fade_time	0.01
+		sort_for_speed
+	}
+}
+
+effect fiery_arrow_no_additive
+{
+	type projectile
+	{
+		model		models_effects/flaming_arrow_noadd.cas
+		fade_time	0.01
+		sort_for_speed
+	}
+}
+
+effect fiery_arrow_smoke
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      0.8, 0.4
+		initial_size	0.3, 0.4
+		age_range       0.1, 0.2
+        grow_range	 	1, 1
+		velocity   		0.01, 0.9
+		colour     		55, 50, 47
+		alpha_max	   	100			 ; maximum alpha value
+		batched			
+		sort_bias		15
+		die_size		0.3, 0.4
+		fade_time		0.1
+		system_radius   20
+		max_particles   1500
+		
+		emitter distance
+		{
+			emitter_falloff_dist	500			; distance in meters to reduce emission over
+			emitter_falloff_bias	0.5
+			
+			density			2 	     ; how many particels per meter
+		}
+		clr_adjust_by_ambient_intensity
+	}
+}
+
+effect fiery_arrow_explosion
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/flaming_arrow_impact.cas
+		anim_time			0.5
+		max_scale   			0.5
+		max_particle_scale 		2
+		scale_time_bias			0.9
+		alpha_time_bias			0.4
+		sort_for_speed
+		
+		; debris
+		debris_model                             models_effects/debris.cas
+        debris_num_particles     3
+        debris_lifetime_range    2.2, 5.8
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    4.5, 6.5
+        debris_scale_range       0.1, 0.3
+	}
+}
+
+effect fiery_arrow_light
+{
+	type light
+	{
+			
+		keyframe_colour
+		{
+				0.05, 	240, 100, 0
+				0.1, 	240, 130, 0
+				0.15, 	240, 80, 0
+				0.2, 	240, 140, 0
+				0.25, 	240, 70, 0
+				0.3, 	240, 120, 0
+		}
+			
+		keyframe_radius
+		{
+				0.05, 	10
+				0.1, 	12
+		}
+	}
+}
+
+effect_set < 3 4 > fiery_arrow_set
+{
+	lod 1000
+	{
+		fiery_arrow
+		fiery_arrow_smoke
+	}
+}
+
+effect_set < 2 > fiery_arrow_set
+{
+	lod 1000
+	{
+		fiery_arrow_no_additive
+		fiery_arrow_smoke
+	}
+}
+
+effect_set < 0 1 > fiery_arrow_set
+{
+	lod 1000
+	{
+		fiery_arrow_no_additive
+	}
+}
+
+effect_set < 3 4 > fiery_arrow_set_light
+{
+	lod 1000
+	{
+		fiery_arrow
+		fiery_arrow_smoke
+		fiery_arrow_light
+	}
+}
+
+effect_set < 2 > fiery_arrow_set_light
+{
+	lod 1000
+	{
+		fiery_arrow_no_additive
+		fiery_arrow_smoke
+		fiery_arrow_light
+	}
+}
+
+effect_set < 0 1 > fiery_arrow_set_light
+{
+	lod 1000
+	{
+		fiery_arrow_no_additive
+		fiery_arrow_light
+	}
+}
+effect_set < 2 3 4 > fiery_arrow_explosion_set
+{
+	lod 1000
+	{
+		fiery_arrow_explosion		
+	}
+}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Fiery Ballista
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+effect fiery_ballista
+{
+	type projectile
+	{
+		model		models_effects/flaming_ballista.cas
+		fade_time	0.01
+	}
+}
+effect fiery_ballista_smoke
+{
+	type particle
+ 	{
+		texture			battlefield/fire/smoke0.tga
+
+		size_range      1.0, 1.5
+		initial_size    0.6, 0.8
+		age_range       0.1, 0.2
+        grow_range	 	1, 1
+		velocity   		0.0, 0.9
+		colour     		55, 50, 47
+		alpha_max	   	100			 ; maximum alpha value
+		emitter distance
+		{
+			density			2 	     ; how many particles per meter
+		}
+		clr_adjust_by_ambient_intensity
+	}
+}
+effect fiery_ballista_explosion
+{
+	type explosion
+	{
+		; main explosion
+		model 				models_effects/flaming_arrow_impact.cas
+		anim_time			0.5
+		max_scale   			1.2
+		max_particle_scale 		3.5
+		scale_time_bias			0.9
+		alpha_time_bias			0.4
+
+		; debris
+        debris_model                             models_effects/debris.cas
+        debris_num_particles     7
+        debris_lifetime_range    2.2, 5.8
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       0.2, 0.5
+	}
+}
+
+effect_set fiery_ballista_trail_set
+{
+	lod 1000
+	{
+		fiery_ballista
+		fiery_ballista_smoke
+		fiery_boulder_light
+	}
+
+}
+
+effect_set fiery_ballista_explosion_set
+{
+	lod 1000
+	{
+		fiery_ballista_explosion		
+	}
+}
+

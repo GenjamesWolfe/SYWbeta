@@ -1,0 +1,117 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; solar system bodies and other cosmic entities
+;; Edited by Robbe Aerts for Veggiemod, upon editing this file or using it, or parts of it for your own projects you agree to go vegan.
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+body sun
+{
+	body earth
+	{
+		body moon
+		{
+		}
+	}
+}
+
+distant
+{
+					;bearing	elevation
+	global_offset	90			22
+
+	stars 
+	{
+		; bearing	elevation	size	colour
+		
+		; pole star
+		0			0			2.0
+		
+		; ursa minor - the little bear (includes the pole star)
+		219			16			1.5
+		225			19			1.5
+		231			12			1.4
+		241			15			1.4
+		250			8			1.4
+		270			5			1.4
+
+		; ursa major - the great bear (the plough or, more recently, the saucepan)
+		163			28			1.8
+		163			34			1.8
+		175			34			1.8
+		180			32			1.6
+		191			33			1.8
+		200			34			1.8
+		203			40			1.8
+		
+		; cassiopeia 
+		0			31			1.8
+		6			35			1.8
+		12			30			1.8
+		20			31			1.6
+		22			28			1.6
+		
+		; draco
+		208			27			1.5
+		225			31			1.8
+		241			28			1.5
+		257			25			1.5
+		261			38			1.6
+		261			34			1.4
+		267			38			1.7
+		267			33			1.5
+		276			18			1.5
+		288			24			1.4
+		289			27			1.5
+		
+		; pegasus
+		343			76			1.7
+		344			62			1.8
+		0			62			1.8
+		1			75			1.8
+		7			56			1.6
+		14			53			1.7
+		25			47			1.6
+
+		; orion	- the hunter
+									
+
+				;number			bearing range			elevation range				size range
+		random		1			0	360			1	2				0.6		0.7
+		random		4			0	360			2	3				0.6		0.7
+		random		3200		0	360			30	180				0.6		0.7
+		random		3200		0	360			3	180				0.6		0.7
+		random		400			0	360			120	180				0.6		0.7
+		random		800			0	360			30	180				0.7		0.9
+		random		800			0	360			3	180				0.7		0.9
+		random		100			0	360			120	180				0.7		0.9
+		random		200			0	360			30	180				0.9		1.3
+		random		200			0	360			3	180				0.9		1.3
+		random		25			0	360			120	180				0.9		1.3
+		random		1500		1	360			84	95				0.6		0.7
+		random		1375		0	360			80	102				0.6		0.7
+		random		1250		1	339			74	105				0.6		0.7
+		random		1125		0	359			70	111				0.6		0.7
+		random		1000		1	360			64	115				0.6		0.7
+		random		875			1	359			59	120				0.6		0.7
+		random		750			1	360			54	125				0.6		0.7
+		random		625			1	359			51	130				0.6		0.7
+		random		500			0	359			44	135				0.6		0.7
+		random		200			1	358			80	101				0.7		0.9
+		random		150			2	360			69	110				0.7		0.9
+		random		100			1	357			60	122				0.7		0.9
+		random		50			0	359			49	131				0.7		0.9
+		random		20			3	358			80	103				0.9		1.3
+		random		15			0	356			68	112				0.9		1.3
+		random		10			2	359			61	121				0.9		1.3
+		random		5			1	357			50	132				0.9		1.3
+	}
+
+	nebula
+	{
+	}
+
+	galaxies
+	{
+	}
+}

@@ -1,0 +1,933 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; BANK: weapon hit
+;;  Keyword:
+;;
+;;		weapon {weapon type} {list of damage types}
+;;			hit	{armour type}
+;;			hit ground {list of terrain types}
+;;			hit building {list of building rcid's}
+;;
+;;		unit {list of <unit rcid:pri|sec>}
+;;			hit ...
+;;
+;;		weapon_type {weapon sound type: knife, sword, spear, axe, mace, club}
+;;			hit ...
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;DEFAULT: 3d mindist 3 priority 90 fadein 0 fadeout 0 minpitch .8 maxpitch 1.1 volume -20
+;DEFAULT: probability .5 probradius 7 distancepriority -2 randomdelay .25  effect_level .5
+
+DEFAULT: 3d mindist 10 priority 90 fadein 0 fadeout 0 minpitch .8 maxpitch 1.1 volume -1
+DEFAULT: probability 1.0 probradius 7 distancepriority -2 randomdelay 0.0  effect_level 1.0
+
+required_samples_cutoff 10
+
+;; EXAMPLE unit roman ballista:pri, romanscorpian:sec
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;     SAP POINT     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event WEAPON_SAP_DIGGING mindist 2 volume 0 fadein .5 fadeout .5 probability 1  priority 210
+	folder data/sounds/SFX/Individual/Siege_Engines/Mining_Tunnel
+	Siege_Mining_Tunnel_Digging_04
+end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;     FLAMING PIG     ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+event FLAMING_PIG mindist 3 looped volume -20 minpitch .75  maxpitch 1.15 fadein 1.0 fadeout 1.0 priority 90 distancepriority -3
+	folder data/sounds/SFX/Individual/Misc
+
+	Flaming_Pig_06a 
+	Flaming_Pig_06b 
+ 	Flaming_Pig_06c
+ 	 
+	end
+
+	
+	
+	
+BANK: weapon_hit
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;      SWORD (CAVALRY)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	weapon melee slashing
+		death_hit flesh
+			event  volume 0 mindist 2 priority 180
+				folder data/sounds/SFX/Individual/Melee/Death_Hits
+				Death_Hit_01
+				Death_Hit_02
+				Death_Hit_03
+				Death_Hit_04
+				Death_Hit_05
+				Death_Hit_06
+				Death_Hit_07
+				Death_Hit_08
+				Death_Hit_09
+			end
+
+		hit metal
+			event mindist 5 rndvolume -5 volume -20
+				folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Metal_Shield
+				Sword_Hit_Metal_Shield_10
+				Sword_Hit_Metal_Shield_11
+				;Sword_Hit_Metal_Shield_12
+				;Sword_Hit_Metal_Shield_13
+				;Sword_Hit_Metal_Shield_14
+
+				folder data/sounds/SFX/Individual/Melee/Thuds
+				Axe_Hit_Flesh_02
+				Axe_Hit_Flesh_03
+				Dagger_Hit_Flesh_01
+				Mace_Hit_Flesh_02
+
+				folder data/sounds/SFX/Individual/Melee/Dagger/Dagger_Hit_Leather
+				Dagger_Hit_Leather_03
+				Dagger_Hit_Leather_04
+				Dagger_Hit_Leather_06
+				Dagger_Hit_Leather_07
+
+				;folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Breastplate
+				;Sword_Hit_Breastplate_01
+				;Sword_Hit_Breastplate_04
+				;Sword_Hit_Breastplate_05
+				;Sword_Hit_Breastplate_06
+				;Sword_Hit_Breastplate_07
+				;Sword_Hit_Breastplate_08
+
+				;folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Chainmail
+				;Sword_Hit_Chainmail_01
+				;Sword_Hit_Chainmail_02
+			end
+
+		hit wood
+			event mindist 5 rndvolume -5
+				folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Wooden_Shield
+				Sword_Hit_Wooden_Shield_05
+				Sword_Hit_Wooden_Shield_06
+				Sword_Hit_Wooden_Shield_07
+				Sword_Hit_Wooden_Shield_08
+			end
+
+		hit flesh
+			event mindist 5 rndvolume -5 mindist 1
+				folder data/sounds/SFX/Individual/Melee/Thuds
+				Axe_Hit_Flesh_02
+				Axe_Hit_Flesh_03
+				Dagger_Hit_Flesh_01
+				Mace_Hit_Flesh_02
+			end
+
+		hit leather
+			event mindist 5 rndvolume -5 mindist 1
+				folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Leather
+				Sword_Hit_Leather_02
+
+				folder data/sounds/SFX/Individual/Melee/Dagger/Dagger_Hit_Leather
+				Dagger_Hit_Leather_03
+				Dagger_Hit_Leather_04
+				Dagger_Hit_Leather_06
+				Dagger_Hit_Leather_07
+			end
+
+		hit building
+			event volume -35  rndvolume -50 minpitch 0.6 maxpitch 1.3
+				folder data/sounds/SFX/Individual/Missiles
+		
+				Arrow_Hit_Stone_05
+				Arrow_Hit_Stone_06
+				Arrow_Hit_Stone_07
+				Arrow_Hit_Stone_08
+			end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;      BAJONET SOUNDS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	weapon melee piercing
+
+		death_hit flesh
+			event volume 0 mindist 2 priority 180
+				folder data/sounds/SFX/Individual/Melee/Death_Hits
+				Death_Hit_01
+				Death_Hit_02
+				Death_Hit_03
+				Death_Hit_04
+				Death_Hit_05
+				Death_Hit_06
+				Death_Hit_07
+				Death_Hit_08
+				Death_Hit_09
+			end
+
+		hit metal
+			event mindist 2 rndvolume -5 volume -20
+				;folder data/sounds/SFX/Individual/Melee/Spear/Spear_Hit_Metal_Shield
+				;Spear_Hit_Metal_Shield_01
+				;Spear_Hit_Metal_Shield_02
+				;Spear_Hit_Metal_Shield_03
+				;Spear_Hit_Metal_Shield_04
+
+				folder data/sounds/SFX/Individual/Melee/Spear/Spear_Hit_Breastplate
+				Spear_Hit_Breastplate_10
+				Spear_Hit_Breastplate_11
+
+				folder data/sounds/SFX/Individual/Melee/Thuds
+				Axe_Hit_Flesh_02
+				Axe_Hit_Flesh_03
+				Dagger_Hit_Flesh_01
+				Mace_Hit_Flesh_02
+
+				folder data/sounds/SFX/Individual/Melee/Dagger/Dagger_Hit_Leather
+				Dagger_Hit_Leather_03
+				Dagger_Hit_Leather_04
+				Dagger_Hit_Leather_06
+				Dagger_Hit_Leather_07
+			end
+
+		hit wood
+			event rndvolume -5
+				folder data/sounds/SFX/Individual/Melee/Dagger/Dagger_Hit_Wooden_Shield
+				Dagger_Hit_Wooden_Shield_04
+				Dagger_Hit_Wooden_Shield_06
+				Dagger_Hit_Wooden_Shield_07
+				Dagger_Hit_Wooden_Shield_08
+				Dagger_Hit_Wooden_Shield_09
+				Dagger_Hit_Wooden_Shield_10
+				Dagger_Hit_Wooden_Shield_11
+			end
+
+		hit flesh
+			event rndvolume -5 mindist 1
+				folder data/sounds/SFX/Individual/Melee/Thuds
+				Axe_Hit_Flesh_02
+				Axe_Hit_Flesh_03
+				Dagger_Hit_Flesh_01
+				Mace_Hit_Flesh_02
+			end
+
+		hit leather 
+			event rndvolume -5 mindist 1
+				folder data/sounds/SFX/Individual/Melee/Dagger/Dagger_Hit_Leather
+				Dagger_Hit_Leather_03
+				Dagger_Hit_Leather_04
+				Dagger_Hit_Leather_06
+				Dagger_Hit_Leather_07
+
+				folder data/sounds/SFX/Individual/Melee/Sword/Sword_Hit_Leather
+				Sword_Hit_Leather_02
+			end
+
+		hit building
+			event volume -35  rndvolume -50 minpitch 0.6 maxpitch 1.3
+				folder data/sounds/SFX/Individual/Missiles
+				Arrow_Hit_Stone_05
+				Arrow_Hit_Stone_06
+				Arrow_Hit_Stone_07
+				Arrow_Hit_Stone_08
+			end
+
+					
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;   BULLETS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	weapon siege_missile piercing
+		
+        death_hit flesh 
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 randomdelay 0
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				hit_flesh_fatal_1
+				hit_flesh_fatal_2
+				hit_flesh_fatal_3
+				hit_flesh_fatal_4
+				hit_flesh_fatal_5
+				hit_flesh_fatal_6
+				hit_flesh_fatal_7
+				hit_flesh_fatal_8
+			end
+
+		death_hit leather
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 randomdelay 0
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				hit_flesh_fatal_1
+				hit_flesh_fatal_2
+				hit_flesh_fatal_3
+				hit_flesh_fatal_4
+				hit_flesh_fatal_5
+				hit_flesh_fatal_6
+				hit_flesh_fatal_7
+				hit_flesh_fatal_8
+			end
+			
+		death_hit metal
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 rndvolume -10 randomdelay 0
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				hit_flesh_fatal_1
+				hit_flesh_fatal_2
+				hit_flesh_fatal_3
+				hit_flesh_fatal_4
+				hit_flesh_fatal_5
+			end
+				
+		fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0
+                folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_round
+				bullets_1
+				bullets_2
+				bullets_3
+				bullets_4
+				bullets_5
+			end
+
+		hit building
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				musket_hit_wood_1
+				musket_hit_wood_2
+				musket_hit_wood_3
+				musket_hit_wood_4
+				musket_hit_wood_5
+				musket_hit_wood_6
+				musket_hit_wood_7
+				musket_hit_wood_8
+			end
+
+		hit wood
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 rndvolume -10 randomdelay 0
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				musket_hit_wood_1
+				musket_hit_wood_2
+				musket_hit_wood_3
+				musket_hit_wood_4
+				musket_hit_wood_5
+				musket_hit_wood_6
+				musket_hit_wood_7
+				musket_hit_wood_8
+			end
+
+		hit flesh
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 randomdelay 0
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				hit_flesh_1
+				hit_flesh_2
+				hit_flesh_3
+				hit_flesh_4
+				hit_flesh_5
+				hit_flesh_6
+			end
+
+		hit leather
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 randomdelay 0 
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				hit_flesh_1
+				hit_flesh_2
+				hit_flesh_3
+				hit_flesh_4
+				hit_flesh_5
+				hit_flesh_6
+			end
+
+		hit metal
+			event mindist 1 volume 0 minpitch .7 maxpitch 1.2 rndvolume -10 randomdelay 0 probability 0.2
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				musket_hit_metal1
+				musket_hit_metal2
+				hit_flesh_1
+				hit_flesh_2
+				hit_flesh_3
+				hit_flesh_4
+				hit_flesh_5
+			end
+
+		hit ground water
+			event mindist 1 volume 15 minpitch .9 maxpitch 1.5 rndvolume -10 randomdelay 0 probability 0.2
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				musket_hit_water_1
+				musket_hit_water_2
+				musket_hit_water_3
+				musket_hit_water_4
+				musket_hit_water_5
+				musket_hit_water_6
+				musket_hit_water_7
+				musket_hit_water_8
+			end
+			
+		hit ground
+			event mindist 1 volume 15 minpitch .7 maxpitch 1.3 rndvolume -10 randomdelay 0 probability 0.2
+				folder SYW/data/sounds/SFX/individual/Missiles/musket/Musket_hits
+				musket_hit_ground_1
+				musket_hit_ground_2
+				musket_hit_ground_3
+				musket_hit_ground_4
+				musket_hit_ground_5
+				musket_hit_ground_6
+				musket_hit_ground_7
+				musket_hit_ground_8
+			end
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;   CANNONS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	weapon siege_missile blunt
+
+	
+		death_hit flesh 
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_round_explosion_1
+				cannon_round_explosion_2
+				cannon_round_explosion_3
+				cannon_round_explosion_4
+				cannon_round_explosion_5
+				cannon_round_explosion_6
+				cannon_round_explosion_7
+				cannon_round_explosion_8
+			end
+			
+		flaming death_hit flesh 		
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end	
+
+		fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_fly_1
+				cannon_fly_2
+				cannon_fly_3
+				cannon_fly_4
+				cannon_fly_5
+				cannon_fly_6
+				cannon_fly_7
+			end
+
+		flaming fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		hit building
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end
+	
+		flaming hit building
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end
+
+		hit wood
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end
+		
+		flaming hit wood
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end	  
+
+		hit metal
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_round_explosion_1
+				cannon_round_explosion_2
+				cannon_round_explosion_3
+				cannon_round_explosion_4
+				cannon_round_explosion_5
+				cannon_round_explosion_6
+				cannon_round_explosion_7
+				cannon_round_explosion_8
+			end
+
+		flaming hit metal
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		hit flesh, leather
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_round_explosion_1
+				cannon_round_explosion_2
+				cannon_round_explosion_3
+				cannon_round_explosion_4
+				cannon_round_explosion_5
+				cannon_round_explosion_6
+				cannon_round_explosion_7
+				cannon_round_explosion_8
+			end
+
+		flaming hit flesh, leather
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+			
+		hit ground water 
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_round_water_1
+				cannon_round_water_2
+				cannon_round_water_3
+				cannon_round_water_4
+				cannon_round_water_5
+			end
+		
+		hit ground
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_round_ground_1
+				cannon_round_ground_2
+				cannon_round_ground_3
+				cannon_round_ground_4
+			end
+			
+		flaming hit ground
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;   HOWITZER
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	weapon siege_missile slashing
+
+	
+		death_hit flesh 
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+			
+		flaming death_hit flesh 		
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end	
+
+		fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_fly_1
+				cannon_fly_2
+				cannon_fly_3
+				cannon_fly_4
+				cannon_fly_5
+				cannon_fly_6
+				cannon_fly_7
+				cannon_fly_8
+				cannon_fly_9
+			end
+
+		flaming fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_fly_1
+				cannon_fly_2
+				cannon_fly_3
+				cannon_fly_4
+				cannon_fly_5
+				cannon_fly_6
+				cannon_fly_7
+				cannon_fly_8
+				cannon_fly_9
+			end
+
+		hit building
+			event
+			    folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end
+	
+		flaming hit building
+			event
+			    folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end
+
+		hit wood
+			event 
+				folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end
+		
+		flaming hit wood
+			event
+			    folder SYW/data/sounds/weapons/cannon
+				cannot_round_wood_1
+				cannot_round_wood_2
+				cannot_round_wood_3
+				cannot_round_wood_4
+				cannot_round_wood_5
+			end	  
+
+		hit metal
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+
+		flaming hit metal
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+
+		hit flesh, leather
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+
+		flaming hit flesh, leather
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+			
+		hit ground water 
+			event volume 100 rndvolume 100 mindist 1 priority 170 probability 1.0 probradius 3
+				folder SYW/data/sounds/weapons/cannon
+				cannon_round_water_1
+				cannon_round_water_2
+				cannon_round_water_3
+				cannon_round_water_4
+				cannon_round_water_5
+			end
+		
+		hit ground
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+			
+		flaming hit ground
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00	
+				folder SYW/data/sounds/weapons/cannon
+				howitzer_blast_1
+				howitzer_blast_2
+				howitzer_blast_3
+				howitzer_blast_4
+				howitzer_blast_5
+			end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;   CANISTER
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	unit russian french 4pounder:sec, french 8pounder:sec, french 12pounder:sec, french 24pounder:sec, british 6pounder:sec, british 12pounder:sec, british 24pounder:sec, russian 6pounder:sec, russian 12pounder:sec, swedish 6pounder:sec, danish 6pounder:sec, dutch 12pounder, austrian 3pounder:sec, austrian 6pounder:sec, austrian 12pounder:sec, austrian 24pounder:sec, prussian 6pounder:sec, prussian 12pounder:sec, prussian 24pounder:sec, wurttemberg 6pounder:sec, hessian 6pounder:sec
+
+	
+		death_hit flesh 
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+			
+		flaming death_hit flesh 		
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end	
+
+		fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		flaming fly
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		hit building
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+	
+		flaming hit building
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		hit wood
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+		
+		flaming hit wood
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end	  
+
+		hit metal
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		flaming hit metal
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		hit flesh, leather
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+		flaming hit flesh, leather
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+			
+		hit ground water 
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+		
+		hit ground
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+			
+		flaming hit ground
+			event priority 110 mindist 2 minPitch 1.0 maxPitch 1.0 volume 150 rndvolume 100 randomdelay 0.00
+				folder SYW/data/sounds/weapons/cannon
+				cannon_canister_explosion_1
+				cannon_canister_explosion_2
+			end
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;   ROCKETS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	weapon siege_missile fire
+
+	
+		death_hit flesh 
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+			
+		flaming death_hit flesh 		
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end	
+
+		fly
+			event volume -10 rndvolume -15 mindist 3 priority 170 probability .01 fadein .25 fadeout .5  probradius 3
+				folder SYW/data/sounds/weapons/rocket
+				rocket_launch
+			end
+
+		flaming fly
+			event volume -20 rndvolume -10 mindist 3 priority 170  probability .01 fadein .25 fadeout .5  probradius 3
+				folder SYW/data/sounds/weapons/rocket
+				rocket_launch
+			end
+
+		hit building
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+	
+		flaming hit building
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+
+		hit wood
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+		
+		flaming hit wood
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end	  
+
+		hit metal
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+
+		flaming hit metal
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+
+		hit flesh, leather
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+
+		flaming hit flesh, leather
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+			
+		hit ground water 
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+		
+		hit ground
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end
+			
+		flaming hit ground
+			event
+				folder SYW/data/sounds/weapons/rocket
+				rocket_explosion1
+				rocket_explosion2
+			end

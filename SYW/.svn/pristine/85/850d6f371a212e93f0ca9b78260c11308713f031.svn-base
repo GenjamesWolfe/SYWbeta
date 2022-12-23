@@ -1,0 +1,2623 @@
+;;
+
+DEFAULT: 3d mindist 5 minPitch .8 maxPitch 1.1 volume -40 priority 60 probability 1 distancepriority -2 fadein 0 fadeout 0 randomdelay 0  effect_level .25 rndvolume -15
+
+
+DEFAULT: 3d  minPitch 1 maxpitch 1.1
+
+
+
+BANK: unit_idle
+
+;;;;;;;;;;;;;;;;    WOMEN    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;; Light Women ;;;;;;
+type barb screeching women german
+	event lod 1
+		folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist .5 probability 0.03
+			Cloth_Move_02 volume -40 mindist .5 probability 0.03
+			Cloth_Move_03 volume -40 mindist .5 probability 0.03
+			Cloth_Move_04 volume -40 mindist .5 probability 0.03
+			Cloth_Move_05 volume -40 mindist .5 probability 0.03
+			Cloth_Move_06 volume -40 mindist .5 probability 0.03
+			Cloth_Move_07 volume -40 mindist .5 probability 0.03
+			Cloth_Move_08 volume -40 mindist .5 probability 0.03
+			Cloth_Move_09 volume -40 mindist .5 probability 0.03
+			Cloth_Move_10 volume -40 mindist .5 probability 0.03
+			Cloth_Move_11 volume -40 mindist .5 probability 0.03
+			Cloth_Move_12 volume -40 mindist .5 probability 0.03
+			Cloth_Move_13 volume -40 mindist .5 probability 0.03
+			Cloth_Move_14 volume -40 mindist .5 probability 0.03
+			Cloth_Move_15 volume -40 mindist .5 probability 0.03
+			
+
+
+		folder data/sounds/Voice/Human/Generic
+			Women_Cough_2 volume -20 mindist .5 probability 0.03
+			Women_Cough_3 volume -20 mindist .5 probability 0.03
+			Women_Cough_4 volume -20 mindist .5 probability 0.03
+			Women_Cough_5 volume -20 mindist .5 probability 0.03
+			Women_Cough_6 volume -20 mindist .5 probability 0.03
+			Women_hum_1 volume -20 mindist .5 probability 0.03
+			Women_hum_2 volume -20 mindist .5 probability 0.03
+			Women_Whistle_1 volume -20 mindist .5 probability 0.03 
+			Women_Whistle_2 volume -20 mindist .5 probability 0.03
+			Women_Whistle_3 volume -20 mindist .5 probability 0.03
+			Women_sneeze_2 volume -20 mindist .5 probability 0.03
+			Women_sneeze_3 volume -20 mindist .5 probability 0.03
+			Women_sneeze_4 volume -20 mindist .5 probability 0.03
+			women_sneeze_5 volume -20 mindist .5 probability 0.03
+			Women_Sigh_1 volume -20 mindist .5 probability 0.03
+			Women_Sigh_2 volume -20 mindist .5 probability 0.03
+			Women_Sigh_3 volume -20 mindist .5 probability 0.03
+			Women_Sigh_4 volume -20 mindist .5 probability 0.03
+			Women_Sigh_5 volume -20 mindist .5 probability 0.03
+			 			
+			end
+
+
+
+
+			
+	event lod 10
+folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.06
+			Cloth_Move_02 volume -40 mindist 1 probability 0.06
+			Cloth_Move_03 volume -40 mindist 1 probability 0.06
+			Cloth_Move_04 volume -40 mindist 1 probability 0.06
+			Cloth_Move_05 volume -40 mindist 1 probability 0.06
+			Cloth_Move_06 volume -40 mindist 1 probability 0.06
+			Cloth_Move_07 volume -40 mindist 1 probability 0.06
+			Cloth_Move_08 volume -40 mindist 1 probability 0.06
+			Cloth_Move_09 volume -40 mindist 1 probability 0.06
+			Cloth_Move_10 volume -40 mindist 1 probability 0.06
+			Cloth_Move_11 volume -40 mindist 1 probability 0.06
+			Cloth_Move_12 volume -40 mindist 1 probability 0.06
+			Cloth_Move_13 volume -40 mindist 1 probability 0.06
+			Cloth_Move_14 volume -40 mindist 1 probability 0.06
+			Cloth_Move_15 volume -40 mindist 1 probability 0.06
+			
+		folder data/sounds/Voice/Human/Generic
+			Women_Cough_2 volume -20 mindist 1 probability 0.04
+			Women_Cough_3 volume -20 mindist 1 probability 0.04
+			Women_Cough_4 volume -20 mindist 1 probability 0.04
+			Women_Cough_5 volume -20 mindist 1 probability 0.04
+			Women_Cough_6 volume -20 mindist 1 probability 0.04
+			Women_hum_1 volume -20 mindist 1 probability 0.04
+			Women_hum_2 volume -20 mindist 1 probability 0.04
+			Women_Whistle_1 volume -20 mindist 1 probability 0.04
+			Women_Whistle_2 volume -20 mindist 1 probability 0.04
+			Women_Whistle_3 volume -20 mindist 1 probability 0.04
+			Women_sneeze_1 volume -20 mindist 1 probability 0.04
+			Women_sneeze_2 volume -20 mindist 1 probability 0.04
+			Women_sneeze_3 volume -20 mindist 1 probability 0.04
+			Women_sneeze_4 volume -20 mindist 1 probability 0.04
+			women_sneeze_5 volume -20 mindist 1 probability 0.04
+			Women_Sigh_1 volume -20 mindist 1 probability 0.04
+			Women_Sigh_2 volume -20 mindist 1 probability 0.04
+			Women_Sigh_3 volume -20 mindist 1 probability 0.04
+			Women_Sigh_4 volume -20 mindist 1 probability 0.04
+			Women_Sigh_5 volume -20 mindist 1 probability 0.04
+			 		
+			end		
+			
+			
+			
+	event lod 30
+folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.1
+			Cloth_Move_02 volume -40 mindist 1 probability 0.1
+			Cloth_Move_03 volume -40 mindist 1 probability 0.1
+			Cloth_Move_04 volume -40 mindist 1 probability 0.1
+			Cloth_Move_05 volume -40 mindist 1 probability 0.1
+			Cloth_Move_06 volume -40 mindist 1 probability 0.1
+			Cloth_Move_07 volume -40 mindist 1 probability 0.1
+			Cloth_Move_08 volume -40 mindist 1 probability 0.1
+			Cloth_Move_09 volume -40 mindist 1 probability 0.1
+			Cloth_Move_10 volume -40 mindist 1 probability 0.1
+			Cloth_Move_11 volume -40 mindist 1 probability 0.1
+			Cloth_Move_12 volume -40 mindist 1 probability 0.1
+			Cloth_Move_13 volume -40 mindist 1 probability 0.1
+			Cloth_Move_14 volume -40 mindist 1 probability 0.1
+			Cloth_Move_15 volume -40 mindist 1 probability 0.1
+								
+		folder data/sounds/Voice/Human/Generic
+			Women_Cough_2 volume -20 mindist 1 probability 0.06
+			Women_Cough_3 volume -20 mindist 1 probability 0.06
+			Women_Cough_4 volume -20 mindist 1 probability 0.06
+			Women_Cough_5 volume -20 mindist 1 probability 0.06
+			Women_Cough_6 volume -20 mindist 1 probability 0.06
+			Women_hum_1 volume -20 mindist 1 probability 0.06
+			Women_hum_2 volume -20 mindist 1 probability 0.06
+			Women_Whistle_1 volume -20 mindist 1 probability 0.06
+			Women_Whistle_2 volume -20 mindist 1 probability 0.06
+			Women_Whistle_3 volume -20 mindist 1 probability 0.06
+			Women_sneeze_1 volume -20 mindist 1 probability 0.06
+			Women_sneeze_2 volume -20 mindist 1 probability 0.06
+			Women_sneeze_3 volume -20 mindist 1 probability 0.06
+			Women_sneeze_4 volume -20 mindist 1 probability 0.06
+			women_sneeze_5 volume -20 mindist 1 probability 0.06
+			Women_Sigh_1 volume -20 mindist 1 probability 0.04
+			Women_Sigh_2 volume -20 mindist 1 probability 0.04
+			Women_Sigh_3 volume -20 mindist 1 probability 0.04
+			Women_Sigh_4 volume -20 mindist 1 probability 0.04
+			Women_Sigh_5 volume -20 mindist 1 probability 0.04
+			 
+				
+			end		
+			
+			
+			
+			
+;;;;   Heavy Women  ;;;;;;;
+type barb head hunting maidens scythian,barb scythian noblewomen scythian,rebel amazon chariots
+ 
+  event lod 1
+folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.2 mindist 1 volume 0
+			Armour_Clink_02 probability 0.2 mindist 1 volume 0
+			Armour_Clink_03 probability 0.2 mindist 1 volume 0
+			Armour_Clink_04 probability 0.2 mindist 1 volume 0
+			Armour_Clink_05 probability 0.2 mindist 1 volume 0
+			Armour_Clink_06 probability 0.2 mindist 1 volume 0
+			Armour_Clink_07 probability 0.2 mindist 1 volume 0
+			Armour_Clink_08 probability 0.2 mindist 1 volume 0
+			Armour_Clink_09 probability 0.2 mindist 1 volume 0
+			Armour_Clink_10 probability 0.2 mindist 1 volume 0
+			Armour_Clink_11 probability 0.2 mindist 1 volume 0
+			Armour_Clink_12 probability 0.2 mindist 1 volume 0
+			Armour_Clink_13 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.2 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.1 mindist 1 volume -20
+			Armour_Clink_15 probability 0.1 mindist 1 volume -20
+			Armour_Clink_16 probability 0.1 mindist 1 volume -20
+			Armour_Clink_17 probability 0.1 mindist 1 volume -20
+			Armour_Clink_18 probability 0.1 mindist 1 volume -20
+			Armour_Clink_19 probability 0.1 mindist 1 volume -20
+			Armour_Clink_20 probability 0.1 mindist 1 volume -20
+			Armour_Clink_21 probability 0.1 mindist 1 volume -20
+			Armour_Clink_22 probability 0.1 mindist 1 volume -20
+			Armour_Clink_23 probability 0.1 mindist 1 volume -20
+			Armour_Clink_24 probability 0.1 mindist 1 volume -20
+			Armour_Clink_25 probability 0.1 mindist 1 volume -20
+			Armour_Clink_26 probability 0.1 mindist 1 volume -20
+			Armour_Clink_27 probability 0.1 mindist 1 volume -20
+			Armour_Clink_28 probability 0.1 mindist 1 volume -20
+			Armour_Clink_29 probability 0.1 mindist 1 volume -20
+			Armour_Clink_30 probability 0.1 mindist 1 volume -20
+			Armour_Clink_31 probability 0.1 mindist 1 volume -20
+			Armour_Clink_32 probability 0.1 mindist 1 volume -20
+			Armour_Clink_33 probability 0.1 mindist 1 volume -20
+  
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.01
+			Cloth_Move_02 volume -40 mindist 1 probability 0.01
+			Cloth_Move_03 volume -40 mindist 1 probability 0.01
+			Cloth_Move_04 volume -40 mindist 1 probability 0.01
+			Cloth_Move_05 volume -40 mindist 1 probability 0.01
+			Cloth_Move_06 volume -40 mindist 1 probability 0.01
+			Cloth_Move_07 volume -40 mindist 1 probability 0.01
+			Cloth_Move_08 volume -40 mindist 1 probability 0.01
+			Cloth_Move_09 volume -40 mindist 1 probability 0.01
+			Cloth_Move_10 volume -40 mindist 1 probability 0.01
+			Cloth_Move_11 volume -40 mindist 1 probability 0.01
+			Cloth_Move_12 volume -40 mindist 1 probability 0.01
+			Cloth_Move_13 volume -40 mindist 1 probability 0.01
+			Cloth_Move_14 volume -40 mindist 1 probability 0.01
+			Cloth_Move_15 volume -40 mindist 1 probability 0.01
+					
+			folder data/sounds/Voice/Human/Generic
+			Women_Cough_2 volume -20 mindist 1 probability 0.1
+			Women_Cough_3 volume -20 mindist 1 probability 0.1
+			Women_Cough_4 volume -20 mindist 1 probability 0.1
+			Women_Cough_5 volume -20 mindist 1 probability 0.1
+			Women_Cough_6 volume -20 mindist 1 probability 0.1
+			Women_hum_1 volume -20 mindist 1 probability 0.1
+			Women_hum_2 volume -20 mindist 1 probability 0.1
+			Women_Whistle_1 volume -20 mindist 1 probability 0.1
+			Women_Whistle_2 volume -20 mindist 1 probability 0.1
+			Women_Whistle_3 volume -20 mindist 1 probability 0.1
+			Women_sneeze_2 volume -20 mindist 1 probability 0.1
+			Women_sneeze_3 volume -20 mindist 1 probability 0.1
+			Women_sneeze_4 volume -20 mindist 1 probability 0.1
+			women_sneeze_5 volume -20 mindist 1 probability 0.1
+			Women_Sigh_1 volume -20 mindist 1 probability 0.1
+			Women_Sigh_2 volume -20 mindist 1 probability 0.1
+			Women_Sigh_3 volume -20 mindist 1 probability 0.1
+			Women_Sigh_4 volume -20 mindist 1 probability 0.1
+			Women_Sigh_5 volume -20 mindist 1 probability 0.1
+			
+						
+			end
+
+
+  event lod 10
+folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.3 mindist 1 volume 0
+			Armour_Clink_02 probability 0.3 mindist 1 volume 0
+			Armour_Clink_03 probability 0.3 mindist 1 volume 0
+			Armour_Clink_04 probability 0.3 mindist 1 volume 0
+			Armour_Clink_05 probability 0.3 mindist 1 volume 0
+			Armour_Clink_06 probability 0.3 mindist 1 volume 0
+			Armour_Clink_07 probability 0.3 mindist 1 volume 0
+			Armour_Clink_08 probability 0.3 mindist 1 volume 0
+			Armour_Clink_09 probability 0.3 mindist 1 volume 0
+			Armour_Clink_10 probability 0.3 mindist 1 volume 0
+			Armour_Clink_11 probability 0.3 mindist 1 volume 0
+			Armour_Clink_12 probability 0.3 mindist 1 volume 0
+			Armour_Clink_13 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.3 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.2 mindist 1 volume -20
+			Armour_Clink_15 probability 0.2 mindist 1 volume -20
+			Armour_Clink_16 probability 0.2 mindist 1 volume -20
+			Armour_Clink_17 probability 0.2 mindist 1 volume -20
+			Armour_Clink_18 probability 0.2 mindist 1 volume -20
+			Armour_Clink_19 probability 0.2 mindist 1 volume -20
+			Armour_Clink_20 probability 0.2 mindist 1 volume -20
+			Armour_Clink_21 probability 0.2 mindist 1 volume -20
+			Armour_Clink_22 probability 0.2 mindist 1 volume -20
+			Armour_Clink_23 probability 0.2 mindist 1 volume -20
+			Armour_Clink_24 probability 0.2 mindist 1 volume -20
+			Armour_Clink_25 probability 0.2 mindist 1 volume -20
+			Armour_Clink_26 probability 0.2 mindist 1 volume -20
+			Armour_Clink_27 probability 0.2 mindist 1 volume -20
+			Armour_Clink_28 probability 0.2 mindist 1 volume -20
+			Armour_Clink_29 probability 0.2 mindist 1 volume -20
+			Armour_Clink_30 probability 0.2 mindist 1 volume -20
+			Armour_Clink_31 probability 0.2 mindist 1 volume -20
+			Armour_Clink_32 probability 0.2 mindist 1 volume -20
+			Armour_Clink_33 probability 0.2 mindist 1 volume -20
+  
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.03
+			Cloth_Move_02 volume -40 mindist 1 probability 0.03
+			Cloth_Move_03 volume -40 mindist 1 probability 0.03
+			Cloth_Move_04 volume -40 mindist 1 probability 0.03
+			Cloth_Move_05 volume -40 mindist 1 probability 0.03
+			Cloth_Move_06 volume -40 mindist 1 probability 0.03
+			Cloth_Move_07 volume -40 mindist 1 probability 0.03
+			Cloth_Move_08 volume -40 mindist 1 probability 0.03
+			Cloth_Move_09 volume -40 mindist 1 probability 0.03
+			Cloth_Move_10 volume -40 mindist 1 probability 0.03
+			Cloth_Move_11 volume -40 mindist 1 probability 0.03
+			Cloth_Move_12 volume -40 mindist 1 probability 0.03
+			Cloth_Move_13 volume -40 mindist 1 probability 0.03
+			Cloth_Move_14 volume -40 mindist 1 probability 0.03
+			Cloth_Move_15 volume -40 mindist 1 probability 0.03
+					
+			folder data/sounds/Voice/Human/Generic
+			Women_Cough_2 volume -20 mindist 1 probability 0.25
+			Women_Cough_3 volume -20 mindist 1 probability 0.25
+			Women_Cough_4 volume -20 mindist 1 probability 0.25
+			Women_Cough_5 volume -20 mindist 1 probability 0.25
+			Women_Cough_6 volume -20 mindist 1 probability 0.25
+			Women_hum_1 volume -20 mindist 1 probability 0.25
+			Women_hum_2 volume -20 mindist 1 probability 0.25
+			Women_Whistle_1 volume -20 mindist 1 probability 0.25
+			Women_Whistle_2 volume -20 mindist 1 probability 0.25
+			Women_Whistle_3 volume -20 mindist 1 probability 0.25
+			Women_sneeze_1 volume -20 mindist 1 probability 0.25
+			Women_sneeze_2 volume -20 mindist 1 probability 0.25
+			Women_sneeze_3 volume -20 mindist 1 probability 0.25
+			Women_sneeze_4 volume -20 mindist 1 probability 0.25
+			women_sneeze_5 volume -20 mindist 1 probability 0.25
+			Women_Sigh_1 volume -20 mindist 1 probability 0.25
+			Women_Sigh_2 volume -20 mindist 1 probability 0.25
+			Women_Sigh_3 volume -20 mindist 1 probability 0.25
+			Women_Sigh_4 volume -20 mindist 1 probability 0.25
+			Women_Sigh_5 volume -20 mindist 1 probability 0.25
+			
+						
+			end
+
+
+ event lod 30
+folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.4 mindist 1 volume 0
+			Armour_Clink_02 probability 0.4 mindist 1 volume 0
+			Armour_Clink_03 probability 0.4 mindist 1 volume 0
+			Armour_Clink_04 probability 0.4 mindist 1 volume 0
+			Armour_Clink_05 probability 0.4 mindist 1 volume 0
+			Armour_Clink_06 probability 0.4 mindist 1 volume 0
+			Armour_Clink_07 probability 0.4 mindist 1 volume 0
+			Armour_Clink_08 probability 0.4 mindist 1 volume 0
+			Armour_Clink_09 probability 0.4 mindist 1 volume 0
+			Armour_Clink_10 probability 0.4 mindist 1 volume 0
+			Armour_Clink_11 probability 0.4 mindist 1 volume 0
+			Armour_Clink_12 probability 0.4 mindist 1 volume 0
+			Armour_Clink_13 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.4 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.3 mindist 1 volume -20
+			Armour_Clink_15 probability 0.3 mindist 1 volume -20
+			Armour_Clink_16 probability 0.3 mindist 1 volume -20
+			Armour_Clink_17 probability 0.3 mindist 1 volume -20
+			Armour_Clink_18 probability 0.3 mindist 1 volume -20
+			Armour_Clink_19 probability 0.3 mindist 1 volume -20
+			Armour_Clink_20 probability 0.3 mindist 1 volume -20
+			Armour_Clink_21 probability 0.3 mindist 1 volume -20
+			Armour_Clink_22 probability 0.3 mindist 1 volume -20
+			Armour_Clink_23 probability 0.3 mindist 1 volume -20
+			Armour_Clink_24 probability 0.3 mindist 1 volume -20
+			Armour_Clink_25 probability 0.3 mindist 1 volume -20
+			Armour_Clink_26 probability 0.3 mindist 1 volume -20
+			Armour_Clink_27 probability 0.3 mindist 1 volume -20
+			Armour_Clink_28 probability 0.3 mindist 1 volume -20
+			Armour_Clink_29 probability 0.3 mindist 1 volume -20
+			Armour_Clink_30 probability 0.3 mindist 1 volume -20
+			Armour_Clink_31 probability 0.3 mindist 1 volume -20
+			Armour_Clink_32 probability 0.3 mindist 1 volume -20
+			Armour_Clink_33 probability 0.3 mindist 1 volume -20
+  
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.05
+			Cloth_Move_02 volume -40 mindist 1 probability 0.05
+			Cloth_Move_03 volume -40 mindist 1 probability 0.05
+			Cloth_Move_04 volume -40 mindist 1 probability 0.05
+			Cloth_Move_05 volume -40 mindist 1 probability 0.05
+			Cloth_Move_06 volume -40 mindist 1 probability 0.05
+			Cloth_Move_07 volume -40 mindist 1 probability 0.05
+			Cloth_Move_08 volume -40 mindist 1 probability 0.05
+			Cloth_Move_09 volume -40 mindist 1 probability 0.05
+			Cloth_Move_10 volume -40 mindist 1 probability 0.05
+			Cloth_Move_11 volume -40 mindist 1 probability 0.05
+			Cloth_Move_12 volume -40 mindist 1 probability 0.05
+			Cloth_Move_13 volume -40 mindist 1 probability 0.05
+			Cloth_Move_14 volume -40 mindist 1 probability 0.05
+			Cloth_Move_15 volume -40 mindist 1 probability 0.05
+					
+			folder data/sounds/Voice/Human/Generic
+			Women_Cough_2 volume -20 mindist 1 probability 0.3
+			Women_Cough_3 volume -20 mindist 1 probability 0.3
+			Women_Cough_4 volume -20 mindist 1 probability 0.3
+			Women_Cough_5 volume -20 mindist 1 probability 0.3
+			Women_Cough_6 volume -20 mindist 1 probability 0.3
+			Women_hum_1 volume -20 mindist 1 probability 0.3
+			Women_hum_2 volume -20 mindist 1 probability 0.3
+			Women_Whistle_1 volume -20 mindist 1 probability 0.3
+			Women_Whistle_2 volume -20 mindist 1 probability 0.3
+			Women_Whistle_3 volume -20 mindist 1 probability 0.3
+			Women_sneeze_1 volume -20 mindist 1 probability 0.3
+			Women_sneeze_2 volume -20 mindist 1 probability 0.3
+			Women_sneeze_3 volume -20 mindist 1 probability 0.3
+			Women_sneeze_4 volume -20 mindist 1 probability 0.3
+			women_sneeze_5 volume -20 mindist 1 probability 0.3
+			Women_Sigh_1 volume -20 mindist 1 probability 0.2
+			Women_Sigh_2 volume -20 mindist 1 probability 0.2
+			Women_Sigh_3 volume -20 mindist 1 probability 0.2
+			Women_Sigh_4 volume -20 mindist 1 probability 0.2
+			Women_Sigh_5 volume -20 mindist 1 probability 0.2
+			
+						
+			end
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;   MEN   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+DEFAULT: 3d  minPitch .8 maxpitch 1.1
+
+
+
+;;;;;   HEAVY  INFANTRY  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+unit infantry  heavy, spearmen
+		event lod 1
+			folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.2 mindist 1 volume 0
+			Armour_Clink_02 probability 0.2 mindist 1 volume 0
+			Armour_Clink_03 probability 0.2 mindist 1 volume 0
+			Armour_Clink_04 probability 0.2 mindist 1 volume 0
+			Armour_Clink_05 probability 0.2 mindist 1 volume 0
+			Armour_Clink_06 probability 0.2 mindist 1 volume 0
+			Armour_Clink_07 probability 0.2 mindist 1 volume 0
+			Armour_Clink_08 probability 0.2 mindist 1 volume 0
+			Armour_Clink_09 probability 0.2 mindist 1 volume 0
+			Armour_Clink_10 probability 0.2 mindist 1 volume 0
+			Armour_Clink_11 probability 0.2 mindist 1 volume 0
+			Armour_Clink_12 probability 0.2 mindist 1 volume 0
+			Armour_Clink_13 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.2 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.1 mindist 1 volume -20
+			Armour_Clink_15 probability 0.1 mindist 1 volume -20
+			Armour_Clink_16 probability 0.1 mindist 1 volume -20
+			Armour_Clink_17 probability 0.1 mindist 1 volume -20
+			Armour_Clink_18 probability 0.1 mindist 1 volume -20
+			Armour_Clink_19 probability 0.1 mindist 1 volume -20
+			Armour_Clink_20 probability 0.1 mindist 1 volume -20
+			Armour_Clink_21 probability 0.1 mindist 1 volume -20
+			Armour_Clink_22 probability 0.1 mindist 1 volume -20
+			Armour_Clink_23 probability 0.1 mindist 1 volume -20
+			Armour_Clink_24 probability 0.1 mindist 1 volume -20
+			Armour_Clink_25 probability 0.1 mindist 1 volume -20
+			Armour_Clink_26 probability 0.1 mindist 1 volume -20
+			Armour_Clink_27 probability 0.1 mindist 1 volume -20
+			Armour_Clink_28 probability 0.1 mindist 1 volume -20
+			Armour_Clink_29 probability 0.1 mindist 1 volume -20
+			Armour_Clink_30 probability 0.1 mindist 1 volume -20
+			Armour_Clink_31 probability 0.1 mindist 1 volume -20
+			Armour_Clink_32 probability 0.1 mindist 1 volume -20
+			Armour_Clink_33 probability 0.1 mindist 1 volume -20
+  
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.01
+			Cloth_Move_02 volume -40 mindist 1 probability 0.01
+			Cloth_Move_03 volume -40 mindist 1 probability 0.01
+			Cloth_Move_04 volume -40 mindist 1 probability 0.01
+			Cloth_Move_05 volume -40 mindist 1 probability 0.01
+			Cloth_Move_06 volume -40 mindist 1 probability 0.01
+			Cloth_Move_07 volume -40 mindist 1 probability 0.01
+			Cloth_Move_08 volume -40 mindist 1 probability 0.01
+			Cloth_Move_09 volume -40 mindist 1 probability 0.01
+			Cloth_Move_10 volume -40 mindist 1 probability 0.01
+			Cloth_Move_11 volume -40 mindist 1 probability 0.01
+			Cloth_Move_12 volume -40 mindist 1 probability 0.01
+			Cloth_Move_13 volume -40 mindist 1 probability 0.01
+			Cloth_Move_14 volume -40 mindist 1 probability 0.01
+			Cloth_Move_15 volume -40 mindist 1 probability 0.01
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+										
+			end
+
+			
+			
+			
+	event lod 10
+			
+		folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.3 mindist 1 volume 0
+			Armour_Clink_02 probability 0.3 mindist 1 volume 0
+			Armour_Clink_03 probability 0.3 mindist 1 volume 0
+			Armour_Clink_04 probability 0.3 mindist 1 volume 0
+			Armour_Clink_05 probability 0.3 mindist 1 volume 0
+			Armour_Clink_06 probability 0.3 mindist 1 volume 0
+			Armour_Clink_07 probability 0.3 mindist 1 volume 0
+			Armour_Clink_08 probability 0.3 mindist 1 volume 0
+			Armour_Clink_09 probability 0.3 mindist 1 volume 0
+			Armour_Clink_10 probability 0.3 mindist 1 volume 0
+			Armour_Clink_11 probability 0.3 mindist 1 volume 0
+			Armour_Clink_12 probability 0.3 mindist 1 volume 0
+			Armour_Clink_13 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.3 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.2 mindist 1 volume -20
+			Armour_Clink_15 probability 0.2 mindist 1 volume -20
+			Armour_Clink_16 probability 0.2 mindist 1 volume -20
+			Armour_Clink_17 probability 0.2 mindist 1 volume -20
+			Armour_Clink_18 probability 0.2 mindist 1 volume -20
+			Armour_Clink_19 probability 0.2 mindist 1 volume -20
+			Armour_Clink_20 probability 0.2 mindist 1 volume -20
+			Armour_Clink_21 probability 0.2 mindist 1 volume -20
+			Armour_Clink_22 probability 0.2 mindist 1 volume -20
+			Armour_Clink_23 probability 0.2 mindist 1 volume -20
+			Armour_Clink_24 probability 0.2 mindist 1 volume -20
+			Armour_Clink_25 probability 0.2 mindist 1 volume -20
+			Armour_Clink_26 probability 0.2 mindist 1 volume -20
+			Armour_Clink_27 probability 0.2 mindist 1 volume -20
+			Armour_Clink_28 probability 0.2 mindist 1 volume -20
+			Armour_Clink_29 probability 0.2 mindist 1 volume -20
+			Armour_Clink_30 probability 0.2 mindist 1 volume -20
+			Armour_Clink_31 probability 0.2 mindist 1 volume -20
+			Armour_Clink_32 probability 0.2 mindist 1 volume -20
+			Armour_Clink_33 probability 0.2 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.025
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.025
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.025
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.025
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.025
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.025
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.025
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.025
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.025
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.025
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.025
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.025
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.03
+			Cloth_Move_02 volume -40 mindist 1 probability 0.03
+			Cloth_Move_03 volume -40 mindist 1 probability 0.03
+			Cloth_Move_04 volume -40 mindist 1 probability 0.03
+			Cloth_Move_05 volume -40 mindist 1 probability 0.03
+			Cloth_Move_06 volume -40 mindist 1 probability 0.03
+			Cloth_Move_07 volume -40 mindist 1 probability 0.03
+			Cloth_Move_08 volume -40 mindist 1 probability 0.03
+			Cloth_Move_09 volume -40 mindist 1 probability 0.03
+			Cloth_Move_10 volume -40 mindist 1 probability 0.03
+			Cloth_Move_11 volume -40 mindist 1 probability 0.03
+			Cloth_Move_12 volume -40 mindist 1 probability 0.03
+			Cloth_Move_13 volume -40 mindist 1 probability 0.03
+			Cloth_Move_14 volume -40 mindist 1 probability 0.03
+			Cloth_Move_15 volume -40 mindist 1 probability 0.03
+						
+			end
+			
+			
+			
+	event lod 30
+			
+		folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.4 mindist 1 volume 0
+			Armour_Clink_02 probability 0.4 mindist 1 volume 0
+			Armour_Clink_03 probability 0.4 mindist 1 volume 0
+			Armour_Clink_04 probability 0.4 mindist 1 volume 0
+			Armour_Clink_05 probability 0.4 mindist 1 volume 0
+			Armour_Clink_06 probability 0.4 mindist 1 volume 0
+			Armour_Clink_07 probability 0.4 mindist 1 volume 0
+			Armour_Clink_08 probability 0.4 mindist 1 volume 0
+			Armour_Clink_09 probability 0.4 mindist 1 volume 0
+			Armour_Clink_10 probability 0.4 mindist 1 volume 0
+			Armour_Clink_11 probability 0.4 mindist 1 volume 0
+			Armour_Clink_12 probability 0.4 mindist 1 volume 0
+			Armour_Clink_13 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.4 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.3 mindist 1 volume -20
+			Armour_Clink_15 probability 0.3 mindist 1 volume -20
+			Armour_Clink_16 probability 0.3 mindist 1 volume -20
+			Armour_Clink_17 probability 0.3 mindist 1 volume -20
+			Armour_Clink_18 probability 0.3 mindist 1 volume -20
+			Armour_Clink_19 probability 0.3 mindist 1 volume -20
+			Armour_Clink_20 probability 0.3 mindist 1 volume -20
+			Armour_Clink_21 probability 0.3 mindist 1 volume -20
+			Armour_Clink_22 probability 0.3 mindist 1 volume -20
+			Armour_Clink_23 probability 0.3 mindist 1 volume -20
+			Armour_Clink_24 probability 0.3 mindist 1 volume -20
+			Armour_Clink_25 probability 0.3 mindist 1 volume -20
+			Armour_Clink_26 probability 0.3 mindist 1 volume -20
+			Armour_Clink_27 probability 0.3 mindist 1 volume -20
+			Armour_Clink_28 probability 0.3 mindist 1 volume -20
+			Armour_Clink_29 probability 0.3 mindist 1 volume -20
+			Armour_Clink_30 probability 0.3 mindist 1 volume -20
+			Armour_Clink_31 probability 0.3 mindist 1 volume -20
+			Armour_Clink_32 probability 0.3 mindist 1 volume -20
+			Armour_Clink_33 probability 0.3 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.05
+			Cloth_Move_02 volume -40 mindist 1 probability 0.05
+			Cloth_Move_03 volume -40 mindist 1 probability 0.05
+			Cloth_Move_04 volume -40 mindist 1 probability 0.05
+			Cloth_Move_05 volume -40 mindist 1 probability 0.05
+			Cloth_Move_06 volume -40 mindist 1 probability 0.05
+			Cloth_Move_07 volume -40 mindist 1 probability 0.05
+			Cloth_Move_08 volume -40 mindist 1 probability 0.05
+			Cloth_Move_09 volume -40 mindist 1 probability 0.05
+			Cloth_Move_10 volume -40 mindist 1 probability 0.05
+			Cloth_Move_11 volume -40 mindist 1 probability 0.05
+			Cloth_Move_12 volume -40 mindist 1 probability 0.05
+			Cloth_Move_13 volume -40 mindist 1 probability 0.05
+			Cloth_Move_14 volume -40 mindist 1 probability 0.05
+			Cloth_Move_15 volume -40 mindist 1 probability 0.05
+								
+			end
+			
+			
+			
+			
+			
+			
+;;;;;;;;;;;;;;;   LIGHT INFANTRY  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+	unit  infantry light, skirmish, missile
+		event lod 1
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.1
+			Cloth_Move_02 volume -40 mindist 1 probability 0.1
+			Cloth_Move_03 volume -40 mindist 1 probability 0.1
+			Cloth_Move_04 volume -40 mindist 1 probability 0.1
+			Cloth_Move_05 volume -40 mindist 1 probability 0.1
+			Cloth_Move_06 volume -40 mindist 1 probability 0.1
+			Cloth_Move_07 volume -40 mindist 1 probability 0.1
+			Cloth_Move_08 volume -40 mindist 1 probability 0.1
+			Cloth_Move_09 volume -40 mindist 1 probability 0.1
+			Cloth_Move_10 volume -40 mindist 1 probability 0.1
+			Cloth_Move_11 volume -40 mindist 1 probability 0.1
+			Cloth_Move_12 volume -40 mindist 1 probability 0.1
+			Cloth_Move_13 volume -40 mindist 1 probability 0.1
+			Cloth_Move_14 volume -40 mindist 1 probability 0.1
+			Cloth_Move_15 volume -40 mindist 1 probability 0.1
+			end
+			
+	event lod 10
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.03
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.03
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.03
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.03
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.3
+			Cloth_Move_02 volume -40 mindist 1 probability 0.3
+			Cloth_Move_03 volume -40 mindist 1 probability 0.3
+			Cloth_Move_04 volume -40 mindist 1 probability 0.3
+			Cloth_Move_05 volume -40 mindist 1 probability 0.3
+			Cloth_Move_06 volume -40 mindist 1 probability 0.3
+			Cloth_Move_07 volume -40 mindist 1 probability 0.3
+			Cloth_Move_08 volume -40 mindist 1 probability 0.3
+			Cloth_Move_09 volume -40 mindist 1 probability 0.3
+			Cloth_Move_10 volume -40 mindist 1 probability 0.3
+			Cloth_Move_11 volume -40 mindist 1 probability 0.3
+			Cloth_Move_12 volume -40 mindist 1 probability 0.3
+			Cloth_Move_13 volume -40 mindist 1 probability 0.3
+			Cloth_Move_14 volume -40 mindist 1 probability 0.3
+			Cloth_Move_15 volume -40 mindist 1 probability 0.3
+			
+			
+			end
+			
+			
+		event lod 30
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.5
+			Cloth_Move_02 volume -40 mindist 1 probability 0.5
+			Cloth_Move_03 volume -40 mindist 1 probability 0.5
+			Cloth_Move_04 volume -40 mindist 1 probability 0.5
+			Cloth_Move_05 volume -40 mindist 1 probability 0.5
+			Cloth_Move_06 volume -40 mindist 1 probability 0.5
+			Cloth_Move_07 volume -40 mindist 1 probability 0.5
+			Cloth_Move_08 volume -40 mindist 1 probability 0.5
+			Cloth_Move_09 volume -40 mindist 1 probability 0.5
+			Cloth_Move_10 volume -40 mindist 1 probability 0.5
+			Cloth_Move_11 volume -40 mindist 1 probability 0.5
+			Cloth_Move_12 volume -40 mindist 1 probability 0.5
+			Cloth_Move_13 volume -40 mindist 1 probability 0.5
+			Cloth_Move_14 volume -40 mindist 1 probability 0.5
+			Cloth_Move_15 volume -40 mindist 1 probability 0.5
+			
+			
+			end
+			
+		
+;;;;;;;;  CAVALRY HEAVY  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+			
+	
+			unit cavalry  heavy, spearmen
+		event	lod 1
+			folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.2 mindist 1 volume 0
+			Armour_Clink_02 probability 0.2 mindist 1 volume 0
+			Armour_Clink_03 probability 0.2 mindist 1 volume 0
+			Armour_Clink_04 probability 0.2 mindist 1 volume 0
+			Armour_Clink_05 probability 0.2 mindist 1 volume 0
+			Armour_Clink_06 probability 0.2 mindist 1 volume 0
+			Armour_Clink_07 probability 0.2 mindist 1 volume 0
+			Armour_Clink_08 probability 0.2 mindist 1 volume 0
+			Armour_Clink_09 probability 0.2 mindist 1 volume 0
+			Armour_Clink_10 probability 0.2 mindist 1 volume 0
+			Armour_Clink_11 probability 0.2 mindist 1 volume 0
+			Armour_Clink_12 probability 0.2 mindist 1 volume 0
+			Armour_Clink_13 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.2 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.1 mindist 1 volume -20
+			Armour_Clink_15 probability 0.1 mindist 1 volume -20
+			Armour_Clink_16 probability 0.1 mindist 1 volume -20
+			Armour_Clink_17 probability 0.1 mindist 1 volume -20
+			Armour_Clink_18 probability 0.1 mindist 1 volume -20
+			Armour_Clink_19 probability 0.1 mindist 1 volume -20
+			Armour_Clink_20 probability 0.1 mindist 1 volume -20
+			Armour_Clink_21 probability 0.1 mindist 1 volume -20
+			Armour_Clink_22 probability 0.1 mindist 1 volume -20
+			Armour_Clink_23 probability 0.1 mindist 1 volume -20
+			Armour_Clink_24 probability 0.1 mindist 1 volume -20
+			Armour_Clink_25 probability 0.1 mindist 1 volume -20
+			Armour_Clink_26 probability 0.1 mindist 1 volume -20
+			Armour_Clink_27 probability 0.1 mindist 1 volume -20
+			Armour_Clink_28 probability 0.1 mindist 1 volume -20
+			Armour_Clink_29 probability 0.1 mindist 1 volume -20
+			Armour_Clink_30 probability 0.1 mindist 1 volume -20
+			Armour_Clink_31 probability 0.1 mindist 1 volume -20
+			Armour_Clink_32 probability 0.1 mindist 1 volume -20
+			Armour_Clink_33 probability 0.1 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.01
+			Cloth_Move_02 volume -40 mindist 1 probability 0.01
+			Cloth_Move_03 volume -40 mindist 1 probability 0.01
+			Cloth_Move_04 volume -40 mindist 1 probability 0.01
+			Cloth_Move_05 volume -40 mindist 1 probability 0.01
+			Cloth_Move_06 volume -40 mindist 1 probability 0.01
+			Cloth_Move_07 volume -40 mindist 1 probability 0.01
+			Cloth_Move_08 volume -40 mindist 1 probability 0.01
+			Cloth_Move_09 volume -40 mindist 1 probability 0.01
+			Cloth_Move_10 volume -40 mindist 1 probability 0.01
+			Cloth_Move_11 volume -40 mindist 1 probability 0.01
+			Cloth_Move_12 volume -40 mindist 1 probability 0.01
+			Cloth_Move_13 volume -40 mindist 1 probability 0.01
+			Cloth_Move_14 volume -40 mindist 1 probability 0.01
+			Cloth_Move_15 volume -40 mindist 1 probability 0.01
+			
+			end
+			
+			
+			
+	event	lod 10
+			folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.3 mindist 1 volume 0
+			Armour_Clink_02 probability 0.3 mindist 1 volume 0
+			Armour_Clink_03 probability 0.3 mindist 1 volume 0
+			Armour_Clink_04 probability 0.3 mindist 1 volume 0
+			Armour_Clink_05 probability 0.3 mindist 1 volume 0
+			Armour_Clink_06 probability 0.3 mindist 1 volume 0
+			Armour_Clink_07 probability 0.3 mindist 1 volume 0
+			Armour_Clink_08 probability 0.3 mindist 1 volume 0
+			Armour_Clink_09 probability 0.3 mindist 1 volume 0
+			Armour_Clink_10 probability 0.3 mindist 1 volume 0
+			Armour_Clink_11 probability 0.3 mindist 1 volume 0
+			Armour_Clink_12 probability 0.3 mindist 1 volume 0
+			Armour_Clink_13 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.3 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.2 mindist 1 volume -20
+			Armour_Clink_15 probability 0.2 mindist 1 volume -20
+			Armour_Clink_16 probability 0.2 mindist 1 volume -20
+			Armour_Clink_17 probability 0.2 mindist 1 volume -20
+			Armour_Clink_18 probability 0.2 mindist 1 volume -20
+			Armour_Clink_19 probability 0.2 mindist 1 volume -20
+			Armour_Clink_20 probability 0.2 mindist 1 volume -20
+			Armour_Clink_21 probability 0.2 mindist 1 volume -20
+			Armour_Clink_22 probability 0.2 mindist 1 volume -20
+			Armour_Clink_23 probability 0.2 mindist 1 volume -20
+			Armour_Clink_24 probability 0.2 mindist 1 volume -20
+			Armour_Clink_25 probability 0.2 mindist 1 volume -20
+			Armour_Clink_26 probability 0.2 mindist 1 volume -20
+			Armour_Clink_27 probability 0.2 mindist 1 volume -20
+			Armour_Clink_28 probability 0.2 mindist 1 volume -20
+			Armour_Clink_29 probability 0.2 mindist 1 volume -20
+			Armour_Clink_30 probability 0.2 mindist 1 volume -20
+			Armour_Clink_31 probability 0.2 mindist 1 volume -20
+			Armour_Clink_32 probability 0.2 mindist 1 volume -20
+			Armour_Clink_33 probability 0.2 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.03
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.03
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.03
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.03
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.03
+			Cloth_Move_02 volume -40 mindist 1 probability 0.03
+			Cloth_Move_03 volume -40 mindist 1 probability 0.03
+			Cloth_Move_04 volume -40 mindist 1 probability 0.03
+			Cloth_Move_05 volume -40 mindist 1 probability 0.03
+			Cloth_Move_06 volume -40 mindist 1 probability 0.03
+			Cloth_Move_07 volume -40 mindist 1 probability 0.03
+			Cloth_Move_08 volume -40 mindist 1 probability 0.03
+			Cloth_Move_09 volume -40 mindist 1 probability 0.03
+			Cloth_Move_10 volume -40 mindist 1 probability 0.03
+			Cloth_Move_11 volume -40 mindist 1 probability 0.03
+			Cloth_Move_12 volume -40 mindist 1 probability 0.03
+			Cloth_Move_13 volume -40 mindist 1 probability 0.03
+			Cloth_Move_14 volume -40 mindist 1 probability 0.03
+			Cloth_Move_15 volume -40 mindist 1 probability 0.03
+			
+			end
+			
+			
+			
+	event	lod 20
+			folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.4 mindist 1 volume 0
+			Armour_Clink_02 probability 0.4 mindist 1 volume 0
+			Armour_Clink_03 probability 0.4 mindist 1 volume 0
+			Armour_Clink_04 probability 0.4 mindist 1 volume 0
+			Armour_Clink_05 probability 0.4 mindist 1 volume 0
+			Armour_Clink_06 probability 0.4 mindist 1 volume 0
+			Armour_Clink_07 probability 0.4 mindist 1 volume 0
+			Armour_Clink_08 probability 0.4 mindist 1 volume 0
+			Armour_Clink_09 probability 0.4 mindist 1 volume 0
+			Armour_Clink_10 probability 0.4 mindist 1 volume 0
+			Armour_Clink_11 probability 0.4 mindist 1 volume 0
+			Armour_Clink_12 probability 0.4 mindist 1 volume 0
+			Armour_Clink_13 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.4 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.3 mindist 1 volume -20
+			Armour_Clink_15 probability 0.3 mindist 1 volume -20
+			Armour_Clink_16 probability 0.3 mindist 1 volume -20
+			Armour_Clink_17 probability 0.3 mindist 1 volume -20
+			Armour_Clink_18 probability 0.3 mindist 1 volume -20
+			Armour_Clink_19 probability 0.3 mindist 1 volume -20
+			Armour_Clink_20 probability 0.3 mindist 1 volume -20
+			Armour_Clink_21 probability 0.3 mindist 1 volume -20
+			Armour_Clink_22 probability 0.3 mindist 1 volume -20
+			Armour_Clink_23 probability 0.3 mindist 1 volume -20
+			Armour_Clink_24 probability 0.3 mindist 1 volume -20
+			Armour_Clink_25 probability 0.3 mindist 1 volume -20
+			Armour_Clink_26 probability 0.3 mindist 1 volume -20
+			Armour_Clink_27 probability 0.3 mindist 1 volume -20
+			Armour_Clink_28 probability 0.3 mindist 1 volume -20
+			Armour_Clink_29 probability 0.3 mindist 1 volume -20
+			Armour_Clink_30 probability 0.3 mindist 1 volume -20
+			Armour_Clink_31 probability 0.3 mindist 1 volume -20
+			Armour_Clink_32 probability 0.3 mindist 1 volume -20
+			Armour_Clink_33 probability 0.3 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.05
+			Cloth_Move_02 volume -40 mindist 1 probability 0.05
+			Cloth_Move_03 volume -40 mindist 1 probability 0.05
+			Cloth_Move_04 volume -40 mindist 1 probability 0.05
+			Cloth_Move_05 volume -40 mindist 1 probability 0.05
+			Cloth_Move_06 volume -40 mindist 1 probability 0.05
+			Cloth_Move_07 volume -40 mindist 1 probability 0.05
+			Cloth_Move_08 volume -40 mindist 1 probability 0.05
+			Cloth_Move_09 volume -40 mindist 1 probability 0.05
+			Cloth_Move_10 volume -40 mindist 1 probability 0.05
+			Cloth_Move_11 volume -40 mindist 1 probability 0.05
+			Cloth_Move_12 volume -40 mindist 1 probability 0.05
+			Cloth_Move_13 volume -40 mindist 1 probability 0.05
+			Cloth_Move_14 volume -40 mindist 1 probability 0.05
+			Cloth_Move_15 volume -40 mindist 1 probability 0.05
+			
+			end
+			
+			
+		;;;;   LIGHT CAVALRY   ;;;;			
+			
+			
+	unit cavalry light, skirmish, missile
+		event	lod 1
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.1
+			Cloth_Move_02 volume -40 mindist 1 probability 0.1
+			Cloth_Move_03 volume -40 mindist 1 probability 0.1
+			Cloth_Move_04 volume -40 mindist 1 probability 0.1
+			Cloth_Move_05 volume -40 mindist 1 probability 0.1
+			Cloth_Move_06 volume -40 mindist 1 probability 0.1
+			Cloth_Move_07 volume -40 mindist 1 probability 0.1
+			Cloth_Move_08 volume -40 mindist 1 probability 0.1
+			Cloth_Move_09 volume -40 mindist 1 probability 0.1
+			Cloth_Move_10 volume -40 mindist 1 probability 0.1
+			Cloth_Move_11 volume -40 mindist 1 probability 0.1
+			Cloth_Move_12 volume -40 mindist 1 probability 0.1
+			Cloth_Move_13 volume -40 mindist 1 probability 0.1
+			Cloth_Move_14 volume -40 mindist 1 probability 0.1
+			Cloth_Move_15 volume -40 mindist 1 probability 0.1
+			
+			end
+
+	event	lod 10
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.03
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.03
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.03
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.03
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.3
+			Cloth_Move_02 volume -40 mindist 1 probability 0.3
+			Cloth_Move_03 volume -40 mindist 1 probability 0.3
+			Cloth_Move_04 volume -40 mindist 1 probability 0.3
+			Cloth_Move_05 volume -40 mindist 1 probability 0.3
+			Cloth_Move_06 volume -40 mindist 1 probability 0.3
+			Cloth_Move_07 volume -40 mindist 1 probability 0.3
+			Cloth_Move_08 volume -40 mindist 1 probability 0.3
+			Cloth_Move_09 volume -40 mindist 1 probability 0.3
+			Cloth_Move_10 volume -40 mindist 1 probability 0.3
+			Cloth_Move_11 volume -40 mindist 1 probability 0.3
+			Cloth_Move_12 volume -40 mindist 1 probability 0.3
+			Cloth_Move_13 volume -40 mindist 1 probability 0.3
+			Cloth_Move_14 volume -40 mindist 1 probability 0.3
+			Cloth_Move_15 volume -40 mindist 1 probability 0.3
+			
+			end
+			
+			
+			event	lod 20
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.5
+			Cloth_Move_02 volume -40 mindist 1 probability 0.5
+			Cloth_Move_03 volume -40 mindist 1 probability 0.5
+			Cloth_Move_04 volume -40 mindist 1 probability 0.5
+			Cloth_Move_05 volume -40 mindist 1 probability 0.5
+			Cloth_Move_06 volume -40 mindist 1 probability 0.5
+			Cloth_Move_07 volume -40 mindist 1 probability 0.5
+			Cloth_Move_08 volume -40 mindist 1 probability 0.5
+			Cloth_Move_09 volume -40 mindist 1 probability 0.5
+			Cloth_Move_10 volume -40 mindist 1 probability 0.5
+			Cloth_Move_11 volume -40 mindist 1 probability 0.5
+			Cloth_Move_12 volume -40 mindist 1 probability 0.5
+			Cloth_Move_13 volume -40 mindist 1 probability 0.5
+			Cloth_Move_14 volume -40 mindist 1 probability 0.5
+			Cloth_Move_15 volume -40 mindist 1 probability 0.5
+			
+			end
+			
+			
+;;;;;;;;;;;;;;		SIEGE HEAVY  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+			
+			
+	unit siege heavy, spearmen
+		event lod 1
+			folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.2 mindist 1 volume 0
+			Armour_Clink_02 probability 0.2 mindist 1 volume 0
+			Armour_Clink_03 probability 0.2 mindist 1 volume 0
+			Armour_Clink_04 probability 0.2 mindist 1 volume 0
+			Armour_Clink_05 probability 0.2 mindist 1 volume 0
+			Armour_Clink_06 probability 0.2 mindist 1 volume 0
+			Armour_Clink_07 probability 0.2 mindist 1 volume 0
+			Armour_Clink_08 probability 0.2 mindist 1 volume 0
+			Armour_Clink_09 probability 0.2 mindist 1 volume 0
+			Armour_Clink_10 probability 0.2 mindist 1 volume 0
+			Armour_Clink_11 probability 0.2 mindist 1 volume 0
+			Armour_Clink_12 probability 0.2 mindist 1 volume 0
+			Armour_Clink_13 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.2 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.1 mindist 1 volume -20
+			Armour_Clink_15 probability 0.1 mindist 1 volume -20
+			Armour_Clink_16 probability 0.1 mindist 1 volume -20
+			Armour_Clink_17 probability 0.1 mindist 1 volume -20
+			Armour_Clink_18 probability 0.1 mindist 1 volume -20
+			Armour_Clink_19 probability 0.1 mindist 1 volume -20
+			Armour_Clink_20 probability 0.1 mindist 1 volume -20
+			Armour_Clink_21 probability 0.1 mindist 1 volume -20
+			Armour_Clink_22 probability 0.1 mindist 1 volume -20
+			Armour_Clink_23 probability 0.1 mindist 1 volume -20
+			Armour_Clink_24 probability 0.1 mindist 1 volume -20
+			Armour_Clink_25 probability 0.1 mindist 1 volume -20
+			Armour_Clink_26 probability 0.1 mindist 1 volume -20
+			Armour_Clink_27 probability 0.1 mindist 1 volume -20
+			Armour_Clink_28 probability 0.1 mindist 1 volume -20
+			Armour_Clink_29 probability 0.1 mindist 1 volume -20
+			Armour_Clink_30 probability 0.1 mindist 1 volume -20
+			Armour_Clink_31 probability 0.1 mindist 1 volume -20
+			Armour_Clink_32 probability 0.1 mindist 1 volume -20
+			Armour_Clink_33 probability 0.1 mindist 1 volume -20
+  
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.01
+			Cloth_Move_02 volume -40 mindist 1 probability 0.01
+			Cloth_Move_03 volume -40 mindist 1 probability 0.01
+			Cloth_Move_04 volume -40 mindist 1 probability 0.01
+			Cloth_Move_05 volume -40 mindist 1 probability 0.01
+			Cloth_Move_06 volume -40 mindist 1 probability 0.01
+			Cloth_Move_07 volume -40 mindist 1 probability 0.01
+			Cloth_Move_08 volume -40 mindist 1 probability 0.01
+			Cloth_Move_09 volume -40 mindist 1 probability 0.01
+			Cloth_Move_10 volume -40 mindist 1 probability 0.01
+			Cloth_Move_11 volume -40 mindist 1 probability 0.01
+			Cloth_Move_12 volume -40 mindist 1 probability 0.01
+			Cloth_Move_13 volume -40 mindist 1 probability 0.01
+			Cloth_Move_14 volume -40 mindist 1 probability 0.01
+			Cloth_Move_15 volume -40 mindist 1 probability 0.01
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+										
+			end
+
+			
+			
+			
+	event lod 10
+			
+		folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.3 mindist 1 volume 0
+			Armour_Clink_02 probability 0.3 mindist 1 volume 0
+			Armour_Clink_03 probability 0.3 mindist 1 volume 0
+			Armour_Clink_04 probability 0.3 mindist 1 volume 0
+			Armour_Clink_05 probability 0.3 mindist 1 volume 0
+			Armour_Clink_06 probability 0.3 mindist 1 volume 0
+			Armour_Clink_07 probability 0.3 mindist 1 volume 0
+			Armour_Clink_08 probability 0.3 mindist 1 volume 0
+			Armour_Clink_09 probability 0.3 mindist 1 volume 0
+			Armour_Clink_10 probability 0.3 mindist 1 volume 0
+			Armour_Clink_11 probability 0.3 mindist 1 volume 0
+			Armour_Clink_12 probability 0.3 mindist 1 volume 0
+			Armour_Clink_13 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.3 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.2 mindist 1 volume -20
+			Armour_Clink_15 probability 0.2 mindist 1 volume -20
+			Armour_Clink_16 probability 0.2 mindist 1 volume -20
+			Armour_Clink_17 probability 0.2 mindist 1 volume -20
+			Armour_Clink_18 probability 0.2 mindist 1 volume -20
+			Armour_Clink_19 probability 0.2 mindist 1 volume -20
+			Armour_Clink_20 probability 0.2 mindist 1 volume -20
+			Armour_Clink_21 probability 0.2 mindist 1 volume -20
+			Armour_Clink_22 probability 0.2 mindist 1 volume -20
+			Armour_Clink_23 probability 0.2 mindist 1 volume -20
+			Armour_Clink_24 probability 0.2 mindist 1 volume -20
+			Armour_Clink_25 probability 0.2 mindist 1 volume -20
+			Armour_Clink_26 probability 0.2 mindist 1 volume -20
+			Armour_Clink_27 probability 0.2 mindist 1 volume -20
+			Armour_Clink_28 probability 0.2 mindist 1 volume -20
+			Armour_Clink_29 probability 0.2 mindist 1 volume -20
+			Armour_Clink_30 probability 0.2 mindist 1 volume -20
+			Armour_Clink_31 probability 0.2 mindist 1 volume -20
+			Armour_Clink_32 probability 0.2 mindist 1 volume -20
+			Armour_Clink_33 probability 0.2 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.025
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.025
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.025
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.025
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.025
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.025
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.025
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.025
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.025
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.025
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.025
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.025
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.03
+			Cloth_Move_02 volume -40 mindist 1 probability 0.03
+			Cloth_Move_03 volume -40 mindist 1 probability 0.03
+			Cloth_Move_04 volume -40 mindist 1 probability 0.03
+			Cloth_Move_05 volume -40 mindist 1 probability 0.03
+			Cloth_Move_06 volume -40 mindist 1 probability 0.03
+			Cloth_Move_07 volume -40 mindist 1 probability 0.03
+			Cloth_Move_08 volume -40 mindist 1 probability 0.03
+			Cloth_Move_09 volume -40 mindist 1 probability 0.03
+			Cloth_Move_10 volume -40 mindist 1 probability 0.03
+			Cloth_Move_11 volume -40 mindist 1 probability 0.03
+			Cloth_Move_12 volume -40 mindist 1 probability 0.03
+			Cloth_Move_13 volume -40 mindist 1 probability 0.03
+			Cloth_Move_14 volume -40 mindist 1 probability 0.03
+			Cloth_Move_15 volume -40 mindist 1 probability 0.03
+						
+			end
+			
+			
+			
+	event lod 30
+			
+		folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.4 mindist 1 volume 0
+			Armour_Clink_02 probability 0.4 mindist 1 volume 0
+			Armour_Clink_03 probability 0.4 mindist 1 volume 0
+			Armour_Clink_04 probability 0.4 mindist 1 volume 0
+			Armour_Clink_05 probability 0.4 mindist 1 volume 0
+			Armour_Clink_06 probability 0.4 mindist 1 volume 0
+			Armour_Clink_07 probability 0.4 mindist 1 volume 0
+			Armour_Clink_08 probability 0.4 mindist 1 volume 0
+			Armour_Clink_09 probability 0.4 mindist 1 volume 0
+			Armour_Clink_10 probability 0.4 mindist 1 volume 0
+			Armour_Clink_11 probability 0.4 mindist 1 volume 0
+			Armour_Clink_12 probability 0.4 mindist 1 volume 0
+			Armour_Clink_13 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.4 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.3 mindist 1 volume -20
+			Armour_Clink_15 probability 0.3 mindist 1 volume -20
+			Armour_Clink_16 probability 0.3 mindist 1 volume -20
+			Armour_Clink_17 probability 0.3 mindist 1 volume -20
+			Armour_Clink_18 probability 0.3 mindist 1 volume -20
+			Armour_Clink_19 probability 0.3 mindist 1 volume -20
+			Armour_Clink_20 probability 0.3 mindist 1 volume -20
+			Armour_Clink_21 probability 0.3 mindist 1 volume -20
+			Armour_Clink_22 probability 0.3 mindist 1 volume -20
+			Armour_Clink_23 probability 0.3 mindist 1 volume -20
+			Armour_Clink_24 probability 0.3 mindist 1 volume -20
+			Armour_Clink_25 probability 0.3 mindist 1 volume -20
+			Armour_Clink_26 probability 0.3 mindist 1 volume -20
+			Armour_Clink_27 probability 0.3 mindist 1 volume -20
+			Armour_Clink_28 probability 0.3 mindist 1 volume -20
+			Armour_Clink_29 probability 0.3 mindist 1 volume -20
+			Armour_Clink_30 probability 0.3 mindist 1 volume -20
+			Armour_Clink_31 probability 0.3 mindist 1 volume -20
+			Armour_Clink_32 probability 0.3 mindist 1 volume -20
+			Armour_Clink_33 probability 0.3 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.05
+			Cloth_Move_02 volume -40 mindist 1 probability 0.05
+			Cloth_Move_03 volume -40 mindist 1 probability 0.05
+			Cloth_Move_04 volume -40 mindist 1 probability 0.05
+			Cloth_Move_05 volume -40 mindist 1 probability 0.05
+			Cloth_Move_06 volume -40 mindist 1 probability 0.05
+			Cloth_Move_07 volume -40 mindist 1 probability 0.05
+			Cloth_Move_08 volume -40 mindist 1 probability 0.05
+			Cloth_Move_09 volume -40 mindist 1 probability 0.05
+			Cloth_Move_10 volume -40 mindist 1 probability 0.05
+			Cloth_Move_11 volume -40 mindist 1 probability 0.05
+			Cloth_Move_12 volume -40 mindist 1 probability 0.05
+			Cloth_Move_13 volume -40 mindist 1 probability 0.05
+			Cloth_Move_14 volume -40 mindist 1 probability 0.05
+			Cloth_Move_15 volume -40 mindist 1 probability 0.05
+								
+			end
+			
+	;;;; SIEGE LIGHT ;;;;		
+			
+	unit siege light, skirmish, missile
+		event lod 1
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.1
+			Cloth_Move_02 volume -40 mindist 1 probability 0.1
+			Cloth_Move_03 volume -40 mindist 1 probability 0.1
+			Cloth_Move_04 volume -40 mindist 1 probability 0.1
+			Cloth_Move_05 volume -40 mindist 1 probability 0.1
+			Cloth_Move_06 volume -40 mindist 1 probability 0.1
+			Cloth_Move_07 volume -40 mindist 1 probability 0.1
+			Cloth_Move_08 volume -40 mindist 1 probability 0.1
+			Cloth_Move_09 volume -40 mindist 1 probability 0.1
+			Cloth_Move_10 volume -40 mindist 1 probability 0.1
+			Cloth_Move_11 volume -40 mindist 1 probability 0.1
+			Cloth_Move_12 volume -40 mindist 1 probability 0.1
+			Cloth_Move_13 volume -40 mindist 1 probability 0.1
+			Cloth_Move_14 volume -40 mindist 1 probability 0.1
+			Cloth_Move_15 volume -40 mindist 1 probability 0.1
+			end
+			
+	event lod 10
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.03
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.03
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.03
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.03
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.3
+			Cloth_Move_02 volume -40 mindist 1 probability 0.3
+			Cloth_Move_03 volume -40 mindist 1 probability 0.3
+			Cloth_Move_04 volume -40 mindist 1 probability 0.3
+			Cloth_Move_05 volume -40 mindist 1 probability 0.3
+			Cloth_Move_06 volume -40 mindist 1 probability 0.3
+			Cloth_Move_07 volume -40 mindist 1 probability 0.3
+			Cloth_Move_08 volume -40 mindist 1 probability 0.3
+			Cloth_Move_09 volume -40 mindist 1 probability 0.3
+			Cloth_Move_10 volume -40 mindist 1 probability 0.3
+			Cloth_Move_11 volume -40 mindist 1 probability 0.3
+			Cloth_Move_12 volume -40 mindist 1 probability 0.3
+			Cloth_Move_13 volume -40 mindist 1 probability 0.3
+			Cloth_Move_14 volume -40 mindist 1 probability 0.3
+			Cloth_Move_15 volume -40 mindist 1 probability 0.3
+			
+			
+			end
+			
+			
+		event lod 30
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.5
+			Cloth_Move_02 volume -40 mindist 1 probability 0.5
+			Cloth_Move_03 volume -40 mindist 1 probability 0.5
+			Cloth_Move_04 volume -40 mindist 1 probability 0.5
+			Cloth_Move_05 volume -40 mindist 1 probability 0.5
+			Cloth_Move_06 volume -40 mindist 1 probability 0.5
+			Cloth_Move_07 volume -40 mindist 1 probability 0.5
+			Cloth_Move_08 volume -40 mindist 1 probability 0.5
+			Cloth_Move_09 volume -40 mindist 1 probability 0.5
+			Cloth_Move_10 volume -40 mindist 1 probability 0.5
+			Cloth_Move_11 volume -40 mindist 1 probability 0.5
+			Cloth_Move_12 volume -40 mindist 1 probability 0.5
+			Cloth_Move_13 volume -40 mindist 1 probability 0.5
+			Cloth_Move_14 volume -40 mindist 1 probability 0.5
+			Cloth_Move_15 volume -40 mindist 1 probability 0.5
+			
+			
+			end
+
+;;;;;;;;;;;;;;;;;;  NON COMBATANT  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+			
+			
+	unit non_combatant light, heavy, spearmen, skirmish, missile
+		event lod 1
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.1
+			Cloth_Move_02 volume -40 mindist 1 probability 0.1
+			Cloth_Move_03 volume -40 mindist 1 probability 0.1
+			Cloth_Move_04 volume -40 mindist 1 probability 0.1
+			Cloth_Move_05 volume -40 mindist 1 probability 0.1
+			Cloth_Move_06 volume -40 mindist 1 probability 0.1
+			Cloth_Move_07 volume -40 mindist 1 probability 0.1
+			Cloth_Move_08 volume -40 mindist 1 probability 0.1
+			Cloth_Move_09 volume -40 mindist 1 probability 0.1
+			Cloth_Move_10 volume -40 mindist 1 probability 0.1
+			Cloth_Move_11 volume -40 mindist 1 probability 0.1
+			Cloth_Move_12 volume -40 mindist 1 probability 0.1
+			Cloth_Move_13 volume -40 mindist 1 probability 0.1
+			Cloth_Move_14 volume -40 mindist 1 probability 0.1
+			Cloth_Move_15 volume -40 mindist 1 probability 0.1
+			end
+			
+	event lod 10
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.03
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.03
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.03
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.03
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.3
+			Cloth_Move_02 volume -40 mindist 1 probability 0.3
+			Cloth_Move_03 volume -40 mindist 1 probability 0.3
+			Cloth_Move_04 volume -40 mindist 1 probability 0.3
+			Cloth_Move_05 volume -40 mindist 1 probability 0.3
+			Cloth_Move_06 volume -40 mindist 1 probability 0.3
+			Cloth_Move_07 volume -40 mindist 1 probability 0.3
+			Cloth_Move_08 volume -40 mindist 1 probability 0.3
+			Cloth_Move_09 volume -40 mindist 1 probability 0.3
+			Cloth_Move_10 volume -40 mindist 1 probability 0.3
+			Cloth_Move_11 volume -40 mindist 1 probability 0.3
+			Cloth_Move_12 volume -40 mindist 1 probability 0.3
+			Cloth_Move_13 volume -40 mindist 1 probability 0.3
+			Cloth_Move_14 volume -40 mindist 1 probability 0.3
+			Cloth_Move_15 volume -40 mindist 1 probability 0.3
+			
+			
+			end
+			
+			
+		event lod 30
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.5
+			Cloth_Move_02 volume -40 mindist 1 probability 0.5
+			Cloth_Move_03 volume -40 mindist 1 probability 0.5
+			Cloth_Move_04 volume -40 mindist 1 probability 0.5
+			Cloth_Move_05 volume -40 mindist 1 probability 0.5
+			Cloth_Move_06 volume -40 mindist 1 probability 0.5
+			Cloth_Move_07 volume -40 mindist 1 probability 0.5
+			Cloth_Move_08 volume -40 mindist 1 probability 0.5
+			Cloth_Move_09 volume -40 mindist 1 probability 0.5
+			Cloth_Move_10 volume -40 mindist 1 probability 0.5
+			Cloth_Move_11 volume -40 mindist 1 probability 0.5
+			Cloth_Move_12 volume -40 mindist 1 probability 0.5
+			Cloth_Move_13 volume -40 mindist 1 probability 0.5
+			Cloth_Move_14 volume -40 mindist 1 probability 0.5
+			Cloth_Move_15 volume -40 mindist 1 probability 0.5
+			
+			
+			end
+		
+	;;;;  HANDLER HEAVY  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		
+	unit handler  heavy, spearmen
+		event lod 1
+			folder data/sounds/SFX/Individual/Movement
+		Armour_Clink_01 probability 0.2 mindist 1 volume 0
+			Armour_Clink_02 probability 0.2 mindist 1 volume 0
+			Armour_Clink_03 probability 0.2 mindist 1 volume 0
+			Armour_Clink_04 probability 0.2 mindist 1 volume 0
+			Armour_Clink_05 probability 0.2 mindist 1 volume 0
+			Armour_Clink_06 probability 0.2 mindist 1 volume 0
+			Armour_Clink_07 probability 0.2 mindist 1 volume 0
+			Armour_Clink_08 probability 0.2 mindist 1 volume 0
+			Armour_Clink_09 probability 0.2 mindist 1 volume 0
+			Armour_Clink_10 probability 0.2 mindist 1 volume 0
+			Armour_Clink_11 probability 0.2 mindist 1 volume 0
+			Armour_Clink_12 probability 0.2 mindist 1 volume 0
+			Armour_Clink_13 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.2 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.2 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.1 mindist 1 volume -20
+			Armour_Clink_15 probability 0.1 mindist 1 volume -20
+			Armour_Clink_16 probability 0.1 mindist 1 volume -20
+			Armour_Clink_17 probability 0.1 mindist 1 volume -20
+			Armour_Clink_18 probability 0.1 mindist 1 volume -20
+			Armour_Clink_19 probability 0.1 mindist 1 volume -20
+			Armour_Clink_20 probability 0.1 mindist 1 volume -20
+			Armour_Clink_21 probability 0.1 mindist 1 volume -20
+			Armour_Clink_22 probability 0.1 mindist 1 volume -20
+			Armour_Clink_23 probability 0.1 mindist 1 volume -20
+			Armour_Clink_24 probability 0.1 mindist 1 volume -20
+			Armour_Clink_25 probability 0.1 mindist 1 volume -20
+			Armour_Clink_26 probability 0.1 mindist 1 volume -20
+			Armour_Clink_27 probability 0.1 mindist 1 volume -20
+			Armour_Clink_28 probability 0.1 mindist 1 volume -20
+			Armour_Clink_29 probability 0.1 mindist 1 volume -20
+			Armour_Clink_30 probability 0.1 mindist 1 volume -20
+			Armour_Clink_31 probability 0.1 mindist 1 volume -20
+			Armour_Clink_32 probability 0.1 mindist 1 volume -20
+			Armour_Clink_33 probability 0.1 mindist 1 volume -20
+  
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.01
+			Cloth_Move_02 volume -40 mindist 1 probability 0.01
+			Cloth_Move_03 volume -40 mindist 1 probability 0.01
+			Cloth_Move_04 volume -40 mindist 1 probability 0.01
+			Cloth_Move_05 volume -40 mindist 1 probability 0.01
+			Cloth_Move_06 volume -40 mindist 1 probability 0.01
+			Cloth_Move_07 volume -40 mindist 1 probability 0.01
+			Cloth_Move_08 volume -40 mindist 1 probability 0.01
+			Cloth_Move_09 volume -40 mindist 1 probability 0.01
+			Cloth_Move_10 volume -40 mindist 1 probability 0.01
+			Cloth_Move_11 volume -40 mindist 1 probability 0.01
+			Cloth_Move_12 volume -40 mindist 1 probability 0.01
+			Cloth_Move_13 volume -40 mindist 1 probability 0.01
+			Cloth_Move_14 volume -40 mindist 1 probability 0.01
+			Cloth_Move_15 volume -40 mindist 1 probability 0.01
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+										
+			end
+
+			
+			
+			
+	event lod 10
+			
+		folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.3 mindist 1 volume 0
+			Armour_Clink_02 probability 0.3 mindist 1 volume 0
+			Armour_Clink_03 probability 0.3 mindist 1 volume 0
+			Armour_Clink_04 probability 0.3 mindist 1 volume 0
+			Armour_Clink_05 probability 0.3 mindist 1 volume 0
+			Armour_Clink_06 probability 0.3 mindist 1 volume 0
+			Armour_Clink_07 probability 0.3 mindist 1 volume 0
+			Armour_Clink_08 probability 0.3 mindist 1 volume 0
+			Armour_Clink_09 probability 0.3 mindist 1 volume 0
+			Armour_Clink_10 probability 0.3 mindist 1 volume 0
+			Armour_Clink_11 probability 0.3 mindist 1 volume 0
+			Armour_Clink_12 probability 0.3 mindist 1 volume 0
+			Armour_Clink_13 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.3 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.3 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.2 mindist 1 volume -20
+			Armour_Clink_15 probability 0.2 mindist 1 volume -20
+			Armour_Clink_16 probability 0.2 mindist 1 volume -20
+			Armour_Clink_17 probability 0.2 mindist 1 volume -20
+			Armour_Clink_18 probability 0.2 mindist 1 volume -20
+			Armour_Clink_19 probability 0.2 mindist 1 volume -20
+			Armour_Clink_20 probability 0.2 mindist 1 volume -20
+			Armour_Clink_21 probability 0.2 mindist 1 volume -20
+			Armour_Clink_22 probability 0.2 mindist 1 volume -20
+			Armour_Clink_23 probability 0.2 mindist 1 volume -20
+			Armour_Clink_24 probability 0.2 mindist 1 volume -20
+			Armour_Clink_25 probability 0.2 mindist 1 volume -20
+			Armour_Clink_26 probability 0.2 mindist 1 volume -20
+			Armour_Clink_27 probability 0.2 mindist 1 volume -20
+			Armour_Clink_28 probability 0.2 mindist 1 volume -20
+			Armour_Clink_29 probability 0.2 mindist 1 volume -20
+			Armour_Clink_30 probability 0.2 mindist 1 volume -20
+			Armour_Clink_31 probability 0.2 mindist 1 volume -20
+			Armour_Clink_32 probability 0.2 mindist 1 volume -20
+			Armour_Clink_33 probability 0.2 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.025
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.025
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.025
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.025
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.025
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.025
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.025
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.025
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.025
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.025
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.025
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.025
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.025
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.025
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.025
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.025
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.03
+			Cloth_Move_02 volume -40 mindist 1 probability 0.03
+			Cloth_Move_03 volume -40 mindist 1 probability 0.03
+			Cloth_Move_04 volume -40 mindist 1 probability 0.03
+			Cloth_Move_05 volume -40 mindist 1 probability 0.03
+			Cloth_Move_06 volume -40 mindist 1 probability 0.03
+			Cloth_Move_07 volume -40 mindist 1 probability 0.03
+			Cloth_Move_08 volume -40 mindist 1 probability 0.03
+			Cloth_Move_09 volume -40 mindist 1 probability 0.03
+			Cloth_Move_10 volume -40 mindist 1 probability 0.03
+			Cloth_Move_11 volume -40 mindist 1 probability 0.03
+			Cloth_Move_12 volume -40 mindist 1 probability 0.03
+			Cloth_Move_13 volume -40 mindist 1 probability 0.03
+			Cloth_Move_14 volume -40 mindist 1 probability 0.03
+			Cloth_Move_15 volume -40 mindist 1 probability 0.03
+						
+			end
+			
+			
+			
+	event lod 30
+			
+		folder data/sounds/SFX/Individual/Movement
+			Armour_Clink_01 probability 0.4 mindist 1 volume 0
+			Armour_Clink_02 probability 0.4 mindist 1 volume 0
+			Armour_Clink_03 probability 0.4 mindist 1 volume 0
+			Armour_Clink_04 probability 0.4 mindist 1 volume 0
+			Armour_Clink_05 probability 0.4 mindist 1 volume 0
+			Armour_Clink_06 probability 0.4 mindist 1 volume 0
+			Armour_Clink_07 probability 0.4 mindist 1 volume 0
+			Armour_Clink_08 probability 0.4 mindist 1 volume 0
+			Armour_Clink_09 probability 0.4 mindist 1 volume 0
+			Armour_Clink_10 probability 0.4 mindist 1 volume 0
+			Armour_Clink_11 probability 0.4 mindist 1 volume 0
+			Armour_Clink_12 probability 0.4 mindist 1 volume 0
+			Armour_Clink_13 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_01 probability 0.4 mindist 1 volume 0
+			Armour_Squeak_02 probability 0.4 mindist 1 volume 0
+		
+			Armour_Clink_14 probability 0.3 mindist 1 volume -20
+			Armour_Clink_15 probability 0.3 mindist 1 volume -20
+			Armour_Clink_16 probability 0.3 mindist 1 volume -20
+			Armour_Clink_17 probability 0.3 mindist 1 volume -20
+			Armour_Clink_18 probability 0.3 mindist 1 volume -20
+			Armour_Clink_19 probability 0.3 mindist 1 volume -20
+			Armour_Clink_20 probability 0.3 mindist 1 volume -20
+			Armour_Clink_21 probability 0.3 mindist 1 volume -20
+			Armour_Clink_22 probability 0.3 mindist 1 volume -20
+			Armour_Clink_23 probability 0.3 mindist 1 volume -20
+			Armour_Clink_24 probability 0.3 mindist 1 volume -20
+			Armour_Clink_25 probability 0.3 mindist 1 volume -20
+			Armour_Clink_26 probability 0.3 mindist 1 volume -20
+			Armour_Clink_27 probability 0.3 mindist 1 volume -20
+			Armour_Clink_28 probability 0.3 mindist 1 volume -20
+			Armour_Clink_29 probability 0.3 mindist 1 volume -20
+			Armour_Clink_30 probability 0.3 mindist 1 volume -20
+			Armour_Clink_31 probability 0.3 mindist 1 volume -20
+			Armour_Clink_32 probability 0.3 mindist 1 volume -20
+			Armour_Clink_33 probability 0.3 mindist 1 volume -20
+		
+		
+		folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -35 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -35 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.05
+			Cloth_Move_02 volume -40 mindist 1 probability 0.05
+			Cloth_Move_03 volume -40 mindist 1 probability 0.05
+			Cloth_Move_04 volume -40 mindist 1 probability 0.05
+			Cloth_Move_05 volume -40 mindist 1 probability 0.05
+			Cloth_Move_06 volume -40 mindist 1 probability 0.05
+			Cloth_Move_07 volume -40 mindist 1 probability 0.05
+			Cloth_Move_08 volume -40 mindist 1 probability 0.05
+			Cloth_Move_09 volume -40 mindist 1 probability 0.05
+			Cloth_Move_10 volume -40 mindist 1 probability 0.05
+			Cloth_Move_11 volume -40 mindist 1 probability 0.05
+			Cloth_Move_12 volume -40 mindist 1 probability 0.05
+			Cloth_Move_13 volume -40 mindist 1 probability 0.05
+			Cloth_Move_14 volume -40 mindist 1 probability 0.05
+			Cloth_Move_15 volume -40 mindist 1 probability 0.05
+								
+			end
+	
+	
+	
+	;;;;; HANDLER  LIGHT  ;;;;;
+	
+	
+	
+	unit handler light, skirmish, missile
+		event lod 1
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.01
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.01
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.01
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.01
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.01
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.01
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.01
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.01
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.01
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.01
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.01
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.01
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.01
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.1
+			Cloth_Move_02 volume -40 mindist 1 probability 0.1
+			Cloth_Move_03 volume -40 mindist 1 probability 0.1
+			Cloth_Move_04 volume -40 mindist 1 probability 0.1
+			Cloth_Move_05 volume -40 mindist 1 probability 0.1
+			Cloth_Move_06 volume -40 mindist 1 probability 0.1
+			Cloth_Move_07 volume -40 mindist 1 probability 0.1
+			Cloth_Move_08 volume -40 mindist 1 probability 0.1
+			Cloth_Move_09 volume -40 mindist 1 probability 0.1
+			Cloth_Move_10 volume -40 mindist 1 probability 0.1
+			Cloth_Move_11 volume -40 mindist 1 probability 0.1
+			Cloth_Move_12 volume -40 mindist 1 probability 0.1
+			Cloth_Move_13 volume -40 mindist 1 probability 0.1
+			Cloth_Move_14 volume -40 mindist 1 probability 0.1
+			Cloth_Move_15 volume -40 mindist 1 probability 0.1
+			end
+			
+	event lod 10
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.03
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.03
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.03
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.03
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.03
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.03
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.03
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.03
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.03
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.03
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.03
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.03
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.03
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.3
+			Cloth_Move_02 volume -40 mindist 1 probability 0.3
+			Cloth_Move_03 volume -40 mindist 1 probability 0.3
+			Cloth_Move_04 volume -40 mindist 1 probability 0.3
+			Cloth_Move_05 volume -40 mindist 1 probability 0.3
+			Cloth_Move_06 volume -40 mindist 1 probability 0.3
+			Cloth_Move_07 volume -40 mindist 1 probability 0.3
+			Cloth_Move_08 volume -40 mindist 1 probability 0.3
+			Cloth_Move_09 volume -40 mindist 1 probability 0.3
+			Cloth_Move_10 volume -40 mindist 1 probability 0.3
+			Cloth_Move_11 volume -40 mindist 1 probability 0.3
+			Cloth_Move_12 volume -40 mindist 1 probability 0.3
+			Cloth_Move_13 volume -40 mindist 1 probability 0.3
+			Cloth_Move_14 volume -40 mindist 1 probability 0.3
+			Cloth_Move_15 volume -40 mindist 1 probability 0.3
+			
+			
+			end
+			
+			
+		event lod 30
+			folder data/sounds/Voice/Human/Generic
+			Infantry_Belch_02 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_03 volume -35 mindist 1 probability 0.05
+			Infantry_Belch_04 volume -35 mindist 1 probability 0.05
+			Infantry_Coughing_01 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_03 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_05 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_07 volume -25 mindist 1 probability 0.05
+			Infantry_Coughing_16 volume -25 mindist 1 probability 0.05
+			Infantry_Fart_EM_01 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_02 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_03 volume -25 mindist 1 probability 0.005
+			Infantry_Fart_EM_04 volume -25 mindist 1 probability 0.005
+			Infantry_Muttering_04 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_06 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_09 volume -25 mindist 1 probability 0.05
+			Infantry_Muttering_15 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_01 volume -25 mindist 1 probability 0.05
+			Infantry_Scratching_03 volume -25 mindist 1 probability 0.05
+			Infantry_Spitting_01 volume -35 mindist 1 probability 0.05
+			Infantry_Spitting_03 volume -35 mindist 1 probability 0.05
+			Inf_Stretch_09 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_07 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_02 volume -25 mindist 1 probability 0.05
+			Inf_Stretch_04 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_06 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_07 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_08 volume -25 mindist 1 probability 0.05
+			Infantry_Whistling_15 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_01 volume -25 mindist 1 probability 0.05
+			Infantry_Yawn_02 volume -25 mindist 1 probability 0.05
+	
+			folder data/sounds/SFX/Individual/Movement
+			Cloth_Move_01 volume -40 mindist 1 probability 0.5
+			Cloth_Move_02 volume -40 mindist 1 probability 0.5
+			Cloth_Move_03 volume -40 mindist 1 probability 0.5
+			Cloth_Move_04 volume -40 mindist 1 probability 0.5
+			Cloth_Move_05 volume -40 mindist 1 probability 0.5
+			Cloth_Move_06 volume -40 mindist 1 probability 0.5
+			Cloth_Move_07 volume -40 mindist 1 probability 0.5
+			Cloth_Move_08 volume -40 mindist 1 probability 0.5
+			Cloth_Move_09 volume -40 mindist 1 probability 0.5
+			Cloth_Move_10 volume -40 mindist 1 probability 0.5
+			Cloth_Move_11 volume -40 mindist 1 probability 0.5
+			Cloth_Move_12 volume -40 mindist 1 probability 0.5
+			Cloth_Move_13 volume -40 mindist 1 probability 0.5
+			Cloth_Move_14 volume -40 mindist 1 probability 0.5
+			Cloth_Move_15 volume -40 mindist 1 probability 0.5
+			
+			
+			end
+			
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;            ANIMALS                    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;   Get Your Meat While It's hot !    ;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+BANK: animal_idle
+
+
+;;;;;;;;;;;;;;;;;;    WARDOGS   ;;;;;;;;;;;;;;;;;;;;;
+
+
+	animal wardogs
+		event lod 1 probability 0.04 minPitch .8 maxPitch 1.0 mindist 4 volume -25 
+			folder data/sounds/Voice/Animal/Wardog
+			wardog_growl_01
+			wardog_growl_02
+			wardog_growl_03
+			wardog_growl_04
+			wardog_pant_01
+		end
+	
+	
+	
+	event lod 5 probability 0.05 minPitch .8 maxPitch 1.0 mindist 4 volume -25 
+			folder data/sounds/Voice/Animal/Wardog
+			wardog_growl_01
+			wardog_growl_02
+			wardog_growl_03
+			wardog_growl_04
+			wardog_pant_01
+		end
+
+	event lod 15 probability 0.05 minPitch .8 maxPitch 1.0 mindist 4 volume -25 
+			folder data/sounds/Voice/Animal/Wardog
+			wardog_growl_01
+			wardog_growl_02
+			wardog_growl_03
+			wardog_growl_04
+			wardog_pant_01
+		end
+		
+		
+;;;;;;;;;;;;;;   PIGS    ;;;;;;;;;;;;;;;;;;;;;;	
+		
+	
+		
+	animal pigs
+		event lod 1 probability 0.04 minPitch .8 maxPitch 1.1 mindist 4 volume 0
+			folder data/sounds/Voice/Animal/Pig
+			pig_ambient_01
+			pig_ambient_02
+			pig_ambient_04
+			pig_ambient_05
+			pig_ambient_06
+			pig_ambient_07
+			pig_ambient_08
+		end
+	
+	
+	event lod 5 probability 0.05 minPitch .8 maxPitch 1.1 mindist 4 volume 0
+			folder data/sounds/Voice/Animal/Pig
+			pig_ambient_01
+			pig_ambient_02
+			pig_ambient_04
+			pig_ambient_05
+			pig_ambient_06
+			pig_ambient_07
+			pig_ambient_08
+		end
+
+		
+		
+		animal pigs
+		event lod 15 probability 0.06 minPitch .8 maxPitch 1.1 mindist 4 volume 0
+			folder data/sounds/Voice/Animal/Pig
+			pig_ambient_01
+			pig_ambient_02
+			pig_ambient_04
+			pig_ambient_05
+			pig_ambient_06
+			pig_ambient_07
+			pig_ambient_08
+		end
+		
+		
+		
+
+;;;;;;;;;;;;;;   CAMELS   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+		
+		
+	mount camel, camel cataphract
+		event lod 1 probability 0.04 volume -25 mindist 4
+			folder data/sounds/Voice/Animal/Camel
+			Camel_Groan_02
+			Camel_Groan_03
+			Camel_Groan_04
+			Camel_Groan_06
+			Camel_Groan_09
+			Camel_Groan_11
+			Camel_Groan_19
+			Camel_Groan_20
+			Camel_Groan_21
+		end
+
+	event lod 10 probability 0.06 volume -20 mindist 5
+			folder  data/sounds/Voice/Animal/Camel
+			Camel_Groan_02
+			Camel_Groan_03
+			Camel_Groan_04
+			Camel_Groan_06
+			Camel_Groan_09
+			Camel_Groan_11
+			Camel_Groan_19
+			Camel_Groan_20
+			Camel_Groan_21
+		end		
+		
+		event lod 20 probability 0.08 volume -20 mindist 6
+			folder data/sounds/Voice/Animal/Camel
+			Camel_Groan_02
+			Camel_Groan_03
+			Camel_Groan_04
+			Camel_Groan_06
+			Camel_Groan_09
+			Camel_Groan_11
+			Camel_Groan_19
+			Camel_Groan_20
+			Camel_Groan_21
+		end
+		
+		
+		
+;;;;;;;;;;;;;;;;;;   HORSES    ;;;;;;;;;;;;;;;;;;;;;;;;		
+		
+		
+	mount horse cataphract, light horse, medium horse, heavy horse, generals horse
+		event lod 1 probability 0.07 volume -45 mindist 3
+			folder data/sounds/Voice/Animal/Horse
+			horse_snort_01
+			horse_snort_02
+			horse_snort_03
+			horse_snort_04
+			folder data/sounds/Voice/Animal/Horse
+			horse_nay_01
+			horse_nay_06
+			horse_nay_07
+			horse_nay_09
+			horse_nay_10
+			horse_nay_11
+			horse_nay_12
+		end
+
+		
+		
+		event lod 10 probability 0.08 volume -40 mindist 4
+			folder data/sounds/Voice/Animal/Horse
+			horse_snort_01
+			horse_snort_02
+			horse_snort_03
+			horse_snort_04
+			folder data/sounds/Voice/Animal/Horse
+			horse_nay_01
+			horse_nay_06
+			horse_nay_07
+			horse_nay_09
+			horse_nay_10
+			horse_nay_11
+			horse_nay_12
+		end
+		
+		
+		event lod 20 probability 0.09 volume -40 mindist 5
+			folder data/sounds/Voice/Animal/Horse
+			horse_snort_01
+			horse_snort_02
+			horse_snort_03
+			horse_snort_04
+			folder data/sounds/Voice/Animal/Horse
+			horse_nay_01
+			horse_nay_06
+			horse_nay_07
+			horse_nay_09
+			horse_nay_10
+			horse_nay_11
+			horse_nay_12
+		end
+		
+		
+		
+;;;;;;;;;;;;;;;;   ELEPHANTS   ;;;;;;;;;;;;;;;;;;;;;;;		
+		
+		
+		
+	mount elephant forest, elephant african, elephant african cataphract, elephant indian
+		event lod 1 probability 0.06 volume -40 mindist 6
+			folder data/sounds/Voice/Animal/Elephant
+			Elephant_Trumpet_11
+ 			Elephant_Trumpet_12
+			Elephant_Trumpet_15
+ 			Elephant_Trumpet_18
+ 			Elephant_Trumpet_42
+			Elephant_Ambient_03
+			Elephant_Ambient_04
+			Elephant_Ambient_05
+			Elephant_Ambient_06
+			Elephant_Ambient_07
+			Elephant_Ambient_08
+			Elephant_Ambient_10
+			Elephant_Snort_04
+			Elephant_Snort_05
+			Elephant_Snort_06
+			Elephant_Snort_08
+			Elephant_Snort_09
+		end
+
+		
+	mount elephant forest, elephant african, elephant african cataphract,  elephant indian
+		event lod 3 probability 0.07 volume -35 mindist 7
+			folder data/sounds/Voice/Animal/Elephant
+			Elephant_Trumpet_11
+ 			Elephant_Trumpet_12
+			Elephant_Trumpet_15
+ 			Elephant_Trumpet_18
+ 			Elephant_Trumpet_42
+			Elephant_Ambient_03
+			Elephant_Ambient_04
+			Elephant_Ambient_05
+			Elephant_Ambient_06
+			Elephant_Ambient_07
+			Elephant_Ambient_08
+			Elephant_Ambient_10
+			Elephant_Snort_04
+			Elephant_Snort_05
+			Elephant_Snort_06
+			Elephant_Snort_08
+			Elephant_Snort_09
+		end	
+
+		
+		mount elephant forest, elephant african, elephant african cataphract,  elephant indian
+		event lod 5 probability 0.08 volume -35 mindist 8
+			folder data/sounds/Voice/Animal/Elephant
+			Elephant_Trumpet_11
+ 			Elephant_Trumpet_12
+			Elephant_Trumpet_15
+ 			Elephant_Trumpet_18
+ 			Elephant_Trumpet_42
+			Elephant_Ambient_03
+			Elephant_Ambient_04
+			Elephant_Ambient_05
+			Elephant_Ambient_06
+			Elephant_Ambient_07
+			Elephant_Ambient_08
+			Elephant_Ambient_10
+			Elephant_Snort_04
+			Elephant_Snort_05
+			Elephant_Snort_06
+			Elephant_Snort_08
+			Elephant_Snort_09
+		end		

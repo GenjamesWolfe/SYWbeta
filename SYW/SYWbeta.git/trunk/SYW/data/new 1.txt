@@ -1,0 +1,230 @@
+Teehee
+
+rometotalrealism.slack.com
+effect musket_shot_muzzle_flash
+{
+	type shot
+	{
+		; main explosion
+		model 					models_effects/cannon_muzzle_flash.CAS
+        anim_time				0.2
+		max_scale   			1.3
+		max_particle_scale 		1.3
+		scale_time_bias			0.9
+		alpha_time_bias			0.9
+		; debris
+        debris_model             models_effects/debri02.cas
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       0.2, 0.5
+	}
+}
+
+
+effect musket_shot_quick_flash
+
+{
+	type shot
+	{
+		; main explosion
+
+		model 					models_effects/cannon_muzzle_flash.CAS
+		anim_time				0.16
+		max_scale   			1
+		max_particle_scale 		7.3
+		scale_time_bias			0.7
+		alpha_time_bias			0.9
+		; debris
+        debris_model             models_effects/debris.cas
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       0.2, 0.5
+	}
+}
+
+effect musket_shot_smoke_trail
+{
+	type shot
+	{
+		; main explosion
+		 clr_adjust_by_ambient_intensity 
+
+		model 					models_effects/cannon_muzzle_flash_smoke.CAS
+		anim_time				10
+		max_scale   			4.7
+		max_particle_scale 		1.5
+		scale_time_bias			0.9
+		alpha_time_bias			0.95
+
+		; debris
+        debris_model             models_effects/debris.cas
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       0.2, 0.5
+	}
+}
+
+
+effect musket_shot_smoke
+{
+	type shot
+	{
+		; main explosion
+		clr_adjust_by_ambient_intensity 
+
+		model 					models_effects/cannon_muzzle_flash_smoke.CAS
+		anim_time				4
+		max_scale   			13
+		max_particle_scale 		2
+		scale_time_bias			0.9
+		alpha_time_bias			0.95
+
+		; debris
+        debris_model             models_effects/debris.cas
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       1.5, 0.2
+	}
+}
+
+
+effect musket_shot_smoke_linger_small
+{
+	type shot
+	{
+		; main explosion
+		 clr_adjust_by_ambient_intensity 
+
+		model 					models_effects/muzzle_flash_dust.CAS
+		anim_time				10
+		max_scale   			2
+		max_particle_scale 		0.8
+		scale_time_bias			0.6
+		alpha_time_bias			0.9
+		
+	; debris
+        debris_model             models_effects/debris.cas
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        120             ; degrees
+        debris_time_bias         0.8
+        debris_velocity_range    8.5, 9.5
+        debris_scale_range       1.2, 1.5
+	}
+}
+effect muzzle_flash_smoke_1648_musket
+{
+	type particle
+ 	{
+		texture			battlefield/fire/white_smoke.tga
+
+		sprite_origin			0.2, 0.2
+		sprite_size				0.65, 0.65
+		size_range      		2.5, 3.5
+		age_range       		2.5, 3.5
+        grow_range	 			1.2, 1.8 
+        vel_range				0.01, 0.01
+        fade_time				2.1
+        die_size				2, 1
+		colour     				255,255,255
+		alpha_max	   			114			 ; maximum alpha value
+		spin_rate				-0.05, 0.05
+		acceleration			0, 0, -1.5
+		system_radius			10
+		sort_bias				0
+		sort 					instance
+		fade_in_time			0.00
+		intial_size				1, 1.5
+        offset				0.0, 1, 0.0
+		wind_modifier			35
+				clr_adjust_by_ambient_intensity
+
+
+		
+		
+		emitter 				time
+		{
+			density					20	     	; how many particles per second
+			offset_from_surface		0,0,0		; offset from surface to emit from
+
+			emitter_falloff_dist	500		; distance in meters to reduce emission over
+			emitter_falloff_bias	0.6			; 			
+		}
+	}
+}
+effect 1648_smoke_linger_musket
+{
+	type shot
+	{
+		; main explosion
+				clr_adjust_by_ambient_intensity 
+
+		model 					models_effects/muzzle_flash_dust.CAS
+		sort_for_speed
+		anim_time				20
+		max_scale   			2
+		max_particle_scale 		5
+		scale_time_bias			0.9
+		alpha_time_bias			0.95
+
+		; debris
+        debris_model             models_effects/debris_fire.CAS
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        90               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       1.2, 1.5
+	}
+}
+
+effect musket_shot_smoke_linger_long
+{
+	type shot
+	{
+		; main explosion
+		 clr_adjust_by_ambient_intensity
+		model 					models_effects/cannon_muzzle_flash_smoke.CAS
+		anim_time				15
+		max_scale   			10
+		max_particle_scale 		2
+		scale_time_bias			0.9
+		alpha_time_bias			0.95
+
+		; debris
+        debris_model             models_effects/debris.cas
+        debris_num_particles     0
+        debris_lifetime_range    0.05, 0.06
+        debris_emit_angle        50               ; degrees
+        debris_time_bias         0.97
+        debris_velocity_range    6.5, 8.5
+        debris_scale_range       1.5, 0.2
+	}
+}
+
+effect_set musket
+{
+	play_time 1
+	lod 1000
+	{
+		musket_shot_muzzle_flash
+		musket_shot_quick_flash
+		musket_shot_smoke_trail
+		musket_shot_smoke
+		musket_shot_smoke_linger_small
+		muzzle_flash_smoke_1648_musket
+		musket_shot_smoke_linger_long
+	}
+}

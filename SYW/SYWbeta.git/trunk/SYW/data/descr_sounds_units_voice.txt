@@ -1,0 +1,175 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;; Unit voice over bank
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;
+;; confirm sounds can't have stiching inside!
+;;
+;;  ORDERS
+DEFAULT: 3D mindist 17 minpitch .9 maxpitch 1.0 priority 200 volume 0
+DEFAULT: probability 1 distancepriority 0 fadein 0 fadeout 0
+DEFAULT: delay .25 randomdelay 0  effect_level .5 rndvolume 0
+DEFAULT: pref SPEECH
+
+source export_descr_sounds_units_voice.txt
+
+;;  ANIMS  DEATHS GRUNTS
+DEFAULT: 3D mindist 1 minpitch .9 maxpitch 1.0 priority 100 volume 0
+DEFAULT: probability 1 distancepriority -2 fadein 0 fadeout 0
+DEFAULT: delay 0 randomdelay 0  effect_level .5 rndvolume -20
+DEFAULT: pref SFX
+
+required_samples_cutoff 10
+
+source export_descr_sounds_soldier_voice.txt
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;    barb peasant
+;;    barb peltast
+;;    barb slinger
+;;    barb archer
+;;    barb infantry
+;;    barb berserker
+;;    barb warguard
+;;    barb wardogs
+;;    barb cavalry
+;;    barb noble cavalry
+;;    barb chieftain cavalry
+;;    barb chariot light
+;;    barb chariot light archer
+;;    barb chariot heavy
+;;    warband sword
+;;    warband axe
+;;    warband falx
+;;    warband huntsman
+;;    warband hurler
+;;    warband woad
+;;    warband archer
+;;    warband dhaxe
+;;    carthaginian peasant
+;;    carthaginian city militia
+;;    carthaginian peltast
+;;    carthaginian slinger
+;;    carthaginian archer
+;;    carthaginian infantry
+;;    carthaginian medium infantry
+;;    carthaginian heavy infantry
+;;    carthaginian cavalry
+;;    carthaginian medium cavalry
+;;    carthaginian heavy cavalry
+;;    carthaginian general's cavalry
+;;    carthaginian royal cavalry
+;;    carthaginian elephant forest
+;;    carthaginian elephant african
+;;    carthaginian elephant african cataphract
+;;    east peasant
+;;    east peltast
+;;    east slinger
+;;    east archer
+;;    east hillmen
+;;    east infantry
+;;    east heavy infantry
+;;    east hoplite
+;;    east cavalry
+;;    east heavy cavalry
+;;    east generals cavalry
+;;    east heavy cataphract
+;;    east horse archer
+;;    east desert cavalry
+;;    east bedouin
+;;    east bedouin archer
+;;    east camel cataphract
+;;    east elephant forest
+;;    east elephant african
+;;    east elephant african cataphract
+;;    east chariot archer
+;;    east ballista
+;;    east scorpion
+;;    east onager
+;;    egyptian peasant
+;;    egyptian peltast
+;;    egyptian slinger
+;;    egyptian archer
+;;    egyptian archer elite
+;;    egyptian infantry
+;;    egyptian elite guards
+;;    egyptian cleruch
+;;    egyptian numidian hvy spear
+;;    egyptian cavalry
+;;    egyptian cavalry numidian
+;;    egyptian chariot
+;;    egyptian chariot archer
+;;    greek peasant
+;;    greek peltast
+;;    greek slinger
+;;    greek archer
+;;    greek hoplite militia
+;;    greek hoplite
+;;    greek hoplite elite
+;;    greek hoplite spartan
+;;    greek argyraspid
+;;    greek cavalry
+;;    greek medium cavalry
+;;    greek heavy cavalry
+;;    greek general's guard cavalry
+;;    greek royal cavalry
+;;    greek chariot amazons
+;;    roman peasant ---------------------------------done
+;;    roman city militia
+;;    roman slinger ---------------------------------done
+;;    roman archer ----------------------------------done
+;;    roman archer auxillia -------------------------done
+;;    roman velite ----------------------------------done
+;;    roman hastati ---------------------------------done
+;;    roman triarii ---------------------------------done
+;;    roman light infantry auxillia -----------------done
+;;    roman infantry auxillia -----------------------done
+;;    roman legionary cohort i ----------------------done
+;;    roman legionary first cohort i ----------------done
+;;    roman legionary cohort ii ---------------------done using roman legionary cohort i
+;;    roman legionary first cohort ii ---------------done using roman legionary first cohort i
+;;    roman praetorian cohort i ---------------------done
+;;    roman praetorian cohort urban i ---------------done
+;;    roman praetorian cohort ii --------------------done using roman praetorian cohort i
+;;    roman praetorian cohort urban ii --------------done using roman praetorian cohort urban i
+;;    roman wardogs ---------------------------------done
+;;    roman pigs ------------------------------------done
+;;    roman velite gladiator ------------------------done
+;;    roman samnite gladiator -----------------------done
+;;    roman mirmillo gladiator ----------------------done
+;;    roman light cavalry ---------------------------done
+;;    roman praetorian cavalry ----------------------done
+;;    roman cataphract
+;;    roman cavalry archer --------------------------done
+;;    roman cavalry auxillia
+;;    roman medium cavalry --------------------------done
+;;    roman heavy cavalry ---------------------------done
+;;    roman generals guard cavalry
+;;    roman ballista --------------------------------done using weapon crew
+;;    roman scorpion --------------------------------done using weapon crew
+;;    roman onager ----------------------------------done using weapon crew
+;;    roman light naval
+;;    roman heavy naval
+;;    roman flagship
+;;    barbarian civ peasant
+;;    barbarian female peasant
+;;    carthaginian civ peasant
+;;    carthaginian female peasant
+;;    egyptian female peasant
+;;    greek civ peasant
+;;    greek female peasant
+;;    roman civ peasant
+;;    roman female peasant
+
+;;    eastern civ peasant
+;;    eastern female peasant
+;;    egyptian civ peasant
+;;    egyptian female peasant
+;;    greek civ peasant
+;;    greek female peasant
+;;    roman civ peasant
+;;    roman female peasant
+;;

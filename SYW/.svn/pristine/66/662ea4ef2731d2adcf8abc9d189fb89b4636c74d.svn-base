@@ -1,0 +1,107 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Skydome colour descriptions
+;
+; Edited by Robbe Aerts for Veggiemod, upon editing this file or using it, or parts of it for your own projects you agree to go vegan.
+;
+; It`s a bit redundant having this parsed as all it is, 
+; is a load of colours in a set order.
+;
+; Never mind eh! - nope it's actually been quite useful
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+skydome winter
+
+; midnight - from sun 0 degrees (directly underneath) to 67.5 degrees (darkest night to approaching horizon level)
+
+0.0		0.0		0.0		;	midnight_horiz
+0.0		0.0		0.0		;	midnight_mid
+0.0		0.0		0.0		;	midnight_zen
+
+
+; sunrise - from 67.5 degrees to 90 degrees (likely not yet peeking over the hills)
+0.78		0.78		0.78		;	sunrise_horiz
+0.15		0.37		0.55		;	sunrise_mid
+0.0			0.15		0.40		;	sunrise_zen
+
+; mid morning - from 90 degrees to 112.5 degrees (likely sun just over hills)
+0.76		0.82		0.98		;	mid_morn_horiz
+0.43		0.75		0.98		;	mid_morn_mid
+0.38		0.65		0.90		;	mid_morn_zen
+
+; morning - from 112.5 degrees to 157.5 degrees (a little short of sun zenith)
+0.73		0.96		0.98		;	morning_horiz
+0.55		0.70		0.6		;	morning_mid
+0.53		0.58		0.71		;	morning_zen
+
+; midday - from 157.5 degrees to 225 degrees (through zenith - 180 - to a quarter sky short of the horizon)
+0.52		0.90		0.92		;	midday_horiz
+0.28		0.37		0.56		;	midday_mid
+0.21		0.28		0.52		;	midday_zen
+							
+; sunset - from 225 degrees to 270 degrees (leading up to disappearing behind the horizon)
+0.67		0.83		0.90		; 	sunset_horiz
+0.13		0.45		0.77		; 	sunset_mid
+0.01		0.14		0.36		;	sunset_zen
+			
+; mid evening - from 270 degrees to 315 degrees (from sundown to proper night)
+0.61		0.55		0.60		;	mid_eve_horiz
+0.44		0.40		0.54		; 	mid_eve_mid
+0.23		0.23		0.38		;	mid_eve_zenith
+
+; night - from 315 degrees to 360 degrees (proper night but not yet darkest)
+0.0		0.0		0.0		;	night_horiz
+0.0		0.0		0.0		;	night_mid
+0		0		0		;	night_zen
+
+							
+
+skydome spring use winter
+skydome summer
+
+
+; midnight - from sun 0 degrees (directly underneath) to 67.5 degrees (darkest night to approaching horizon level)
+
+0.0			0.0			0.0			;	midnight_horiz
+0.0			0.0			0.0			;	midnight_mid
+0.0			0.0			0.0			;	midnight_zen
+
+
+; sunrise - from 67.5 degrees to 90 degrees (likely not yet peeking over the hills)
+0.78		0.75		0.69		;	sunrise_horiz
+0.15		0.37		0.55		;	sunrise_mid
+0.0			0.15		0.40		;	sunrise_zen
+
+; mid morning - from 90 degrees to 112.5 degrees (likely sun just over hills)
+0.76		0.82		0.83		;	mid_morn_horiz
+0.55		0.75		0.94		;	mid_morn_mid
+0.38		0.65		0.90		;	mid_morn_zen
+
+; morning - from 112.5 degrees to 157.5 degrees (a little short of sun zenith)
+0.75		0.76		0.74		;	morning_horiz
+0.55		0.70		0.6		;	morning_mid
+0.53		0.58		0.71		;	morning_zen
+
+; midday - from 157.5 degrees to 225 degrees (through zenith - 180 - to a quarter sky short of the horizon)
+0.52		0.63		0.72		;	midday_horiz
+0.28		0.37		0.56		;	midday_mid
+0.21		0.28		0.52		;	midday_zen
+							
+; sunset - from 225 degrees to 270 degrees (leading up to disappearing behind the horizon)
+0.75		0.58		0.57		; 	sunset_horiz
+0.13		0.45		0.77		; 	sunset_mid
+0.01		0.14		0.36		;	sunset_zen
+			
+; mid evening - from 270 degrees to 315 degrees (from sundown to proper night)
+0.61		0.55		0.60		;	mid_eve_horiz
+0.44		0.40		0.54		; 	mid_eve_mid
+0.23		0.23		0.38		;	mid_eve_zenith
+
+; night - from 315 degrees to 360 degrees (proper night but not yet darkest)
+0.0		0.0		0.0		;	night_horiz
+0.0		0.0		0.0		;	night_mid
+0		0		0		;	night_zen
+
+skydome autumn use winter
+

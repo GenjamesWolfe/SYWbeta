@@ -1,0 +1,2 @@
+mov oD0, DIFFUSE_CLR
+mov oD1,	SPECULAR_CLR

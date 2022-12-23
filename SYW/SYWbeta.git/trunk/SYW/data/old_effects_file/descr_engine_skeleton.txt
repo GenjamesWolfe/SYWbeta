@@ -1,0 +1,259 @@
+;	
+;	This file contains the model linkages; it gets parsed on application 
+;	startup but is not otherwise referred to. The data format is thus:
+;
+;	;						indicates a comment ;-)
+;							
+;	type					indicates a new skeleton type, must be followed by id name string
+;	anim					indicates a new anim for this skeleton, must be followed by anim type
+;								and filename
+;
+;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;; battlefield siege engines ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; **** ALL CANNONS MUST HAVE THE BALLISTA SKELETON AND ANIMATION SET! ****
+type		ballista																										
+																															
+anim		idle											SYW/data/animations/engine/ballista/ballista_idle.CAS					-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/ballista/ballista_idle2move.CAS			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/ballista/ballista_moving.CAS			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/ballista/ballista_move2idle.CAS		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/ballista/ballista_stand_to_crank.cas			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/ballista/ballista_crank.CAS					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/ballista/ballista_crank.CAS					-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:SYW/data/animations/engine/cannon_shot.evt
+anim		attack_recover								   	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+type		ballista_dying
+
+anim		dying											data/animations/engine/ballista/Ballista_dying.CAS					-evt:data/animations/engine/ballista/Ballista_dying.evt	
+
+type		onager																										
+																															
+anim		idle											data/animations/engine/ballista/onager_idle.CAS							
+anim		idle_to_moving									data/animations/engine/ballista/onager_idle.CAS						
+anim		moving									   		data/animations/engine/ballista/onager_moving.CAS					-evt:data/animations/engine/ballista/onager_moving.evt	
+anim		moving_to_idle									data/animations/engine/ballista/onager_idle.CAS						
+anim		idle_to_crank									data/animations/engine/ballista/onager_stand2crank.cas				   	-evt:data/animations/engine/ballista/onager_stand2crank.evt	
+anim		crank											data/animations/engine/ballista/onager_crank.CAS						 	-evt:data/animations/engine/ballista/onager_crank.evt	
+anim		crank_to_attack_idle						 	data/animations/engine/ballista/onager_fire_idle.CAS					 	-evt:data/animations/engine/ballista/onager_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/ballista/onager_crank.CAS			  		-fr, -evt:data/animations/engine/ballista/onager_cranking.evt
+anim		attack_idle								  	data/animations/engine/ballista/onager_fire_idle.CAS					 	-fr, -evt:data/animations/engine/ballista/onager_fire_idle.evt	
+anim		attack_commence								  	data/animations/engine/ballista/onager_fire_commence.CAS		  	-fr, -evt:data/animations/engine/ballista/onager_fire.evt
+anim		attack_recover									data/animations/engine/ballista/onager_fire_recover.CAS				-evt:data/animations/engine/ballista/onager_recovery.evt	
+
+type		onager_dying
+
+anim		dying											data/animations/engine/ballista/onager_dying_anim.CAS				-evt:data/animations/engine/ballista/onager_dying_anim.evt	
+
+type		scorpion																										
+																															
+anim		idle											data/animations/engine/ballista/scorpion_idle.CAS							
+anim		idle_to_moving									data/animations/engine/ballista/scorpion_idle.CAS						
+anim		moving									   		data/animations/engine/ballista/scorpion_moving.CAS					-evt:data/animations/engine/ballista/scorpion_moving.evt	
+anim		moving_to_idle									data/animations/engine/ballista/scorpion_idle.CAS						
+anim		attack_prepare								   	data/animations/engine/ballista/scorpion_cranking.CAS				-fr, -evt:data/animations/engine/ballista/scorpion_cranking.evt
+anim		idle_to_crank									data/animations/engine/ballista/scorpion_idle2crank.CAS				-evt:data/animations/engine/ballista/scorpion_idle2crank.evt	
+anim		crank											data/animations/engine/ballista/scorpion_cranking.CAS				-evt:data/animations/engine/ballista/scorpion_cranking.evt	
+anim		crank_to_attack_idle						 	data/animations/engine/ballista/scorpion_crank2fire_idle.CAS			 	-evt:data/animations/engine/ballista/scorpion_crank2fire_idle.evt	
+anim		attack_idle								  	data/animations/engine/ballista/scorpion_cranked&idle.CAS					-fr, -evt:data/animations/engine/ballista/scorpion_cranked&idle.evt	
+anim		attack_commence								  	data/animations/engine/ballista/scorpion_fire.CAS					-fr, -evt:data/animations/engine/ballista/scorpion_fire.evt
+anim		attack_recover							   	data/animations/engine/ballista/scorpion_recovery.CAS						-fr, -evt:data/animations/engine/ballista/scorpion_recovery.evt	
+
+type		scorpion_dying
+
+anim		dying											data/animations/engine/ballista/scorpion_dying_anim.CAS				-evt:data/animations/engine/ballista/scorpion_dying_anim.evt	
+
+type		eastern_ram																										
+																															
+anim		idle											data/animations/engine/ram/Eastram_idle.CAS					  	-evt:data/animations/engine/ram/Eastram_idle.evt
+anim		idle_to_moving								   	data/animations/engine/ram/Eastram_idle.CAS					  	-evt:data/animations/engine/ram/Eastram_idle.evt
+anim		moving									   		data/animations/engine/ram/Eastram_moving.CAS								-evt:data/animations/engine/ram/Eastram_moving.evt	
+anim		moving_to_idle								   	data/animations/engine/ram/Eastram_idle.CAS					  	-evt:data/animations/engine/ram/Eastram_idle.evt
+anim		attack_prepare								   	data/animations/engine/ram/Eastram_idle2ram.CAS				  	-fr, -evt:data/animations/engine/ram/Eastram_idle2ram.evt
+anim		attack_idle									  	data/animations/engine/ram/Eastram_idle.CAS					  	-fr, -evt:data/animations/engine/ram/Eastram_idle.evt
+anim		attack_commence								  	data/animations/engine/ram/Eastram_ram.CAS					   	-fr, -evt:data/animations/engine/ram/Eastram_ram.evt
+anim		attack_recover								   	data/animations/engine/ram/Eastram_recovery.CAS				  	-fr, -evt:data/animations/engine/ram/Eastram_recovery.evt
+anim		attack_complete								  	data/animations/engine/ram/Eastram_ram2idle.CAS				  	-evt:data/animations/engine/ram/Eastram_ram2idle.evt
+
+type		eastern_ram_dying
+
+anim		dying											data/animations/engine/ram/east_ram_dying.CAS								-evt:data/animations/engine/ram/east_ram_dying.evt	
+
+type		open_frame_ram																										
+																															
+anim		idle											data/animations/engine/ram/OFRam_idle.CAS							
+anim		idle_to_moving									data/animations/engine/ram/OFRam_idle.CAS						
+anim		moving									   	data/animations/engine/ram/OFRam_moving.CAS							  	-evt:data/animations/engine/ram/OFRam_moving.evt	
+anim		moving_to_idle									data/animations/engine/ram/OFRam_idle.CAS						
+anim		attack_prepare								   	data/animations/engine/ram/OFRam_idle2ram.CAS						-fr, -evt:data/animations/engine/ram/OFRam_idle2ram.evt
+anim		attack_idle										data/animations/engine/ram/OFRam_idle.CAS,					-fr
+anim		attack_commence								  	data/animations/engine/ram/OFRam_ram.CAS						 	-fr, -evt:data/animations/engine/ram/OFRam_ram.evt
+anim		attack_recover							   	data/animations/engine/ram/OFRam_recovery.CAS								-fr, -evt:data/animations/engine/ram/OFRam_recovery.evt	
+anim		attack_complete							  	data/animations/engine/ram/OFRam_ram2idle.CAS								-evt:data/animations/engine/ram/OFRam_ram2idle.evt	
+
+type		open_frame_ram_dying
+
+anim		dying											data/animations/engine/ram/openframe_dying_anim.CAS					  	-evt:data/animations/engine/ram/openframe_dying_anim.evt	
+
+type		tortoise_ram																										
+																															
+anim		idle											data/animations/engine/ram/Tortram_idle.CAS							
+anim		idle_to_moving									data/animations/engine/ram/Tortram_idle.CAS						
+anim		moving									   	data/animations/engine/ram/Tortram_moving.CAS								-evt:data/animations/engine/ram/Tortram_moving.evt	
+anim		moving_to_idle									data/animations/engine/ram/Tortram_idle.CAS						
+anim		attack_prepare								   	data/animations/engine/ram/Tortram_idle2ram.CAS				  	-fr, -evt:data/animations/engine/ram/Tortram_idle2ram.evt
+anim		attack_idle										data/animations/engine/ram/Tortram_idle.CAS,				-fr
+anim		attack_commence								  	data/animations/engine/ram/Tortram_ram.CAS					   	-fr, -evt:data/animations/engine/ram/Tortram_ram.evt
+anim		attack_recover							   	data/animations/engine/ram/Tortram_recovery.CAS						  	-fr, -evt:data/animations/engine/ram/Tortram_recovery.evt	
+anim		attack_complete							  	data/animations/engine/ram/Tortram_ram2idle.CAS						  	-evt:data/animations/engine/ram/Tortram_ram2idle.evt	
+
+type		tortoise_ram_dying
+
+anim		dying											data/animations/engine/ram/tort_ram_dying_anim.CAS					   	-evt:data/animations/engine/ram/tort_ram_dying_anim.evt	
+
+type		siege_tower																										
+																															
+anim		idle										 	data/animations/engine/tower/small_tower_idle.CAS							-evt:data/animations/engine/tower/small_tower_idle.evt	
+anim		idle_to_moving							   	data/animations/engine/tower/small_tower_idle.CAS							-evt:data/animations/engine/tower/small_tower_idle.evt	
+anim		moving									   	data/animations/engine/tower/small_tower_moving.CAS					  	-evt:data/animations/engine/tower/small_tower_moving.evt	
+anim		moving_to_idle							   	data/animations/engine/tower/small_tower_idle.CAS							-evt:data/animations/engine/tower/small_tower_idle.evt	
+anim		attack_prepare							   	data/animations/engine/tower/small_tower_db_opening.CAS				  	-fr, -evt:data/animations/engine/tower/small_tower_db_opening.evt	
+anim		attack_idle										data/animations/engine/tower/small_tower_db_open&idle.CAS,	-fr
+anim		attack_complete							  	data/animations/engine/tower/small_tower_closing.CAS					 	-fr, -evt:data/animations/engine/tower/small_tower_closing.evt	
+
+type		siege_tower_dying
+
+anim		dying											data/animations/engine/tower/small_tower_dying_anim.CAS				  	-evt:data/animations/engine/tower/small_tower_dying_anim.evt	
+
+type		city_tower																										
+																															
+anim		idle											data/animations/engine/tower/C_tower_idle.CAS							
+anim		idle_to_moving									data/animations/engine/tower/C_tower_idle.CAS						
+anim		moving											data/animations/engine/tower/C_tower_moving_W_shut.CAS								
+anim		moving_to_idle									data/animations/engine/tower/C_tower_idle.CAS						
+anim		attack_prepare									data/animations/engine/tower/C_tower_W_opening.CAS,			-fr
+anim		attack_idle										data/animations/engine/tower/C_tower_W_open&idle.CAS,		-fr
+anim		attack_complete									data/animations/engine/tower/C_tower_W_shutting.CAS,		-fr
+anim		dying											data/animations/engine/tower/C_tower_idle.CAS			
+
+type		middle_tower																										
+																															
+anim		idle											data/animations/engine/tower/Middle_tow_idle.CAS							
+anim		idle_to_moving									data/animations/engine/tower/Middle_tow_idle.CAS						
+anim		moving									   	data/animations/engine/tower/Middle_tow_moving.CAS					   	-evt:data/animations/engine/tower/Middle_tow_moving.evt	
+anim		moving_to_idle									data/animations/engine/tower/Middle_tow_idle.CAS						
+anim		attack_prepare							   	data/animations/engine/tower/Middle_tow_dbridge_down.CAS				 	-fr, -evt:data/animations/engine/tower/Middle_tow_dbridge_down.evt	
+anim		attack_idle										data/animations/engine/tower/Middle_tow_dbridge_down&idle.CAS,	-fr
+anim		attack_complete							  	data/animations/engine/tower/Middle_tow_dbridge_up.CAS				   	-fr, -evt:data/animations/engine/tower/Middle_tow_dbridge_up.evt	
+
+type		middle_tower_dying
+
+anim		dying											data/animations/engine/tower/mid_tow_dying_anim.CAS					  	-evt:data/animations/engine/tower/mid_tow_dying_anim.evt	
+
+type		heliopolis																										
+																															
+anim		idle											data/animations/engine/tower/Heliopolis_idle.CAS							
+anim		idle_to_moving									data/animations/engine/tower/Heliopolis_idle.CAS						
+anim		moving									   	data/animations/engine/tower/Heliopolis_moving.CAS					   	-evt:data/animations/engine/tower/Heliopolis_moving.evt	
+anim		moving_to_idle									data/animations/engine/tower/Heliopolis_idle.CAS						
+anim		attack_prepare							   	data/animations/engine/tower/helioplois_Dbridge_opening.CAS			  	-fr, -evt:data/animations/engine/tower/helioplois_Dbridge_opening.evt	
+anim		attack_idle										data/animations/engine/tower/helioplois_Dbridge_open&idle.CAS,	-fr
+anim		attack_complete							  	data/animations/engine/tower/helioplois_Dbridge_shutting.CAS			 	-fr, -evt:data/animations/engine/tower/helioplois_Dbridge_shutting.evt	
+
+;anim		attack_2nd_prepare								data/animations/engine/tower/Heliopolis_win_opening.CAS,		-fr
+;anim		attack_2nd_idle									data/animations/engine/tower/Heliopolis_win_open&idle.CAS,		-fr
+;anim		attack_2nd_complete								data/animations/engine/tower/Heliopolis_win_shutting.CAS,		-fr
+
+type		heliopolis_dying																										
+
+anim		dying											data/animations/engine/tower/helio'_dying_anim.CAS					   	-evt:data/animations/engine/tower/helio'_dying_anim.evt	
+
+type		town_ladder																										
+																															
+anim		idle											data/animations/engine/ladder/town_ladder_idle.CAS							
+anim		idle_to_moving									data/animations/engine/ladder/town_ladder_idle.CAS						
+anim		moving											data/animations/engine/ladder/town_ladder_moving.CAS								
+anim		moving_to_idle									data/animations/engine/ladder/town_ladder_idle.CAS						
+anim		attack_prepare							   	data/animations/engine/ladder/town_ladder_up.CAS						 	-fr, -evt:data/animations/engine/ladder/town_ladder_up.evt	
+anim		attack_idle								  	data/animations/engine/ladder/town_ladder_up&idle.CAS						-fr, -evt:data/animations/engine/ladder/town_ladder_up&idle.evt	
+anim		attack_complete							  	data/animations/engine/ladder/town_ladder_up&idle.CAS						-fr, -evt:data/animations/engine/ladder/town_ladder_up&idle.evt	
+anim		dying											data/animations/engine/ladder/town_ladder_dying.CAS					  	-evt:data/animations/engine/ladder/town_ladder_dying.evt	
+
+
+type		sap_point																										
+																															
+anim		idle											data/animations/engine/sap/mining_tunnel_idle.CAS						
+anim		dying											data/animations/engine/sap/mining_tunnel_dying.CAS					   	-evt:data/animations/engine/sap/mining_tunnel_dying.evt	
+
+
+type		cannon																										
+																															
+anim		idle											SYW/data/animations/engine/ballista/ballista_idle.CAS					-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/ballista/ballista_idle2move.CAS			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/ballista/ballista_moving.CAS			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/ballista/ballista_move2idle.CAS		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/ballista/ballista_stand_to_crank.cas			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/ballista/ballista_crank.CAS					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/ballista/ballista_crank.CAS					-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:SYW/data/animations/engine/cannon_shot.evt
+anim		attack_recover								   	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+type		cannon_dying
+
+anim		dying											data/animations/engine/cannon/Ballista_dying.CAS					-evt:data/animations/engine/ballista/Ballista_dying.evt	
+
+
+type		fix_cannon																										
+																															
+anim		idle											SYW/data/animations/engine/ballista/ballista_idle.CAS					-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/ballista/ballista_idle2move.CAS			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/ballista/ballista_moving.CAS			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/ballista/ballista_move2idle.CAS		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/ballista/ballista_stand_to_crank.cas			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/ballista/ballista_crank.CAS					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/ballista/ballista_crank.CAS					-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:SYW/data/animations/engine/cannon_shot.evt
+anim		attack_recover								   	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+type		fix_cannon_dying
+
+anim		dying											data/animations/engine/cannon/Ballista_dying.CAS					-evt:data/animations/engine/ballista/Ballista_dying.evt	
+
+
+
+type		howitzer
+																															
+anim		idle											SYW/data/animations/engine/ballista/ballista_idle.CAS					-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/ballista/ballista_idle2move.CAS			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/ballista/ballista_moving.CAS			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/ballista/ballista_move2idle.CAS		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/ballista/ballista_stand_to_crank.cas			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/ballista/ballista_crank.CAS					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/ballista/ballista_crank.CAS					-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:SYW/data/animations/engine/howitzer_shot.evt
+anim		attack_recover								   	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt
+
+
+type		rockets
+																															
+anim		idle											SYW/data/animations/engine/ballista/ballista_idle.CAS					-evt:data/animations/engine/ballista/ballista_idle.evt
+anim		idle_to_moving								   	SYW/data/animations/engine/ballista/ballista_idle2move.CAS			 	-evt:data/animations/engine/ballista/ballista_idle2move.evt
+anim		moving										   	SYW/data/animations/engine/ballista/ballista_moving.CAS			  		-evt:data/animations/engine/ballista/ballista_moving.evt
+anim		moving_to_idle								   	SYW/data/animations/engine/ballista/ballista_move2idle.CAS		   		-evt:data/animations/engine/ballista/ballista_move2idle.evt
+anim		idle_to_crank									SYW/data/animations/engine/ballista/ballista_stand_to_crank.cas			  	-evt:data/animations/engine/ballista/ballista_stand_to_crank.evt	
+anim		crank											SYW/data/animations/engine/ballista/ballista_crank.CAS					   	-evt:data/animations/engine/ballista/ballista_crank.evt	
+anim		crank_to_attack_idle						 	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				   	-evt:data/animations/engine/ballista/Ballista_fire_idle.evt	
+anim		attack_prepare								   	data/animations/engine/ballista/ballista_crank.CAS					-fr, -evt:data/animations/engine/ballista/ballista_cranking.evt
+anim		attack_idle									  	SYW/data/animations/engine/ballista/Ballista_fire_idle.CAS				-fr, -evt:data/animations/engine/ballista/Ballista_cranked&idle.evt
+anim		attack_commence								  	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:SYW/data/animations/engine/rocket.evt
+anim		attack_recover								   	SYW/data/animations/engine/ballista/ballista_idle.CAS			-fr, -evt:data/animations/engine/ballista/Ballista_recovery.evt

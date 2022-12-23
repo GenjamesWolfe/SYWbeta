@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+
+
+
+vs .1 .1
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; v0 = position
+; v1 = blend weights
+; v2 = blend indices
+; v3 = normal
+; v4 = texture coordinates
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; r0.w = Last blend weight
+; r1 = Blend indices
+; r2 = Temp position
+; r3 = Temp normal
+; r4 = Blended position in camera space
+; r5 = Blended normal in camera space
+; r6 = view space vertex position
+; r8.x = fog exponent
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+	
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+; oPos	  = Output position
+; oD0	  = Diffuse
+; oD1	  = Specular
+; oT0	  = texture coordinates
+; -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+
+mul 		r1,				v2.zyxw, 		c[0].wwww
+
+
+mov 		a0.x,			r1.x
+m4x3 		r4,				v0,				c[a0.x + 23]
+m3x3 		r5,				v3,				c[a0.x + 23]
+
+
+mov 		r4.w,   		c[0].x
+m4x4 		r6,				r4, 			c[2]
+mov 		oPos, 			r6
+
+; Do the lighting calculation
+dp3 		r1.x,   		r5,   			-c[1]      ; normal dot light
+mul 		r0,     		r1.x,  			c[6]   ; multiply with light diffuse
+mov 		r0.w,   		c[0].x                           		; set alpha to one
+mul 		r0,     		r0,    			c[14]   ; multiply with material diffuse
+max 		r0,     		r0,    			c[0].z
+add 		r0,     		r0,    			c[7]   ; Add in ambient
+min 		oD0,    		r0,    			c[0].x     			; clamp if > 1
+mov 		oD1, 			c[0].zzzz     						; output specular
+
+; Copy texture coordinate
+mov 		oT0, 			v4
+
+; Calculate the fog using D3DFOG_EXP
+mul			r8.x, 			-c[0].y,  			r6.z				; - (fog_exp_density * z_dist)
+exp			oFog, 			r8.x								; evaluate exponential function (2^ ( -fog_exp_density * z_dist))
+

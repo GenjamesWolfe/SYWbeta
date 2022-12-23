@@ -1,0 +1,14 @@
+[Map]
+WidthMax=4096
+HeightMax=2048
+PathCampaign=
+[Interface]
+Scale=6
+IsBorder=0
+IsResBorder=1
+ColorSea=41 140 233
+ColorCur=clYellow
+ColorSel=clGreen
+ColorBorder=clBlack
+ColorResBorder=clWhite
+ColorMultiResBorder=clRed

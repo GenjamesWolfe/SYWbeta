@@ -1,0 +1,194 @@
+
+banner		roman
+model		SYW/data/models/NTW_general_banner.cas			; generals banner
+skeleton	general_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas				; standard unit banner
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas			; mini banner
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+
+banner		barbarian
+model		SYW/data/models/NTW_general_banner.cas
+skeleton	general_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas			
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+
+banner		carthaginian
+model		SYW/data/models/NTW_general_banner.cas
+skeleton	general_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas			
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+
+banner		greek
+model		SYW/data/models/NTW_general_banner.cas
+skeleton	general_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas			
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+
+banner		egyptian
+model		SYW/data/models/NTW_general_banner.cas
+skeleton	general_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas			
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+
+banner		eastern
+model		SYW/data/models/NTW_general_banner.cas
+skeleton	general_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+model		SYW/data/models/NTW_unit_banner.cas		
+skeleton	standard_legion_pole
+outline		SYW/data/models/empty.cas
+
+
+faction				romans_julii
+standard_texture	../SYW/data/models/textures/flag_allies.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		../SYW/data/models/textures/standard_routing.tga
+ally_texture		../SYW/data/models/textures/flag_allies_ally.tga
+
+faction				romans_brutii
+standard_texture	../SYW/data/models/textures/flag_hesse_darmstadt.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		../SYW/data/models/textures/standard_routing.tga
+ally_texture		../SYW/data/models/textures/flag_hesse_darmstadt_ally.tga
+
+faction				romans_scipii
+standard_texture	models/textures/flag_saxony.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/flag_saxony_ally.tga
+
+faction				romans_senate
+standard_texture	../SYW/data/models/textures/flag_austria.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		../SYW/data/models/textures/standard_routing.tga
+ally_texture		../SYW/data/models/textures/flag_austria_ally.tga
+
+faction				macedon
+standard_texture	../SYW/data/models/textures/flag_dutch.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_dutch_ally.tga
+
+faction				egypt
+standard_texture	../SYW/data/models/textures/flag_Poland.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_Poland_ally.tga
+
+faction				seleucid
+standard_texture	../SYW/data/models/textures/flag_spain.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_spain_ally.tga
+
+faction				carthage
+standard_texture	../SYW/data/models/textures/flag_ottoman.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_ottoman_ally.tga
+
+faction				parthia
+standard_texture	../SYW/data/models/textures/flag_sweden.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_sweden_ally.tga
+
+faction				pontus
+standard_texture	../SYW/data/models/textures/flag_Denmark.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_Denmark_ally.tga
+
+faction				gauls
+standard_texture	../SYW/data/models/textures/flag_hesse_kassel.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_hesse_kassel_ally.tga
+
+faction				germans
+standard_texture	../SYW/data/models/textures/flag_prussia.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_prussia_ally.tga
+
+faction				britons
+standard_texture	../SYW/data/models/textures/flag_britain.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_britain_ally.tga
+
+faction				armenia
+standard_texture	../SYW/data/models/textures/flag_russia.tga
+rebels_texture		models/textures/standard_eastern_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_russia_ally.tga
+
+faction				dacia
+standard_texture	../SYW/data/models/textures/flag_brunswick.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_brunswick_ally.tga
+
+faction				scythia
+standard_texture	../SYW/data/models/textures/flag_wurttemburg.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_wurttemburg_ally.tga
+
+faction				greek_cities
+standard_texture	../SYW/data/models/textures/flag_france.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/flag_routing.tga
+ally_texture		../SYW/data/models/textures/flag_france_ally.tga
+
+faction				numidia
+standard_texture	../SYW/data/models/textures/flag_Moghul.tga
+rebels_texture		models/textures/standard_egyptian_rebels.tga
+routing_texture		../SYW/data/models/textures/standard_routing.tga
+ally_texture		../SYW/data/models/textures/flag_Moghul_ally.tga
+
+faction				spain
+standard_texture	../SYW/data/models/textures/flag_hesse_darmstadt.tga
+rebels_texture		models/textures/standard_barb_rebels.tga
+routing_texture		../SYW/data/models/textures/standard_routing.tga
+ally_texture		../SYW/data/models/textures/flag_hesse_darmstadt_ally.tga
+
+faction				thrace
+standard_texture	models/textures/flag_portugal.tga
+rebels_texture		models/textures/standard_greek_rebels.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/flag_portugal_ally.tga
+
+faction				slave
+standard_texture	../SYW/data/models/textures/flag_saxony.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		../SYW/data/models/textures/standard_routing.tga
+ally_texture		../SYW/data/models/textures/flag_saxony_ally.tga
+
