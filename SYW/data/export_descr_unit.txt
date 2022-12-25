@@ -5866,11 +5866,11 @@ dictionary       dutch_schutterij
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_schutterij, 15, 0, 0.8, 0.25, 1.7
+soldier          dutch_schutterij, 16, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
-stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 25, 1.0
+stat_pri         8, 0, poor_musket, 190, 30, siege_missile, other, piercing, none, 12, 1.0
 stat_pri_attr    no
 stat_sec         4, 4, no, 0, 0, melee, simple, piercing, spear, 1, 0.1
 stat_sec_attr    no
@@ -5891,7 +5891,7 @@ dictionary       dutch_fusiliers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_line, 40, 0, 0.8, 0.25, 1.7
+soldier          dutch_line, 32, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -5916,7 +5916,7 @@ dictionary       dutch_scottish fusiliers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_scottish_line, 40, 0, 0.8, 0.25, 1.7
+soldier          dutch_scottish_line, 32, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -5941,7 +5941,7 @@ dictionary       dutch_swiss_fusiliers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_line, 40, 0, 0.8, 0.25, 1.7
+soldier          dutch_line, 32, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap, mercenary_unit
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -5966,7 +5966,7 @@ dictionary       dutch_grenadiers
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutch_grenadier, 40, 0, 0.78, 0.25, 1.7
+soldier          dutch_grenadier, 16, 0, 0.78, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
@@ -5991,7 +5991,7 @@ dictionary       dutch_footguard
 category         infantry
 class            missile
 voice_type       Light_1
-soldier          dutchmen_2, 40, 0, 0.8, 0.25, 1.7
+soldier          dutchmen_2, 16, 0, 0.8, 0.25, 1.7
 attributes       sea_faring, hide_forest, can_sap
 formation        0.63, 0.75, 0.63, 0.75, 4, square
 stat_health      1, 0
