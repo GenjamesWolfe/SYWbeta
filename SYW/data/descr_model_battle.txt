@@ -2974,6 +2974,17 @@ model_sprite         dacia, 60.0, data/sprites/celt_general_sprite.spr
 model_tri         400, 0.5f, 0.5f, 0.5
 
 
+type           dutch_schutterij
+skeleton             SYW_prussian_musketeer_sixty, SYW_bayonet
+indiv_range       40
+texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_schutterij.tga
+model_flexi             SYW/data/models_unit/dutch_schutterij.cas, 8
+model_flexi             SYW/data/models_unit/dutch_schutterij.cas, 15
+model_flexi             SYW/data/models_unit/dutch_schutterij.cas, 30
+model_flexi             SYW/data/models_unit/dutch_schutterij.cas, max
+model_sprite         dacia, 60.0, SYW/data/sprites/dacia_dutch_light_sprite.spr
+model_tri         400, 0.5f, 0.5f, 0.5f
+
 
 type           dutch_line
 skeleton             SYW_prussian_musketeer_sixty, SYW_bayonet
