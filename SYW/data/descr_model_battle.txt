@@ -3053,7 +3053,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           dutch_horseguard
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_gardetepaard.tga
 model_flexi             SYW/data/models_unit/dutch_horseguard.cas, 8
@@ -3066,7 +3066,7 @@ model_tri         400, 0.5f, 0.5f, 0.5f
 
 
 type           dutch_dragoon
-skeleton             fs_hc_swordsman
+skeleton             SYW_pallasch
 indiv_range       40
 texture           macedon, SYW/data/models_unit/textures/netherlands/dutch_dragoon.tga
 model_flexi             SYW/data/models_unit/dutch_dragoon.cas, 8
